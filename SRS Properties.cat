@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="8084-b533-9713-767c" name="SRS Properties" gameSystemId="1242-c30b-419f-8229" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="8084-b533-9713-767c" name="SRS Properties" gameSystemId="1242-c30b-419f-8229" gameSystemRevision="2" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedRules>
     <rule name="Specialist" id="8e85-b382-98ad-a009" hidden="false">
       <description>When choosing a Mission for an SRS Stack that contains one or more Tokens with this type, its Admiral must choose from a specific list of Missions, as shown in its ORBAT. This might include Special Missions which are not normally available to SRS tokens. See the Short Range Squadrons section of this Token’s ORBAT for details</description>
@@ -39,21 +39,10 @@ Aerial Reconnaissance</description>
 Property causes one Critical Damage Die of the listed type to inflict two instances of that Effect.</description>
     </rule>
     <rule name="Underwater SRS" id="61d8-c45d-be0e-dc96" hidden="false">
-      <description>If this SRS token is allocated to an Airborne unit, a Surface
-unit with the Skimmer property, or a Surface unit with the
-Amphibious or Landstrider properties that is Traversing a
-Terrain Feature, its Attack, Intercept and Support ratings
-are reduced to 0.
-If this Token resolves an Attack Run mission against a
-Surface or Underwater model, the opposing Admiral may
-not make an Interception Attempt unless at least one
-Token in the Intercepting Stack also has this SRS Property.
-A Token with this SRS Property cannot be removed as a
-result of a Flak Barrage (see the Flak Barrage (X ) system).
-In the Clean Up step of the End Phase, Tokens with this
-SRS Property are removed from play without performing
-Aerial Reconnaissance.</description>
+      <description>If this SRS token is allocated to an Airborne unit, a Surface unit with the Skimmer property, or a Surface unit with the Amphibious or Landstrider properties that is Traversing a Terrain Feature, its Attack, Intercept and Support ratings are reduced to 0.
+A Token with this SRS Property cannot be removed as a result of a Flak Barrage (see the Flak Barrage (X ) system). In the Clean Up step of the End Phase, Tokens with this SRS Property are removed from play without  performing Aerial Reconnaissance.</description>
     </rule>
   </sharedRules>
-  <readme>Revision 01: initial release Rules Glossary Beta 3 (SRS Properties)</readme>
+  <readme>Revision 01: initial release Rules Glossary Beta 3 (SRS Properties)
+Revision 02: release Commonwealth &amp; Emprire Beta 4 (Complete ORBAT release)</readme>
 </catalogue>

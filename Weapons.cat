@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="dd9c-c27a-41e0-6c12" name="Weapons" gameSystemId="1242-c30b-419f-8229" revision="6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="dd9c-c27a-41e0-6c12" name="Weapons" gameSystemId="1242-c30b-419f-8229" revision="7" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Torpedo Salvo" hidden="false" id="61fe-f84f-5e2d-d0a6">
       <infoLinks>
@@ -323,6 +323,16 @@
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2887-5708-ec3d-0790" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="set" value="3" field="4209-eb47-9807-b834">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="98a2-a16f-1fd1-588e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="6" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="98a2-a16f-1fd1-588e" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink name="Precise (x)" id="3533-aafc-05a5-b9c8" hidden="true" type="rule" targetId="1c25-9329-32cc-b4f8">
@@ -336,13 +346,6 @@
           </modifiers>
         </infoLink>
       </infoLinks>
-      <modifiers>
-        <modifier type="prepend" value="Focused" field="name" join=" ">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Heat Lance" hidden="false" id="fb2e-f804-7232-4cba">
       <infoLinks>
@@ -1120,39 +1123,14 @@
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0155-1d26-a09b-982a" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="3" field="06b8-7f5e-e2df-751a">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0155-1d26-a09b-982a" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="6" field="d025-b048-0c22-fad5">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6329-e738-eb5f-b4bc" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="1" field="06b8-7f5e-e2df-751a">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6329-e738-eb5f-b4bc" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="5" field="d025-b048-0c22-fad5">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1523-10a2-3eca-f6a1" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="3" field="06b8-7f5e-e2df-751a">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1523-10a2-3eca-f6a1" shared="true"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="5" field="d025-b048-0c22-fad5">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2d8e-78a9-facc-c720" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="2" field="06b8-7f5e-e2df-751a">
+            <modifier type="set" value="4" field="d025-b048-0c22-fad5">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2d8e-78a9-facc-c720" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1523-10a2-3eca-f6a1" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="3" field="d025-b048-0c22-fad5">
@@ -1160,14 +1138,9 @@
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f225-a14a-3d73-af14" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="1" field="06b8-7f5e-e2df-751a">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f225-a14a-3d73-af14" shared="true"/>
-              </conditions>
-            </modifier>
             <modifier type="prepend" value="Focused" field="name" join=" ">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="10c6-3a45-3bf8-3077" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1270,6 +1243,11 @@
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="da4f-3af2-9a8c-f511" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="prepend" value="Focused" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink name="Rail (x)" id="e323-4af8-6b28-30a6" hidden="true" type="rule" targetId="028b-6c23-6d1b-a51f">
@@ -1368,13 +1346,35 @@
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="41e5-7b23-646e-de4e" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="set" value="3" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="740b-ba1b-4d0f-d48b" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="740b-ba1b-4d0f-d48b" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ab73-1b9d-a2bf-21a9" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ab73-1b9d-a2bf-21a9" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
-        <infoLink name="Hazard (x)" id="27b9-995b-cb04-abbc" hidden="true" type="rule" targetId="e581-2eac-7604-55e6">
+        <infoLink name="Devastating (x)" id="27b9-995b-cb04-abbc" hidden="true" type="rule" targetId="ec96-edd2-053f-9053">
           <modifiers>
-            <modifier type="set" value="Hazard (1)" field="name"/>
+            <modifier type="set" value="Devastating (1)" field="name"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Mayhem" id="1f0a-7679-cc9a-4f9e" hidden="false" type="rule" targetId="9d28-76fd-0f05-1052"/>
+        <infoLink name="Submerged" id="5d94-56c6-33e7-d3d0" hidden="false" type="rule" targetId="0223-a895-90c5-d133"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="db28-f761-d9a9-9e13">
@@ -1466,6 +1466,16 @@
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="db28-06d0-f97d-0251" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="set" value="5" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="66e0-a90d-6abc-ec68" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="66e0-a90d-6abc-ec68" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink name="All Around" id="d731-b685-8c91-270a" hidden="true" type="rule" targetId="8e45-241a-8a1d-6c7b"/>
@@ -1551,6 +1561,21 @@
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="85bf-38fd-ced4-429c" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="set" value="4" field="4209-eb47-9807-b834">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="406d-d3db-f75b-58a7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="4" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="406d-d3db-f75b-58a7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="4" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="406d-d3db-f75b-58a7" shared="true"/>
+              </conditions>
+            </modifier>
             <modifier type="prepend" value="Tracer" field="name" join=" ">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="99ca-9745-f98e-4805" shared="true"/>
@@ -1559,6 +1584,11 @@
             <modifier type="prepend" value="Tracer," field="faa3-d69c-5156-2acf" join=" ">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="99ca-9745-f98e-4805" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Focused" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1578,18 +1608,6 @@
           </modifiers>
         </infoLink>
       </infoLinks>
-      <modifiers>
-        <modifier type="prepend" value="Focused" field="name" join=" ">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
-          </conditions>
-        </modifier>
-        <modifier type="prepend" value="Tracer" field="name" join=" ">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="99ca-9745-f98e-4805" shared="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy Furnace Cascade" hidden="false" id="04ae-2268-5e2b-1445">
       <infoLinks>
@@ -1616,9 +1634,9 @@
         <infoLink name="Semyenov Assault Bore" id="1e53-2900-4e6f-f758" hidden="false" type="profile" targetId="e7f0-6365-3477-0894"/>
         <infoLink name="Assault" id="7d89-6008-ef62-70e5" hidden="false" type="rule" targetId="3856-2806-f502-9b89"/>
         <infoLink name="Aquatic" id="033a-d0c0-428b-ab59" hidden="false" type="rule" targetId="139c-5444-7bb8-52ee"/>
-        <infoLink name="Devastating (x)" id="ba49-fb0e-0c62-7126" hidden="false" type="rule" targetId="ec96-edd2-053f-9053" publicationId="129d-da97-caec-1ddd">
+        <infoLink name="Breach (x)" id="ba49-fb0e-0c62-7126" hidden="false" type="rule" targetId="cb11-ebcd-43d4-ccf5" publicationId="129d-da97-caec-1ddd">
           <modifiers>
-            <modifier type="set" value="Devastating (3)" field="name"/>
+            <modifier type="set" value="Breach (3)" field="name"/>
           </modifiers>
         </infoLink>
         <infoLink name="Deathblow" id="a522-8d94-ea1e-1c9c" hidden="false" type="rule" targetId="4334-3653-27f1-d89f"/>
@@ -1634,11 +1652,6 @@
         <infoLink name="Structural Failure (x)" id="ae25-6dd6-0c8c-b74d" hidden="false" type="rule" targetId="def3-61b3-b532-1ab7" publicationId="129d-da97-caec-1ddd">
           <modifiers>
             <modifier type="set" value="Structural Failure (2)" field="name"/>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Arc (x)" id="8601-71ec-43a0-26b6" hidden="false" type="rule" targetId="4fc1-1e80-7770-dbdc" publicationId="129d-da97-caec-1ddd">
-          <modifiers>
-            <modifier type="set" value="Arc (1)" field="name"/>
           </modifiers>
         </infoLink>
         <infoLink name="Rail (x)" id="e46b-5e84-61d4-279d" hidden="true" type="rule" targetId="028b-6c23-6d1b-a51f">
@@ -1720,11 +1733,6 @@
     <selectionEntry type="upgrade" import="true" name="Super-Heavy Katyusha Salvo" hidden="false" id="a87b-945d-3070-e4ed">
       <infoLinks>
         <infoLink name="Super-Heavy Katyusha Salvo" id="04ad-f505-7f71-828f" hidden="false" type="profile" targetId="67cd-aeca-43a7-d18a"/>
-        <infoLink name="Optimal Target (trait)" id="372b-0ae7-ce85-4185" hidden="false" type="rule" targetId="c27d-5d82-381a-f09a">
-          <modifiers>
-            <modifier type="set" value="Optimal Target  (2, Surface)" field="page"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Limited" id="0a9c-00c7-b1e7-c6ac" hidden="false" type="rule" targetId="7958-8ef6-2b33-64df"/>
         <infoLink name="Singular" id="5164-19ef-a4fb-ce6f" hidden="false" type="rule" targetId="fcd7-6280-a4f0-2bc0"/>
         <infoLink name="Intensive" id="cf5c-dcb2-5cc3-978c" hidden="false" type="rule" targetId="a26d-8530-ab29-85fc"/>
@@ -1877,6 +1885,11 @@
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="set" value="3" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8426-2a53-ec78-7d0a" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink name="Barrage" id="d1bc-3dc7-e7f1-0f06" hidden="false" type="rule" targetId="9813-d4e2-c748-6f68"/>
@@ -1952,6 +1965,16 @@
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d803-0f73-a950-854e" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="set" value="2" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="dce4-43aa-7df8-d329" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="dce4-43aa-7df8-d329" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink name="Hazard (x)" id="dc65-2257-f262-b31f" hidden="true" type="rule" targetId="e581-2eac-7604-55e6">
@@ -1971,11 +1994,7 @@
             <modifier type="set" value="Torrent (2)" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Hazard (x)" id="cb42-7ab0-7910-f584" hidden="true" type="rule" targetId="e581-2eac-7604-55e6">
-          <modifiers>
-            <modifier type="set" value="Hazard (3)" field="name"/>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Mayhem" id="cb42-7ab0-7910-f584" hidden="true" type="rule" targetId="9d28-76fd-0f05-1052"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Draconic Heat Lancette" hidden="false" id="6b38-7998-e16a-2e64">
@@ -2010,13 +2029,16 @@
       <infoLinks>
         <infoLink name="Scything Tail" id="91e2-1f84-822a-8895" hidden="false" type="profile" targetId="7b51-4ac2-b9d3-f2bd"/>
         <infoLink name="Assault" id="172e-9e72-85d6-f569" hidden="false" type="rule" targetId="3856-2806-f502-9b89"/>
-        <infoLink name="Aquatic" id="52c0-1214-4340-bdd6" hidden="false" type="rule" targetId="139c-5444-7bb8-52ee"/>
-        <infoLink name="Devastating (x)" id="6d0f-d48a-2255-9360" hidden="false" type="rule" targetId="ec96-edd2-053f-9053" publicationId="129d-da97-caec-1ddd">
+        <infoLink name="Piercing (x)" id="6d0f-d48a-2255-9360" hidden="false" type="rule" targetId="76f1-471a-09c5-ddde" publicationId="129d-da97-caec-1ddd">
           <modifiers>
-            <modifier type="set" value="Devastating (3)" field="name"/>
+            <modifier type="set" value="Piercing (2)" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Deathblow" id="1bfa-110f-7ad9-c021" hidden="false" type="rule" targetId="4334-3653-27f1-d89f"/>
+        <infoLink name="Sky Strike (x)" id="c321-c35d-a807-3e42" hidden="false" type="rule" targetId="4082-f5fe-61fb-0c0c" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Sky Strike (4)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy Huoqiang" hidden="false" id="c141-1ddb-72f0-ea53">
@@ -2028,17 +2050,7 @@
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="7369-1efe-1c3d-31ee" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="7" field="4209-eb47-9807-b834">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="28f1-dfd2-9507-3ffe" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="a0ea-ab19-c014-b9b1" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" value="2" field="d025-b048-0c22-fad5">
+            <modifier type="set" value="6" field="4209-eb47-9807-b834">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="28f1-dfd2-9507-3ffe" shared="true"/>
               </conditions>
@@ -2070,11 +2082,6 @@
           </modifiers>
         </infoLink>
         <infoLink name="Alchemical" id="61f6-6547-ed6c-8a99" hidden="false" type="rule" targetId="597c-c5e8-35f4-f082"/>
-        <infoLink name="Hazard (x)" id="4683-5898-4bb2-8501" hidden="false" type="rule" targetId="e581-2eac-7604-55e6">
-          <modifiers>
-            <modifier type="set" value="Hazard (2)" field="name"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Torrent (x)" id="7b34-285b-859b-ff80" hidden="false" type="rule" targetId="7ef7-fad7-5567-7bdb" publicationId="129d-da97-caec-1ddd">
           <modifiers>
             <modifier type="set" value="Torrent (2)" field="name"/>
@@ -2132,6 +2139,11 @@
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e884-df2a-586e-816d" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="set" value="6" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="03ee-e553-99a7-f48f" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink name="Alchemical" id="4bbc-3bb7-99b5-10d9" hidden="false" type="rule" targetId="597c-c5e8-35f4-f082"/>
@@ -2166,7 +2178,11 @@
       <infoLinks>
         <infoLink name="Hyperbeam Lense Cannon" id="8310-fdaf-9f8d-f3cc" hidden="false" type="profile" targetId="cc93-c5b4-c08e-7132"/>
         <infoLink name="Powered" id="6ad7-f926-31d7-d624" hidden="false" type="rule" targetId="ef72-b196-a487-05c0" publicationId="129d-da97-caec-1ddd"/>
-        <infoLink name="Kingslayer" id="836f-5df0-3f9f-6403" hidden="false" type="rule" targetId="d295-c909-2d3d-d153" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Kingslayer (x)" id="836f-5df0-3f9f-6403" hidden="false" type="rule" targetId="d295-c909-2d3d-d153" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Kingslayer (5)" field="name"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Intensive" id="e014-af0a-2653-92fe" hidden="false" type="rule" targetId="a26d-8530-ab29-85fc" publicationId="129d-da97-caec-1ddd"/>
         <infoLink name="Devastating (x)" id="9934-452d-c3b6-e42b" hidden="false" type="rule" targetId="ec96-edd2-053f-9053" publicationId="129d-da97-caec-1ddd">
           <modifiers>
@@ -2200,11 +2216,9 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Erlang Shen Bombard Array" hidden="false" id="ed76-e8ae-08a2-c43a">
       <infoLinks>
-        <infoLink name="Limited" id="a7b0-2c13-0edd-1519" hidden="false" type="rule" targetId="7958-8ef6-2b33-64df" publicationId="129d-da97-caec-1ddd"/>
         <infoLink name="Singular" id="957a-8b5e-2936-09b8" hidden="false" type="rule" targetId="fcd7-6280-a4f0-2bc0" publicationId="129d-da97-caec-1ddd"/>
         <infoLink name="Erlang Shen Bombard Array" id="2a23-007d-e75d-a245" hidden="false" type="profile" targetId="1fa5-9d6c-8f37-adbe"/>
         <infoLink name="Alchemical" id="8b1a-9076-0562-f046" hidden="false" type="rule" targetId="597c-c5e8-35f4-f082" publicationId="129d-da97-caec-1ddd"/>
-        <infoLink name="Deathblow" id="6993-e7bf-e998-4915" hidden="false" type="rule" targetId="4334-3653-27f1-d89f" publicationId="129d-da97-caec-1ddd"/>
         <infoLink name="Indirect" id="b307-769f-0991-506c" hidden="false" type="rule" targetId="ddb4-9437-c0dc-cc06" publicationId="129d-da97-caec-1ddd"/>
         <infoLink name="Blast (x)" id="43ef-59f5-4302-9e36" hidden="false" type="rule" targetId="dabd-cfc0-94a2-6673" publicationId="129d-da97-caec-1ddd">
           <modifiers>
@@ -2260,7 +2274,8 @@
             <modifier type="set" value="Blast (4)" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Alchemical" id="7c7d-079f-83a7-330f" hidden="false" type="rule" targetId="597c-c5e8-35f4-f082"/>
+        <infoLink name="Mayhem" id="7c7d-079f-83a7-330f" hidden="false" type="rule" targetId="9d28-76fd-0f05-1052"/>
+        <infoLink name="Alchemical" id="c07c-d844-234a-c4cc" hidden="false" type="rule" targetId="597c-c5e8-35f4-f082"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Light Torpedo Salvo" hidden="false" id="f747-0ce9-f98d-f6bf">
@@ -2321,6 +2336,7 @@
         <infoLink name="Indirect" id="70da-d7c3-4ef5-5f57" hidden="false" type="rule" targetId="ddb4-9437-c0dc-cc06" publicationId="129d-da97-caec-1ddd"/>
         <infoLink name="Erlang Shen Bombard" id="9b34-9bd7-adf0-5082" hidden="false" type="profile" targetId="8a2f-ffa2-3207-a7ea"/>
         <infoLink name="Alchemical" id="4f5b-35db-8ca2-85c1" hidden="false" type="rule" targetId="597c-c5e8-35f4-f082" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Singular" id="0913-04f9-3634-d27d" hidden="false" type="rule" targetId="fcd7-6280-a4f0-2bc0" publicationId="129d-da97-caec-1ddd"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Tentacles" hidden="false" id="ff14-0121-a674-157b">
@@ -3852,6 +3868,24 @@
         <infoLink name="Bomb" id="2280-4d55-9d81-af58" hidden="false" type="rule" targetId="7979-1ca9-958e-b3f0"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Heavy Alchemical Rockets Array" hidden="false" id="1670-962e-8e33-1dc5">
+      <infoLinks>
+        <infoLink name="Heavy Alchemical Rockets Array" id="5139-2942-23b2-b9f3" hidden="false" type="profile" targetId="f3d5-f8e7-ab30-64a3"/>
+        <infoLink name="Alchemical" id="e9bc-61e9-db4f-b588" hidden="false" type="rule" targetId="597c-c5e8-35f4-f082"/>
+        <infoLink name="Barrage" id="e763-3526-8c59-d0e8" hidden="false" type="rule" targetId="9813-d4e2-c748-6f68"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy Huoqiang Array" hidden="false" id="4c61-9eb7-53d8-443d">
+      <infoLinks>
+        <infoLink name="Heavy Huoqiang Array" id="0482-2473-d97d-fb28" hidden="false" type="profile" targetId="b444-a550-5c57-8547"/>
+        <infoLink name="Alchemical" id="0c1e-4029-e8ff-a42c" hidden="false" type="rule" targetId="597c-c5e8-35f4-f082"/>
+        <infoLink name="Torrent (x)" id="dccb-f286-96ad-f850" hidden="false" type="rule" targetId="7ef7-fad7-5567-7bdb" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Torrent (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Heavy Gun Battery" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="f4c2-399d-bb80-8ab7">
@@ -3869,7 +3903,7 @@
         <characteristic name="C" typeId="4209-eb47-9807-b834">5</characteristic>
         <characteristic name="S" typeId="d025-b048-0c22-fad5">5</characteristic>
         <characteristic name="E" typeId="06b8-7f5e-e2df-751a">5</characteristic>
-        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Submerged&lt;/B&gt;, Breach (1), Torpedo</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">**Submerged**, Breach (1), Torpedo</characteristic>
       </characteristics>
     </profile>
     <profile name="Light Gun Battery" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="46a1-6508-f7c6-080c">
@@ -3995,15 +4029,15 @@
         <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
         <characteristic name="S" typeId="d025-b048-0c22-fad5">4</characteristic>
         <characteristic name="E" typeId="06b8-7f5e-e2df-751a">1</characteristic>
-        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Hazard (2)</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Submerged&lt;/B&gt;, Devastating (1), Mayhem</characteristic>
       </characteristics>
     </profile>
     <profile name="Zhalo Rocket Battery" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="bc50-b41b-52cc-eacd">
       <characteristics>
         <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
         <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
-        <characteristic name="S" typeId="d025-b048-0c22-fad5">4</characteristic>
-        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">2</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">2</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
         <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">All Around, Barrage</characteristic>
       </characteristics>
     </profile>
@@ -4040,7 +4074,7 @@
         <characteristic name="C" typeId="4209-eb47-9807-b834">10</characteristic>
         <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
         <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
-        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Assault Assault&lt;/B&gt;, Aquatic, Deathblow,  Devastating (3)</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Assault&lt;/B&gt;, Aquatic, Breach (3), Deathblow</characteristic>
       </characteristics>
     </profile>
     <profile name="Mag-Rail Axe (Melee)" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="ef59-249f-3c5d-3bb9">
@@ -4084,14 +4118,14 @@
         <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
         <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
         <characteristic name="S" typeId="d025-b048-0c22-fad5">8</characteristic>
-        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">14</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">12</characteristic>
         <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Limited</characteristic>
       </characteristics>
     </profile>
     <profile name="Furnace Cascade" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="b55f-082e-0060-04d9">
       <characteristics>
         <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">A</characteristic>
-        <characteristic name="C" typeId="4209-eb47-9807-b834">5</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">4</characteristic>
         <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
         <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
         <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Torrent (2)&lt;/B&gt;, Hazard (1), Devastating (1)</characteristic>
@@ -4137,7 +4171,7 @@
       <characteristics>
         <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
         <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
-        <characteristic name="S" typeId="d025-b048-0c22-fad5">15</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">16</characteristic>
         <characteristic name="E" typeId="06b8-7f5e-e2df-751a">24</characteristic>
         <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Singular&lt;/B&gt;, Limited, Intensive, Optimal Target (2, Surface)</characteristic>
       </characteristics>
@@ -4163,10 +4197,10 @@
     <profile name="Dragon’s Breath Huoqaing" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="96bc-f04d-0d0d-0976">
       <characteristics>
         <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">FPS</characteristic>
-        <characteristic name="C" typeId="4209-eb47-9807-b834">8</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">7</characteristic>
         <characteristic name="S" typeId="d025-b048-0c22-fad5">2</characteristic>
         <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
-        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Torrent (2)&lt;B&gt;, Alchemical, Hazard (3)</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">**Torrent (2)**, Alchemical, Mayhem</characteristic>
       </characteristics>
     </profile>
     <profile name="Draconic Heat Lancette" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="7d94-26f9-ac53-518f">
@@ -4181,10 +4215,10 @@
     <profile name="Scything Tail" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="7b51-4ac2-b9d3-f2bd">
       <characteristics>
         <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">FPSA</characteristic>
-        <characteristic name="C" typeId="4209-eb47-9807-b834">4</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">5</characteristic>
         <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
         <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
-        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Assault Assault&lt;/B&gt;, Optimal Target: Airborne (4), Piercing (2)</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">**Assault Assault**, Piercing (2), Sky Strike (4)</characteristic>
       </characteristics>
     </profile>
     <profile name="Heavy Alchemical Rockets" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="4080-f631-e522-49bb">
@@ -4200,9 +4234,9 @@
       <characteristics>
         <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
         <characteristic name="C" typeId="4209-eb47-9807-b834">8</characteristic>
-        <characteristic name="S" typeId="d025-b048-0c22-fad5">3</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
         <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
-        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Torrent (2)&lt;B&gt;, Alchemical, Hazard (2)</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">**Torrent (2)**, Alchemical,</characteristic>
       </characteristics>
     </profile>
     <profile name="Super Heavy Huoqiang" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="e5b5-e10e-8202-40f4">
@@ -4220,7 +4254,7 @@
         <characteristic name="C" typeId="4209-eb47-9807-b834">25</characteristic>
         <characteristic name="S" typeId="d025-b048-0c22-fad5">25</characteristic>
         <characteristic name="E" typeId="06b8-7f5e-e2df-751a">25</characteristic>
-        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Singular&lt;/B&gt;, Devastating (4),  Kingslayer, Intensive, Powered, Structural Failure (4)</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Singular&lt;/B&gt;, Devastating (4),  Kingslayer (5), Intensive, Powered, Structural Failure (4)</characteristic>
       </characteristics>
     </profile>
     <profile name="Fenghuang Dual-Cannon" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="79cb-fc07-d240-4487">
@@ -4236,9 +4270,9 @@
       <characteristics>
         <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
         <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
-        <characteristic name="S" typeId="d025-b048-0c22-fad5">15</characteristic>
-        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">15</characteristic>
-        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Singular&lt;/B&gt;, Alchemical, Deathblow, Indirect, Blast (8), Limited</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">20</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">20</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Singular&lt;/B&gt;, Alchemical,  Indirect, Blast (8)</characteristic>
       </characteristics>
     </profile>
     <profile name="Alchemical Cluster Bombs" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="1e4f-f8f2-2b81-43bf">
@@ -4253,7 +4287,7 @@
     <profile name="Light Huoqiang" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="2546-0f26-8984-f22d">
       <characteristics>
         <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
-        <characteristic name="C" typeId="4209-eb47-9807-b834">5</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">3</characteristic>
         <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
         <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
         <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Torrent (2)&lt;B&gt;, Alchemical</characteristic>
@@ -4262,10 +4296,10 @@
     <profile name="Inferno Cannon" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="95fa-99e3-b58c-3c5b">
       <characteristics>
         <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
-        <characteristic name="C" typeId="4209-eb47-9807-b834">11</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">9</characteristic>
         <characteristic name="S" typeId="d025-b048-0c22-fad5">5</characteristic>
         <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
-        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Alchemical, Blast (4)</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Alchemical, Blast (4), Mayhem</characteristic>
       </characteristics>
     </profile>
     <profile name="Light Torpedo Salvo" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="2ac9-6942-69ad-ae6d">
@@ -4308,9 +4342,9 @@
       <characteristics>
         <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
         <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
-        <characteristic name="S" typeId="d025-b048-0c22-fad5">9</characteristic>
-        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">9</characteristic>
-        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Alchemical, Indirect</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">14</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">14</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">**Singular**, Alchemical, Indirect</characteristic>
       </characteristics>
     </profile>
     <profile name="Tentacles" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="47a9-37c3-9c0c-5dcc">
@@ -4538,6 +4572,24 @@
         <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Bomb&lt;/B&gt;, Blast (6), Limited</characteristic>
       </characteristics>
     </profile>
+    <profile name="Heavy Alchemical Rockets Array" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="f3d5-f8e7-ab30-64a3">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">FPSA</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">14</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Alchemical, Barrage</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Huoqiang Array" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="b444-a550-5c57-8547">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">FPSA</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">12</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">6</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Torrent (2)&lt;B&gt;, Alchemical,</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Submerged" id="0223-a895-90c5-d133" hidden="false" publicationId="129d-da97-caec-1ddd">
@@ -4559,14 +4611,13 @@
       <description>If the Initial Target of this Attack action suffers at least 1 Damage, the active Admiral rolls X Critical Damage Dice for each Contributing weapon with this Quality. If one or more dice show a Navigation Lock result, the Initial Target suffers one Critical Damage Effffect of that type. This is a Critical Damage Quality. If multiple different Critical Damage Qualities apply to an Attack, the Admiral makes a separate roll for each one.</description>
     </rule>
     <rule name="Barrage" id="9813-d4e2-c748-6f68" hidden="false">
-      <description>If all weapons Contributing to an Attack action have this Quality and the target is an Airborne model, only Standard Strikes in the Resistance Roll are converted to Standard
-Counters by the Unconventional Target rule.</description>
+      <description>If at least one weapon Contributing to an Attack action has this Quality, the Target’s Mass rating it treated as being one point lower when resolving the Under Fire rule. In addition, if all weapons Contributing to an Attack action have this Quality and the Target is an Airborne model, only Standard Strikes in the Resistance Roll are converted to Standard Counters by the  Unconventional Target rule.</description>
     </rule>
     <rule name="Singular" id="fcd7-6280-a4f0-2bc0" hidden="false">
       <description>Weapons with this Special Attack Quality are Singular Weapons. See Singular Weapons on page 92 of the Dystopian Wars Rulebook.</description>
     </rule>
     <rule name="Limited" id="7958-8ef6-2b33-64df" hidden="false">
-      <description>After resolving this Attack action, roll an Action Die for each weapon with this Quality that Contributed to the action. Roll separately for each Participating model. If any die scores a Blank, the model gains the Depleted status, and is marked with a Depleted status token. A weapon with this Quality cannot Contribute to an Attack action while the model on which it is mounted has the Depleted status. The Depleted status remains in effect until the model Re-Arms. The model can Re-Arm if it begins its Activation within 4” of a friendly model with the Depot Trait. Some other rules (see Stockpile (X”) and Resupply (X)) may also allow the model to Re-Arm.</description>
+      <description>After resolving this Attack action, each weapon with this Quality that Contributed to the action is Depleted. The model that the weapon is mounted on gains a Depleted status token. This weapon cannot Contribute to an Attack action if it is mounted on a model with the Depleted status. At the end of the model’s next Action Step, the Depleted status token is removed.</description>
     </rule>
     <rule name="Traction" id="cb35-186d-1676-7baf" hidden="false">
       <description>If an Attack action involving this weapon scores a number of Successes equal to or greater than the Mass rating of the Initial Target, the active Admiral may select one Contributing weapon with this Quality. The Initial Target immediately moves 4” directly towards the model on which that weapon is mounted, without changing its facing. Any Collisions that result from this move are resolved as normal.</description>
@@ -4596,13 +4647,13 @@ Counters by the Unconventional Target rule.</description>
       <description>This weapon has a variable Firepower rating. If listed as MAS, its Firepower is equal to the Mass rating of the Initial Target. If listed as 2 MAS, it is equal to twice the Mass rating of the Initial Target, and so on. If this Quality has an X value listed, the weapon’s Firepower cannot be greater than X.</description>
     </rule>
     <rule name="Alchemical" id="597c-c5e8-35f4-f082" hidden="false">
-      <description>After resolving this Attack action, the Initial Target immediately gains 1 level of Disorder, regardless of whether it suffered any Damage. A model cannot be affected by this Quality more than once during a single Action Step.</description>
+      <description>After resolving this Attack action (including the Under Fire rule), the opposing Admiral makes a Crew Check for the Initial Target. If the Check fails, the  Initial Target gains a Hazard Critical Damage Effect, and is marked with a Negative Effect token. The Negative Effect token is removed in the Clean Up step of the End Phase. Until then, this quality is disregarded when resolving Attack actions against the model with the Token.</description>
     </rule>
     <rule name="All Around" id="8e45-241a-8a1d-6c7b" hidden="false">
       <description>When Declaring Contributing Weapons for an Attack action, this weapon can Contribute regardless of which Targeting Arc the Initial Target is in.</description>
     </rule>
     <rule name="Arc (x)" id="4fc1-1e80-7770-dbdc" hidden="false">
-      <description>Before making the Action Roll for an Attack action, the active Admiral rolls X Critical Damage Dice for each Contributing weapon with this Quality. If any die shows a System  failure, the Initial Target immediately suffers a single System Failure Critical Damage Effect. If the Initial Target already has a System Failure, this Quality has no effect.</description>
+      <description>Before making the Action Roll for an Attack action, the active Admiral rolls X Critical Damage Dice for each Contributing weapon with this Quality. If any die shows a System Failure, the Initial Target immediately suffers a single System Failure Critical Damage Effect. If the Initial Target has already suffered a System Failure during this Action Step, this Quality has no effect.</description>
     </rule>
     <rule name="Assault" id="3856-2806-f502-9b89" hidden="false">
       <description>Weapons with this Special Attack Quality are Assault Weapons, and can only Contribute to an Attack action if all Contributing weapons are also Assault Weapons. See Assault Weapons on page 91 of the Dystopian Wars Rulebook.</description>
@@ -4647,11 +4698,8 @@ Additionally, after this Action has been resolved, roll an Action Die for each 
     <rule name="Invalid Target (Trait)" id="5016-22b7-fc81-f5dd" hidden="false">
       <description>This weapon cannot Contribute to an Attack action if the Initial Target has any of the listed Traits.</description>
     </rule>
-    <rule name="Kingslayer" id="d295-c909-2d3d-d153" hidden="false">
-      <description>Increase each of this weapon’s Firepower ratings by an amount equal to the Mass rating of the Initial Target. Firepower ratings that do not have a value are not increased.</description>
-    </rule>
-    <rule name="Optimal Target (trait)" id="c27d-5d82-381a-f09a" hidden="false">
-      <description>If the Initial Target has all of the listed Traits, increase each of this weapon’s Firepower ratings by X. Firepower ratings that do not have a value are not increased.</description>
+    <rule name="Kingslayer (x)" id="d295-c909-2d3d-d153" hidden="false">
+      <description>If the Initial Target of this Attack has an Armour rating of 5 or more, it is treated as having an Armour rating of 4 in the Resolve Outcome step. Once X Successes have been resolved, this Quality ceases to apply, and any remaining Hits are re-grouped accordingly. If multiple Contributing weapons have this Quality, their X values are combined.</description>
     </rule>
     <rule name="Powered" id="ef72-b196-a487-05c0" hidden="false">
       <description>This weapon cannot Contribute to an Attack action if the model on which it is mounted has a System Failure Critical Damage Effect.</description>
@@ -4680,11 +4728,17 @@ Additionally, after this Action has been resolved, roll an Action Die for each 
     <rule name="Triangulate (x)" id="8993-09a3-2987-505e" hidden="false">
       <description>If the Initial Target of this Attack action is within 15” of a friendly model with the Hydrophone Relay system, increase each of this weapon’s Firepower ratings by X. Firepower ratings that do not have a value are not increased.</description>
     </rule>
-    <rule name="Voltaic (x)" id="84d1-52a7-a6b0-16c6" hidden="false">
-      <description>If the Initial Target of this Attack action has one or more Generators, increase each of this weapon’s Firepower ratings by X. Firepower ratings that do not have a value are not increased.</description>
+    <rule name="Voltaic" id="84d1-52a7-a6b0-16c6" hidden="false">
+      <description>Each of this weapon’s Firepower ratings are increased by X for each System Failure Critical Damage Effect the target has. Firepower ratings that do not have a value are not increased.</description>
     </rule>
     <rule name="Piercing (x)" id="76f1-471a-09c5-ddde" hidden="false">
       <description>In the Resolve Outcome step of this Attack action, the Initial Target suffers a -1 Modifier to its Armour rating (to a minimum of 1) during the Resolve Outcome step. Once X Successes have been  resolved, this Quality ceases to apply, and any remaining Hits are re-grouped according to the Target’s unmodified Armour rating. If multiple Contributing weapons have this Quality, their X values are combined.</description>
+    </rule>
+    <rule name="Mayhem" id="9d28-76fd-0f05-1052" hidden="false">
+      <description>If a model suffers at least 1 Damage from this Attack, it immediately gains 1 level of Disorder. This replaces the Under Fire rule, but any other rules that cause the target to  gain Disorder still apply.</description>
+    </rule>
+    <rule name="Sky Strike (x)" id="4082-f5fe-61fb-0c0c" hidden="false">
+      <description>If the Initial Target of this attack is an Airborne model, increase each of this weapon’s Firepower  ratings by X. Firepower ratings that do not have a  value are not increased. In addition, if all weapons  Contributing to this attack have this quality, the  Unconventional Target rule does not apply.</description>
     </rule>
   </sharedRules>
   <categoryEntries>
@@ -4725,10 +4779,10 @@ Additionally, after this Action has been resolved, roll an Action Die for each 
     <categoryEntry name="SM-51 " id="8254-9993-cc1e-3111" hidden="true"/>
     <categoryEntry name="SM-31" id="41e5-7b23-646e-de4e" hidden="true"/>
     <categoryEntry name="ZRB-63" id="0155-1d26-a09b-982a" hidden="true"/>
-    <categoryEntry name="ZRB-31" id="f225-a14a-3d73-af14" hidden="true"/>
+    <categoryEntry name="ZRB-3-" id="f225-a14a-3d73-af14" hidden="true"/>
     <categoryEntry name="ZRB-61" id="6329-e738-eb5f-b4bc" hidden="true"/>
-    <categoryEntry name="ZRB-53" id="1523-10a2-3eca-f6a1" hidden="true"/>
-    <categoryEntry name="ZRB-52" id="2d8e-78a9-facc-c720" hidden="true"/>
+    <categoryEntry name="ZRB-4-" id="1523-10a2-3eca-f6a1" hidden="true"/>
+    <categoryEntry name="ZRB-5-" id="2d8e-78a9-facc-c720" hidden="true"/>
     <categoryEntry name="P" id="013a-596b-b78b-1795" hidden="true"/>
     <categoryEntry name="A" id="7369-1efe-1c3d-31ee" hidden="true"/>
     <categoryEntry name="S" id="85d1-e166-cdd4-b59f" hidden="true"/>
@@ -4748,9 +4802,9 @@ Additionally, after this Action has been resolved, roll an Action Die for each 
     <categoryEntry name="HAR-9-" id="00ad-97a1-cc46-c88e" hidden="true"/>
     <categoryEntry name="HAR-8-" id="e884-df2a-586e-816d" hidden="true"/>
     <categoryEntry name="HGB79-" id="09b3-b04c-f8fd-fc60" hidden="true"/>
-    <categoryEntry name="HHq72-" id="28f1-dfd2-9507-3ffe" hidden="true"/>
+    <categoryEntry name="HHq6--" id="28f1-dfd2-9507-3ffe" hidden="true"/>
     <categoryEntry name="ACB8--" id="1981-892a-2f6e-74a9" hidden="true"/>
-    <categoryEntry name="HHq74-" id="a0ea-ab19-c014-b9b1" hidden="false"/>
+    <categoryEntry name="HHq74-" id="a0ea-ab19-c014-b9b1" hidden="true"/>
     <categoryEntry name="F" id="94e3-e143-1e2e-45db" hidden="true"/>
     <categoryEntry name="COs2--" id="6a5b-4b2c-f6cc-f0fa" hidden="true"/>
     <categoryEntry name="SAg22-" id="2f44-73c7-78db-770b" hidden="true"/>
@@ -4761,21 +4815,30 @@ Additionally, after this Action has been resolved, roll an Action Die for each 
     <categoryEntry name="PBe65-" id="e891-0fa1-99d0-9042" hidden="true"/>
     <categoryEntry name="PEm82-" id="63f9-ddac-b033-ea5a" hidden="true"/>
     <categoryEntry name="AAL44-" id="b90d-7de5-19f3-9a6e" hidden="true"/>
-    <categoryEntry name="XRL148-" id="1558-61c3-804c-ada9" hidden="false"/>
+    <categoryEntry name="XRL148-" id="1558-61c3-804c-ada9" hidden="true"/>
     <categoryEntry name="HGB46-" id="ad8f-27e4-bd8f-359a" hidden="true"/>
     <categoryEntry name="HRB-6-" id="80a6-5f88-6e2d-7dc0" hidden="true"/>
     <categoryEntry name="HMB-46" id="5f9f-46d3-499a-c94d" hidden="true"/>
     <categoryEntry name="FocusedR" id="10c6-3a45-3bf8-3077" hidden="true"/>
     <categoryEntry name="LGB23-" id="77c7-aac7-cdeb-a57c" hidden="true"/>
     <categoryEntry name="LRB-3-" id="4a55-7d44-b79d-0062" hidden="true"/>
-    <categoryEntry name="TT555" id="d65a-c466-d379-952d" hidden="false"/>
+    <categoryEntry name="TT555" id="d65a-c466-d379-952d" hidden="true"/>
     <categoryEntry name="LGB36-" id="2887-5708-ec3d-0790" hidden="true"/>
     <categoryEntry name="TT666" id="040f-17d2-8ebd-5130" hidden="false"/>
+    <categoryEntry name="SM-21" id="740b-ba1b-4d0f-d48b" hidden="true"/>
+    <categoryEntry name="TRG444" id="406d-d3db-f75b-58a7" hidden="true"/>
+    <categoryEntry name="YMB-52" id="66e0-a90d-6abc-ec68" hidden="true"/>
+    <categoryEntry name="SM-52" id="ab73-1b9d-a2bf-21a9" hidden="true"/>
+    <categoryEntry name="LGB34-" id="98a2-a16f-1fd1-588e" hidden="true"/>
+    <categoryEntry name="HAR-6-" id="03ee-e553-99a7-f48f" hidden="true"/>
+    <categoryEntry name="LAR-3-" id="8426-2a53-ec78-7d0a" hidden="true"/>
+    <categoryEntry name="CM-22" id="dce4-43aa-7df8-d329" hidden="true"/>
   </categoryEntries>
   <readme>Revision 01: initial release Rules Glossary Beta 2
 Revision 02: initial release Rules Glossary Beta 3 (complete Alleance ORBAT)
 Revision 03: improvment  Rules Glossary Beta 3 (complete Commonwealth ORBAT)
 Revision 04: improvment Rules Glossary Beta 3 (complete Emprire ORBAT)
 Revision 05: initial release Enlightened Beta 3 (Complete ORBAT release)
-Revision 06: release Alliance Beta 4 (Complete ORBAT release)</readme>
+Revision 06: release Alliance Beta 4 (Complete ORBAT release)
+Revision 07: release Commonwealth &amp; Empire Beta 4 (Complete ORBAT release)</readme>
 </catalogue>

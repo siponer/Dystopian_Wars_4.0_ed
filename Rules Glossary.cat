@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="1441-5004-62de-e06c" name="Rules Glossary" gameSystemId="1242-c30b-419f-8229" gameSystemRevision="6" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Limited Capacitor" hidden="false" id="2d9a-849b-9822-db8c">
+      <infoLinks>
+        <infoLink name="Limited Capacitor" id="9ac8-f67b-ac93-8d15" hidden="false" type="rule" targetId="d374-f645-7fb4-85c1"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Resilient (Quality)" hidden="false" id="0eab-dd29-6c1a-8acc">
+      <infoLinks>
+        <infoLink name="Resilient (Quality)" id="21e1-9acc-157a-b722" hidden="false" type="rule" targetId="a24a-02b7-ad62-509d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Turbo Encabulation Drive" hidden="false" id="5fec-88a3-0539-98f9" exportable="false">
+      <infoLinks>
+        <infoLink name="Turbo Encabulation Drive" id="27d3-73f9-ebe4-7a1e" hidden="false" type="rule" targetId="00b1-c0e1-5244-36fe"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule name="Limited Capacitor" id="d374-f645-7fb4-85c1" hidden="false">
+      <description>If a model with this Property Participates in an Attack action, all Heavy Strikes in the Action Roll are converted to Standard Strikes.</description>
+    </rule>
+    <rule name="Resilient (Quality)" id="a24a-02b7-ad62-509d" hidden="false">
+      <description>When this model is targeted by an Attack action of the listed Quality, any Heavy Strikes in the Action Roll are converted to Standard Strikes at the start of the Count Hits step.</description>
+    </rule>
+    <rule name="Turbo Encabulation Drive" id="00b1-c0e1-5244-36fe" hidden="false">
+      <description>At the start of this unit’s Movement Step, as long as no models in the unit have 3 levels of Disorder, its Admiral can declare that they will activate the Turbo Encabulation Drive. If they do, they must make a  Group Crew Check for the unit. If the Check passes, the Admiral can move each model up to 20” in any direction, without changing their facing, and Passing Through any intervening models and Terrain Features. The unit must be placed so that all models are in Coherency. Each model gains 1 level of Disorder, and the rest of the Movement Step is skipped. If it is unsuccessful, check the Value of the card that was used to make the Group Crew Check. If it is an odd number, the unit forgoes its Movement Step entirely and each model gains both a System Failure and Hazard Critical Damage Effect. If it is an even number, the unit is removed from the Play Area and placed into Reserve, retaining any Damage, Disorder, Critical Damage and any other tokens.</description>
+    </rule>
+    <rule name="Optimal Target (trait)" id="c7fb-530e-c334-977e" hidden="false">
+      <description>If the Initial Target has all of the listed Traits, increase each of this weapon’s Firepower ratings by X. Firepower ratings that do not have a value are not increased.</description>
+    </rule>
+  </sharedRules>
+</catalogue>

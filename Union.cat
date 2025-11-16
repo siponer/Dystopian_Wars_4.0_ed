@@ -64,18 +64,18 @@
         <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
       </characteristics>
     </profile>
-    <profile name="Senator" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="8f75-0377-f904-6d18">
+    <profile name="Springfield" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="8f75-0377-f904-6d18">
       <characteristics>
-        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">4</characteristic>
-        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-6&quot;</characteristic>
         <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
-        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
-        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
-        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">11</characteristic>
-        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
-        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
-        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
-        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">3</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">1</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">5</characteristic>
       </characteristics>
     </profile>
     <profile name="Enterprise" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="b212-9975-f6c8-99e3">
@@ -152,18 +152,18 @@
         <characteristic name="SRS PROPERTIES" typeId="d28e-a32f-622a-48ff">Specialist</characteristic>
       </characteristics>
     </profile>
-    <profile name="Independence" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="9928-47c3-119b-c0af">
+    <profile name="Frontier" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="9928-47c3-119b-c0af">
       <characteristics>
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-6&quot;</characteristic>
         <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
         <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">7</characteristic>
-        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
-        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
-        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
-        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
-        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
-        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
       </characteristics>
     </profile>
     <profile name="USS Monitor" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="0995-0723-4d17-b3ad">
@@ -172,8 +172,8 @@
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-6&quot;</characteristic>
         <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
         <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">7</characteristic>
-        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">6</characteristic>
-        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">13</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">12</characteristic>
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
         <characteristic name="BRD" typeId="4c54-804a-8993-7325">5</characteristic>
         <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
@@ -186,8 +186,8 @@
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-6&quot;</characteristic>
         <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
         <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">7</characteristic>
-        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">6</characteristic>
-        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">13</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">12</characteristic>
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
         <characteristic name="BRD" typeId="4c54-804a-8993-7325">5</characteristic>
         <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
@@ -222,5 +222,1286 @@
         <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">9</characteristic>
       </characteristics>
     </profile>
+    <profile name="Midway" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="7468-9cc7-4563-9e25">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">4</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ranger" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="350c-5288-9098-309c">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">1</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Excelsior" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="73da-04f3-e672-0c52">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">4</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">6</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">12</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Philadelphia" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="5393-98a5-667d-a586">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">4</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">6</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">11</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="John Henry" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="4aef-59b4-39b1-6313">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">4</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Roanoke" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="2d9a-c3c6-7504-2d9c">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chicago" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="1912-6d90-5db1-f326">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">4</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">6</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">11</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lexington" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="19af-d867-8509-d804">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">6</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Reliant" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="6eac-1dd0-be76-ac24">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">6</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sumter" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="efba-6f78-bbb7-0ad6">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ticonderoga" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="47e7-ca45-8d50-da90">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">1</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Cheyenne" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="6a56-5bca-27d8-b92c">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">2</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">3</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">1</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Providence" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="0731-a6ac-553b-b2c2">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bogota" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="a9d7-26b1-a1a6-06be">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">0&quot;-10&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">2</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">4</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">1</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Valiant" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="de1a-8552-3d08-a694">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">2</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">5</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">1</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Defiant" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="7f3b-16ff-cd34-4877">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">2</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">5</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">1</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Offshore Heavy Platform" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="451a-7fcd-6252-6808">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">-</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">12</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Intrepid" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="8ddd-702c-d7c6-8122">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Discovery" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="a93c-b313-fc18-c45a">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Independence" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="c057-27ea-266e-81ff">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">7</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Montgomery" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="edc5-a561-51e0-de08">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Akron" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="8fe6-2e5a-5373-bae5">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">0&quot;-10&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">3</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">1</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Steward" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="b7ab-7ea9-8149-bcfd">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">1</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Patriot" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="0c9c-ed40-61c8-77b0">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-11&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">3</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">1</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Washington" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="1892-90e5-d667-4a59">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Puritan" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="390c-4542-3588-b34d">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">2</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">3</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">1</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Boston" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="0f27-b6ba-e468-9db9">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">4</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">1</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Senator" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="df60-e3f7-e579-8666">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">4</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">11</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nashville" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="b4ca-b029-8457-71a4">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">4</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Yorktown" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="5adc-7e02-62c2-3fdf">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wisconsin" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="46df-1cb9-6660-8143">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">11</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Saratoga" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="197d-53a0-6c78-d86f">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Constellation" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="b57d-6654-8b5d-93f6">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">1</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gettysburg" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="4fb1-bb92-caae-d902">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="California" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="4fa1-509f-1eeb-d507">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Republic" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="c8a7-e88f-57a8-d46f">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">1</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Offshore Supply Platform" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="dd9f-2ee4-a644-c56b">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">-</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">7</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Farpoint" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="f224-f6b8-5b36-c34b">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">-</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">6</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Offshore Defence Platform" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="256a-a60f-3237-1041">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">-</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">7</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Farragut" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="2691-26ab-4549-4d54">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">4</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">1</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Venture" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="c4e7-4de0-053e-5fac">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">4</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">6</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">12</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
+  <forceEntries>
+    <forceEntry name="Union Faction Battlefleet (Main)" id="952b-a96c-0d43-809d" hidden="false" sortIndex="1"/>
+    <forceEntry name="Freedom Battlefleet (Specialist)" id="555c-e3ce-baf2-6031" hidden="false" sortIndex="2"/>
+    <forceEntry name="Manifest Destiny Battlefleet (Specialist)" id="9ee4-14f7-de78-65d4" hidden="false" sortIndex="4"/>
+    <forceEntry name="Great Experiment Battlefleet (Specialist)" id="a81d-45de-9daa-4980" hidden="false" sortIndex="3"/>
+    <forceEntry name="Honorable Eclipse Company Mercenary Battlefleet (Mercenary) " id="f7fb-8e6d-dc7b-3f3b" hidden="false" sortIndex="5"/>
+  </forceEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="John Henry" hidden="false" id="b1b6-ea7b-c919-ed70">
+      <infoLinks>
+        <infoLink name="John Henry" id="36f3-f45a-9030-f554" hidden="false" type="profile" targetId="4aef-59b4-39b1-6313"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="145"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Akron" hidden="false" id="37e5-503a-2bda-c0a8">
+      <infoLinks>
+        <infoLink name="Akron" id="528a-ab16-8ab7-6a74" hidden="false" type="profile" targetId="8fe6-2e5a-5373-bae5"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="32"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Columbia" hidden="false" id="a4fa-992f-6bc3-7cd1">
+      <infoLinks>
+        <infoLink name="Columbia" id="d18e-d116-d845-e4d4" hidden="false" type="profile" targetId="c407-0a77-57f2-9741"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="266"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="10"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Constitution" hidden="false" id="dcb8-5133-eeba-fb7b">
+      <infoLinks>
+        <infoLink name="Constitution" id="8bf7-c5da-48fd-b309" hidden="false" type="profile" targetId="d42a-5ea2-d6ec-9153"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="273"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="10"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Providence" hidden="false" id="f43e-00ca-a901-9fd1">
+      <infoLinks>
+        <infoLink name="Providence" id="38e0-2355-81ae-72af" hidden="false" type="profile" targetId="0731-a6ac-553b-b2c2"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="65"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Offshore Supply Platform" hidden="false" id="1ada-6efe-2590-1422">
+      <infoLinks>
+        <infoLink name="Offshore Supply Platform" id="b2bd-bd11-888b-ecbb" hidden="false" type="profile" targetId="dd9f-2ee4-a644-c56b"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="65"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Frontier" hidden="false" id="f31c-d213-a1f9-5575">
+      <infoLinks>
+        <infoLink name="Frontier" id="d591-f368-0c84-f96f" hidden="false" type="profile" targetId="9928-47c3-119b-c0af"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="185"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="7"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hermes" hidden="false" id="7940-f6e4-a294-7711">
+      <infoLinks>
+        <infoLink name="Hermes" id="c23a-de3b-2385-9539" hidden="false" type="profile" targetId="1e44-79b7-1c26-67da"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="25"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Europa" hidden="false" id="b607-f643-5068-540e">
+      <infoLinks>
+        <infoLink name="Europa" id="4e30-8988-d612-4b93" hidden="false" type="profile" targetId="1dff-238f-753d-db0e"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="110"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="California" hidden="false" id="35df-b764-ed8b-9d40">
+      <infoLinks>
+        <infoLink name="California" id="2a72-7a9c-a353-0345" hidden="false" type="profile" targetId="4fa1-509f-1eeb-d507"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="85"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="America" hidden="false" id="5528-bc12-095a-ead5">
+      <infoLinks>
+        <infoLink name="America" id="a916-7681-8954-0bef" hidden="false" type="profile" targetId="a39d-ca80-1d66-dba4"/>
+        <infoLink name="Talon Autogyros" id="3274-10f7-b659-f542" hidden="false" type="profile" targetId="ae4c-e07d-0fad-9452"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="282"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="10"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Republic" hidden="false" id="6328-0506-726a-3ecf">
+      <infoLinks>
+        <infoLink name="Republic" id="d82a-ae5f-b549-5f50" hidden="false" type="profile" targetId="c8a7-e88f-57a8-d46f"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="110"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Puritan" hidden="false" id="fd02-06da-6743-aa10">
+      <infoLinks>
+        <infoLink name="Puritan" id="da42-0ddf-f5a4-4e86" hidden="false" type="profile" targetId="390c-4542-3588-b34d"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="28"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="2"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Intrepid" hidden="false" id="360f-4e6a-c912-b789">
+      <infoLinks>
+        <infoLink name="Intrepid" id="0f46-fab6-94f4-df3a" hidden="false" type="profile" targetId="8ddd-702c-d7c6-8122"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="96"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Cheyenne" hidden="false" id="66e1-ef22-0705-bf89">
+      <infoLinks>
+        <infoLink name="Cheyenne" id="f9f7-ac38-38c5-652c" hidden="false" type="profile" targetId="6a56-5bca-27d8-b92c"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="35"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Boston" hidden="false" id="77e9-dd01-87a1-7e44">
+      <infoLinks>
+        <infoLink name="Boston" id="ddd5-0d15-1b9c-b875" hidden="false" type="profile" targetId="0f27-b6ba-e468-9db9"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="34"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Nashville" hidden="false" id="4b34-6992-e488-43ab">
+      <infoLinks>
+        <infoLink name="Nashville" id="5020-50b6-d23d-9460" hidden="false" type="profile" targetId="b4ca-b029-8457-71a4"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="150"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Montgomery" hidden="false" id="7819-50fd-2332-5ef0">
+      <infoLinks>
+        <infoLink name="Montgomery" id="3af0-821c-45eb-9a0b" hidden="false" type="profile" targetId="edc5-a561-51e0-de08"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="86"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Wisconsin" hidden="false" id="7878-4c64-122b-cf8b">
+      <infoLinks>
+        <infoLink name="Wisconsin" id="d952-935f-e55e-0d82" hidden="false" type="profile" targetId="46df-1cb9-6660-8143"/>
+        <infoLink name="Talon Autogyros" id="2c00-71d9-5d9c-27f8" hidden="false" type="profile" targetId="ae4c-e07d-0fad-9452"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="220"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Washington" hidden="false" id="d649-ec84-8584-310e">
+      <infoLinks>
+        <infoLink name="Washington" id="28a9-84e1-21c9-b4ec" hidden="false" type="profile" targetId="1892-90e5-d667-4a59"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="138"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Sumter" hidden="false" id="dda0-23ea-9816-e7e5">
+      <infoLinks>
+        <infoLink name="Sumter" id="ef6b-7370-d8f9-36b5" hidden="false" type="profile" targetId="efba-6f78-bbb7-0ad6"/>
+        <infoLink name="Talon Autogyros" id="ae66-d973-4c13-36db" hidden="false" type="profile" targetId="ae4c-e07d-0fad-9452"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="100"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Steward" hidden="false" id="fbab-ebd8-cc3a-a30d">
+      <infoLinks>
+        <infoLink name="Steward" id="0d29-cf19-1a7c-8ed0" hidden="false" type="profile" targetId="b7ab-7ea9-8149-bcfd"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="134"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Saratoga" hidden="false" id="efb0-2c05-23aa-1bc5">
+      <infoLinks>
+        <infoLink name="Saratoga" id="a559-76d2-f09a-e84e" hidden="false" type="profile" targetId="197d-53a0-6c78-d86f"/>
+        <infoLink name="Talon Autogyros" id="ec45-68a3-d67d-ef11" hidden="false" type="profile" targetId="ae4c-e07d-0fad-9452"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="116"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Springfield" hidden="false" id="b2ea-7e37-f4e1-e26a">
+      <infoLinks>
+        <infoLink name="Springfield" id="1baf-084c-f098-ba53" hidden="false" type="profile" targetId="8f75-0377-f904-6d18"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="30"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Roanoke" hidden="false" id="65be-da0f-16a9-8b81">
+      <infoLinks>
+        <infoLink name="Roanoke" id="ca95-2160-9aed-6058" hidden="false" type="profile" targetId="2d9a-c3c6-7504-2d9c"/>
+        <infoLink name="Corsair Fighters" id="c5e0-477b-0a62-fcf9" hidden="false" type="profile" targetId="09ff-dcd8-4e5e-cbc9"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="110"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ranger" hidden="false" id="2a45-230f-b166-e96c">
+      <infoLinks>
+        <infoLink name="Ranger" id="b1c8-c6ff-a0ef-cb8d" hidden="false" type="profile" targetId="350c-5288-9098-309c"/>
+        <infoLink name="Corsair Fighters" id="f63d-d615-7530-03e2" hidden="false" type="profile" targetId="09ff-dcd8-4e5e-cbc9"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="115"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Offshore Defence Platform" hidden="false" id="dcf1-f94c-db1f-4db6">
+      <infoLinks>
+        <infoLink name="Offshore Defence Platform" id="f885-32b3-3015-21cb" hidden="false" type="profile" targetId="256a-a60f-3237-1041"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="65"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Offshore Heavy Platform" hidden="false" id="6c04-639c-637d-a1df">
+      <infoLinks>
+        <infoLink name="Offshore Heavy Platform" id="c890-ae50-6626-0ec2" hidden="false" type="profile" targetId="451a-7fcd-6252-6808"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="180"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="8"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Farpoint" hidden="false" id="13e9-f18e-550c-d02d">
+      <infoLinks>
+        <infoLink name="Farpoint" id="6455-94d8-ad98-6445" hidden="false" type="profile" targetId="f224-f6b8-5b36-c34b"/>
+        <infoLink name="Talon Autogyros" id="54bc-e3f7-b281-3ca6" hidden="false" type="profile" targetId="ae4c-e07d-0fad-9452"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="70"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Valiant" hidden="false" id="5735-5f03-6d47-381e">
+      <infoLinks>
+        <infoLink name="Valiant" id="ae9c-fe54-7e08-8d0e" hidden="false" type="profile" targetId="de1a-8552-3d08-a694"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="60"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Reliant" hidden="false" id="f477-6893-56c4-d907">
+      <infoLinks>
+        <infoLink name="Reliant" id="8431-7251-6530-0259" hidden="false" type="profile" targetId="6eac-1dd0-be76-ac24"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="90"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Patriot" hidden="false" id="7196-555c-fb8d-ffd7">
+      <infoLinks>
+        <infoLink name="Patriot" id="e3da-f65c-37ea-9e58" hidden="false" type="profile" targetId="0c9c-ed40-61c8-77b0"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="45"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="2"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Gettysburg" hidden="false" id="9fc2-57b2-d8ae-bf40">
+      <infoLinks>
+        <infoLink name="Gettysburg" id="3a3d-5e11-636f-f961" hidden="false" type="profile" targetId="4fb1-bb92-caae-d902"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="100"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Farragut" hidden="false" id="bcd3-db3b-fd55-ff5e">
+      <infoLinks>
+        <infoLink name="Farragut" id="50cb-a80c-dd40-6e6e" hidden="false" type="profile" targetId="2691-26ab-4549-4d54"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="34"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Defiant" hidden="false" id="5a7a-2440-449d-e00d">
+      <infoLinks>
+        <infoLink name="Defiant" id="5603-8496-9ff3-a7d8" hidden="false" type="profile" targetId="7f3b-16ff-cd34-4877"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="90"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Bogota" hidden="false" id="0f6d-37ff-ff9e-f7fc">
+      <infoLinks>
+        <infoLink name="Bogota" id="d6d6-89f5-18d7-931b" hidden="false" type="profile" targetId="a9d7-26b1-a1a6-06be"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="37"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Yorktown" hidden="false" id="5207-f79e-b17b-292d">
+      <infoLinks>
+        <infoLink name="Yorktown" id="2709-81c2-fba8-5e2b" hidden="false" type="profile" targetId="5adc-7e02-62c2-3fdf"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="100"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Philadelphia" hidden="false" id="07a9-f838-e1b6-1e50">
+      <infoLinks>
+        <infoLink name="Philadelphia" id="684e-fc85-5262-7f7d" hidden="false" type="profile" targetId="5393-98a5-667d-a586"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="170"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ticonderoga" hidden="false" id="365e-88c2-fa97-7509">
+      <infoLinks>
+        <infoLink name="Ticonderoga" id="2fdc-bf0c-8060-a5ac" hidden="false" type="profile" targetId="47e7-ca45-8d50-da90"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="135"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Lexington" hidden="false" id="fa41-60fa-9ba8-39cd">
+      <infoLinks>
+        <infoLink name="Lexington" id="f50d-00f3-1e7e-0469" hidden="false" type="profile" targetId="19af-d867-8509-d804"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="120"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Excelsior" hidden="false" id="8038-560f-dde3-1784">
+      <infoLinks>
+        <infoLink name="Excelsior" id="ccbf-3500-dc78-7dd8" hidden="false" type="profile" targetId="73da-04f3-e672-0c52"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="220"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Discovery" hidden="false" id="0a90-715b-3840-7bbf">
+      <infoLinks>
+        <infoLink name="Discovery" id="f104-a032-5979-a3e2" hidden="false" type="profile" targetId="a93c-b313-fc18-c45a"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="135"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Constellation" hidden="false" id="7125-1150-363e-1f4f">
+      <infoLinks>
+        <infoLink name="Constellation" id="0270-7d78-5c82-6387" hidden="false" type="profile" targetId="b57d-6654-8b5d-93f6"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="140"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Chicago" hidden="false" id="8573-3607-169d-8c14">
+      <infoLinks>
+        <infoLink name="Chicago" id="2d13-406c-6f69-1508" hidden="false" type="profile" targetId="1912-6d90-5db1-f326"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="190"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Venture" hidden="false" id="491e-ef04-eb8a-bad3">
+      <infoLinks>
+        <infoLink name="Venture" id="434d-9cdd-6ef4-5688" hidden="false" type="profile" targetId="c4e7-4de0-053e-5fac"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="235"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="10"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Senator" hidden="false" id="3ecf-4426-be73-4ac1">
+      <infoLinks>
+        <infoLink name="Senator" id="32c4-2a10-3446-4759" hidden="false" type="profile" targetId="df60-e3f7-e579-8666"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="198"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="9"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="USS Rio Grande" hidden="false" id="e956-3f50-0713-7223">
+      <infoLinks>
+        <infoLink name="USS Rio Grande" id="993d-e45d-24aa-1716" hidden="false" type="profile" targetId="6030-656c-7c15-b21c"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="270"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="11"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="USS Monitor" hidden="false" id="f684-7acc-3c07-99d1">
+      <infoLinks>
+        <infoLink name="USS Monitor" id="8b02-33e5-f780-119a" hidden="false" type="profile" targetId="0995-0723-4d17-b3ad"/>
+        <infoLink name="Talon Autogyros" id="4e32-a52a-92cd-0c56" hidden="false" type="profile" targetId="ae4c-e07d-0fad-9452"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="287"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="11"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="USS Mexico" hidden="false" id="88a0-2cbb-d016-72a8">
+      <infoLinks>
+        <infoLink name="USS Mexico" id="1131-8880-fbcc-a0fb" hidden="false" type="profile" targetId="59da-aaff-6cda-6117"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="270"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="11"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Liberty" hidden="false" id="ef7d-b342-25f1-359f">
+      <infoLinks>
+        <infoLink name="Liberty" id="d349-532a-2d5f-88c5" hidden="false" type="profile" targetId="b1a4-aa4c-4b7a-8be4"/>
+        <infoLink name="Corsair Fighters" id="ef60-f0bf-cb5c-310f" hidden="false" type="profile" targetId="09ff-dcd8-4e5e-cbc9"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="250"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="10"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Gotham" hidden="false" id="8dc0-5a5a-9fa8-d809">
+      <infoLinks>
+        <infoLink name="Gotham" id="6a58-2b56-ad3c-34bc" hidden="false" type="profile" targetId="18f6-018b-5817-9ea1"/>
+        <infoLink name="Talon Autogyros" id="bd55-8a4b-bf5a-9410" hidden="false" type="profile" targetId="ae4c-e07d-0fad-9452"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="270"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="11"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="USS Indianapolis" hidden="false" id="4234-f9cd-ede9-603b">
+      <infoLinks>
+        <infoLink name="USS Indianapolis" id="77d2-674a-44aa-4214" hidden="false" type="profile" targetId="6904-39f5-89f8-377f"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="286"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="11"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Independence " hidden="false" id="0614-9e77-0d6c-d15e">
+      <infoLinks>
+        <infoLink name="Independence" id="9dcc-62ab-cdbf-35d8" hidden="false" type="profile" targetId="c057-27ea-266e-81ff"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="245"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="10"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Destiny" hidden="false" id="25e7-4e30-19e9-3027">
+      <infoLinks>
+        <infoLink name="Destiny" id="6788-c368-c238-6475" hidden="false" type="profile" targetId="7552-4302-36cd-e4d7"/>
+        <infoLink name="Corsair Fighters" id="840a-5b77-eb04-9967" hidden="false" type="profile" targetId="09ff-dcd8-4e5e-cbc9"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="370"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="13"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Enterprise" hidden="false" id="2696-befe-792f-7e31">
+      <infoLinks>
+        <infoLink name="Enterprise" id="4fc0-61dc-2836-05ff" hidden="false" type="profile" targetId="b212-9975-f6c8-99e3"/>
+        <infoLink name="Corsair Fighters" id="4325-e924-5307-4ec0" hidden="false" type="profile" targetId="09ff-dcd8-4e5e-cbc9"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="290"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="11"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Custodian" hidden="false" id="3206-21a6-a74c-8793">
+      <infoLinks>
+        <infoLink name="Custodian" id="5bee-bdb9-d60b-8c34" hidden="false" type="profile" targetId="cac0-2d2e-697c-3f8d"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="222"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="9"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Midway" hidden="false" id="19f3-7722-cd7b-8701">
+      <infoLinks>
+        <infoLink name="Midway" id="8903-0f53-1e26-d45d" hidden="false" type="profile" targetId="7468-9cc7-4563-9e25"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="162"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="7"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Titan" hidden="false" id="3041-ba62-bc6c-e4c5">
+      <infoLinks>
+        <infoLink name="Titan" id="76be-1665-18f2-5b5d" hidden="false" type="profile" targetId="a692-bc27-24f8-3f35"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="70"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule name="Give ‘em Hell" id="4d9a-4878-1993-8c42" hidden="false">
+      <description>This Battlefleet’s Admiral may enact a Special Valour Effect on a friendly unit with the Union trait immediately after declaring a Broadside action with that unit. If the effect is successfully enacted, the following bonus applies for the duration of the Action:
+
+
+Each Exploding Strike in the Broadside roll inflicts 2 Damage (or 1 Damage, if a contributing model has 3 Disorder) and also allows the Admiral to roll another Action Die, adding it to the roll.
+This continues until no more Exploding Strikes are rolled.
+
+
+At the end of the Action, each model whose batteries Contributed to the Action gains a level of Disorder. 
+In addition, they cannot Participate in any further Actions this turn, and cannot Rally in the Consolidation Phase of this turn.</description>
+    </rule>
+    <rule name="Plant the Flag" id="568f-65fb-cc14-348c" hidden="false">
+      <description>In the Complete Objectives step of the End Phase, this Battlefleet’s Admiral scores 2 Victory Points for every Quadrant of the Play Area that contains at least one friendly Scoring Model within 4”of an Island.</description>
+    </rule>
+    <rule name="Special Operations" id="571b-474b-b45c-f7f7" hidden="false">
+      <description>This Battlefleet’s Flagship gains the Stockpile (3) property.</description>
+    </rule>
+    <rule name="Combined Arms" id="5dc7-3c5b-d865-c7b6" hidden="false">
+      <description>When last model in a unit from this Force is Destroyed or Withdraws, do not remove its Escort tokens from the Play Area.
+Instead, transfer their Escort tokens to the nearest friendly unit with the same Positional Trait.
+
+
+
+In addition, whenever an Akron Sentry Rotor is Destroyed or Withdraws, roll an Action Die: on a Strike, the nearest friendly unit gains an Escort token.
+
+
+This rule can allow a unit to have more Escort tokens than it could ordinarily purchase during Force Selection.</description>
+    </rule>
+    <rule name="HEC Contractors" id="710f-04de-5a8f-d2e4" hidden="false">
+      <description>All models in this Force with the HEC trait gain the Defensive (1) system. 
+If a model already has the Defensive (X ) system then add 1 to the value of X.</description>
+    </rule>
+  </sharedRules>
+  <selectionEntries>
+    <selectionEntry type="unit" import="true" name="America Special Operations Vessel" hidden="false" id="2258-dcd8-a07f-43d3">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="6d73-f045-5b93-62f2" targetId="fef3-1842-580c-4bef" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="America" hidden="false" id="b634-5f49-e229-a7a4" type="selectionEntry" targetId="5528-bc12-095a-ead5"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Columbia Heavy Battleship " hidden="false" id="8f19-55cf-2bb3-e319">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="de1b-40af-69d0-9baa" targetId="fef3-1842-580c-4bef" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Columbia" hidden="false" id="6f9c-6754-c7df-679f" type="selectionEntry" targetId="a4fa-992f-6bc3-7cd1"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Excelsior Heavy Aircruiser" hidden="false" id="d93a-2667-d1d1-bfde">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="7ced-bcfd-a679-a379" targetId="fef3-1842-580c-4bef" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Excelsior" hidden="false" id="53a9-f347-f9fd-d75c" type="selectionEntry" targetId="8038-560f-dde3-1784"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Constitution Battleship" hidden="false" id="8c7e-61f5-9105-5d92">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="8bf5-56d3-d225-9915" targetId="fef3-1842-580c-4bef" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Constitution" hidden="false" id="a955-62db-145a-be46" type="selectionEntry" targetId="dcb8-5133-eeba-fb7b"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Custodian Aircruiser" hidden="false" id="a898-57e5-ce25-0372">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="3e13-32f7-bed3-4a03" targetId="fef3-1842-580c-4bef" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Custodian" hidden="false" id="63dd-435f-e196-178b" type="selectionEntry" targetId="3206-21a6-a74c-8793"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Enterprise Heavy Carrier" hidden="false" id="7605-2d02-4469-9b64">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="5121-898d-df57-3805" targetId="fef3-1842-580c-4bef" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Enterprise" hidden="false" id="f944-28e8-78ab-bc1e" type="selectionEntry" targetId="2696-befe-792f-7e31"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Destiny Skyfortress" hidden="false" id="a286-0836-d718-f290">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="f4fb-eecf-c4c7-757a" targetId="fef3-1842-580c-4bef" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Destiny" hidden="false" id="c4bb-466d-eea0-f9e0" type="selectionEntry" targetId="25e7-4e30-19e9-3027"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Independence Battlecruiser" hidden="false" id="1c0b-dd0e-27b7-4d5e">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="63d7-ee02-ea42-a0c8" targetId="fef3-1842-580c-4bef" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Independence " hidden="false" id="1223-1404-d1cf-142d" type="selectionEntry" targetId="0614-9e77-0d6c-d15e"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="USS Indianapolis" hidden="false" id="b37d-f087-ecb2-9250">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="169c-c755-73ef-a5ba" targetId="fef3-1842-580c-4bef" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="USS Indianapolis" hidden="false" id="e006-6e1c-c844-59f9" type="selectionEntry" targetId="4234-f9cd-ede9-603b"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Gotham Assault Carrier" hidden="false" id="4355-f390-dca7-6487">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="83b5-650f-b96b-ce88" targetId="fef3-1842-580c-4bef" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Gotham" hidden="false" id="22a5-d65c-455e-a7cd" type="selectionEntry" targetId="8dc0-5a5a-9fa8-d809"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Liberty Battlecarrier" hidden="false" id="183d-2115-974c-2dd7">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="71f9-e1ec-b1cd-2860" targetId="fef3-1842-580c-4bef" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Liberty" hidden="false" id="d92d-5763-fa0d-6a71" type="selectionEntry" targetId="ef7d-b342-25f1-359f"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="USS Mexico" hidden="false" id="9f6e-06f4-b0ca-f6ec">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="1997-43ca-992f-edf4" targetId="fef3-1842-580c-4bef" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="USS Mexico" hidden="false" id="e280-2c9d-90ea-39e1" type="selectionEntry" targetId="88a0-2cbb-d016-72a8"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="USS Monitor" hidden="false" id="f49d-bd69-f27c-5e14">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="c9f3-75c7-c2ce-baa3" targetId="fef3-1842-580c-4bef" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="USS Monitor" hidden="false" id="92e0-4f5d-5a2e-6743" type="selectionEntry" targetId="f684-7acc-3c07-99d1"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="USS Rio Grande" hidden="false" id="7fe2-3b5f-2c7a-5f09">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="9fc2-07e3-d69d-e915" targetId="fef3-1842-580c-4bef" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="USS Rio Grande" hidden="false" id="6a20-a693-aa92-fdf9" type="selectionEntry" targetId="e956-3f50-0713-7223"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Senator Command Cruiser" hidden="false" id="b2f4-8046-3768-928a">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="2d43-b51f-cd30-d0c9" targetId="fef3-1842-580c-4bef" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Senator" hidden="false" id="b1f0-54c3-e75f-6cad" type="selectionEntry" targetId="3ecf-4426-be73-4ac1"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Venture Assault Aircruiser" hidden="false" id="e3af-d410-293f-5c6a">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="255c-5540-1bc9-2c64" targetId="fef3-1842-580c-4bef" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Venture" hidden="false" id="d72c-4ac2-645b-09da" type="selectionEntry" targetId="491e-ef04-eb8a-bad3"/>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>

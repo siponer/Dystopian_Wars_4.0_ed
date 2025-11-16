@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="5ca6-5d76-4c4d-04e2" name="Properties" gameSystemId="1242-c30b-419f-8229" revision="7" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="5ca6-5d76-4c4d-04e2" name="Properties" gameSystemId="1242-c30b-419f-8229" revision="8" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedRules>
     <rule name="Ablative Armour (x)" id="b869-3539-5cf3-f3f3" hidden="false">
       <description>When this model is targeted by an Attack action, Convert X Exploding Strikes in the Action Roll to Heavy Strikes. Sometimes, this Property will be listed for a specific Arc, e.g. Ablative Armour: Fore (3). In this case, the Property only applies if at least half of the models Participating in the Attack action are within the listed Arc of the Target Model.</description>
@@ -29,7 +29,7 @@
       <description>This unit can make a Special Deployment Action to make a Vanguard Move. When it does so, each model in the unit makes a move as though it were the Movement Step of its Activation. During this move, each model has a Minimum Speed of 0” and a Maximum Speed of X”.</description>
     </rule>
     <rule name="Mine Layer (x)" id="fd04-efdc-62c6-9965" hidden="false">
-      <description>As a Special Deployment Action, this model’s unit can Distribute Mines. When it does, for each model in the unit with this Property, the unit’s Admiral places up to X Minefield markers anywhere in the Play Area. Each one must be placed at least 10” from the enemy Deployment Zone, and cannot be placed within 1” of a model, a Terrain Feature, or another Marker.</description>
+      <description>When a model with a Depleted status token begins its Activation within 4” of this model, its Admiral can declare that this model will attempt to Transfer Munitions. The Admiral makes a Crew Check for this  model. If the check passes, the Depleted status token is moved to this model. If this model has at least X Depleted status tokens, it can no longer Transfer Munitions. During the Action Step of this model’s Activation, its unit can make a Special Action. Only models with the Stockpile (X ) property can Participate. Each Participating model loses one Depleted status token, if it has any. This Special Action can be made multiple times during the same Activation</description>
     </rule>
     <rule name="SRS (Type)" id="be67-1f6a-e992-5e3d" hidden="false">
       <description>In the Launch Phase, Carrier models in this unit can launch SRS tokens of the type(s) listed.</description>
@@ -52,8 +52,8 @@
     <rule name="Skimmer" id="8a01-174c-d35a-d1cd" hidden="false">
       <description>This model treats all Terrain Features as Open Water and can Pass Through Surface models. A Skimmer does not Trigger Minefield markers, and never suffers Critical Damage as a result of contacting a  Wreck marker. Submerged Weapons cannot Contribute to Attack actions against Skimmer models. Assault weapons can count Skimmer models as either Surface or Airborne, at the active Admiral’s choice. When declaring a Boarding or Broadside action with or against a Skimmer model, the Skimmer can count as either Surface or Airborne, at the active Admiral’s choice.</description>
     </rule>
-    <rule name="Sky Commandos (x)" id="4609-4521-0cc6-b334" hidden="false">
-      <description>This model’s unit can make Boarding actions that target Airborne models. When this model Participates in a Boarding action, it contributes X dice to the Action Roll. If this model is targeted by a Boarding action, it adds X dice to its Resistance Roll.</description>
+    <rule name="Sky Commandos" id="4609-4521-0cc6-b334" hidden="false">
+      <description>When this model’s unit makes a Boarding action, the Target can be an Airborne model. This model can Participate in the Action</description>
     </rule>
     <rule name="Stockpile (x)" id="9505-574b-4df1-9013" hidden="false">
       <description>When a model with a Depleted status token begins its Activation within 4” of this model, its Admiral can declare that this model will attempt to Transfer Munitions. The Admiral makes a Crew Check for this model. If the check passes, the Depleted status token is moved to this model. If this model has at least X Depleted status tokens, it can no longer Transfer  Munitions. During the Action Step of this model’s Activation, its unit can make a Special Action. Only models with the Stockpile (X ) property can Participate. Each Participating model  loses one Depleted status token, if it has any. This Special Action can be made multiple times during the same Activation.</description>
@@ -65,7 +65,7 @@
       <description>If this model is in the Play Area and Battle-Ready at the end of the game, the controlling Admiral scores X Victory Points.</description>
     </rule>
     <rule name="Submarauder" id="37d5-97e4-c23e-5f95" hidden="false">
-      <description>If this unit has a Surfacing status token in the Consolidation Step of this unit’s Activation, its Admiral can attempt to enact a Special Valour Effffect with it. If successful, the unit immediately loses the Surfacing status.</description>
+      <description>If this unit has a Surfacing status token in the Consolidation Step of this unit’s Activation, its Admiral can choose to  make a Group Crew Check for the unit. If the Check passes, the unit immediately loses the Surfacing status.</description>
     </rule>
     <rule name="Temperamental" id="8b38-5cb7-8113-fee8" hidden="false">
       <description>When a Repair Roll is made for this model, Heavy Strikes do not allow the Admiral to remove Critical Damage Effffects. In addition, a model with this Property may not attempt Jury-Rigged Repairs.</description>
@@ -77,26 +77,24 @@
       <description>When a Repair Roll is made for this model, Heavy Strikes do not allow the Admiral to remove Critical Damage Effffects. However, if this model is Battle-Ready when the Repair Roll is made, any number of Exploding Strikes can be used to make Structural Repairs instead of being used to remove Critical Damage Effects. For each die that is used to make Structural Repairs, remove 1 point of Damage from this model. A model with this Property may not attempt Jury-Rigged Repairs.</description>
     </rule>
     <rule name="Unexpected Arrival" id="bce0-4bcd-ead5-ead5" hidden="false">
-      <description>When this unit is deployed from Reserve, it can either be placed normally, or it can make an Unexpected Arrival. When a unit makes an Unexpected Arrival, its Admiral can place it anywhere in the Play Area provided that no models are placed in Proximity of another model or a Terrain Feature. The unit is not marked with an Incoming status token, but when it is Activated later in the Round, its Movement Step is skipped and its Action Limit has a -1 Modifier.</description>
+      <description>When this unit is deployed from Reserve, it can either be placed normally, or it can make an Unexpected Arrival. When a unit makes an Unexpected Arrival, its Admiral can place it anywhere in the Play Area provided that no models are placed in Proximity of another model or a Terrain Feature. The unit is not marked with an Incoming status token, but when it is Activated later in the Round, it cannot do anything in its Movement Step and its Action Limit has a -1 Modifier in its Action Step.</description>
     </rule>
     <rule name="Very Large" id="e830-f4ec-15e9-5ddf" hidden="false">
-      <description>A model with this Property suffers no Disorder from Collisions or Ramming actions, and is never prevented from Rallying by Proximity. When this model is the Target of a Broadside action, the opposing Admiral adds two Bonus Dice to the Broadside Roll. If this model is Destroyed, replace it with four Wreck markers. The first is positioned over the Centre Point of the model. This model’s Admiral then places the remaining three Markers, so that each is within 1” o f t he fi rst, a nd none are in contact with any Markers, models, or Terrain Features. Any Markers that cannot be placed in accordance with these rules are not placed.</description>
+      <description>When this model is Deployed, it does not need to be fully within its Admiral’s Deployment Zone as long as its Centre Point is within the Deployment Zone. A model with this Property suffers no Disorder from Collisions or Ramming actions, and is never prevented from Rallying by Proximity. When this model is the Target of a Broadside action, the opposing Admiral adds two Bonus Dice to the Broadside Roll. If this model is Destroyed, replace it with four Wreck markers. The first is positioned over the Centre Point of the model. This model’s Admiral then places the remaining three Markers, so that each is within 1” of the first, and none are in contact with any Markers, models, or Terrain Features. Any Markers that cannot be placed in accordance with these rules are not placed.</description>
     </rule>
     <rule name="Vitruvian Form" id="a8b9-7291-3925-bd43" hidden="false">
       <description>At the start of its Movement Step, this model can make a free Pivot before moving. In addition, this model must always Pivot when it Comes About, but these Pivots cost 1” of Movement instead of 2”. This model cannot declare a Ram.</description>
     </rule>
     <rule name="Wavelurker" id="fa62-a1f6-f498-408a" hidden="false">
-      <description>At the start of this model’s Movement Step, as long as it is not suffering from a Navigation Lock Critical Damage Effffect, the active Admiral can declare that it is Diving. Mark this by placing a Special Effffect token beside it. If the model already has a Special Effect token at the start of its Movement Step, it must return to the surface; the Token is removed, and its Admiral cannot declare that it is Diving. While this model is Diving, it can Pass Through other Surface models, and other Surface models can Pass Through it. A Diving model’s Mass is treated as 0 when determining whether it Blocks or Obscures another  model’s Visibility. However, a Diving model’s Visibility is never Blocked or Obscured by another model. (It is affected normally by Terrain Features.) 
-If a Diving model is targeted by an Attack or Broadside action, convert any Heavy or Exploding Strikes in the roll to Standard Strikes at the start of the Count Hits step. Attack actions made with Submerged Weapons ignore this rule. If a Diving model gains a Navigation Lock Critical Damage Effffect, it immediately stops Diving, and the Special Effect token is removed.</description>
+      <description>This model can Pass Through other Surface models during its Movement Step, and does not Block or Obscure Visibility when a friendly unit makes an Attack action. In addition, when this model is the target of an Attack action, any Standard Strikes in the Resistance Roll are converted to Standard Counters. This does not apply if the Attack action is being made with Assault or Submerged weapons. If this model has a Navigation Lock Critical Damage Effect, this Property has no effect.</description>
     </rule>
     <rule name="Resupply (x)" id="feaf-ff1d-dffe-4523" hidden="false">
-      <description>During the Launch Phase, the controlling Admiral may nominate this model’s unit, as if it were a Carrier unit, to make a Resupply Run. When a unit makes a Resupply Run, each model  launches X Resupply tokens. Each Token must be allocated to a friendly unit within 10” of the launching model. At the start of a unit’s Activation, each Resupply token allocated to it allows one model in the unit to Take On Supplies. A model that Takes On Supplies removes 1 level of Disorder, even if it would otherwise not be able to Rally. In addition, if the model has a Depleted status token on account of a weapon with the Limited quality, its Admiral may roll an Action Die; if they score a Strike of any kind, the Depleted status token is removed. All Resupply tokens allocated to the unit are then discarded, whether or not they were used.</description>
-    </rule>
-    <rule name="Resilient (Quality)" id="4eda-df24-6e96-7547" hidden="false">
-      <description>When this model is targeted by an Attack action of the listed Quality, any Heavy Strikes in the Action Roll are converted to Standard Strikes at the start of the Count Hits step.</description>
+      <description>During the Launch Phase, the controlling Admiral may nominate this model’s unit, as if it were a Carrier unit, to make a Resupply Run. When a unit makes a Resupply Run, each model launches X Resupply tokens. Each Token must be allocated to a friendly unit within 10” of the launching model. At the start of a unit’s Activation, each Resupply token allocated to it allows one model in the unit to Take On Supplies. A model that Takes On Supplies removes 1 level of Disorder, even if it would otherwise not be able to Rally. In addition, if the model has a Depleted status token, its Admiral can choose to make a Crew Check for it. If the check passes, the Depleted status token is removed. All Resupply tokens allocated to the unit are then discarded, whether or not they were used.</description>
     </rule>
     <rule name="Moon Pool" id="8b7e-a686-7777-7f00" hidden="false">
-      <description>An Empire unit within 10” of at least one friendly model with this Property benefits from Exo-sub Support, and gains the following benefits: If a unit with Exo-Sub Support uses the Raiding Parties rule, the X value of the Boarding Parties (X) property becomes three times the number of Escort tokens discarded, instead of twice the number. Each time an Escort token is discarded from a unit with Exo-Sub Support,  for any reason other than Raiding Parties, roll an Action Die. If the result shows a Standard Counter or a Heavy Counter, the Token remains in play.</description>
+      <description>An Empire unit within 10” of at least one friendly model with this Property benefits from Chita Support, and gains the following benefits:
+- If a unit with Chita Support uses the Raiding Parties rule, the X value of the Boarding Parties (X ) property  becomes three times the number of Escort tokens  discarded, instead of twice the number.
+- Each time an Escort token is discarded from a unit with Chita Support, for any reason other than Raiding  parties, roll an Action Die. If the result shows a Standard Counter or a Heavy Counter, the Token remains in play.</description>
     </rule>
     <rule name="Mobile" id="1d0b-f2d1-caad-083c" hidden="false">
       <description>At the start of its Movement Step, this model can make up to two free Pivots before moving. It must then move in a straight line, with the distance measured to and from the Centre Point at its starting position to the Centre Point at its finishing position. At the end of the move, it can make up to two free Pivots.</description>
@@ -105,7 +103,7 @@ If a Diving model is targeted by an Attack or Broadside action, convert any Hea
       <description>When an enemy SRS Stack resolves an Attack Run mission against this model’s unit, this Admiral immediately allocates one Scythe Fighters SRS token to this unit. If multiple models in the unit have this  Property, allocate one Scythe Fighter for each of them. The new Stack may then make an Interception Attempt as if they had been allocated to an Air Support mission.</description>
     </rule>
     <rule name="Microwave Control Node" id="ddf8-dc6d-3660-0127" hidden="false">
-      <description>Each time this model would suffer a Critical Damage Effffect, its Admiral can choose to Destroy a friendly Automata model within 10” instead. If they do, the Critical Damage Effect is not applied.</description>
+      <description>If this model suffers a Critical Damage Effect, its Admiral can make a Crew Check for it. If the Check is  passed, its Admiral nominates a friendly Automata model within 10” of this one. The nominated model is Destroyed, and this model does not suffer the Critical Damage Effect.</description>
     </rule>
     <rule name="Mechanical Soul" id="4869-05f3-3b02-6746" hidden="false">
       <description>This model’s Crew rating cannot be Modified Models with this Property are unaffected by Valour Effects enacted by their Admiral. They are affected by Special Valour Effects (enacted by either Admiral) as normal.</description>
@@ -113,8 +111,8 @@ If a Diving model is targeted by an Attack or Broadside action, convert any Hea
     <rule name="Maritime Patrol" id="9315-6329-c88e-6a18" hidden="false">
       <description>During Deployment, enemy models cannot be deployed within 10” of this model unless they are fully within  their own Deployment Zone. Additionally, if all models in a unit have this Property, the unit can be deployed in the Deploy an Airborne Unit step and placed anywhere in the Play Area that is at least 15” from the enemy Deployment Zone and not within Proximity of an enemy model.</description>
     </rule>
-    <rule name="Luftlancer Assault (x)" id="ca0b-8b1d-1a16-6bf4" hidden="false">
-      <description>The Target must be within 6” (rather than the usual 4”) of at least one model in the active unit with this Property. Any number of models in the active unit with this Property may Participate in the Action. Each  Participating model contributes X dice to the Action Roll.</description>
+    <rule name="Luftlancer Assault" id="ca0b-8b1d-1a16-6bf4" hidden="false">
+      <description>When this model’s unit makes a Boarding action, the target can be an Airborne model, and this model can Participate in the Action. In addition, when this model’s unit makes a  Boarding action, its Admiral can choose a Target that is  within 6” of this model. Models in the unit that have this Property can Participate as long as they are within 6” of the Target.</description>
     </rule>
     <rule name="Lone Wolf" id="743e-0546-3172-a98a" hidden="false">
       <description>This model’s unit cannot be a Parent Unit for an Attachment.</description>
@@ -136,17 +134,14 @@ If a Diving model is targeted by an Attack or Broadside action, convert any Hea
 
 For each Success scored in the Action Roll, the Target Model suffers 1 Damage. In addition, if the Action Roll results in at least one Success, the Target Model gains 1 level of Disorder.</description>
     </rule>
-    <rule name="Lingchi Shadow Jumpers (x)" id="a514-d8bd-ca20-3e92" hidden="false">
-      <description>This model’s unit can make Boarding actions that target Surface models. The Target must be within 6” (rather than the usual 4”) of at least one model in the active unit with this Property. Any number of  models in the active unit with this Property may Participate in the Action. Each Participating model contributes X dice to the Action Roll. If this model is targeted by a Boarding action, it adds X dice to its  Resistance Roll. Additionally, when this model’s unit inflicts at least one Critical Damage Effffect during a Boarding action in which it Participated, it immediately also inflicts a single Hazard Critical Damage Effect.</description>
-    </rule>
-    <rule name="Limited Capacitor" id="d374-f645-7fb4-85c1" hidden="false">
-      <description>If a model with this Property Participates in an Attack action, all Heavy Strikes in the Action Roll are converted to Standard Strikes.</description>
+    <rule name="Lingchi Shadow Jumpers" id="a514-d8bd-ca20-3e92" hidden="false">
+      <description>When this model’s unit makes a Boarding action, its Admiral can choose a Target that is within 6” of this model. Models in the unit that have this Property  can Participate as long as they are within 6” of the  Target. Additionally, if the Action Roll for the Boarding action scores at least one Success, the Target suffers  an additional Hazard Critical Damage Effect after the Action has been resolved.</description>
     </rule>
     <rule name="Levant" id="6f15-8ef7-7a35-716f" hidden="false">
       <description>Airborne models with this Property do not benefit from the Unconventional Target rule, but count as Scoring Models so  long as they are not Crippled.</description>
     </rule>
-    <rule name="Legionnaire Assault Pods (x)" id="6871-0416-21a6-14db" hidden="false">
-      <description>This model’s unit can make Boarding actions that target Surface models. When this model Participates in a Boarding action, it contributes X dice to the Action Roll. If the model’s Centre Point passed through the Target during the Movement Step of this Activation then the value of X is doubled.</description>
+    <rule name="Legionnaire Assault Pods" id="6871-0416-21a6-14db" hidden="false">
+      <description>When this model Participates in a Boarding action, and the Target is a Surface model which its Centre Point Passed Through in the preceding Movement Step, the  number of dice it contributes to the Action Roll is  doubled.</description>
     </rule>
     <rule name="Landing Party Support" id="9e02-cc15-4cdc-4fd4" hidden="false">
       <description>If this model is within 4” of a Territory at the end of its Movement Step, its Admiral can either add one token to an existing friendly Landing Party stack on that Territory, or remove one Token from an enemy Landing Party stack on that Territory</description>
@@ -163,7 +158,7 @@ For each Success scored in the Action Roll, the Target Model suffers 1 Damage. 
     <rule name="Heavy Transport (Trait)" id="847e-d740-1536-fde3" hidden="false">
       <description>Before making a Reserve Roll for a unit with the listed Trait, which is at its minimum Model Count, and which does not have the Capital trait, its Admiral can declare that it is being Transported on a friendly  model with this Property. They do not need to make a Reserve Roll for a Transported unit. Instead, they set up the unit so that each model is within 5” of this model. This model is then marked with a Depleted status Token, and no longer counts as having this Property. The Depleted status token cannot be removed for the rest of the game.</description>
     </rule>
-    <rule name="Haunebu Cascade" id="f36b-fe6b-5339-8929" hidden="false">
+    <rule name="Broadside Cascade" id="f36b-fe6b-5339-8929" hidden="false">
       <description>When this model Participates in a Broadside action, its flank batteries can Contribute even if the Target has a different Positional Trait.</description>
     </rule>
     <rule name="Ground Assault (x)" id="7778-8760-08b5-14ca" hidden="false">
@@ -193,11 +188,11 @@ For each Success scored in the Action Roll, the Target Model suffers 1 Damage. 
     <rule name="Deceptive Deployment" id="974e-2301-70ce-1e95" hidden="false">
       <description>During Deployment, this unit can make a Special Deployment Action to Redeploy, so long as it has been deployed to the Play Area. The active Admiral removes the unit from play, then deploys it again, following all of the standard rules for deployment. A unit can be redeployed to the Reserve, so long as it would normally be able to do so.</description>
     </rule>
-    <rule name="Bushi Ryu Dojos (x)" id="0d67-e266-5835-0f1b" hidden="false">
-      <description>This model’s unit can make Boarding actions that target Surface models. If this model’s unit is Airborne, it can also make Boarding actions that target Airborne models. When this model  Participates in a Boarding action, it contributes X dice to the Action Roll. In addition, its Admiral can re-roll any Blank results. If this model is targeted by a Boarding action, it adds X dice to its Resistance Roll. In addition, its Admiral can re-roll any Blank results.</description>
+    <rule name="Bushi Ryu Dojos" id="0d67-e266-5835-0f1b" hidden="false">
+      <description>When this model Participates in a Boarding action, its Admiral can re-roll any Blank results in the Action Roll. If this model is the Target of a Boarding action, its Admiral can re-roll any Blank results in the Resistance Roll.</description>
     </rule>
     <rule name="Boarding Parties (x)" id="3f8d-a077-655f-2cb3" hidden="false">
-      <description>This model’s unit can make Boarding actions that target Surface models. If this model is Participating in a Boarding action, it contributes X dice to the Action Roll. If this model is targeted by a Boarding action, it adds X dice to its Resistance Roll.</description>
+      <description>This model’s unit can make Boarding actions.  The Target must be a Surface model, unless another  rule states otherwise. If the unit launches a Boarding action against an Airborne or Underwater model, this model can only Participate if it has a rule that allows it to do so. If this model is Participating in a Boarding  action, it contributes X dice to the Action Roll. If this model is the Target of a Boarding action, its Admiral adds X dice to its Resistance Roll.</description>
     </rule>
     <rule name="Cloud Dive" id="143f-fed3-6d05-8b13" hidden="false">
       <description>When this unit is Deployed, its Admiral must choose to either deploy it to the Reserve, or set it aside and declare that it will perform a Cloud Dive. A unit performing a Cloud Dive is deployed in the Make a Special Deployment Action step of the Deployment Phase. Its Admiral places the unit anywhere in the Play Area so that none of its models are within 2” of an enemy model, or within 15” of the enemy  Deployment Zone. After a unit makes a Cloud Dive, it is marked with an Incoming status token, as though it had been deployed from Reserve.</description>
@@ -217,11 +212,11 @@ The active Admiral makes an Action Roll. There is no Resistance Roll. 
 &lt;B&gt;4. INFLICT DAMAGE&lt;/B&gt;
 For each Success scored in the Action Roll, the Target suffers 1  damage. The active Admiral then rolls a number of Critical Damage Dice equal to the amount of Damage inflicted. For each die showing a  Breach result, the Target suffers a single instance of that Critical Damage Effffect.</description>
     </rule>
-    <rule name="Azhdaya Berserkers (x)" id="411a-0183-8503-21aa" hidden="false">
-      <description>This model’s unit can make Boarding actions that target Surface models. If this model is Airborne and successfully Rams another Airborne model, its unit can make a Boarding action that targets that model in the subsequent Action Step. Only models that Rammed the Target Model can Participate in this Action. When this model Participates in a Boarding action, it contributes X dice to the Action Roll. If the Action Roll scores at least one Success, the target suffers an additional random Critical Damage Effect after the Boarding action has been resolved. If this model is targeted by a Boarding action, it adds X dice to its Resistance Roll.</description>
+    <rule name="Azhdaya Berserkers" id="411a-0183-8503-21aa" hidden="false">
+      <description>If at least one model with this Property Participates in a  Boarding action, and the Action Roll scores at least one  Success, the Target suffers an additional random Critical  Damage Effect after the Boarding action has been resolved.</description>
     </rule>
-    <rule name="Combat Divers (x)" id="5a7d-ffb1-b2c6-8c73" hidden="false">
-      <description>This model’s unit can make Boarding actions that target Underwater models. When this model Participates in a Boarding action, it contributes X dice to the Action Roll. If this model is targeted by a Boarding action, it adds X dice to its Resistance Roll.</description>
+    <rule name="Combat Divers" id="5a7d-ffb1-b2c6-8c73" hidden="false">
+      <description>This model’s unit can make Boarding actions that target Underwater models. When this model Participates in a Boarding action, it contributes X dice to the Action Roll. If this model is targeted by a  Boarding action, it adds X dice to its Resistance Roll.</description>
     </rule>
     <rule name="Flight Deck (Srs Type)" id="de1c-b6f4-77c8-258b" hidden="false">
       <description>If a unit contains at least one model with this Property, its Admiral can reinforce a single friendly SRS Stack at the end of the unit’s Movement Step. For each model in the unit with this Property, and within 10” of the model or Marker to which that Stack is allocated, add 1 SRS token of the listed type.</description>
@@ -237,6 +232,16 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
     </rule>
     <rule name="Reinforced Waterline" id="a338-bfbb-534e-f710" hidden="false">
       <description>When this model is targeted by an Attack action made with Submerged Weapons,  any Heavy Strikes in the Action Roll are converted to Standard Strikes at the start of the Count Hits step.</description>
+    </rule>
+    <rule name="Lightning Raid" id="9b77-78b0-cbfc-0ca1" hidden="false">
+      <description>If this model successfully Rams an Airborne model in its Movement Step,  its unit can make a Boarding action in its subsequent Action Step. The  Target must be the model that was Rammed, and only models that  Rammed the same enemy model can Participate. If the Target of this Action has the Boarding Parties (X ) property, its Admiral does not add X dice to the Resistance Roll.</description>
+    </rule>
+    <rule name="Reinforced Decking" id="72f0-dc9f-06c9-36ae" hidden="false">
+      <description>When this model is targeted by an Attack action made with Aerial Weapons, any Heavy Strikes in the  Action Roll are converted to Standard Strikes at the start of the Count Hits step.</description>
+    </rule>
+    <rule name="Vikingr" id="c27e-461d-9d0f-c638" hidden="false">
+      <description>When a unit resolves a Boarding action, the Target gains a number of Negative Effect tokens equal to the total Mass ratings of each Participating model that has this Property. (These Negative Effect tokens can be placed in a single stack.) This indicates that the target is Under Attack. On the target model’s next Activation, its unit can make a Special Action to Repel Boarders. Only models that are Under Attack can Participate, but a model can Participate in this Action multiple times during a single Activation. For each Participating model, the active Admiral rolls a number of Action Dice equal to the model’s Crew rating. For each Strike, they remove one Negative Effect token
+from the model. At the end of the model’s Activation, it suffers 1 Damage for each Negative Effect token it still has. Then, all of its Negative Effect tokens are  removed, and it is no longer Under Attack</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -310,9 +315,9 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
         <infoLink name="Inspirational (x”)" id="47d1-1b79-471a-63af" hidden="false" type="rule" targetId="27cb-a835-e5db-8151"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Legionnaire Assault Pods (x)" hidden="false" id="e042-e7c2-8b2e-bc6f">
+    <selectionEntry type="upgrade" import="true" name="Legionnaire Assault Pods" hidden="false" id="e042-e7c2-8b2e-bc6f">
       <infoLinks>
-        <infoLink name="Legionnaire Assault Pods (x)" id="a9ec-8998-f338-2c63" hidden="false" type="rule" targetId="6871-0416-21a6-14db"/>
+        <infoLink name="Legionnaire Assault Pods" id="a9ec-8998-f338-2c63" hidden="false" type="rule" targetId="6871-0416-21a6-14db"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Platform" hidden="false" id="8b55-6e9d-1920-b3e1">
@@ -322,7 +327,7 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Stockpile (x)" hidden="false" id="041c-5a70-3835-2f6b">
       <infoLinks>
-        <infoLink name="Mine Layer (x)" id="0827-9253-9f5d-d012" hidden="false" type="rule" targetId="fd04-efdc-62c6-9965"/>
+        <infoLink name="Stockpile (x)" id="0827-9253-9f5d-d012" hidden="false" type="rule" targetId="9505-574b-4df1-9013"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Auxiliary Mine Layer (x)" hidden="false" id="e343-3b86-5d52-78b7">
@@ -390,9 +395,9 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
         <infoLink name="Amphibious" id="1b0c-691c-99f2-5af7" hidden="false" type="rule" targetId="436a-f751-c4df-d423"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Azhdaya Berserkers (x)" hidden="false" id="9425-597a-1323-d965">
+    <selectionEntry type="upgrade" import="true" name="Azhdaya Berserkers" hidden="false" id="9425-597a-1323-d965">
       <infoLinks>
-        <infoLink name="Azhdaya Berserkers (x)" id="668c-7461-f5e3-05d8" hidden="false" type="rule" targetId="411a-0183-8503-21aa" exportable="false"/>
+        <infoLink name="Azhdaya Berserkers" id="668c-7461-f5e3-05d8" hidden="false" type="rule" targetId="411a-0183-8503-21aa" exportable="false"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Dirigible" hidden="false" id="c268-32da-ed02-28a0">
@@ -427,12 +432,12 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Bushi Ryu Dojos (x)" hidden="false" id="223b-79ad-5805-5c39">
       <infoLinks>
-        <infoLink name="Bushi Ryu Dojos (x)" id="56ae-458f-85e6-95f7" hidden="false" type="rule" targetId="0d67-e266-5835-0f1b"/>
+        <infoLink name="Bushi Ryu Dojos" id="56ae-458f-85e6-95f7" hidden="false" type="rule" targetId="0d67-e266-5835-0f1b"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Combat Divers (x)" hidden="false" id="2972-3fa4-72dc-44dd">
+    <selectionEntry type="upgrade" import="true" name="Combat Divers" hidden="false" id="2972-3fa4-72dc-44dd">
       <infoLinks>
-        <infoLink name="Combat Divers (x)" id="820d-fd4f-8fb8-1809" hidden="false" type="rule" targetId="5a7d-ffb1-b2c6-8c73"/>
+        <infoLink name="Combat Divers" id="820d-fd4f-8fb8-1809" hidden="false" type="rule" targetId="5a7d-ffb1-b2c6-8c73"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Encompassing Broadsides" hidden="false" id="cfcd-aa93-5d02-dc57">
@@ -475,9 +480,9 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
         <infoLink name="Temperamental" id="2441-3e03-f367-8a18" hidden="false" type="rule" targetId="8b38-5cb7-8113-fee8"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Sky Commandos (x)" hidden="false" id="df3b-ed90-abb5-c4cc">
+    <selectionEntry type="upgrade" import="true" name="Sky Commandos" hidden="false" id="df3b-ed90-abb5-c4cc">
       <infoLinks>
-        <infoLink name="Sky Commandos (x)" id="87d8-afd8-87b4-7ecd" hidden="false" type="rule" targetId="4609-4521-0cc6-b334"/>
+        <infoLink name="Sky Commandos" id="87d8-afd8-87b4-7ecd" hidden="false" type="rule" targetId="4609-4521-0cc6-b334"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Skimmer" hidden="false" id="39d4-76d6-bf21-5383">
@@ -505,9 +510,9 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
         <infoLink name="Flight Deck (Srs Type)" id="688c-8284-b643-514e" hidden="false" type="rule" targetId="de1c-b6f4-77c8-258b"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Haunebu Cascade" hidden="false" id="6f93-4444-338f-7cbb">
+    <selectionEntry type="upgrade" import="true" name="Broadside Cascade" hidden="false" id="6f93-4444-338f-7cbb">
       <infoLinks>
-        <infoLink name="Haunebu Cascade" id="dede-c264-b5f5-4286" hidden="false" type="rule" targetId="f36b-fe6b-5339-8929"/>
+        <infoLink name="Broadside Cascade" id="dede-c264-b5f5-4286" hidden="false" type="rule" targetId="f36b-fe6b-5339-8929"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy Transport (Trait)" hidden="false" id="d197-76a5-113e-96b8">
@@ -525,14 +530,9 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
         <infoLink name="Landstrider" id="4128-c822-0c59-63e7" hidden="false" type="rule" targetId="900d-c35b-cd53-d8a3"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Limited Capacitor" hidden="false" id="2d9a-849b-9822-db8c">
+    <selectionEntry type="upgrade" import="true" name="Lingchi Shadow Jumpers" hidden="false" id="1d5e-beaf-a858-035a">
       <infoLinks>
-        <infoLink name="Limited Capacitor" id="9ac8-f67b-ac93-8d15" hidden="false" type="rule" targetId="d374-f645-7fb4-85c1"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Lingchi Shadow Jumpers (x)" hidden="false" id="1d5e-beaf-a858-035a">
-      <infoLinks>
-        <infoLink name="Lingchi Shadow Jumpers (x)" id="a3d0-ddb8-1cd2-9e0d" hidden="false" type="rule" targetId="a514-d8bd-ca20-3e92"/>
+        <infoLink name="Lingchi Shadow Jumpers" id="a3d0-ddb8-1cd2-9e0d" hidden="false" type="rule" targetId="a514-d8bd-ca20-3e92"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Lone Wolf" hidden="false" id="5f22-596d-81de-f970">
@@ -542,7 +542,7 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Luftlancer Assault (x)" hidden="false" id="2fb9-4392-8ee2-3a76">
       <infoLinks>
-        <infoLink name="Luftlancer Assault (x)" id="4a69-53a0-a269-6ddd" hidden="false" type="rule" targetId="ca0b-8b1d-1a16-6bf4"/>
+        <infoLink name="Luftlancer Assault" id="4a69-53a0-a269-6ddd" hidden="false" type="rule" targetId="ca0b-8b1d-1a16-6bf4"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Mechanical Soul" hidden="false" id="a4a6-5f04-c46e-ab22">
@@ -585,11 +585,6 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
         <infoLink name="Raking Strike (x)" id="6193-1826-5720-faa3" hidden="false" type="rule" targetId="b8aa-e7c3-3032-4ff7"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Resilient (Quality)" hidden="false" id="204d-b091-629a-0a31">
-      <infoLinks>
-        <infoLink name="Resilient (Quality)" id="6fe6-5a98-cab5-d03f" hidden="false" type="rule" targetId="4eda-df24-6e96-7547"/>
-      </infoLinks>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Landing Party Support" hidden="false" id="d5a5-1501-6b9d-9042">
       <infoLinks>
         <infoLink name="Landing Party Support" id="73e2-aefc-6754-8166" hidden="false" type="rule" targetId="9e02-cc15-4cdc-4fd4"/>
@@ -600,6 +595,21 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
         <infoLink name="Reinforced Waterline" id="0cf8-ccdf-e437-de9a" hidden="false" type="rule" targetId="a338-bfbb-534e-f710"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lightning Raid" hidden="false" id="2a87-15c9-8cf6-f5cf">
+      <infoLinks>
+        <infoLink name="Lightning Raid" id="b8e3-6bfe-c201-bbda" hidden="false" type="rule" targetId="9b77-78b0-cbfc-0ca1"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Reinforced Decking" hidden="false" id="3f0c-c683-4df5-cae6">
+      <infoLinks>
+        <infoLink name="Reinforced Decking" id="81c6-6ebd-593e-2b95" hidden="false" type="rule" targetId="72f0-dc9f-06c9-36ae"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Vikingr" hidden="false" id="a7f0-19ec-3726-fa5a">
+      <infoLinks>
+        <infoLink name="Vikingr" id="d8e2-2a9f-3c8f-e071" hidden="false" type="rule" targetId="c27e-461d-9d0f-c638"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <readme>Revision 01: initial release Rules Glossary Beta 2
 Revision 02: initial release Rules Glossary Beta 3
@@ -607,5 +617,6 @@ Revision 03: initial release Rules Glossary Beta 3 (Properties)
 Revision 04: correction
 Revision 05: release Empire ORBAT Beta 3
 Revision 06: initial release Enlightened Beta 3 (Complete ORBAT release)
-Revision 07: release Alliance Beta 4 (Complete ORBAT release)</readme>
+Revision 07: release Alliance Beta 4 (Complete ORBAT release)
+Revision 08: release Commonwealth &amp; Emprire Beta 4 (Complete ORBAT release)</readme>
 </catalogue>

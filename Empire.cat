@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="fd78-5fd4-bf89-5e39" name="Empire" gameSystemId="1242-c30b-419f-8229" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="fd78-5fd4-bf89-5e39" name="Empire" gameSystemId="1242-c30b-419f-8229" gameSystemRevision="2" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Generator" id="f590-7a0f-a50f-2fe6" targetId="5a50-c7f6-8981-e1d8"/>
     <catalogueLink type="catalogue" name="SRS Properties" id="b47e-dea8-4a2f-102f" targetId="8084-b533-9713-767c"/>
@@ -72,7 +72,7 @@
         <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">9</characteristic>
         <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">6</characteristic>
         <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
-        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
         <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
         <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
         <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">10</characteristic>
@@ -114,7 +114,7 @@
         <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">8</characteristic>
         <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
         <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
-        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
         <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
         <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
         <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">10</characteristic>
@@ -153,8 +153,8 @@
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
         <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
-        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
-        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">6</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
         <characteristic name="HUL" typeId="6428-9828-bb2e-f923">7</characteristic>
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
         <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
@@ -167,7 +167,7 @@
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">2</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-7&quot;</characteristic>
         <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
-        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
         <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
         <characteristic name="HUL" typeId="6428-9828-bb2e-f923">4</characteristic>
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
@@ -181,7 +181,7 @@
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
         <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
-        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">6</characteristic>
         <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
         <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
@@ -195,10 +195,10 @@
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
         <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
-        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">6</characteristic>
         <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
         <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
-        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
         <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
         <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
         <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
@@ -209,7 +209,7 @@
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
         <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
-        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
         <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
         <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
@@ -223,13 +223,13 @@
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
         <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
-        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">6</characteristic>
         <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
         <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
         <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
         <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
-        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
       </characteristics>
     </profile>
     <profile name="Qiang" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="32d1-faae-51d6-bc14">
@@ -237,7 +237,7 @@
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
         <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
-        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">6</characteristic>
         <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
         <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
@@ -251,13 +251,13 @@
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">2</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-8&quot;</characteristic>
         <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">4</characteristic>
-        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
         <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
         <characteristic name="HUL" typeId="6428-9828-bb2e-f923">5</characteristic>
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
         <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
         <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
-        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
       </characteristics>
     </profile>
     <profile name="Chubu" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="92ff-fc18-686e-a4a0">
@@ -271,7 +271,7 @@
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
         <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
         <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
-        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
       </characteristics>
     </profile>
     <profile name="Hexie" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="1fa3-e99e-a608-d363">
@@ -279,7 +279,7 @@
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-9&quot;</characteristic>
         <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">4</characteristic>
-        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
         <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">2</characteristic>
         <characteristic name="HUL" typeId="6428-9828-bb2e-f923">3</characteristic>
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
@@ -293,13 +293,13 @@
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-9&quot;</characteristic>
         <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
-        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">6</characteristic>
         <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
         <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
         <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
         <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
-        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
       </characteristics>
     </profile>
     <profile name="Kyoto" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="6f18-4120-fab0-4079">
@@ -307,13 +307,13 @@
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-9&quot;</characteristic>
         <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">4</characteristic>
-        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
         <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
         <characteristic name="HUL" typeId="6428-9828-bb2e-f923">4</characteristic>
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
         <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
         <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
-        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
       </characteristics>
     </profile>
     <profile name="Mekong" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="9e63-ec1d-5276-b3fe">
@@ -335,7 +335,7 @@
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-7&quot;</characteristic>
         <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
-        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
         <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
         <characteristic name="HUL" typeId="6428-9828-bb2e-f923">3</characteristic>
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
@@ -344,7 +344,7 @@
         <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
       </characteristics>
     </profile>
-    <profile name="Barango" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="799c-7996-561f-5801">
+    <profile name="Offshore Defense Platform" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="799c-7996-561f-5801">
       <characteristics>
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
@@ -374,16 +374,16 @@
     </profile>
     <profile name="Kanagawa" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="a925-794e-7376-adbc">
       <characteristics>
-        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9"/>
-        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9"/>
-        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906"/>
-        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb"/>
-        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24"/>
-        <characteristic name="HUL" typeId="6428-9828-bb2e-f923"/>
-        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da"/>
-        <characteristic name="BRD" typeId="4c54-804a-8993-7325"/>
-        <characteristic name="REP" typeId="ff43-364b-8da9-bce9"/>
-        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2"/>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">6</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">6</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
       </characteristics>
     </profile>
     <profile name="Kansai" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="4365-fbf6-7cf1-4938">
@@ -397,10 +397,10 @@
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
         <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
         <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
-        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
       </characteristics>
     </profile>
-    <profile name="Malandok" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="a100-abe5-4c1e-3960">
+    <profile name="Offshore Heavy Platform" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="a100-abe5-4c1e-3960">
       <characteristics>
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
@@ -442,7 +442,7 @@
         <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">10</characteristic>
       </characteristics>
     </profile>
-    <profile name="Magwayen" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="f296-d3d7-8e31-f96a">
+    <profile name="Offshore Supply Platform" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="f296-d3d7-8e31-f96a">
       <characteristics>
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
@@ -481,7 +481,7 @@
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
         <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
         <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
-        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
       </characteristics>
     </profile>
     <profile name="Tianlong" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="523a-ccce-f89a-f866">
@@ -509,7 +509,7 @@
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
         <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
         <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
-        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
       </characteristics>
     </profile>
     <profile name="Ziwei" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="b5f8-7de6-60d6-fa8c">
@@ -545,7 +545,7 @@
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
         <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
-        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
         <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
         <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
@@ -605,9 +605,9 @@
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
         <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
-        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">6</characteristic>
         <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
-        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">6</characteristic>
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
         <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
         <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
@@ -625,7 +625,7 @@
         <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
         <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
         <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
-        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -644,7 +644,7 @@
             <entryLink import="true" name="Bushi Ryu Dojo" hidden="false" id="fecd-b3a7-ac6e-7731" type="selectionEntry" targetId="d981-4201-1bb4-1a42" sortIndex="1"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Weapons" id="7de5-6204-e667-f9ce" hidden="false" sortIndex="4">
+        <selectionEntryGroup name="Weapons" id="7de5-6204-e667-f9ce" hidden="false" sortIndex="4" defaultSelectionEntryId="4e41-2c07-2e57-e4d4">
           <entryLinks>
             <entryLink import="true" name="Generator" hidden="false" id="d7b5-ba07-8d8c-fb66" type="selectionEntryGroup" targetId="8933-8b5b-95f9-aa82" sortIndex="4">
               <modifiers>
@@ -733,7 +733,9 @@
           </constraints>
           <categoryLinks>
             <categoryLink name="ACB8--" hidden="false" id="7341-24db-4a01-9132" targetId="1981-892a-2f6e-74a9" primary="false"/>
-            <categoryLink name="HHq74-" hidden="false" id="a192-2a08-6672-a579" targetId="a0ea-ab19-c014-b9b1" primary="false"/>
+            <categoryLink name="HAR-6-" hidden="false" id="b713-531f-bb6e-8546" targetId="03ee-e553-99a7-f48f" primary="false"/>
+            <categoryLink name="HGB46-" hidden="false" id="7a1d-5ab0-0910-49ee" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="HHq6--" hidden="false" id="91d5-2684-b89f-8e23" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
           </categoryLinks>
           <modifiers>
             <modifier type="set" value="2" field="8b24-d955-b056-b20a">
@@ -841,10 +843,10 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="247f-d10b-4993-daae" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Cloud Dive" hidden="true" id="07df-e2b0-01b7-17d5" targetId="771c-bace-0de5-61c3" type="selectionEntry">
+            <entryLink import="true" name="Cloud Dive" hidden="true" id="2af1-3d1d-4af4-8dc4" targetId="771c-bace-0de5-61c3" type="selectionEntry">
               <constraints>
-                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="aa3d-4750-37f5-e5d2" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="add8-c31b-63e0-607b" includeChildSelections="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0679-e86b-ea59-4065" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="91b8-8e1f-bcdf-cc7f" includeChildSelections="false"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -852,7 +854,7 @@
                     <condition type="instanceOf" value="1" field="selections" scope="force" childId="da50-084a-13d8-8f63" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" value="1" field="aa3d-4750-37f5-e5d2">
+                <modifier type="set" value="1" field="0679-e86b-ea59-4065">
                   <conditions>
                     <condition type="greaterThan" value="0" field="selections" scope="force" childId="da50-084a-13d8-8f63" shared="true" includeChildSelections="true"/>
                   </conditions>
@@ -988,8 +990,9 @@
             <entryLink import="true" name="Generator" hidden="false" id="9b12-f48a-a08e-f225" type="selectionEntryGroup" targetId="8933-8b5b-95f9-aa82" sortIndex="9"/>
           </entryLinks>
           <categoryLinks>
-            <categoryLink name="LAR-7-" hidden="false" id="02b3-4e25-8467-bc80" targetId="1bd5-658c-7a06-7e4a" primary="false"/>
-            <categoryLink name="HGB79-" hidden="false" id="70a7-9043-6c02-39a5" targetId="09b3-b04c-f8fd-fc60" primary="false"/>
+            <categoryLink name="HGB68-" hidden="false" id="64d7-deca-1974-5e92" targetId="4831-7502-5a79-b08d" primary="false"/>
+            <categoryLink name="HAR-8-" hidden="false" id="7f54-8e4e-00c7-9bbc" targetId="e884-df2a-586e-816d" primary="false"/>
+            <categoryLink name="LAR-6-" hidden="false" id="caf5-7692-5270-739b" targetId="162f-d795-f376-9abd" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Hardpoint Heavy (Front First)" id="5d61-2258-391b-87f1" hidden="false" defaultSelectionEntryId="4bdf-f4a2-ece6-d647" sortIndex="5">
@@ -1111,7 +1114,7 @@
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Hardpoint Heavy (Front Third)" id="16bb-541b-37b1-c742" hidden="false" defaultSelectionEntryId="2b32-eafb-b2ac-374b" sortIndex="7">
+            <selectionEntryGroup name="Hardpoint Heavy (Front Third)" id="16bb-541b-37b1-c742" hidden="false" defaultSelectionEntryId="7e42-49ea-494f-20ed" sortIndex="7">
               <entryLinks>
                 <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="7e42-49ea-494f-20ed" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
                   <constraints>
@@ -1158,7 +1161,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Barango" hidden="false" id="ec4c-3508-eb02-129d">
+    <selectionEntry type="model" import="true" name="Offshore Defence Platform" hidden="false" id="ec4c-3508-eb02-129d">
       <infoLinks>
         <infoLink name="Barango" id="b6fb-a541-3d63-3f5e" hidden="false" type="profile" targetId="799c-7996-561f-5801"/>
       </infoLinks>
@@ -1194,12 +1197,12 @@
                 <modifier type="set" value="Auxiliary Mine Layer (3)" field="name"/>
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
-                    <condition type="greaterThan" value="0" field="selections" scope="ec4c-3508-eb02-129d" childId="245b-a017-14a6-d4f8" shared="true"/>
+                    <condition type="greaterThan" value="0" field="selections" scope="ec4c-3508-eb02-129d" childId="d501-e65c-adda-0d11" shared="true"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="1" field="a3e7-e3dc-417d-d9bf">
                   <conditions>
-                    <condition type="greaterThan" value="0" field="selections" scope="ec4c-3508-eb02-129d" childId="245b-a017-14a6-d4f8" shared="true"/>
+                    <condition type="greaterThan" value="0" field="selections" scope="ec4c-3508-eb02-129d" childId="d501-e65c-adda-0d11" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1210,7 +1213,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f067-2159-b78f-f2ba" includeChildSelections="false"/>
               </constraints>
               <modifiers>
-                <modifier type="set" value="Attachment (Malandok, Magwayen)" field="name"/>
+                <modifier type="set" value="Attachment (Platform)" field="name"/>
               </modifiers>
             </entryLink>
           </entryLinks>
@@ -1237,17 +1240,6 @@
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c521-d49b-1e32-04e0" includeChildSelections="false"/>
         <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="69c3-7983-2c38-2a87" includeChildSelections="false"/>
       </constraints>
-      <entryLinks>
-        <entryLink import="true" name="Defensive Mines" hidden="false" id="245b-a017-14a6-d4f8" type="selectionEntry" targetId="d501-e65c-adda-0d11" sortIndex="1">
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4cec-a877-ad69-0968" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Weapons" id="1e32-5a66-31f7-7d0f" hidden="false" exportable="false" sortIndex="4">
           <selectionEntryGroups>
@@ -1289,8 +1281,15 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="c8af-5106-e74a-7bd4" includeChildSelections="false"/>
           </constraints>
           <categoryLinks>
-            <categoryLink name="HHq72-" hidden="false" id="f210-a307-27e0-574b" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="HGB46-" hidden="false" id="c2d2-2bef-817f-34f2" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="HAR-6-" hidden="false" id="0f5b-87e9-b1e8-4c3b" targetId="03ee-e553-99a7-f48f" primary="false"/>
+            <categoryLink name="HHq6--" hidden="false" id="35d0-fb00-faa1-6383" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
           </categoryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Upgrade" id="abe7-9c56-cb07-b4ef" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink import="true" name="Defensive Mines" hidden="false" id="4130-819b-01f5-c8b9" type="selectionEntry" targetId="d501-e65c-adda-0d11"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <categoryLinks>
@@ -1357,24 +1356,26 @@
             </entryLink>
           </entryLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="3dca-1e8f-7fb4-14b3" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Torpedo Salvo" hidden="false" id="1933-2f50-85ba-a25d" type="selectionEntry" targetId="61fe-f84f-5e2d-d0a6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="57d1-1bd9-708f-4e14" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b27d-89be-527c-bbf9" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c174-5f2e-9e36-44c6" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4666-8819-5ebe-403a" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
       </selectionEntries>
       <categoryLinks>
         <categoryLink name="Empire" hidden="false" id="0e21-c6d8-4682-96f8" targetId="ce97-a91c-c2c9-c566" primary="true"/>
         <categoryLink name="Submarine" hidden="false" id="36fe-9aec-403f-9751" targetId="6996-f3f4-a695-3bc3" primary="false"/>
         <categoryLink name="Light Vessel" hidden="false" id="0805-5ab9-b939-f4e7" targetId="49e0-1009-c7ce-ee43" primary="false"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Weapons" id="d65b-b2a9-224f-8d58" hidden="false" sortIndex="2">
-          <entryLinks>
-            <entryLink import="true" name="Torpedo Salvo" hidden="false" id="c442-9dda-6ff4-3d37" type="selectionEntry" targetId="61fe-f84f-5e2d-d0a6" sortIndex="2">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="af87-ba70-ae0d-8a0d" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="d88c-a691-fbe4-bcf0" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Dao" hidden="false" id="6e9e-9fc1-fd38-0cbb">
       <infoLinks>
@@ -1513,7 +1514,11 @@
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink name="HHq72-" hidden="false" id="8392-ad89-e199-bf66" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="HGB46-" hidden="false" id="de17-7f56-3bbc-35de" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="HAR-6-" hidden="false" id="2bdc-5cb4-78fe-6bc4" targetId="03ee-e553-99a7-f48f" primary="false"/>
+            <categoryLink name="HHq6--" hidden="false" id="8db2-555b-aed7-edce" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="LAR-4-" hidden="false" id="d9d0-771f-974f-5894" targetId="8da1-292c-89a5-0566" primary="false"/>
+            <categoryLink name="CM-33" hidden="false" id="b9d0-bdc7-9591-b356" targetId="d803-0f73-a950-854e" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1657,6 +1662,10 @@
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink name="LAR-3-" hidden="false" id="217c-02d4-102f-e498" targetId="8426-2a53-ec78-7d0a" primary="false"/>
+            <categoryLink name="CM-22" hidden="false" id="46ae-624f-1c3e-a50c" targetId="dce4-43aa-7df8-d329" primary="false"/>
+          </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
@@ -1733,7 +1742,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="06a4-5d86-4a54-5448" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Lingchi Shadow Jumpers (x)" hidden="false" id="29a6-5df6-59e5-5dbc" targetId="1d5e-beaf-a858-035a" type="selectionEntry">
+            <entryLink import="true" name="Lingchi Shadow Jumpers" hidden="false" id="29a6-5df6-59e5-5dbc" targetId="1d5e-beaf-a858-035a" type="selectionEntry">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d9f2-3401-977c-7921" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="888d-9c15-0d2c-7ceb" includeChildSelections="false"/>
@@ -1779,9 +1788,9 @@
           <categoryLinks>
             <categoryLink name="HGB68-" hidden="false" id="3e48-8541-dedd-6631" targetId="4831-7502-5a79-b08d" primary="false"/>
             <categoryLink name="HAR-8-" hidden="false" id="d0ed-f043-cf1d-79f1" targetId="e884-df2a-586e-816d" primary="false"/>
-            <categoryLink name="LAR-6-" hidden="false" id="af58-abf7-8978-6663" targetId="162f-d795-f376-9abd" primary="false"/>
-            <categoryLink name="CM-55" hidden="false" id="ed30-b1da-365a-c285" targetId="f112-8239-213d-52f7" primary="false"/>
             <categoryLink name="LGB46-" hidden="false" id="3240-24fe-18ee-1ce1" targetId="3fbe-12c7-d1f5-f7a8" primary="false"/>
+            <categoryLink name="LAR-6-" hidden="false" id="ee6a-16c5-3de0-0a53" targetId="162f-d795-f376-9abd" primary="false"/>
+            <categoryLink name="CM-55" hidden="false" id="f22f-e220-a704-d0a9" targetId="f112-8239-213d-52f7" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Hardpoint Heavy (Front First)" id="88ea-7801-f9a0-fffb" hidden="false" defaultSelectionEntryId="76f6-19a5-1f12-39ae" sortIndex="1">
@@ -2020,9 +2029,11 @@
             <categoryLink name="Systems" hidden="false" id="a4e8-58a7-79f7-bbad" targetId="9ff7-ad4d-c560-d893" primary="false"/>
           </categoryLinks>
         </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Weapons" id="e5ec-d9b0-3573-b89c" hidden="false" sortIndex="3">
+        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="2b7d-e4f9-631f-95dc" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e4dc-2856-4ee3-8bfd" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ca7-4882-0dc0-e9b2" includeChildSelections="false"/>
+          </constraints>
           <entryLinks>
             <entryLink import="true" name="Heavy Torpedo Salvo" hidden="false" id="f641-dd9f-3065-f207" type="selectionEntry" targetId="4981-770c-d30e-3f56" sortIndex="1">
               <constraints>
@@ -2059,14 +2070,10 @@
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink name="LAR-7-" hidden="false" id="9441-f1e3-6b18-7137" targetId="1bd5-658c-7a06-7e4a" primary="false"/>
+            <categoryLink name="LAR-6-" hidden="false" id="e816-5279-348c-b518" targetId="162f-d795-f376-9abd" primary="false"/>
           </categoryLinks>
-          <constraints>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="d65e-50e4-25a9-dab6" includeChildSelections="false"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="b8b7-3585-6a61-ce79" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
       <categoryLinks>
         <categoryLink name="Empire" hidden="false" id="5851-c8ea-ee0f-76e6" targetId="ce97-a91c-c2c9-c566" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="8d3e-bd34-703f-db52" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
@@ -2098,7 +2105,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ca8-667f-4796-3051" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Lingchi Shadow Jumpers (x)" hidden="false" id="a08d-3bbf-a1ed-6fcf" targetId="1d5e-beaf-a858-035a" type="selectionEntry">
+            <entryLink import="true" name="Lingchi Shadow Jumpers" hidden="false" id="a08d-3bbf-a1ed-6fcf" targetId="1d5e-beaf-a858-035a" type="selectionEntry">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9163-54dc-96f0-d560" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2a7-c4dc-ee55-2650" includeChildSelections="false"/>
@@ -2136,45 +2143,167 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="aee6-941f-1ad7-acc8" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Light Alchemical Rockets" hidden="false" id="9481-14ad-a076-d252" type="selectionEntry" targetId="3d41-96c2-7f9c-0962" sortIndex="2">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="5159-2d9e-5310-fd78" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="563c-ef5a-aed1-aefd" includeChildSelections="false"/>
-              </constraints>
-              <modifiers>
-                <modifier type="add" value="dbb4-f494-5436-974d" field="category"/>
-              </modifiers>
-            </entryLink>
-            <entryLink import="true" name="Light Alchemical Rockets" hidden="false" id="df5b-e325-5563-6583" type="selectionEntry" targetId="3d41-96c2-7f9c-0962" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="5143-6dd6-bf52-8e2a" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="c91b-4938-c60e-bfee" includeChildSelections="false"/>
-              </constraints>
-              <modifiers>
-                <modifier type="add" value="4497-c078-59d8-a1e7" field="category"/>
-              </modifiers>
-            </entryLink>
-            <entryLink import="true" name="Light Alchemical Rockets" hidden="false" id="036a-f9f6-56ad-78e6" type="selectionEntry" targetId="3d41-96c2-7f9c-0962" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="c5d1-aca8-d7b1-c0de" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="36e3-567b-5220-2a6a" includeChildSelections="false"/>
-              </constraints>
-              <modifiers>
-                <modifier type="add" value="8a4b-1b3e-856f-dbdf" field="category"/>
-              </modifiers>
-            </entryLink>
+            <entryLink import="true" name="Generator" hidden="false" id="57f2-f22f-baef-6365" type="selectionEntryGroup" targetId="8933-8b5b-95f9-aa82" sortIndex="6"/>
           </entryLinks>
           <categoryLinks>
-            <categoryLink name="HAR-8-" hidden="false" id="0ba1-79bd-ef06-815e" targetId="e884-df2a-586e-816d" primary="false"/>
             <categoryLink name="HGB68-" hidden="false" id="25fd-b6bc-487b-e687" targetId="4831-7502-5a79-b08d" primary="false"/>
-            <categoryLink name="LAR-6-" hidden="false" id="7314-804d-085f-5a27" targetId="162f-d795-f376-9abd" primary="false"/>
-            <categoryLink name="CM-55" hidden="false" id="86c8-ef79-38d9-efcf" targetId="f112-8239-213d-52f7" primary="false"/>
-            <categoryLink name="LGB46-" hidden="false" id="f6e8-9b2f-882d-47d5" targetId="3fbe-12c7-d1f5-f7a8" primary="false"/>
+            <categoryLink name="HAR-8-" hidden="false" id="7870-6f12-a539-c541" targetId="e884-df2a-586e-816d" primary="false"/>
+            <categoryLink name="LGB46-" hidden="false" id="74ca-fca2-c206-6d09" targetId="3fbe-12c7-d1f5-f7a8" primary="false"/>
+            <categoryLink name="LAR-6-" hidden="false" id="8186-2b01-645d-7b1b" targetId="162f-d795-f376-9abd" primary="false"/>
+            <categoryLink name="CM-55" hidden="false" id="73e2-28e1-b105-c858" targetId="f112-8239-213d-52f7" primary="false"/>
           </categoryLinks>
           <constraints>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="7892-20eb-7302-5e62" includeChildSelections="false"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="1da4-1ed2-4ce7-ea9c" includeChildSelections="false"/>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="7892-20eb-7302-5e62" includeChildSelections="false"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="1da4-1ed2-4ce7-ea9c" includeChildSelections="false"/>
           </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Hardpoint Heavy (Front First)" id="5f7a-53c6-b552-e71e" hidden="false" defaultSelectionEntryId="7217-e83f-6c4c-fd85" sortIndex="2">
+              <entryLinks>
+                <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="7217-e83f-6c4c-fd85" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="a9c7-c1b3-4bff-94ea" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Heavy Alchemical Rockets" hidden="false" id="4dd1-366a-e01e-96f6" type="selectionEntry" targetId="939e-b039-7b56-22ee" sortIndex="2">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="2252-3fee-e005-89c5" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Heavy Huoqiang" hidden="false" id="56e1-2411-c394-62cd" type="selectionEntry" targetId="c141-1ddb-72f0-ea53" sortIndex="3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="a0ca-1a0a-e118-c14c" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="cc7f-f47b-1045-8a62" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="4397-0f9c-9432-0f4b" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="0" field="cc7f-f47b-1045-8a62">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="fc8e-f368-48f2-fc1a" childId="25b9-7f26-cbd9-e68f" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Hardpoint Heavy (Front Second)" id="aab0-9fd1-1325-b21a" hidden="false" defaultSelectionEntryId="cd39-3b14-1220-bc3e" sortIndex="3">
+              <entryLinks>
+                <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="cd39-3b14-1220-bc3e" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8baf-b6a9-80d0-e9eb" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Heavy Alchemical Rockets" hidden="false" id="23a4-8a0d-26e8-1f91" type="selectionEntry" targetId="939e-b039-7b56-22ee" sortIndex="2">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="62ba-61ac-a84f-fe0e" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Heavy Huoqiang" hidden="false" id="4f29-a873-daeb-97a0" type="selectionEntry" targetId="c141-1ddb-72f0-ea53" sortIndex="3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="eff1-edc4-ceae-7c4e" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="57dd-76d8-03d5-13ac" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8491-6c5d-1b53-6383" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="0" field="57dd-76d8-03d5-13ac">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="fc8e-f368-48f2-fc1a" childId="25b9-7f26-cbd9-e68f" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <categoryLinks>
+                <categoryLink name="Empire" hidden="false" id="2ccf-45c5-dc16-cda9" targetId="ce97-a91c-c2c9-c566" primary="true"/>
+                <categoryLink name="Ship" hidden="false" id="5ad8-78ab-314c-543b" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
+              </categoryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Hardpoint Light (Port)" id="4285-5cea-6892-ffe4" hidden="false" defaultSelectionEntryId="fdea-8ea9-0321-cb51" sortIndex="4">
+              <entryLinks>
+                <entryLink import="true" name="Light Gun Battery" hidden="false" id="9f32-774b-46e3-3bab" type="selectionEntry" targetId="54ff-d6e2-03f0-f6f5" sortIndex="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="f22d-4f55-976e-f89f" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="add" value="38d7-3e65-b5bc-195a" field="category"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Corrosive Mortars" hidden="false" id="4d9b-d08f-62a9-907f" type="selectionEntry" targetId="a185-3ee9-2ed9-08b8" sortIndex="2">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="fc47-d5f1-3687-6adf" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="add" value="38d7-3e65-b5bc-195a" field="category"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Light Alchemical Rockets" hidden="false" id="fdea-8ea9-0321-cb51" type="selectionEntry" targetId="3d41-96c2-7f9c-0962" sortIndex="3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="795d-446f-5add-9ad8" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="add" value="38d7-3e65-b5bc-195a" field="category"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b7a1-ba76-f903-751c" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0df7-7362-46f5-e755" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Hardpoint Light (Starboard)" id="41c2-f18d-3628-018b" hidden="false" defaultSelectionEntryId="b8a4-09ee-44e3-5a5e" sortIndex="5">
+              <entryLinks>
+                <entryLink import="true" name="Light Gun Battery" hidden="false" id="22ac-11e6-ed0c-506e" type="selectionEntry" targetId="54ff-d6e2-03f0-f6f5" sortIndex="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="a05f-c716-fb28-7f6e" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="add" value="3efb-647e-5bee-802e" field="category"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Corrosive Mortars" hidden="false" id="678f-a5ec-5c0e-470f" type="selectionEntry" targetId="a185-3ee9-2ed9-08b8" sortIndex="2">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="bee8-93bb-65c2-8992" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="add" value="3efb-647e-5bee-802e" field="category"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Light Alchemical Rockets" hidden="false" id="b8a4-09ee-44e3-5a5e" type="selectionEntry" targetId="3d41-96c2-7f9c-0962" sortIndex="3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="b8d6-8ec3-1d64-3753" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="add" value="3efb-647e-5bee-802e" field="category"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c21-9200-b967-d724" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc5c-6f52-cb76-9a01" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
@@ -2248,23 +2377,25 @@
             </entryLink>
           </entryLinks>
         </selectionEntry>
-      </selectionEntries>
-      <constraints>
-        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="60d2-40c5-ee88-504c" includeChildSelections="false"/>
-        <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="f8a7-53a6-dd31-8812" includeChildSelections="false"/>
-      </constraints>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Weapons" id="8f25-8342-81fa-e716" hidden="false" sortIndex="3">
+        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="75eb-cb55-68c4-a0b4" sortIndex="3">
           <entryLinks>
-            <entryLink import="true" name="Flak Gun" hidden="false" id="3884-afe0-afb2-a6bc" type="selectionEntry" targetId="c34a-ba08-fbf9-a527" sortIndex="2">
+            <entryLink import="true" name="Flak Gun" hidden="false" id="3884-afe0-afb2-a6bc" type="selectionEntry" targetId="c34a-ba08-fbf9-a527">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="9e41-5309-022f-4a2c" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="45ea-f3e5-534f-4708" includeChildSelections="false"/>
               </constraints>
             </entryLink>
           </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8db8-beb3-1acc-36cf" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ac6-138a-506e-681c" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="60d2-40c5-ee88-504c" includeChildSelections="false"/>
+        <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="f8a7-53a6-dd31-8812" includeChildSelections="false"/>
+      </constraints>
       <categoryLinks>
         <categoryLink name="Empire" hidden="false" id="12af-fd51-9413-909d" targetId="ce97-a91c-c2c9-c566" primary="true"/>
         <categoryLink name="Light Vessel" hidden="false" id="f6af-9cd5-6d44-6a44" targetId="49e0-1009-c7ce-ee43" primary="false"/>
@@ -2333,11 +2464,13 @@
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink name="LAR-7-" hidden="false" id="30eb-e38b-5b0e-74d8" targetId="1bd5-658c-7a06-7e4a" primary="false"/>
-            <categoryLink name="HHq72-" hidden="false" id="a924-74da-87b0-ff69" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="HGB46-" hidden="false" id="ae80-8ba1-8bd5-7eda" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="HAR-6-" hidden="false" id="2845-6792-7c8c-7b09" targetId="03ee-e553-99a7-f48f" primary="false"/>
+            <categoryLink name="HHq6--" hidden="false" id="20ce-af2e-4a61-a15e" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="LGB24-" hidden="false" id="0633-9c10-326b-2205" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Hardpoint Heavy (Front First)" id="f9fd-763c-6e91-de63" hidden="false" defaultSelectionEntryId="4bdf-f4a2-ece6-d647" sortIndex="3">
+            <selectionEntryGroup name="Hardpoint Heavy (Front First)" id="f9fd-763c-6e91-de63" hidden="false" defaultSelectionEntryId="bb27-e170-d86e-e79c" sortIndex="3">
               <entryLinks>
                 <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="bb27-e170-d86e-e79c" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
                   <constraints>
@@ -2376,7 +2509,7 @@
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Hardpoint Heavy (Front Second)" id="01b0-e0c2-cf34-1cbe" hidden="false" defaultSelectionEntryId="2888-862d-6fe8-73d8" sortIndex="4">
+            <selectionEntryGroup name="Hardpoint Heavy (Front Second)" id="01b0-e0c2-cf34-1cbe" hidden="false" defaultSelectionEntryId="183c-151f-3559-eaff" sortIndex="4">
               <entryLinks>
                 <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="183c-151f-3559-eaff" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
                   <constraints>
@@ -2502,8 +2635,10 @@
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink name="LAR-7-" hidden="false" id="9384-197a-a516-fc95" targetId="1bd5-658c-7a06-7e4a" primary="false"/>
-            <categoryLink name="HHq72-" hidden="false" id="263d-c276-e9d1-0059" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="HGB46-" hidden="false" id="54f4-d54e-d6f7-3ab5" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="HAR-6-" hidden="false" id="9ff5-ce04-baf8-33ef" targetId="03ee-e553-99a7-f48f" primary="false"/>
+            <categoryLink name="HHq6--" hidden="false" id="a4bb-62ca-b0d8-2519" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="LGB24-" hidden="false" id="d4bf-4cd3-d5c0-c37e" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Hardpoint Heavy (Front First)" id="f693-09f9-a032-4a64" hidden="false" defaultSelectionEntryId="4bdf-f4a2-ece6-d647" sortIndex="3">
@@ -2732,11 +2867,12 @@
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink name="LAR-7-" hidden="false" id="0cf2-7a14-2319-03d8" targetId="1bd5-658c-7a06-7e4a" primary="false"/>
-            <categoryLink name="HHq72-" hidden="false" id="4198-de9d-4099-6733" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="HGB46-" hidden="false" id="69ff-2e50-a73b-79cd" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="HAR-6-" hidden="false" id="b8c5-cfc6-3946-fc03" targetId="03ee-e553-99a7-f48f" primary="false"/>
+            <categoryLink name="HHq6--" hidden="false" id="4279-2113-7479-2a87" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Hardpoint Heavy (Front)" id="c235-a89c-658c-792c" hidden="false" defaultSelectionEntryId="4bdf-f4a2-ece6-d647" sortIndex="3">
+            <selectionEntryGroup name="Hardpoint Heavy (Front)" id="c235-a89c-658c-792c" hidden="false" defaultSelectionEntryId="fa1a-3acd-600a-9462" sortIndex="3">
               <entryLinks>
                 <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="fa1a-3acd-600a-9462" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
                   <constraints>
@@ -2775,7 +2911,7 @@
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Hardpoint Heavy (Rear)" id="ec25-6255-7880-ad07" hidden="false" defaultSelectionEntryId="2888-862d-6fe8-73d8" sortIndex="4">
+            <selectionEntryGroup name="Hardpoint Heavy (Rear)" id="ec25-6255-7880-ad07" hidden="false" defaultSelectionEntryId="2be9-d402-119a-a4e7" sortIndex="4">
               <entryLinks>
                 <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="2be9-d402-119a-a4e7" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
                   <constraints>
@@ -2813,10 +2949,6 @@
                   </conditions>
                 </modifier>
               </modifiers>
-              <categoryLinks>
-                <categoryLink name="Empire" hidden="false" id="d5db-e4f2-be2c-e993" targetId="ce97-a91c-c2c9-c566" primary="true"/>
-                <categoryLink name="Ship" hidden="false" id="1bd7-2960-3d73-1218" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
-              </categoryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
@@ -2836,6 +2968,10 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Empire" hidden="false" id="d6a5-9b1b-0053-5147" targetId="ce97-a91c-c2c9-c566" primary="true"/>
+        <categoryLink name="Ship" hidden="false" id="c5ed-d921-359b-6518" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Kanagawa" hidden="false" id="2597-aeb4-fa40-7c55">
       <infoLinks>
@@ -2867,8 +3003,9 @@
             <entryLink import="true" name="Generator" hidden="false" id="72fb-55c8-7fd6-8079" type="selectionEntryGroup" targetId="8933-8b5b-95f9-aa82" sortIndex="5"/>
           </entryLinks>
           <categoryLinks>
-            <categoryLink name="LAR-7-" hidden="false" id="b198-febb-4433-6833" targetId="1bd5-658c-7a06-7e4a" primary="false"/>
-            <categoryLink name="HHq72-" hidden="false" id="de19-159f-4017-b68f" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="HGB46-" hidden="false" id="6015-b020-72e1-d676" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="HAR-6-" hidden="false" id="2743-de95-27ba-0c6b" targetId="03ee-e553-99a7-f48f" primary="false"/>
+            <categoryLink name="HHq6--" hidden="false" id="91e2-f641-7512-82cc" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Hardpoint Heavy" id="214c-a790-3667-030e" hidden="false" defaultSelectionEntryId="f660-82c0-cec5-2d9b" sortIndex="3">
@@ -3018,21 +3155,40 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d54b-e24c-5107-4c65" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Flight Deck (Srs Type)" hidden="true" id="a3a5-bc61-7bde-e9a2" targetId="10d3-d569-79e3-3cab" type="selectionEntry">
+            <entryLink import="true" name="Carrier (x)" hidden="true" id="a3a5-bc61-7bde-e9a2" targetId="4292-c313-64f8-43c0" type="selectionEntry">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="dc31-2f81-2703-026c" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f344-e9d0-3368-2de3" includeChildSelections="false"/>
               </constraints>
               <modifiers>
-                <modifier type="set" value="Flight Deck (Rin Exo-Submersible)" field="name"/>
+                <modifier type="set" value="Carrier (3)" field="name"/>
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
-                    <condition type="greaterThan" value="0" field="selections" scope="3c2c-b7ab-1f09-264a" childId="d998-56fa-1684-ec71" shared="true"/>
+                    <condition type="greaterThan" value="0" field="selections" scope="3c2c-b7ab-1f09-264a" childId="f323-cc7e-1343-9431" shared="true"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="1" field="dc31-2f81-2703-026c">
                   <conditions>
-                    <condition type="greaterThan" value="0" field="selections" scope="3c2c-b7ab-1f09-264a" childId="d998-56fa-1684-ec71" shared="true"/>
+                    <condition type="greaterThan" value="0" field="selections" scope="3c2c-b7ab-1f09-264a" childId="f323-cc7e-1343-9431" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="SRS (Type)" hidden="true" id="6afa-3a79-6f28-3084" targetId="4c55-cec1-fd82-99e5" type="selectionEntry">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ac4e-805d-d070-1616" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f4c-e623-7f5d-0626" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="SRS (Rin Exo-Submersible)" field="name"/>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="3c2c-b7ab-1f09-264a" childId="f323-cc7e-1343-9431" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="1" field="ac4e-805d-d070-1616">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="3c2c-b7ab-1f09-264a" childId="f323-cc7e-1343-9431" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3065,7 +3221,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5661-f9b5-3563-1341" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Miyagi Flight Deck" hidden="false" id="e099-295f-eb43-e49a" type="selectionEntry" targetId="d998-56fa-1684-ec71"/>
+            <entryLink import="true" name="Mizuchi Carrier Bay" hidden="false" id="e099-295f-eb43-e49a" type="selectionEntry" targetId="f323-cc7e-1343-9431"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3142,11 +3298,11 @@
             <entryLink import="true" name="Generator" hidden="false" id="aebd-2162-8e7e-5607" type="selectionEntryGroup" targetId="8933-8b5b-95f9-aa82" sortIndex="9"/>
           </entryLinks>
           <categoryLinks>
-            <categoryLink name="LAR-7-" hidden="false" id="be15-c848-8b27-1b88" targetId="1bd5-658c-7a06-7e4a" primary="false"/>
-            <categoryLink name="HGB79-" hidden="false" id="5638-f65b-18cc-584b" targetId="09b3-b04c-f8fd-fc60" primary="false"/>
+            <categoryLink name="HGB79-" hidden="false" id="98ee-6b0f-72d3-f210" targetId="09b3-b04c-f8fd-fc60" primary="false"/>
+            <categoryLink name="HAR-8-" hidden="false" id="612f-b6eb-77a3-4144" targetId="e884-df2a-586e-816d" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Hardpoint Heavy (Front First)" id="9c52-acbb-a7a9-938f" hidden="false" defaultSelectionEntryId="4bdf-f4a2-ece6-d647" sortIndex="5">
+            <selectionEntryGroup name="Hardpoint Heavy (Front First)" id="9c52-acbb-a7a9-938f" hidden="false" defaultSelectionEntryId="7ec0-def7-1825-69f9" sortIndex="5">
               <entryLinks>
                 <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="7ec0-def7-1825-69f9" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
                   <constraints>
@@ -3185,7 +3341,7 @@
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Hardpoint Heavy (Rear)" id="2fcc-93fa-3b2e-72c2" hidden="false" defaultSelectionEntryId="2b32-eafb-b2ac-374b" sortIndex="8">
+            <selectionEntryGroup name="Hardpoint Heavy (Rear)" id="2fcc-93fa-3b2e-72c2" hidden="false" defaultSelectionEntryId="9e4e-d47c-b127-99b9" sortIndex="8">
               <entryLinks>
                 <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="9e4e-d47c-b127-99b9" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
                   <constraints>
@@ -3226,7 +3382,7 @@
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Hardpoint Heavy (Front Second)" id="f6d3-1aff-5ec7-67a5" hidden="false" defaultSelectionEntryId="2888-862d-6fe8-73d8" sortIndex="6">
+            <selectionEntryGroup name="Hardpoint Heavy (Front Second)" id="f6d3-1aff-5ec7-67a5" hidden="false" defaultSelectionEntryId="913d-8bbb-c738-5453" sortIndex="6">
               <entryLinks>
                 <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="913d-8bbb-c738-5453" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
                   <constraints>
@@ -3407,27 +3563,29 @@
             </entryLink>
           </entryLinks>
         </selectionEntry>
-      </selectionEntries>
-      <categoryLinks>
-        <categoryLink name="Empire" hidden="false" id="c4c0-d291-84f7-3644" targetId="ce97-a91c-c2c9-c566" primary="false"/>
-        <categoryLink name="Light Vessel" hidden="false" id="9eda-0806-88a3-63e1" targetId="49e0-1009-c7ce-ee43" primary="false"/>
-        <categoryLink name="Ship" hidden="false" id="e7c0-d810-3ee6-a529" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Weapons" id="6324-b7a5-e276-a94a" hidden="false" sortIndex="2">
+        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="5af4-2e96-23e9-356d" sortIndex="2">
           <entryLinks>
-            <entryLink import="true" name="Light Gun Battery" hidden="false" id="71a8-09c2-c82f-803a" type="selectionEntry" targetId="54ff-d6e2-03f0-f6f5" sortIndex="1">
+            <entryLink import="true" name="Light Gun Battery" hidden="false" id="71a8-09c2-c82f-803a" type="selectionEntry" targetId="54ff-d6e2-03f0-f6f5">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="659b-410a-a344-4b18" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="e623-a0f9-b542-69eb" includeChildSelections="false"/>
               </constraints>
             </entryLink>
           </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b657-e79b-8302-5113" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a40-1666-2eb2-3d94" includeChildSelections="false"/>
+          </constraints>
           <categoryLinks>
-            <categoryLink name="LGB24-" hidden="false" id="ce6f-fd83-83b4-d1df" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
+            <categoryLink name="LGB23-" hidden="false" id="9f7c-2526-5006-9e17" targetId="77c7-aac7-cdeb-a57c" primary="false"/>
           </categoryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Empire" hidden="false" id="c4c0-d291-84f7-3644" targetId="ce97-a91c-c2c9-c566" primary="false"/>
+        <categoryLink name="Light Vessel" hidden="false" id="9eda-0806-88a3-63e1" targetId="49e0-1009-c7ce-ee43" primary="false"/>
+        <categoryLink name="Ship" hidden="false" id="e7c0-d810-3ee6-a529" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Lantau" hidden="false" id="1b96-9d47-813e-8afe">
       <infoLinks>
@@ -3456,13 +3614,22 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0d4-24dc-b360-9afb" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Strategic Asset (x)" hidden="false" id="0313-1027-5b4f-580b" targetId="98ff-955f-25d5-0cdf" type="selectionEntry">
+            <entryLink import="true" name="Stockpile (x)" hidden="false" id="0313-1027-5b4f-580b" targetId="041c-5a70-3835-2f6b" type="selectionEntry">
               <modifiers>
-                <modifier type="set" value="Attachment (Chinese)" field="name"/>
+                <modifier type="set" value="Stockpile (1)" field="name"/>
               </modifiers>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9d4f-ace8-9428-01fc" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e6e7-3c11-5ec3-7ce0" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Attachment (x)" hidden="false" id="d378-5b9f-ef0b-5d92" targetId="b5c5-7074-a27c-602c" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="Attachment (Chinese)" field="name"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1abf-1b2f-7b11-7965" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e1b-e66a-1747-85e4" includeChildSelections="false"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -3518,6 +3685,11 @@
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink name="LGB24-" hidden="false" id="7eda-e2b8-07fd-0f08" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
+            <categoryLink name="LAR-4-" hidden="false" id="6189-cfa5-9df4-e78f" targetId="8da1-292c-89a5-0566" primary="false"/>
+            <categoryLink name="CM-33" hidden="false" id="a249-5880-2cfc-5eb5" targetId="d803-0f73-a950-854e" primary="false"/>
+          </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <categoryLinks>
@@ -3540,9 +3712,9 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Magwayen" hidden="false" id="18a5-e212-20e5-6b0a">
+    <selectionEntry type="model" import="true" name="Offshore Supply Platform" hidden="false" id="18a5-e212-20e5-6b0a">
       <infoLinks>
-        <infoLink name="Magwayen" id="3dcf-4a0b-45b7-9a0c" hidden="false" type="profile" targetId="f296-d3d7-8e31-f96a"/>
+        <infoLink name="Offshore Supply Platform" id="3dcf-4a0b-45b7-9a0c" hidden="false" type="profile" targetId="f296-d3d7-8e31-f96a"/>
       </infoLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="65"/>
@@ -3561,9 +3733,9 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac04-632c-f404-5345" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Stockpile (x”)" hidden="false" id="f6e9-3c6a-65ea-f1a1" targetId="041c-5a70-3835-2f6b" type="selectionEntry">
+            <entryLink import="true" name="Stockpile (x)" hidden="false" id="f6e9-3c6a-65ea-f1a1" targetId="041c-5a70-3835-2f6b" type="selectionEntry">
               <modifiers>
-                <modifier type="set" value="Stockpile (5”)" field="name"/>
+                <modifier type="set" value="Stockpile (3)" field="name"/>
               </modifiers>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4dc7-3b55-8eb3-c750" includeChildSelections="false"/>
@@ -3585,12 +3757,12 @@
                 <modifier type="set" value="Auxiliary Mine Layer (3)" field="name"/>
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
-                    <condition type="greaterThan" value="0" field="selections" scope="18a5-e212-20e5-6b0a" childId="d594-1135-d734-68e9" shared="true" includeChildSelections="true"/>
+                    <condition type="greaterThan" value="0" field="selections" scope="18a5-e212-20e5-6b0a" childId="d501-e65c-adda-0d11" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="1" field="caba-a63a-3617-dcee">
                   <conditions>
-                    <condition type="greaterThan" value="0" field="selections" scope="18a5-e212-20e5-6b0a" childId="d594-1135-d734-68e9" shared="true" includeChildSelections="true"/>
+                    <condition type="greaterThan" value="0" field="selections" scope="18a5-e212-20e5-6b0a" childId="d501-e65c-adda-0d11" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3621,31 +3793,31 @@
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink import="true" name="Defensive Mines" hidden="false" id="d594-1135-d734-68e9" type="selectionEntry" targetId="d501-e65c-adda-0d11" sortIndex="1"/>
-      </entryLinks>
       <categoryLinks>
         <categoryLink name="Empire" hidden="false" id="b415-a4df-677b-8191" targetId="ce97-a91c-c2c9-c566" primary="true"/>
         <categoryLink name="Platform" hidden="false" id="1a1a-38dd-a5bb-7b0d" targetId="dff9-2c49-7706-457f" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="8572-42c8-0516-359d" targetId="62ac-95d8-de16-f00f" primary="false"/>
         <categoryLink name="Immobile" hidden="false" id="6ac3-a77e-eced-8e9f" targetId="ad70-77b7-aabe-60c0" primary="false"/>
       </categoryLinks>
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9013-62f9-3476-ef58" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6e6-7082-d1a1-8fe2" includeChildSelections="false"/>
       </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Upgrade" id="394e-a119-522e-9c56" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink import="true" name="Defensive Mines" hidden="false" id="a37f-66c4-05b1-af11" type="selectionEntry" targetId="d501-e65c-adda-0d11"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Malandok" hidden="false" id="e8b0-72bf-b26e-34a3">
+    <selectionEntry type="model" import="true" name="Offshore Heavy Platform" hidden="false" id="e8b0-72bf-b26e-34a3">
       <infoLinks>
-        <infoLink name="Malandok" id="7579-7e20-6db9-9cbb" hidden="false" type="profile" targetId="a100-abe5-4c1e-3960"/>
+        <infoLink name="Offshore Heavy Platform" id="7579-7e20-6db9-9cbb" hidden="false" type="profile" targetId="a100-abe5-4c1e-3960"/>
       </infoLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="180"/>
         <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="8"/>
       </costs>
-      <entryLinks>
-        <entryLink import="true" name="Defensive Mines" hidden="false" id="0af6-0f58-ac14-beee" type="selectionEntry" targetId="d501-e65c-adda-0d11" sortIndex="1"/>
-      </entryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="e6c3-eba1-8b5f-51da" sortIndex="2">
           <constraints>
@@ -3679,16 +3851,57 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Stockpile (x)" hidden="false" id="c811-e857-b799-12eb" targetId="041c-5a70-3835-2f6b" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="Stockpile (2)" field="name"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="687b-4889-f47d-98be" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7684-7269-4d21-b0ba" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="dd00-d697-3141-fc58" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8ee6-aae7-3f8f-afce" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd1e-d881-bc35-025c" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Priority Signals" hidden="false" id="9ca2-74dc-2893-1fb4" type="selectionEntry" targetId="d67c-9c2f-2438-8d6c">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4683-7418-b35e-9497" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f75-8afe-80f9-afb9" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Repair Facilities (x)" hidden="false" id="370d-c343-9948-83cb" type="selectionEntry" targetId="abfe-482d-8aa9-fa7b">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8097-57a9-e1c2-6c8c" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f8b-5956-a15b-4277" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="Repair Facilities (2)" field="name"/>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Flak Barrage (x)" hidden="false" id="0b97-ae4e-5242-b7b8" type="selectionEntry" targetId="babc-ab27-8359-914b">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d954-5d27-ceee-3f2f" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd83-c8f7-d509-9943" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="Flak Barrage (5)" field="name"/>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Weapons" id="4c25-b2aa-d39d-2e2b" hidden="false" sortIndex="3">
+        <selectionEntryGroup name="Weapons" id="4c25-b2aa-d39d-2e2b" hidden="false" sortIndex="4">
           <entryLinks>
             <entryLink import="true" name="Generator" hidden="false" id="27f9-0111-360f-f79f" type="selectionEntryGroup" targetId="8933-8b5b-95f9-aa82" sortIndex="4"/>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Hardpoint Heavy (First)" id="d04e-201e-1d79-d473" hidden="false" defaultSelectionEntryId="3f63-21ac-4833-7f80" sortIndex="2">
+            <selectionEntryGroup name="Hardpoint Heavy (First)" id="d04e-201e-1d79-d473" hidden="false" defaultSelectionEntryId="91ef-1d49-f044-9a63" sortIndex="2">
               <entryLinks>
                 <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="91ef-1d49-f044-9a63" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
                   <constraints>
@@ -3720,7 +3933,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="4f75-b7a5-c0cd-1152" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Hardpoint Heavy (Second)" id="35ea-073e-503e-7c46" hidden="false" defaultSelectionEntryId="05dd-5e1d-366b-699a" sortIndex="3">
+            <selectionEntryGroup name="Hardpoint Heavy (Second)" id="35ea-073e-503e-7c46" hidden="false" defaultSelectionEntryId="c71a-d2e1-f1b8-47bd" sortIndex="3">
               <entryLinks>
                 <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="c71a-d2e1-f1b8-47bd" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
                   <constraints>
@@ -3762,11 +3975,15 @@
             <categoryLink name="HAR-8-" hidden="false" id="6bbc-b23a-027e-fca1" targetId="e884-df2a-586e-816d" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Upgrade" id="98e5-336d-d4c2-c041" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink import="true" name="Defensive Mines" hidden="false" id="0af6-0f58-ac14-beee" type="selectionEntry" targetId="d501-e65c-adda-0d11"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <categoryLinks>
         <categoryLink name="Empire" hidden="false" id="610f-29fd-9ec6-1d3e" targetId="ce97-a91c-c2c9-c566" primary="true"/>
         <categoryLink name="Repair" hidden="false" id="4dea-6033-41e7-fa04" targetId="6808-24f6-d6cf-08b5" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="3a89-942a-444e-980b" targetId="62ac-95d8-de16-f00f" primary="false"/>
       </categoryLinks>
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="55eb-44a5-cb35-0637" includeChildSelections="false"/>
@@ -3876,8 +4093,7 @@
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink name="LAR-7-" hidden="false" id="17fc-17ef-fab4-a1ae" targetId="1bd5-658c-7a06-7e4a" primary="false"/>
-            <categoryLink name="HGB79-" hidden="false" id="7c63-7ff0-af87-7167" targetId="09b3-b04c-f8fd-fc60" primary="false"/>
+            <categoryLink name="LAR-6-" hidden="false" id="c44d-06ee-4f20-543a" targetId="162f-d795-f376-9abd" primary="false"/>
           </categoryLinks>
           <constraints>
             <constraint type="min" value="7" field="selections" scope="parent" shared="true" id="26a0-d471-18aa-ec30" includeChildSelections="false"/>
@@ -4023,7 +4239,12 @@
             <entryLink import="true" name="Generator" hidden="false" id="4fa2-ba62-0996-92b0" type="selectionEntryGroup" targetId="8933-8b5b-95f9-aa82" sortIndex="3"/>
           </entryLinks>
           <categoryLinks>
-            <categoryLink name="HHq72-" hidden="false" id="c039-487f-dffa-f4e2" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="HGB46-" hidden="false" id="9b17-eb14-5cb2-a6e9" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="HAR-6-" hidden="false" id="9455-0a28-2fe7-2680" targetId="03ee-e553-99a7-f48f" primary="false"/>
+            <categoryLink name="HHq6--" hidden="false" id="c1b3-f225-6680-0c59" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="LGB24-" hidden="false" id="b6c0-35b6-3da9-1fe9" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
+            <categoryLink name="LAR-4-" hidden="false" id="5dc8-d6e2-1538-85f1" targetId="8da1-292c-89a5-0566" primary="false"/>
+            <categoryLink name="CM-33" hidden="false" id="c558-0ff6-d1ff-67f6" targetId="d803-0f73-a950-854e" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4081,7 +4302,11 @@
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink name="HHq72-" hidden="false" id="46c1-e44e-baee-daf2" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="HGB46-" hidden="false" id="dcd1-7ba3-810a-860b" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="HAR-6-" hidden="false" id="04be-00c4-3152-f493" targetId="03ee-e553-99a7-f48f" primary="false"/>
+            <categoryLink name="HHq6--" hidden="false" id="2a6a-6c6b-9a59-b3b7" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="LAR-4-" hidden="false" id="8589-ffd3-9cf9-205d" targetId="8da1-292c-89a5-0566" primary="false"/>
+            <categoryLink name="CM-33" hidden="false" id="e547-77e6-5194-8bea" targetId="d803-0f73-a950-854e" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Hardpoint Heavy (Front)" id="772d-fcc3-d3f8-420d" hidden="false" defaultSelectionEntryId="63e3-9347-ef1c-ba3c" sortIndex="2">
@@ -4239,7 +4464,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Weapons" id="cec8-6332-41f3-8f66" hidden="false" sortIndex="2">
           <entryLinks>
-            <entryLink import="true" name="Heavy Torpedo Salvo" hidden="false" id="cf1d-6d24-4c55-c544" type="selectionEntry" targetId="4981-770c-d30e-3f56" sortIndex="2">
+            <entryLink import="true" name="Heavy Huoqiang" hidden="false" id="cf1d-6d24-4c55-c544" type="selectionEntry" targetId="c141-1ddb-72f0-ea53" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="21e2-0c21-6377-2c45" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="51b2-27b3-6924-2dbd" includeChildSelections="false"/>
@@ -4255,17 +4480,17 @@
           </entryLinks>
           <categoryLinks>
             <categoryLink name="HGB68-" hidden="false" id="8a0e-ac00-b00c-7708" targetId="4831-7502-5a79-b08d" primary="false"/>
-            <categoryLink name="LGB46-" hidden="false" id="e50e-b895-e44c-0065" targetId="3fbe-12c7-d1f5-f7a8" primary="false"/>
+            <categoryLink name="LGB46-" hidden="false" id="fe17-6df6-1c54-8108" targetId="3fbe-12c7-d1f5-f7a8" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Hardpoint Heavy (Front)" id="57ec-9864-3876-1b82" hidden="false" defaultSelectionEntryId="1aba-e07d-7fea-f3b0" sortIndex="3">
+            <selectionEntryGroup name="Hardpoint Heavy (Rear)" id="57ec-9864-3876-1b82" hidden="false" defaultSelectionEntryId="1aba-e07d-7fea-f3b0" sortIndex="3">
               <entryLinks>
                 <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="1aba-e07d-7fea-f3b0" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="dd27-eab3-0e63-9494" includeChildSelections="false"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                    <modifier type="add" value="8a4b-1b3e-856f-dbdf" field="category"/>
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Heavy Alchemical Rockets" hidden="false" id="0ce4-2c87-5244-ce7b" type="selectionEntry" targetId="939e-b039-7b56-22ee" sortIndex="2">
@@ -4273,7 +4498,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="b44e-f8c5-f384-da65" includeChildSelections="false"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                    <modifier type="add" value="8a4b-1b3e-856f-dbdf" field="category"/>
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Heavy Huoqiang" hidden="false" id="1288-8746-f26a-307a" type="selectionEntry" targetId="c141-1ddb-72f0-ea53" sortIndex="3">
@@ -4281,7 +4506,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="6c6c-dbbd-ed08-83a9" includeChildSelections="false"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                    <modifier type="add" value="8a4b-1b3e-856f-dbdf" field="category"/>
                   </modifiers>
                 </entryLink>
               </entryLinks>
@@ -4297,7 +4522,7 @@
                 </modifier>
               </modifiers>
               <categoryLinks>
-                <categoryLink name="HHq72-" hidden="false" id="7e98-6b26-246b-5c1a" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+                <categoryLink name="HHq6--" hidden="false" id="7e98-6b26-246b-5c1a" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
               </categoryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Hardpoint Light (Port)" id="1c01-cd25-17a2-1f46" hidden="false" defaultSelectionEntryId="e0c5-ee2b-cda2-8e15" sortIndex="4">
@@ -4307,7 +4532,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="ef94-d345-ce25-ea72" includeChildSelections="false"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="add" value="38d7-3e65-b5bc-195a" field="category"/>
+                    <modifier type="add" value="dbb4-f494-5436-974d" field="category"/>
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Corrosive Mortars" hidden="false" id="83a0-6e9d-974b-d052" type="selectionEntry" targetId="a185-3ee9-2ed9-08b8" sortIndex="2">
@@ -4315,7 +4540,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="c624-a4af-1cad-d11b" includeChildSelections="false"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="add" value="38d7-3e65-b5bc-195a" field="category"/>
+                    <modifier type="add" value="dbb4-f494-5436-974d" field="category"/>
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Light Alchemical Rockets" hidden="false" id="0818-535f-5fe4-6f3b" type="selectionEntry" targetId="3d41-96c2-7f9c-0962" sortIndex="3">
@@ -4323,7 +4548,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="930b-1e98-48d8-5a4c" includeChildSelections="false"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="add" value="38d7-3e65-b5bc-195a" field="category"/>
+                    <modifier type="add" value="dbb4-f494-5436-974d" field="category"/>
                   </modifiers>
                 </entryLink>
               </entryLinks>
@@ -4339,7 +4564,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="4445-3850-2b41-cf72" includeChildSelections="false"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="add" value="3efb-647e-5bee-802e" field="category"/>
+                    <modifier type="add" value="4497-c078-59d8-a1e7" field="category"/>
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Corrosive Mortars" hidden="false" id="27c1-4ab9-6fac-00dd" type="selectionEntry" targetId="a185-3ee9-2ed9-08b8" sortIndex="2">
@@ -4347,7 +4572,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="69da-bc63-e4cd-9219" includeChildSelections="false"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="add" value="3efb-647e-5bee-802e" field="category"/>
+                    <modifier type="add" value="4497-c078-59d8-a1e7" field="category"/>
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Light Alchemical Rockets" hidden="false" id="5618-0310-f21b-d07d" type="selectionEntry" targetId="3d41-96c2-7f9c-0962" sortIndex="3">
@@ -4355,7 +4580,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="12f9-1c10-452e-1a7f" includeChildSelections="false"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="add" value="3efb-647e-5bee-802e" field="category"/>
+                    <modifier type="add" value="4497-c078-59d8-a1e7" field="category"/>
                   </modifiers>
                 </entryLink>
               </entryLinks>
@@ -4464,6 +4689,9 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <categoryLinks>
+                <categoryLink name="HGB68-" hidden="false" id="9d09-2c58-7d06-d8ba" targetId="4831-7502-5a79-b08d" primary="false"/>
+              </categoryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Hardpoint Heavy (Rear)" id="3891-497a-cb8a-fe2b" hidden="false" defaultSelectionEntryId="f4cb-e4e1-a175-717a" sortIndex="8">
               <entryLinks>
@@ -4637,6 +4865,15 @@
               </constraints>
               <modifiers>
                 <modifier type="set" value="Boosted Propulsion (+4”)" field="name"/>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Mine Sweeper (x)" hidden="false" id="df9f-2e61-0116-77a8" type="selectionEntry" targetId="3e3b-a944-9d11-0d94">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f1ad-d008-e52f-6afa" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2b0-2b55-e89b-2e4d" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="Mine Sweeper (3)" field="name"/>
               </modifiers>
             </entryLink>
           </entryLinks>
@@ -4819,16 +5056,13 @@
                 <modifier type="add" value="868d-ad37-4608-319f" field="category"/>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Heavy Alchemical Rockets" hidden="false" id="6db8-c245-5dff-9ace" type="selectionEntry" targetId="939e-b039-7b56-22ee" sortIndex="2">
+            <entryLink import="true" name="Heavy Alchemical Rockets Array" hidden="false" id="6db8-c245-5dff-9ace" type="selectionEntry" targetId="1670-962e-8e33-1dc5" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="e563-7575-7328-c8ce" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="a71e-760f-b0fd-ed2b" includeChildSelections="false"/>
               </constraints>
-              <modifiers>
-                <modifier type="add" value="868d-ad37-4608-319f" field="category"/>
-              </modifiers>
             </entryLink>
-            <entryLink import="true" name="Heavy Alchemical Rockets" hidden="false" id="4908-ba55-76bb-c828" type="selectionEntry" targetId="939e-b039-7b56-22ee" sortIndex="3">
+            <entryLink import="true" name="Heavy Huoqiang" hidden="false" id="4908-ba55-76bb-c828" type="selectionEntry" targetId="4c61-9eb7-53d8-443d" sortIndex="4">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="5b55-5a56-1cd5-89a5" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5477-a015-7228-a7e2" includeChildSelections="false"/>
@@ -4837,50 +5071,17 @@
                 <modifier type="add" value="868d-ad37-4608-319f" field="category"/>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Heavy Alchemical Rockets" hidden="false" id="d058-a0f5-46f7-8ebb" type="selectionEntry" targetId="939e-b039-7b56-22ee" sortIndex="4">
+            <entryLink import="true" name="Heavy Alchemical Rockets Array" hidden="false" id="38db-9aa3-7696-818e" type="selectionEntry" targetId="1670-962e-8e33-1dc5" sortIndex="3">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="f012-b5f6-68a2-d723" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="c056-3e39-0ab0-bf4a" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="4b55-a3d8-11e7-d96e" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="461b-274d-e3a6-ae21" includeChildSelections="false"/>
               </constraints>
-              <modifiers>
-                <modifier type="add" value="868d-ad37-4608-319f" field="category"/>
-              </modifiers>
-            </entryLink>
-            <entryLink import="true" name="Heavy Alchemical Rockets" hidden="false" id="0d17-ac88-dd43-c1d3" type="selectionEntry" targetId="939e-b039-7b56-22ee" sortIndex="5">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="3e1e-8061-6914-b9cb" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="1a12-36a1-7a2f-8ca0" includeChildSelections="false"/>
-              </constraints>
-              <modifiers>
-                <modifier type="add" value="868d-ad37-4608-319f" field="category"/>
-              </modifiers>
-            </entryLink>
-            <entryLink import="true" name="Heavy Huoqiang" hidden="false" id="9596-b17e-a9db-7458" type="selectionEntry" targetId="c141-1ddb-72f0-ea53" sortIndex="6">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="3722-77a0-5cb7-3c31" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="64c1-720b-642c-a3a4" includeChildSelections="false"/>
-              </constraints>
-              <modifiers>
-                <modifier type="add" value="868d-ad37-4608-319f" field="category"/>
-              </modifiers>
-            </entryLink>
-            <entryLink import="true" name="Heavy Huoqiang" hidden="false" id="cb76-4f62-d8e5-9522" type="selectionEntry" targetId="c141-1ddb-72f0-ea53" sortIndex="7">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="a3fc-eccc-3742-ebfe" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="a33c-14ed-f982-405e" includeChildSelections="false"/>
-              </constraints>
-              <modifiers>
-                <modifier type="add" value="868d-ad37-4608-319f" field="category"/>
-              </modifiers>
             </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c7a6-3a25-2927-cd38" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4973-58ca-234b-21ee" includeChildSelections="false"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink name="HAR-8-" hidden="false" id="8f55-3639-da21-3e66" targetId="e884-df2a-586e-816d" primary="false"/>
-          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -4963,20 +5164,21 @@
         </selectionEntryGroup>
         <selectionEntryGroup name="Weapons" id="2c31-f42d-3e2f-3212" hidden="false" sortIndex="3">
           <entryLinks>
-            <entryLink import="true" name="Torpedo Salvo" hidden="false" id="6894-f460-666b-18eb" type="selectionEntry" targetId="61fe-f84f-5e2d-d0a6" sortIndex="2">
+            <entryLink import="true" name="Torpedo Salvo" hidden="false" id="6894-f460-666b-18eb" type="selectionEntry" targetId="61fe-f84f-5e2d-d0a6" sortIndex="1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="6097-d7e6-4fe6-39d5" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="7805-078c-6156-2f97" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Generator" hidden="false" id="037d-ac79-7165-84bd" type="selectionEntryGroup" targetId="8933-8b5b-95f9-aa82" sortIndex="5"/>
+            <entryLink import="true" name="Generator" hidden="false" id="037d-ac79-7165-84bd" type="selectionEntryGroup" targetId="8933-8b5b-95f9-aa82" sortIndex="4"/>
           </entryLinks>
           <categoryLinks>
-            <categoryLink name="LAR-7-" hidden="false" id="6633-7322-d7eb-c62b" targetId="1bd5-658c-7a06-7e4a" primary="false"/>
-            <categoryLink name="HHq72-" hidden="false" id="d1e6-02e7-e75b-1182" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="HGB46-" hidden="false" id="a758-6f7c-1931-31bc" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="HAR-6-" hidden="false" id="cc90-6033-5bf0-e77f" targetId="03ee-e553-99a7-f48f" primary="false"/>
+            <categoryLink name="HHq6--" hidden="false" id="ab3f-3a6b-146d-7d0d" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Hardpoint Heavy (Front First)" id="e37f-c3e5-8d1b-8f55" hidden="false" defaultSelectionEntryId="b711-5a33-dae3-24df" sortIndex="3">
+            <selectionEntryGroup name="Hardpoint Heavy (Front First)" id="e37f-c3e5-8d1b-8f55" hidden="false" defaultSelectionEntryId="b711-5a33-dae3-24df" sortIndex="2">
               <entryLinks>
                 <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="b711-5a33-dae3-24df" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
                   <constraints>
@@ -5015,7 +5217,7 @@
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Hardpoint Heavy (Front Second)" id="a89e-c8e6-26cb-ff8e" hidden="false" defaultSelectionEntryId="d4b0-3fed-d6b9-c0eb" sortIndex="4">
+            <selectionEntryGroup name="Hardpoint Heavy (Front Second)" id="a89e-c8e6-26cb-ff8e" hidden="false" defaultSelectionEntryId="d4b0-3fed-d6b9-c0eb" sortIndex="3">
               <entryLinks>
                 <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="d4b0-3fed-d6b9-c0eb" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
                   <constraints>
@@ -5053,10 +5255,6 @@
                   </conditions>
                 </modifier>
               </modifiers>
-              <categoryLinks>
-                <categoryLink name="Empire" hidden="false" id="4231-4315-df1f-f239" targetId="ce97-a91c-c2c9-c566" primary="true"/>
-                <categoryLink name="Ship" hidden="false" id="ffc9-d894-46f0-345e" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
-              </categoryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
@@ -5107,7 +5305,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Weapons" id="357e-a852-d5da-39e1" hidden="false" sortIndex="2">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Hardpoint Light (Front)" id="4b34-a68f-bc62-75e4" hidden="false" defaultSelectionEntryId="3552-e068-9a63-30fc" sortIndex="3">
+            <selectionEntryGroup name="Hardpoint Light (Front)" id="4b34-a68f-bc62-75e4" hidden="false" defaultSelectionEntryId="3552-e068-9a63-30fc" sortIndex="2">
               <entryLinks>
                 <entryLink import="true" name="Light Gun Battery" hidden="false" id="3552-e068-9a63-30fc" type="selectionEntry" targetId="54ff-d6e2-03f0-f6f5" sortIndex="1">
                   <constraints>
@@ -5139,7 +5337,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb48-554e-91de-710c" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Hardpoint Heavy" id="fe14-a92a-d6a1-a96d" hidden="false" defaultSelectionEntryId="fa5a-ee6f-4534-07ae" sortIndex="2">
+            <selectionEntryGroup name="Hardpoint Heavy" id="fe14-a92a-d6a1-a96d" hidden="false" defaultSelectionEntryId="fa5a-ee6f-4534-07ae" sortIndex="1">
               <entryLinks>
                 <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="4d45-c72a-e13f-416e" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
                   <constraints>
@@ -5178,7 +5376,7 @@
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Hardpoint Light (Rear)" id="7691-9e38-234d-bfab" hidden="false" defaultSelectionEntryId="e04e-1553-c47a-aa67" sortIndex="4">
+            <selectionEntryGroup name="Hardpoint Light (Rear)" id="7691-9e38-234d-bfab" hidden="false" defaultSelectionEntryId="e04e-1553-c47a-aa67" sortIndex="3">
               <entryLinks>
                 <entryLink import="true" name="Light Gun Battery" hidden="false" id="e04e-1553-c47a-aa67" type="selectionEntry" targetId="54ff-d6e2-03f0-f6f5" sortIndex="1">
                   <constraints>
@@ -5212,10 +5410,15 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink import="true" name="Generator" hidden="false" id="61f6-fd18-8095-dda2" type="selectionEntryGroup" targetId="8933-8b5b-95f9-aa82" sortIndex="5"/>
+            <entryLink import="true" name="Generator" hidden="false" id="61f6-fd18-8095-dda2" type="selectionEntryGroup" targetId="8933-8b5b-95f9-aa82" sortIndex="4"/>
           </entryLinks>
           <categoryLinks>
-            <categoryLink name="HHq72-" hidden="false" id="b3de-1005-fe32-d83a" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="HGB46-" hidden="false" id="94d5-d1ce-cefd-05d3" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="HAR-6-" hidden="false" id="06c3-1f09-15fc-1327" targetId="03ee-e553-99a7-f48f" primary="false"/>
+            <categoryLink name="HHq6--" hidden="false" id="f934-984c-dbbb-f0c9" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="LGB24-" hidden="false" id="09e5-843b-d270-6fba" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
+            <categoryLink name="LAR-4-" hidden="false" id="d805-978d-c6ce-72b2" targetId="8da1-292c-89a5-0566" primary="false"/>
+            <categoryLink name="CM-33" hidden="false" id="96f5-03d8-1129-6ec7" targetId="d803-0f73-a950-854e" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5309,28 +5512,10 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="34e9-4d8e-7ae9-bcb3" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Incendiary Broadsides" hidden="true" id="6022-4a8a-f89e-b622" targetId="92db-e242-eca6-a4a3" type="selectionEntry">
+            <entryLink import="true" name="Cloud Dive" hidden="true" id="bdab-81a8-8513-c01f" targetId="771c-bace-0de5-61c3" type="selectionEntry">
               <constraints>
-                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="aa60-9f23-eb27-46d8" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aebf-edb6-6c1f-7e1f" includeChildSelections="false"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="greaterThan" value="0" field="selections" scope="a55a-12a9-e82d-3177" childId="5368-7f2d-ae89-d030" shared="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="1" field="aa60-9f23-eb27-46d8">
-                  <conditions>
-                    <condition type="greaterThan" value="0" field="selections" scope="a55a-12a9-e82d-3177" childId="5368-7f2d-ae89-d030" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink import="true" name="Cloud Dive" hidden="true" id="3433-cc49-f2cd-b353" targetId="771c-bace-0de5-61c3" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="9e24-d09a-ba8a-06ec" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf30-b2ce-ad84-63e2" includeChildSelections="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c752-22ae-d118-26bd" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1593-c29c-3816-efc8" includeChildSelections="false"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -5338,7 +5523,7 @@
                     <condition type="instanceOf" value="1" field="selections" scope="force" childId="da50-084a-13d8-8f63" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" value="1" field="9e24-d09a-ba8a-06ec">
+                <modifier type="set" value="1" field="c752-22ae-d118-26bd">
                   <conditions>
                     <condition type="greaterThan" value="0" field="selections" scope="force" childId="da50-084a-13d8-8f63" shared="true" includeChildSelections="true"/>
                   </conditions>
@@ -5359,7 +5544,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2175-2f87-be23-8748" includeChildSelections="false"/>
               </constraints>
               <modifiers>
-                <modifier type="set" value="Flak Barrage (8)" field="name"/>
+                <modifier type="set" value="Flak Barrage (4)" field="name"/>
               </modifiers>
             </entryLink>
           </entryLinks>
@@ -5449,7 +5634,9 @@
           </constraints>
           <categoryLinks>
             <categoryLink name="ACB8--" hidden="false" id="35d9-5216-96b8-8949" targetId="1981-892a-2f6e-74a9" primary="false"/>
-            <categoryLink name="HHq72-" hidden="false" id="d9e8-7a50-97bf-9a4e" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="HAR-6-" hidden="false" id="b27c-3a35-248f-781f" targetId="03ee-e553-99a7-f48f" primary="false"/>
+            <categoryLink name="HGB46-" hidden="false" id="c7c9-f0d2-8728-2292" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="HHq6--" hidden="false" id="8e6e-19d3-1956-355d" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
           </categoryLinks>
           <modifiers>
             <modifier type="set" value="1" field="6989-e69d-e68e-793f">
@@ -5474,7 +5661,6 @@
         </selectionEntryGroup>
         <selectionEntryGroup name="Upgrade" id="66cd-c2b1-b950-4dc8" hidden="false" sortIndex="1">
           <entryLinks>
-            <entryLink import="true" name="Huo Broadsides" hidden="false" id="4f19-7af6-9be4-af30" type="selectionEntry" targetId="5368-7f2d-ae89-d030" sortIndex="2"/>
             <entryLink import="true" name="Bushi Ryu Dojo" hidden="false" id="db80-abb2-47e5-5dd2" type="selectionEntry" targetId="d981-4201-1bb4-1a42" sortIndex="1"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -5531,7 +5717,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Weapons" id="39a5-6e27-4fa8-4766" hidden="false">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Hardpoint Heavy" id="333c-02f7-dbb4-4496" hidden="false" defaultSelectionEntryId="a398-11eb-ce86-850b" sortIndex="2">
+            <selectionEntryGroup name="Hardpoint Heavy" id="333c-02f7-dbb4-4496" hidden="false" defaultSelectionEntryId="29a0-8386-6080-e525" sortIndex="2">
               <entryLinks>
                 <entryLink import="true" name="Heavy Alchemical Rockets" hidden="false" id="29a0-8386-6080-e525" type="selectionEntry" targetId="939e-b039-7b56-22ee" sortIndex="2">
                   <constraints>
@@ -5539,16 +5725,14 @@
                   </constraints>
                   <modifiers>
                     <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                    <modifier type="set" value="0" field="e05e-48f9-1546-32dc">
+                      <conditions>
+                        <condition type="greaterThan" value="0" field="selections" scope="fef6-e8d7-0f3e-0000" childId="25b9-7f26-cbd9-e68f" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Magma Cast Generator" hidden="false" id="e48e-2b7c-cd52-73d3" type="selectionEntry" targetId="aeb2-f4d5-cf30-96ea">
-                  <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="30"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="force" shared="true" id="73c6-f444-2aec-0602" includeChildSelections="false"/>
-                  </constraints>
-                </entryLink>
+                <entryLink import="true" name="Generator" hidden="false" id="bc84-7720-7207-9263" type="selectionEntryGroup" targetId="8933-8b5b-95f9-aa82"/>
               </entryLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="192c-7c6b-7c21-98e0" includeChildSelections="false"/>
@@ -5565,7 +5749,7 @@
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink name="HHq72-" hidden="false" id="0118-3202-b856-d5d4" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="HAR-6-" hidden="false" id="90e8-511a-5540-e408" targetId="03ee-e553-99a7-f48f" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5606,9 +5790,11 @@
             </entryLink>
           </entryLinks>
         </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Weapons" id="359d-6787-f034-ddb9" hidden="false" sortIndex="2">
+        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="a736-ecec-b464-43ca">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="34d7-9341-8e6f-6d5e" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a988-c315-b9e0-e593" includeChildSelections="false"/>
+          </constraints>
           <entryLinks>
             <entryLink import="true" name="Light Torpedo Salvo" hidden="false" id="b1dc-f7b0-73be-a110" type="selectionEntry" targetId="f747-0ce9-f98d-f6bf" sortIndex="1">
               <constraints>
@@ -5636,9 +5822,12 @@
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink name="HHq72-" hidden="false" id="8043-93d6-b60d-e93e" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="LGB23-" hidden="false" id="43aa-4411-dd0c-e1b6" targetId="77c7-aac7-cdeb-a57c" primary="false"/>
           </categoryLinks>
-        </selectionEntryGroup>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" id="359d-6787-f034-ddb9" hidden="false" sortIndex="2"/>
       </selectionEntryGroups>
       <categoryLinks>
         <categoryLink name="Empire" hidden="false" id="3d5e-adaa-5628-486c" targetId="ce97-a91c-c2c9-c566" primary="true"/>
@@ -5723,8 +5912,8 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink name="CM-33" hidden="false" id="5c21-3961-b4da-8482" targetId="d803-0f73-a950-854e" primary="false"/>
-            <categoryLink name="LAR-4-" hidden="false" id="bda4-dfbf-67ac-f97b" targetId="8da1-292c-89a5-0566" primary="false"/>
+            <categoryLink name="LAR-4-" hidden="false" id="57a4-9dd7-1789-60c3" targetId="8da1-292c-89a5-0566" primary="false"/>
+            <categoryLink name="CM-22" hidden="false" id="0390-449f-4d71-acd0" targetId="dce4-43aa-7df8-d329" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -5758,7 +5947,6 @@
             </entryLink>
             <entryLink import="true" name="Raking Strike (x)" hidden="false" id="a8ea-3948-5648-bb66" targetId="db1f-9888-b44d-1e0c" type="selectionEntry">
               <modifiers>
-                <modifier type="set" value="Agile (1)" field="name"/>
                 <modifier type="set" value="Raking Strike (9)" field="name"/>
               </modifiers>
               <constraints>
@@ -5819,44 +6007,29 @@
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Hardpoint Heavy" id="18b4-d502-9ed2-a6bd" hidden="false" defaultSelectionEntryId="4172-37a2-c77d-7383" sortIndex="2">
+            <selectionEntryGroup name="Hardpoint Heavy" id="18b4-d502-9ed2-a6bd" hidden="false" defaultSelectionEntryId="bee4-541e-3d9c-e1f2" sortIndex="2">
               <entryLinks>
                 <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="bee4-541e-3d9c-e1f2" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="149a-9055-6fe6-ec59" includeChildSelections="false"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="set" value="0" field="149a-9055-6fe6-ec59">
-                      <conditions>
-                        <condition type="greaterThan" value="0" field="selections" scope="78a2-6742-38c6-836b" childId="25b9-7f26-cbd9-e68f" shared="true"/>
-                      </conditions>
-                    </modifier>
                     <modifier type="add" value="868d-ad37-4608-319f" field="category"/>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Heavy Magnetic Bombard" hidden="false" id="bef4-a491-8cda-db6a" type="selectionEntry" targetId="903c-562b-c3ab-766d" sortIndex="3">
+                <entryLink import="true" name="Heavy Alchemical Rockets" hidden="false" id="bef4-a491-8cda-db6a" type="selectionEntry" targetId="939e-b039-7b56-22ee" sortIndex="3">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3087-40a8-1fd6-2c03" includeChildSelections="false"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="set" value="0" field="3087-40a8-1fd6-2c03">
-                      <conditions>
-                        <condition type="greaterThan" value="0" field="selections" scope="78a2-6742-38c6-836b" childId="25b9-7f26-cbd9-e68f" shared="true"/>
-                      </conditions>
-                    </modifier>
                     <modifier type="add" value="868d-ad37-4608-319f" field="category"/>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Heavy Rocket Battery" hidden="false" id="17ab-a9c6-531f-2f3c" type="selectionEntry" targetId="2159-a46b-54fe-7b24" sortIndex="4">
+                <entryLink import="true" name="Heavy Huoqiang" hidden="false" id="17ab-a9c6-531f-2f3c" type="selectionEntry" targetId="c141-1ddb-72f0-ea53" sortIndex="4">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="a174-cc1b-cc5d-90a6" includeChildSelections="false"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="set" value="0" field="a174-cc1b-cc5d-90a6">
-                      <conditions>
-                        <condition type="greaterThan" value="0" field="selections" scope="78a2-6742-38c6-836b" childId="25b9-7f26-cbd9-e68f" shared="true"/>
-                      </conditions>
-                    </modifier>
                     <modifier type="add" value="868d-ad37-4608-319f" field="category"/>
                   </modifiers>
                 </entryLink>
@@ -5934,6 +6107,11 @@
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink name="HGB46-" hidden="false" id="4b99-0dc2-b572-335f" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="HAR-6-" hidden="false" id="0077-877c-15db-6241" targetId="03ee-e553-99a7-f48f" primary="false"/>
+            <categoryLink name="HHq6--" hidden="false" id="e4c7-a582-851a-4e8d" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+          </categoryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Upgrade" id="a314-023f-0805-57e0" hidden="false" sortIndex="1">
           <entryLinks>
@@ -6014,9 +6192,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Weapons" id="d730-ddba-2937-f5a2" hidden="false" sortIndex="3">
+        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="0b57-45f7-93da-f7f2" sortIndex="3">
           <entryLinks>
             <entryLink import="true" name="Torpedo Salvo" hidden="false" id="61e5-ac61-1200-22d6" type="selectionEntry" targetId="61fe-f84f-5e2d-d0a6">
               <constraints>
@@ -6025,8 +6201,12 @@
               </constraints>
             </entryLink>
           </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="801f-b3c6-930c-d120" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68ae-1832-d402-2f23" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
       <categoryLinks>
         <categoryLink name="Empire" hidden="false" id="9583-1889-777f-7306" targetId="ce97-a91c-c2c9-c566" primary="true"/>
         <categoryLink name="Submarine" hidden="false" id="1997-e2db-7adf-f78e" targetId="6996-f3f4-a695-3bc3" primary="false"/>
@@ -6186,7 +6366,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Weapons" id="f305-a1d4-cc44-850c" hidden="false" sortIndex="3">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Hardpoint Heavy" id="9172-df1a-9df8-f4b3" hidden="false" defaultSelectionEntryId="a398-11eb-ce86-850b" sortIndex="2">
+            <selectionEntryGroup name="Hardpoint Heavy" id="9172-df1a-9df8-f4b3" hidden="false" defaultSelectionEntryId="b2d4-4f9e-8c7c-b0be" sortIndex="2">
               <entryLinks>
                 <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="b2d4-4f9e-8c7c-b0be" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
                   <constraints>
@@ -6236,7 +6416,9 @@
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink name="HHq72-" hidden="false" id="2fce-b81d-6054-6b0c" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="HGB46-" hidden="false" id="1e97-0870-59e2-f24a" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="HAR-6-" hidden="false" id="a48a-0e22-0faf-09fa" targetId="03ee-e553-99a7-f48f" primary="false"/>
+            <categoryLink name="HHq6--" hidden="false" id="80de-b71f-f597-02c7" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -6312,7 +6494,7 @@
             <categoryLink name="HAR-8-" hidden="false" id="eca2-b8f4-edab-cc30" targetId="e884-df2a-586e-816d" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Hardpoint Heavy (Rear)" id="f0cc-0485-e86a-9892" hidden="false" defaultSelectionEntryId="f4cb-e4e1-a175-717a" sortIndex="8">
+            <selectionEntryGroup name="Hardpoint Heavy (Rear)" id="f0cc-0485-e86a-9892" hidden="false" defaultSelectionEntryId="74a5-57a7-31ab-eddd" sortIndex="8">
               <entryLinks>
                 <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="74a5-57a7-31ab-eddd" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
                   <constraints>
@@ -6375,7 +6557,6 @@
       </constraints>
       <categoryLinks>
         <categoryLink name="Empire" hidden="false" id="79c3-4cab-5f0e-f8d5" targetId="ce97-a91c-c2c9-c566" primary="true"/>
-        <categoryLink name="Depot" hidden="false" id="29ae-d7f1-8059-6778" targetId="62ac-95d8-de16-f00f" primary="false"/>
         <categoryLink name="Platform" hidden="false" id="2408-0e85-c98a-a3e4" targetId="dff9-2c49-7706-457f" primary="false"/>
         <categoryLink name="Immobile" hidden="false" id="2f0b-8442-4789-4558" targetId="ad70-77b7-aabe-60c0" primary="false"/>
       </categoryLinks>
@@ -6432,7 +6613,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e8ac-a163-8876-34d0" includeChildSelections="false"/>
           </constraints>
           <categoryLinks>
-            <categoryLink name="HHq72-" hidden="false" id="0458-3856-80a8-b1c4" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="HHq6--" hidden="false" id="0458-3856-80a8-b1c4" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Generator" hidden="false" id="c326-1b60-49a6-a8a6" type="selectionEntryGroup" targetId="8933-8b5b-95f9-aa82" sortIndex="2"/>
@@ -6561,21 +6742,14 @@
                 <modifier type="add" value="8a4b-1b3e-856f-dbdf" field="category"/>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Erlang Shen Bombard" hidden="false" id="c63c-cbc3-589c-80cf" type="selectionEntry" targetId="b0bd-1c9f-924b-1eec" sortIndex="2">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="68f8-3c1d-49e1-9416" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="b8a7-284d-ea74-a9c9" includeChildSelections="false"/>
-              </constraints>
-              <modifiers>
-                <modifier type="add" value="8a4b-1b3e-856f-dbdf" field="category"/>
-              </modifiers>
-            </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink name="HHq72-" hidden="false" id="8010-f32c-3ef9-fde5" targetId="28f1-dfd2-9507-3ffe" primary="false"/>
+            <categoryLink name="LGB24-" hidden="false" id="79f1-e3ba-ce01-6417" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
+            <categoryLink name="LAR-4-" hidden="false" id="cc38-aedf-6206-4187" targetId="8da1-292c-89a5-0566" primary="false"/>
+            <categoryLink name="CM-33" hidden="false" id="fff7-637c-00ee-0010" targetId="d803-0f73-a950-854e" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Hardpoint Light (Front)" id="33b5-69f8-27ba-3377" hidden="false" defaultSelectionEntryId="9f43-8420-9e0d-90e8" sortIndex="3">
+            <selectionEntryGroup name="Hardpoint Light (Front)" id="33b5-69f8-27ba-3377" hidden="false" defaultSelectionEntryId="9f43-8420-9e0d-90e8" sortIndex="2">
               <entryLinks>
                 <entryLink import="true" name="Light Gun Battery" hidden="false" id="9f43-8420-9e0d-90e8" type="selectionEntry" targetId="54ff-d6e2-03f0-f6f5" sortIndex="1">
                   <constraints>
@@ -6607,7 +6781,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="625b-7d9c-6af5-6a7f" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Hardpoint Light (Rear)" id="67d4-7f23-1f23-d764" hidden="false" defaultSelectionEntryId="31e1-7854-e02c-8d17" sortIndex="4">
+            <selectionEntryGroup name="Hardpoint Light (Rear)" id="67d4-7f23-1f23-d764" hidden="false" defaultSelectionEntryId="31e1-7854-e02c-8d17" sortIndex="3">
               <entryLinks>
                 <entryLink import="true" name="Light Gun Battery" hidden="false" id="31e1-7854-e02c-8d17" type="selectionEntry" targetId="54ff-d6e2-03f0-f6f5" sortIndex="1">
                   <constraints>
@@ -6691,6 +6865,11 @@
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink name="LGB24-" hidden="false" id="94f4-deb5-f25f-40c5" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
+            <categoryLink name="LAR-4-" hidden="false" id="4b49-660e-3099-3bc2" targetId="8da1-292c-89a5-0566" primary="false"/>
+            <categoryLink name="CM-33" hidden="false" id="92c0-3414-3555-9cf2" targetId="d803-0f73-a950-854e" primary="false"/>
+          </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <selectionEntries>
@@ -6797,7 +6976,6 @@
       <categoryLinks>
         <categoryLink name="Alliance" hidden="false" id="69e1-cc4d-458b-b0f7" targetId="534c-9506-e470-8b7c" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="ef46-9f60-f1ea-9f80" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="c8a9-b355-a418-112f" targetId="62ac-95d8-de16-f00f" primary="false"/>
         <categoryLink name="Merchantman" hidden="false" id="daeb-2918-e803-9794" targetId="136e-5a1f-af1b-2a2e" primary="false"/>
       </categoryLinks>
       <entryLinks>
@@ -6885,7 +7063,6 @@
       <categoryLinks>
         <categoryLink name="Alliance" hidden="false" id="dc04-885a-2ffd-027c" targetId="534c-9506-e470-8b7c" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="62e1-0cfd-9c08-d1c2" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="97b1-939f-27b8-7df2" targetId="62ac-95d8-de16-f00f" primary="false"/>
         <categoryLink name="Merchantman" hidden="false" id="9344-76c0-df5d-3160" targetId="136e-5a1f-af1b-2a2e" primary="false"/>
         <categoryLink name="Light Vessel" hidden="false" id="2315-14ed-c0fa-af33" targetId="49e0-1009-c7ce-ee43" primary="false"/>
       </categoryLinks>
@@ -6901,7 +7078,6 @@
       </constraints>
       <categoryLinks>
         <categoryLink name="Merchantman" hidden="false" id="5057-5191-90dc-ccbf" targetId="136e-5a1f-af1b-2a2e" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="f6f1-b0e0-e03d-0eff" targetId="62ac-95d8-de16-f00f" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="e4c8-ba6b-b815-0512" targetId="0a3b-fe42-16f0-2769" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="910e-dc00-dfdd-793f" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
       </categoryLinks>
@@ -7051,6 +7227,11 @@
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink name="LGB24-" hidden="false" id="228b-ac3b-3852-54c2" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
+            <categoryLink name="LAR-4-" hidden="false" id="a59f-199b-89f9-f090" targetId="8da1-292c-89a5-0566" primary="false"/>
+            <categoryLink name="CM-33" hidden="false" id="9e22-1d3e-a853-3ef6" targetId="d803-0f73-a950-854e" primary="false"/>
+          </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
@@ -7163,9 +7344,18 @@
         <entryLink import="true" name="Mercenary Battlefleet" hidden="true" id="03ac-67c8-bee3-9dd6" type="selectionEntry" targetId="4276-0dac-62d7-f428" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Mizuchi Carrier Bay" hidden="false" id="f323-cc7e-1343-9431" sortIndex="1">
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="25"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6907-4821-a3a5-fe09" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Generator" id="8933-8b5b-95f9-aa82" hidden="false">
+    <selectionEntryGroup name="Generator" id="8933-8b5b-95f9-aa82" hidden="false" defaultSelectionEntryId="none">
       <categoryLinks>
         <categoryLink name="Generator" hidden="false" id="e2c0-2c59-ed81-05ad" targetId="25b9-7f26-cbd9-e68f" primary="false"/>
       </categoryLinks>
@@ -7236,7 +7426,7 @@
         </entryLink>
         <entryLink import="true" name="Interphase Generator" hidden="false" id="9a38-5eca-c404-1114" type="selectionEntry" targetId="af9b-699d-bf7d-7d67">
           <costs>
-            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="15"/>
+            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="25"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2114-ec21-5633-a470" includeChildSelections="false"/>
@@ -7408,7 +7598,7 @@
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Barango" hidden="true" id="5672-e82b-1d0a-5ebc" sortIndex="4">
           <entryLinks>
-            <entryLink import="true" name="Barango" hidden="false" id="3a62-5776-b57f-a531" type="selectionEntry" targetId="ec4c-3508-eb02-129d"/>
+            <entryLink import="true" name="Offshore Defence Platform" hidden="false" id="3a62-5776-b57f-a531" type="selectionEntry" targetId="ec4c-3508-eb02-129d"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -7755,7 +7945,7 @@
         <entryLink import="true" name="Ergun" hidden="false" id="0ac3-27ae-ef3c-533c" type="selectionEntry" targetId="1158-2291-223d-7ba2" sortIndex="4"/>
         <entryLink import="true" name="Escort Token" hidden="false" id="17ec-ac55-4f19-41be" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="3">
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="false" id="20eb-e778-ea26-10a2" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="false" id="20eb-e778-ea26-10a2" includeChildSelections="false"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Fleet Doctrine" hidden="false" id="be14-41a4-b88a-2753" type="selectionEntryGroup" targetId="5d57-d272-1a9c-7384" sortIndex="1"/>
@@ -7784,7 +7974,7 @@
         <entryLink import="true" name="Hachiman" hidden="false" id="cd6c-f050-69bd-8f57" type="selectionEntry" targetId="3e28-adc9-d936-fd20" sortIndex="4"/>
         <entryLink import="true" name="Escort Token" hidden="false" id="1af6-1866-4156-0292" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="3">
           <constraints>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="false" id="6211-3257-39ce-fb9f" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="false" id="6211-3257-39ce-fb9f" includeChildSelections="false"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Fleet Doctrine" hidden="false" id="b085-2632-08d9-69b5" type="selectionEntryGroup" targetId="5d57-d272-1a9c-7384" sortIndex="1"/>
@@ -7810,14 +8000,14 @@
         <categoryLink name="Surface" hidden="false" id="c21e-ca42-d58e-da3b" targetId="9c42-b68b-9adf-01c5" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Heilong" hidden="false" id="a749-b003-7b5c-76e8" type="selectionEntry" targetId="fc8e-f368-48f2-fc1a" sortIndex="3"/>
-        <entryLink import="true" name="Escort Token" hidden="false" id="7328-2e76-dc43-384b" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
+        <entryLink import="true" name="Heilong" hidden="false" id="a749-b003-7b5c-76e8" type="selectionEntry" targetId="fc8e-f368-48f2-fc1a" sortIndex="4"/>
+        <entryLink import="true" name="Escort Token" hidden="false" id="7328-2e76-dc43-384b" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="3">
           <constraints>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="false" id="3d36-cc56-9aab-b39f" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="false" id="3d36-cc56-9aab-b39f" includeChildSelections="false"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Fleet Doctrine" hidden="false" id="da42-c46c-0897-1420" type="selectionEntryGroup" targetId="5d57-d272-1a9c-7384" sortIndex="1"/>
-        <entryLink import="true" name="Attachment (Empire)" hidden="false" id="260a-9871-9171-f91e" type="selectionEntryGroup" targetId="7aca-8b2d-0020-ec3f"/>
+        <entryLink import="true" name="Attachment (Empire)" hidden="false" id="260a-9871-9171-f91e" type="selectionEntryGroup" targetId="7aca-8b2d-0020-ec3f" sortIndex="2"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -7839,14 +8029,14 @@
         <categoryLink name="Surface" hidden="false" id="a096-3417-1374-85e8" targetId="9c42-b68b-9adf-01c5" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Kongo" hidden="false" id="9c9f-f11c-23b9-2649" type="selectionEntry" targetId="22b2-feef-fe9b-4771" sortIndex="3"/>
-        <entryLink import="true" name="Escort Token" hidden="false" id="de2a-a174-c834-636a" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
+        <entryLink import="true" name="Kongo" hidden="false" id="9c9f-f11c-23b9-2649" type="selectionEntry" targetId="22b2-feef-fe9b-4771" sortIndex="4"/>
+        <entryLink import="true" name="Escort Token" hidden="false" id="de2a-a174-c834-636a" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="3">
           <constraints>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="false" id="5ace-0be2-ddbe-9175" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="false" id="5ace-0be2-ddbe-9175" includeChildSelections="false"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Fleet Doctrine" hidden="false" id="4886-7602-519e-0c78" type="selectionEntryGroup" targetId="5d57-d272-1a9c-7384" sortIndex="1"/>
-        <entryLink import="true" name="Attachment (Empire)" hidden="false" id="8f8c-00a6-fd6a-8c81" type="selectionEntryGroup" targetId="7aca-8b2d-0020-ec3f"/>
+        <entryLink import="true" name="Attachment (Empire)" hidden="false" id="8f8c-00a6-fd6a-8c81" type="selectionEntryGroup" targetId="7aca-8b2d-0020-ec3f" sortIndex="2"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -7868,9 +8058,14 @@
         <categoryLink name="Surface" hidden="false" id="36a8-f71d-e3dc-8cca" targetId="9c42-b68b-9adf-01c5" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Matsumoto" hidden="false" id="3290-530b-c1f5-d048" type="selectionEntry" targetId="e909-212d-ad64-bf89" sortIndex="2"/>
+        <entryLink import="true" name="Matsumoto" hidden="false" id="3290-530b-c1f5-d048" type="selectionEntry" targetId="e909-212d-ad64-bf89" sortIndex="4"/>
         <entryLink import="true" name="Fleet Doctrine" hidden="false" id="8dab-9d1a-d387-eaf4" type="selectionEntryGroup" targetId="5d57-d272-1a9c-7384" sortIndex="1"/>
-        <entryLink import="true" name="Attachment (Empire)" hidden="false" id="7813-edfe-4a3d-53d5" type="selectionEntryGroup" targetId="7aca-8b2d-0020-ec3f"/>
+        <entryLink import="true" name="Attachment (Empire)" hidden="false" id="7813-edfe-4a3d-53d5" type="selectionEntryGroup" targetId="7aca-8b2d-0020-ec3f" sortIndex="2"/>
+        <entryLink import="true" name="Escort Token" hidden="false" id="223f-82ac-a22f-9a77" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="3">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="false" id="3640-f92f-85b9-49a1" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -7892,14 +8087,14 @@
         <categoryLink name="Surface" hidden="false" id="3574-b574-f60a-0dd4" targetId="9c42-b68b-9adf-01c5" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Naraka" hidden="false" id="f3f3-4634-428e-07ef" type="selectionEntry" targetId="cba9-69ee-b763-5380" sortIndex="3"/>
-        <entryLink import="true" name="Escort Token" hidden="false" id="0418-41b1-199b-fc29" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
+        <entryLink import="true" name="Naraka" hidden="false" id="f3f3-4634-428e-07ef" type="selectionEntry" targetId="cba9-69ee-b763-5380" sortIndex="4"/>
+        <entryLink import="true" name="Escort Token" hidden="false" id="0418-41b1-199b-fc29" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="3">
           <constraints>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="false" id="602c-e674-3681-8996" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="false" id="602c-e674-3681-8996" includeChildSelections="false"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Fleet Doctrine" hidden="false" id="1e83-5823-5163-3f77" type="selectionEntryGroup" targetId="5d57-d272-1a9c-7384" sortIndex="1"/>
-        <entryLink import="true" name="Attachment (Empire)" hidden="false" id="4086-6db8-01eb-9b58" type="selectionEntryGroup" targetId="7aca-8b2d-0020-ec3f"/>
+        <entryLink import="true" name="Attachment (Empire)" hidden="false" id="4086-6db8-01eb-9b58" type="selectionEntryGroup" targetId="7aca-8b2d-0020-ec3f" sortIndex="2"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -7921,14 +8116,14 @@
         <categoryLink name="Surface" hidden="false" id="85e0-22ef-54d5-0c91" targetId="9c42-b68b-9adf-01c5" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Ning Jing" hidden="false" id="93b8-0027-bba1-604f" type="selectionEntry" targetId="cb16-83ee-fa86-2960" sortIndex="3"/>
-        <entryLink import="true" name="Escort Token" hidden="false" id="35a8-28ff-aab3-5603" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
+        <entryLink import="true" name="Ning Jing" hidden="false" id="93b8-0027-bba1-604f" type="selectionEntry" targetId="cb16-83ee-fa86-2960" sortIndex="4"/>
+        <entryLink import="true" name="Escort Token" hidden="false" id="35a8-28ff-aab3-5603" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="3">
           <constraints>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="false" id="bcd3-34d9-2083-c16f" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="false" id="bcd3-34d9-2083-c16f" includeChildSelections="false"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Fleet Doctrine" hidden="false" id="0b46-fae8-1f17-8d0b" type="selectionEntryGroup" targetId="5d57-d272-1a9c-7384" sortIndex="1"/>
-        <entryLink import="true" name="Attachment (Empire)" hidden="false" id="90fc-5062-5f52-520e" type="selectionEntryGroup" targetId="7aca-8b2d-0020-ec3f"/>
+        <entryLink import="true" name="Attachment (Empire)" hidden="false" id="90fc-5062-5f52-520e" type="selectionEntryGroup" targetId="7aca-8b2d-0020-ec3f" sortIndex="2"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -7950,14 +8145,14 @@
         <categoryLink name="Surface" hidden="false" id="7ab5-8b92-2d27-5aa8" targetId="9c42-b68b-9adf-01c5" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Yangtze" hidden="false" id="c6f5-333f-2d41-aed3" type="selectionEntry" targetId="3488-60df-1290-da8b" sortIndex="3"/>
-        <entryLink import="true" name="Escort Token" hidden="false" id="563c-b6ad-b8f5-d18e" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
+        <entryLink import="true" name="Yangtze" hidden="false" id="c6f5-333f-2d41-aed3" type="selectionEntry" targetId="3488-60df-1290-da8b" sortIndex="4"/>
+        <entryLink import="true" name="Escort Token" hidden="false" id="563c-b6ad-b8f5-d18e" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="3">
           <constraints>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="false" id="397d-1be1-d797-9a33" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="false" id="397d-1be1-d797-9a33" includeChildSelections="false"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Fleet Doctrine" hidden="false" id="46c4-3058-0bf1-1f37" type="selectionEntryGroup" targetId="5d57-d272-1a9c-7384" sortIndex="1"/>
-        <entryLink import="true" name="Attachment (Empire)" hidden="false" id="616f-2f7f-aee0-2a1f" type="selectionEntryGroup" targetId="7aca-8b2d-0020-ec3f"/>
+        <entryLink import="true" name="Attachment (Empire)" hidden="false" id="616f-2f7f-aee0-2a1f" type="selectionEntryGroup" targetId="7aca-8b2d-0020-ec3f" sortIndex="2"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -7981,9 +8176,9 @@
         <categoryLink name="Airborne" hidden="false" id="53d9-d19f-5a80-b34d" targetId="933b-3024-a972-b371" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Zhanmadao" hidden="false" id="d7ec-3826-4891-d78b" type="selectionEntry" targetId="25c4-8279-71fc-0074" sortIndex="2"/>
+        <entryLink import="true" name="Zhanmadao" hidden="false" id="d7ec-3826-4891-d78b" type="selectionEntry" targetId="25c4-8279-71fc-0074" sortIndex="3"/>
         <entryLink import="true" name="Fleet Doctrine" hidden="false" id="8b22-146e-3277-929f" type="selectionEntryGroup" targetId="5d57-d272-1a9c-7384" sortIndex="1"/>
-        <entryLink import="true" name="Attachment (Empire)" hidden="false" id="4b81-1f9c-1b5f-8d42" type="selectionEntryGroup" targetId="7aca-8b2d-0020-ec3f"/>
+        <entryLink import="true" name="Attachment (Empire)" hidden="false" id="4b81-1f9c-1b5f-8d42" type="selectionEntryGroup" targetId="7aca-8b2d-0020-ec3f" sortIndex="2"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -8037,7 +8232,7 @@
         <entryLink import="true" name="Attachment (Empire)" hidden="false" id="5314-0447-8b37-d752" type="selectionEntryGroup" targetId="7aca-8b2d-0020-ec3f" sortIndex="1"/>
         <entryLink import="true" name="Escort Token" hidden="false" id="160a-0d26-a3af-b72e" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
           <constraints>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="false" id="18c5-25e9-0238-5a03" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="false" id="18c5-25e9-0238-5a03" includeChildSelections="false"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -8058,11 +8253,11 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Gong Destroyer Squadron" hidden="true" id="02da-7386-8cc4-a5ba" sortIndex="2">
+    <selectionEntry type="unit" import="true" name="Gong Destroyer Squadron" hidden="true" id="02da-7386-8cc4-a5ba" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Chinese" hidden="false" id="b6d5-15bc-5284-c77b" targetId="64a2-2d7d-19fb-3891" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="5676-b41a-15ac-c021" targetId="9c42-b68b-9adf-01c5" primary="false"/>
-        <categoryLink name="Line" hidden="false" id="4431-41cc-26c3-4895" targetId="d4bb-06c0-4e9a-18af" primary="true"/>
+        <categoryLink name="Patrol" hidden="false" id="7215-ba7e-63b9-21e7" targetId="ef05-e202-312e-2640" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Gong" hidden="false" id="b803-55e8-88dd-8c97" type="selectionEntry" targetId="7a1c-7f6a-7a46-2357" sortIndex="2"/>
@@ -8247,13 +8442,13 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Barango Battle Platforms" hidden="true" id="2f66-e505-6770-5294" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Offshore Defence Platforms" hidden="true" id="2f66-e505-6770-5294" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Surface" hidden="false" id="ae0a-ab03-bff7-f09b" targetId="9c42-b68b-9adf-01c5" primary="false"/>
         <categoryLink name="Support" hidden="false" id="92c1-5ae5-87a1-d448" targetId="7fd7-2a27-af9f-92ed" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Barango" hidden="false" id="67d7-7aaa-1634-6a88" type="selectionEntry" targetId="ec4c-3508-eb02-129d" sortIndex="2"/>
+        <entryLink import="true" name="Offshore Defence Platform" hidden="false" id="67d7-7aaa-1634-6a88" type="selectionEntry" targetId="ec4c-3508-eb02-129d" sortIndex="2"/>
         <entryLink import="true" name="Escort Token" hidden="false" id="f85b-3e85-9d7e-3fb8" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="1">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="false" id="c1d9-0e49-b2d0-e3be" includeChildSelections="false"/>
@@ -8308,11 +8503,11 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Chubu Submarine Squadron" hidden="true" id="9bf6-d75b-e797-9774" sortIndex="3">
+    <selectionEntry type="unit" import="true" name="Chubu Submarine Squadron" hidden="true" id="9bf6-d75b-e797-9774" sortIndex="5">
       <categoryLinks>
         <categoryLink name="Japanese" hidden="false" id="b39c-4937-f7e5-68c2" targetId="7ea7-bea4-602d-6022" primary="false"/>
-        <categoryLink name="Patrol" hidden="false" id="0ef9-e8ed-021e-5954" targetId="ef05-e202-312e-2640" primary="true"/>
         <categoryLink name="Underwater" hidden="false" id="e6d4-bf77-3d7a-9468" targetId="61e1-fb01-6250-eb82" primary="false"/>
+        <categoryLink name="Scout" hidden="false" id="d8d1-3e00-5d8f-be21" targetId="6619-1405-c9ec-096b" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Chubu" hidden="false" id="a73c-5611-7f87-c0f3" type="selectionEntry" targetId="52d9-7728-574e-e0c9" sortIndex="2"/>
@@ -8402,11 +8597,11 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Kyoto Fast Frigate Squadron" hidden="true" id="eace-4b4f-fb00-35d9" sortIndex="3">
+    <selectionEntry type="unit" import="true" name="Kyoto Fast Frigate Squadron" hidden="true" id="eace-4b4f-fb00-35d9" sortIndex="5">
       <categoryLinks>
         <categoryLink name="Japanese" hidden="false" id="9890-c060-9438-b573" targetId="7ea7-bea4-602d-6022" primary="false"/>
-        <categoryLink name="Patrol" hidden="false" id="28a4-74d6-0c3c-adfa" targetId="ef05-e202-312e-2640" primary="true"/>
         <categoryLink name="Surface" hidden="false" id="b4fe-63d5-589c-818b" targetId="9c42-b68b-9adf-01c5" primary="false"/>
+        <categoryLink name="Scout" hidden="false" id="4165-4cbf-01a8-2ccf" targetId="6619-1405-c9ec-096b" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Kyoto" hidden="false" id="6748-17dd-8a73-736c" type="selectionEntry" targetId="a9ef-b1c4-f09a-6cb2" sortIndex="3"/>
@@ -8434,7 +8629,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mekong Cruiser Squadron" hidden="true" id="0ea1-cda3-eea6-fdff" sortIndex="3">
+    <selectionEntry type="unit" import="true" name="Mekong Assault Cruiser Squadron" hidden="true" id="0ea1-cda3-eea6-fdff" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Patrol" hidden="false" id="28af-a32c-a748-385b" targetId="ef05-e202-312e-2640" primary="true"/>
         <categoryLink name="Chinese" hidden="false" id="47d5-1f7c-ad99-b7b7" targetId="64a2-2d7d-19fb-3891" primary="false"/>
@@ -8519,11 +8714,11 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Kanagawa Monitor Squadron" hidden="true" id="3c1d-3bf6-574f-a660" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Kanagawa Heavy Monitor Squadron" hidden="true" id="3c1d-3bf6-574f-a660" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Surface" hidden="false" id="a14b-bebf-44a7-ec6b" targetId="9c42-b68b-9adf-01c5" primary="false"/>
-        <categoryLink name="Support" hidden="false" id="8d7e-1e82-40f3-6356" targetId="7fd7-2a27-af9f-92ed" primary="true"/>
         <categoryLink name="Japanese" hidden="false" id="07e3-b48b-de2e-e683" targetId="7ea7-bea4-602d-6022" primary="false"/>
+        <categoryLink name="Patrol" hidden="false" id="921f-b0b1-a456-eaf0" targetId="ef05-e202-312e-2640" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Kanagawa" hidden="false" id="620c-50c1-63d1-f1a2" type="selectionEntry" targetId="2597-aeb4-fa40-7c55" sortIndex="3"/>
@@ -8590,14 +8785,14 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Malandok War Platforms" hidden="true" id="c1be-d515-ae4e-cbb3" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Offshore Heavy Platforms" hidden="true" id="c1be-d515-ae4e-cbb3" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Surface" hidden="false" id="2b64-2bc1-3c45-10ca" targetId="9c42-b68b-9adf-01c5" primary="false"/>
         <categoryLink name="Support" hidden="false" id="5a65-5512-1cf1-25e4" targetId="7fd7-2a27-af9f-92ed" primary="true"/>
         <categoryLink name="Immobile" hidden="false" id="104f-feba-1a70-d1cf" targetId="ad70-77b7-aabe-60c0" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Malandok" hidden="false" id="1f1d-efb2-7bdf-3d46" type="selectionEntry" targetId="e8b0-72bf-b26e-34a3" sortIndex="3"/>
+        <entryLink import="true" name="Offshore Heavy Platform" hidden="false" id="1f1d-efb2-7bdf-3d46" type="selectionEntry" targetId="e8b0-72bf-b26e-34a3" sortIndex="3"/>
         <entryLink import="true" name="Escort Token" hidden="false" id="b2cc-9781-fae7-0a36" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="false" id="73b6-0247-24ef-b5d4" includeChildSelections="false"/>
@@ -8626,7 +8821,6 @@
         <categoryLink name="Support" hidden="false" id="c5a6-fc85-9071-c623" targetId="7fd7-2a27-af9f-92ed" primary="true"/>
         <categoryLink name="Airborne" hidden="false" id="8083-4eb7-be5e-55d0" targetId="933b-3024-a972-b371" primary="false"/>
         <categoryLink name="Chinese" hidden="false" id="573e-b854-ca53-9893" targetId="64a2-2d7d-19fb-3891" primary="false"/>
-        <categoryLink name="Korean" hidden="false" id="45ed-2322-367c-b5e7" targetId="680d-0043-3afd-7761" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Qianshao" hidden="false" id="a7cf-8720-8082-6d47" type="selectionEntry" targetId="a55a-12a9-e82d-3177" sortIndex="2"/>
@@ -8729,11 +8923,11 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Wusong Monitor Squadron" hidden="true" id="789c-8703-9f09-cb53" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Wusong Monitor Squadron" hidden="true" id="789c-8703-9f09-cb53" sortIndex="3">
       <categoryLinks>
-        <categoryLink name="Support" hidden="false" id="b822-2dc7-a5a9-5293" targetId="7fd7-2a27-af9f-92ed" primary="true"/>
         <categoryLink name="Chinese" hidden="false" id="43f7-8496-7fa4-689a" targetId="64a2-2d7d-19fb-3891" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="d523-f4b7-5cbb-338a" targetId="9c42-b68b-9adf-01c5" primary="false"/>
+        <categoryLink name="Patrol" hidden="false" id="ce65-4f33-c21e-b74b" targetId="ef05-e202-312e-2640" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Wusong" hidden="false" id="399a-329a-9a6c-89b8" type="selectionEntry" targetId="a0c0-692e-01e8-36c7" sortIndex="2"/>
@@ -8755,11 +8949,11 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Wuhan Repair Ship Squadron" hidden="true" id="8fa9-f6cb-dd29-e121" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Wuhan Repair Ship Squadron" hidden="true" id="8fa9-f6cb-dd29-e121" sortIndex="6">
       <categoryLinks>
-        <categoryLink name="Support" hidden="false" id="237a-e295-8332-3ef5" targetId="7fd7-2a27-af9f-92ed" primary="true"/>
         <categoryLink name="Chinese" hidden="false" id="4efb-3657-d9ed-81fc" targetId="64a2-2d7d-19fb-3891" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="3776-5f3f-74cd-77ca" targetId="9c42-b68b-9adf-01c5" primary="false"/>
+        <categoryLink name="Logistical" hidden="false" id="f6f8-6ae7-86c6-52a1" targetId="ea96-eb0a-5fde-a549" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Wuhan" hidden="false" id="61b1-010f-1e6f-ec78" type="selectionEntry" targetId="dca3-f2cd-4095-7a07" sortIndex="2"/>
@@ -8837,7 +9031,6 @@
         <categoryLink name="Support" hidden="false" id="708d-fd7b-45de-7757" targetId="7fd7-2a27-af9f-92ed" primary="true"/>
         <categoryLink name="Airborne" hidden="false" id="9d90-92ba-bd60-909e" targetId="933b-3024-a972-b371" primary="false"/>
         <categoryLink name="Chinese" hidden="false" id="2013-412e-2135-34ca" targetId="64a2-2d7d-19fb-3891" primary="false"/>
-        <categoryLink name="Korean" hidden="false" id="6e20-8a86-fbc1-bcb0" targetId="680d-0043-3afd-7761" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Ziwei" hidden="false" id="5643-83fd-31a4-2244" type="selectionEntry" targetId="d557-b0ec-6117-c6a9" sortIndex="2"/>
@@ -8869,11 +9062,11 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Koromodako Submarine Squadron" hidden="true" id="3990-8519-b875-3a2d" sortIndex="5">
+    <selectionEntry type="unit" import="true" name="Koromodako Attack Submarine Squadron" hidden="true" id="3990-8519-b875-3a2d" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Underwater" hidden="false" id="e7bb-6577-cb3f-494d" targetId="61e1-fb01-6250-eb82" primary="false"/>
         <categoryLink name="Japanese" hidden="false" id="b083-f80d-713e-46af" targetId="7ea7-bea4-602d-6022" primary="false"/>
-        <categoryLink name="Scout" hidden="false" id="19c4-14d8-2088-9ca9" targetId="6619-1405-c9ec-096b" primary="true"/>
+        <categoryLink name="Support" hidden="false" id="81ff-d2e1-10f0-6b07" targetId="7fd7-2a27-af9f-92ed" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Koromodako" hidden="false" id="9453-0b05-8929-23c5" type="selectionEntry" targetId="587b-40d9-cc2d-981a" sortIndex="3"/>
@@ -8900,11 +9093,11 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Tianlong Draconic Colossus Squadron" hidden="true" id="f0c3-8a60-b0f1-39cf" sortIndex="5">
+    <selectionEntry type="unit" import="true" name="Tianlong Draconic Colossus Squadron" hidden="true" id="f0c3-8a60-b0f1-39cf" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Airborne" hidden="false" id="9745-ca11-9da4-3c29" targetId="933b-3024-a972-b371" primary="false"/>
         <categoryLink name="Chinese" hidden="false" id="47e5-923e-9cc2-7668" targetId="64a2-2d7d-19fb-3891" primary="false"/>
-        <categoryLink name="Scout" hidden="false" id="a583-2c5c-c42f-79d7" targetId="6619-1405-c9ec-096b" primary="true"/>
+        <categoryLink name="Patrol" hidden="false" id="092d-d277-e96f-474d" targetId="ef05-e202-312e-2640" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Tianlong" hidden="false" id="4780-a75d-2009-47ad" type="selectionEntry" targetId="78a2-6742-38c6-836b" sortIndex="2"/>
@@ -8946,7 +9139,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Umibozu Submarine Squadron" hidden="true" id="c8af-16eb-24d8-ba58" sortIndex="5">
+    <selectionEntry type="unit" import="true" name="Umibozu Attack Submarine Squadron" hidden="true" id="c8af-16eb-24d8-ba58" sortIndex="5">
       <categoryLinks>
         <categoryLink name="Underwater" hidden="false" id="ce6f-d45d-53c6-77df" targetId="61e1-fb01-6250-eb82" primary="false"/>
         <categoryLink name="Japanese" hidden="false" id="edcd-6db2-cfbf-cea5" targetId="7ea7-bea4-602d-6022" primary="false"/>
@@ -9068,14 +9261,14 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Magwayen Support Platforms" hidden="true" id="a9f3-0e03-6a10-d215" sortIndex="6">
+    <selectionEntry type="unit" import="true" name="Offshore Supply Platforms" hidden="true" id="a9f3-0e03-6a10-d215" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Logistical" hidden="false" id="038c-4740-6a8b-320c" targetId="ea96-eb0a-5fde-a549" primary="true"/>
         <categoryLink name="Surface" hidden="false" id="6bb3-7d57-eb42-bad2" targetId="9c42-b68b-9adf-01c5" primary="false"/>
         <categoryLink name="Immobile" hidden="false" id="5b1a-320f-f038-c0bc" targetId="ad70-77b7-aabe-60c0" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Magwayen" hidden="false" id="f401-fb6b-bbfd-6613" type="selectionEntry" targetId="18a5-e212-20e5-6b0a" sortIndex="3"/>
+        <entryLink import="true" name="Offshore Supply Platform" hidden="false" id="f401-fb6b-bbfd-6613" type="selectionEntry" targetId="18a5-e212-20e5-6b0a" sortIndex="3"/>
         <entryLink import="true" name="Attachment (Empire)" hidden="false" id="d243-df7d-f7c5-1092" type="selectionEntryGroup" targetId="7aca-8b2d-0020-ec3f" sortIndex="1"/>
         <entryLink import="true" name="Escort Token" hidden="false" id="2a76-ca7b-4d69-8087" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
           <constraints>
@@ -9144,14 +9337,10 @@
       <description>All Empire Airship units in this Force gain the Cloud Dive property until the end of the first Round.</description>
     </rule>
     <rule name="Abyssal Terror" id="2614-5f0d-f084-4015" hidden="false">
-      <description>Whenever this Battlefleet’s Admiral makes an Attack action with an Empire Underwater unit that has the Surfacing status, they can discard a Victory &amp; Valour Card at the start of the Count Hits step of the Action Roll.
-If they do, they convert all Standard Counters in the Action Roll to Standard Strikes.</description>
+      <description>Whenever this Battlefleet’s Admiral makes an Attack action with an Empire Underwater unit that has the  Surfacing status, they can discard a Victory &amp; Valour  Card at the start of the Count Hits step of the Action  Roll. If they do, they convert all Standard Counters in the Action Roll to Standard Strikes.</description>
     </rule>
     <rule name="Valorous Conduct" id="5f1e-bfb1-a402-8b37" hidden="false">
-      <description>Once per Encounter, after this Battlefleet’s Admiral has attempted to Enact a Valour Effect, and the opposing Admiral has revealed a Denial Card, this Admiral may declare Valorous Conduct.
-
-
-If they do so, they must discard another Victory &amp; Valour Card from their Hand. Once they have done this, the Denial Card is ignored and the Valour Effect is successfully enacted.</description>
+      <description>Once per Encounter, after this Battlefleet’s Admiral has attempted to Enact a Valour Effect, and the opposing Admiral has revealed a Denial Card, this Admiral may declare Valorous Conduct. If they do so, they must discard another Victory &amp; Valour Card from their Hand. Once they have done this, the Denial Card is ignored and the Valour Effect is successfully enacted</description>
     </rule>
     <rule name="Celestian Blaze" id="04c2-5acc-f0ef-5525" hidden="false">
       <description>Can only be purchased for an Empire Surface Flagship unit. This Force’s Admiral can Enact a Special Valour Effect when they declare that one of their Surface units will make an Attack action with  the Torrent (X) special attack quality, before making an Action Roll. If the effect is successfully enacted, the active Admiral adds 4 Action Dice to the Action Pool. This only applies to a single Action  Roll; it is not carried over to the Action Rolls for subsequent Attacks within the Torrent.</description>
@@ -9164,5 +9353,6 @@ If they do so, they must discard another Victory &amp; Valour Card from their Ha
       </categoryLinks>
     </entryLink>
   </entryLinks>
-  <readme>Revision 01: Initial release Empire Beta 3 (Complete release for the ORBAT)</readme>
+  <readme>Revision 01: Initial release Empire Beta 3 (Complete release for the ORBAT)
+Revision 02: Initial release Empire Beta 4 (Complete release for the ORBAT)</readme>
 </catalogue>

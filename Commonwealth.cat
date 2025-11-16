@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="0fe9-8668-bff9-9489" name="Commonwealth" gameSystemId="1242-c30b-419f-8229" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="0fe9-8668-bff9-9489" name="Commonwealth" gameSystemId="1242-c30b-419f-8229" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedProfiles>
     <profile name="Alexayev" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="91a1-2201-963c-e56f">
       <characteristics>
@@ -337,7 +337,7 @@
         <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
       </characteristics>
     </profile>
-    <profile name="Khan" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="274c-47f1-278f-b763">
+    <profile name="Offshore Heavy Platform" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="274c-47f1-278f-b763">
       <characteristics>
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
@@ -421,7 +421,7 @@
         <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
       </characteristics>
     </profile>
-    <profile name="Subatai" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="059c-262a-8541-6d0c">
+    <profile name="Offshore Defence Platform" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="059c-262a-8541-6d0c">
       <characteristics>
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
@@ -547,7 +547,7 @@
         <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
       </characteristics>
     </profile>
-    <profile name="Ortoq" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="20e9-32c4-252e-c7e4">
+    <profile name="Offshore Supply Platform" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="20e9-32c4-252e-c7e4">
       <characteristics>
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
@@ -693,6 +693,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Hammer Sweep" id="5355-5b97-1004-abba" hidden="false" type="rule" targetId="fea6-b2e0-b9e9-ed29"/>
+      </infoLinks>
     </forceEntry>
     <forceEntry name="Ukrainian Battlefleet (Specialist)" id="4200-1c06-1f46-2e65" hidden="false" sortIndex="2">
       <categoryLinks>
@@ -763,6 +766,9 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Zaporozhian Spirit" id="d662-8272-8c26-1408" hidden="false" type="rule" targetId="64a7-27d0-ad51-3072"/>
+      </infoLinks>
     </forceEntry>
     <forceEntry name="Polish-Lithuanian Battlefleet (Specialist)" id="05cb-ba97-0de8-68ec" hidden="false" sortIndex="3">
       <categoryLinks>
@@ -775,14 +781,14 @@
         </categoryLink>
         <categoryLink name="Line" hidden="false" id="c04c-9845-9fc4-3c98" targetId="d4bb-06c0-4e9a-18af">
           <constraints>
-            <constraint type="min" value="2" field="selections" scope="force" shared="true" id="9d9a-52c7-e507-5779" includeChildSelections="true"/>
-            <constraint type="max" value="4" field="selections" scope="force" shared="false" id="b6d9-aada-f6bf-9fc0" includeChildSelections="true"/>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="9d9a-52c7-e507-5779" includeChildSelections="true"/>
+            <constraint type="max" value="2" field="selections" scope="force" shared="false" id="b6d9-aada-f6bf-9fc0" includeChildSelections="true"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Patrol" hidden="false" id="1583-a084-99e9-22c4" targetId="ef05-e202-312e-2640">
           <constraints>
-            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="9fc2-7a4d-d628-f527" includeChildSelections="true"/>
-            <constraint type="max" value="2" field="selections" scope="force" shared="false" id="6d66-18e1-18f0-62ac" includeChildSelections="true"/>
+            <constraint type="min" value="2" field="selections" scope="force" shared="true" id="9fc2-7a4d-d628-f527" includeChildSelections="true"/>
+            <constraint type="max" value="4" field="selections" scope="force" shared="false" id="6d66-18e1-18f0-62ac" includeChildSelections="true"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Support" hidden="false" id="55f1-47db-f8a9-6d35" targetId="7fd7-2a27-af9f-92ed">
@@ -790,26 +796,6 @@
             <constraint type="min" value="0" field="selections" scope="force" shared="true" id="ae38-492c-d6a7-34cb" includeChildSelections="true"/>
             <constraint type="max" value="2" field="selections" scope="force" shared="false" id="8bcb-c25f-41bb-1929" includeChildSelections="true"/>
           </constraints>
-          <modifiers>
-            <modifier type="decrement" value="1" field="8bcb-c25f-41bb-1929">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="6619-1405-c9ec-096b" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Scout" hidden="false" id="e814-438b-6256-528c" targetId="6619-1405-c9ec-096b">
-          <constraints>
-            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="a9cd-f69b-e772-39e4" includeChildSelections="true"/>
-            <constraint type="max" value="2" field="selections" scope="force" shared="false" id="aab3-3152-07c0-e9ad" includeChildSelections="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="decrement" value="1" field="aab3-3152-07c0-e9ad">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="7fd7-2a27-af9f-92ed" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
         </categoryLink>
       </categoryLinks>
       <constraints>
@@ -847,6 +833,9 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Evasive Manoeuvres" id="3db2-973a-f990-a874" hidden="false" type="rule" targetId="4a8a-5b35-b506-f537"/>
+      </infoLinks>
     </forceEntry>
     <forceEntry name="Black Wolf Mercenary Battlefleet (Mercenary)" id="85c3-ac08-5053-7654" hidden="false" sortIndex="4">
       <categoryLinks>
@@ -1042,24 +1031,18 @@
           <entryLinks>
             <entryLink import="true" name="Mag-Rail Axe" hidden="false" id="0bd9-2a58-338f-7850" type="selectionEntry" targetId="ec25-147c-68aa-d992" sortIndex="1">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7a49-8fc1-6bfa-e6cd" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c075-4bc3-c110-0df3" includeChildSelections="false"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="98ac-e162-19b8-770a" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a796-5da5-a6d7-f6d9" includeChildSelections="false"/>
               </constraints>
             </entryLink>
             <entryLink import="true" name="Claw Arc Projector" hidden="false" id="a0b9-2757-e96b-bb4d" type="selectionEntry" targetId="bcfd-5fb1-aacd-025a" sortIndex="2">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d611-f4f2-1f53-1d3e" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83f2-0aa3-f99b-850f" includeChildSelections="false"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cd33-c074-84fc-badc" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ed4-6f86-9ce8-90bc" includeChildSelections="false"/>
               </constraints>
             </entryLink>
             <entryLink import="true" name="Razrez" hidden="false" id="4198-ddf0-e50d-1ff7" type="selectionEntry" targetId="cd49-ddd8-d6dd-b665" sortIndex="3">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f09e-2065-8f9e-37fc" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d88-69ae-2e4f-a9b3" includeChildSelections="false"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c8e0-87c4-1f7a-f02e" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e2a-01c0-c057-94fb" includeChildSelections="false"/>
               </constraints>
@@ -1152,7 +1135,10 @@
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="5d43-db7b-ae22-61e1" includeChildSelections="false"/>
           </constraints>
           <categoryLinks>
-            <categoryLink name="ZRB-52" hidden="false" id="bd27-842f-3495-4520" targetId="2d8e-78a9-facc-c720" primary="false"/>
+            <categoryLink name="LGB36-" hidden="false" id="114b-2e14-482a-f12a" targetId="2887-5708-ec3d-0790" primary="false"/>
+            <categoryLink name="SM-52" hidden="false" id="9bdd-b5b8-6676-7dee" targetId="ab73-1b9d-a2bf-21a9" primary="false"/>
+            <categoryLink name="RG555" hidden="false" id="e787-d7e1-f4ac-601c" targetId="735f-c476-5b96-f9c0" primary="false"/>
+            <categoryLink name="ZRB-5-" hidden="false" id="c151-4b23-6b9d-6248" targetId="2d8e-78a9-facc-c720" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1450,20 +1436,21 @@
           </constraints>
           <categoryLinks>
             <categoryLink name="SHTS12" hidden="false" id="41bd-e150-c212-f8df" targetId="73ae-eaf7-efb8-a22e" primary="false"/>
-            <categoryLink name="HGB710-" hidden="false" id="b451-e516-f3b4-69c7" targetId="e238-1dff-28ef-e305" primary="false"/>
-            <categoryLink name="LGB47-" hidden="false" id="0061-49a0-b9eb-029c" targetId="58aa-74dd-acc9-f6a1" primary="false"/>
-            <categoryLink name="TRG777" hidden="false" id="f32a-92d9-c9a5-e9fc" targetId="c633-e629-0a59-3edb" primary="false"/>
-            <categoryLink name="YMB-84" hidden="false" id="da66-a3ea-ae3d-cb4e" targetId="db28-06d0-f97d-0251" primary="false"/>
-            <categoryLink name="SM-61" hidden="false" id="a1d0-e981-ce1d-18f0" targetId="5f41-2a9c-b0b8-fb33" primary="false"/>
-            <categoryLink name="ZRB-63" hidden="false" id="7046-0977-24c3-5b3d" targetId="0155-1d26-a09b-982a" primary="false"/>
-            <categoryLink name="RG555" hidden="false" id="877b-d200-b22d-8735" targetId="735f-c476-5b96-f9c0" primary="false"/>
+            <categoryLink name="HGB68-" hidden="false" id="dec1-3239-9271-86df" targetId="4831-7502-5a79-b08d" primary="false"/>
+            <categoryLink name="TRG666" hidden="false" id="e5b0-b137-e161-46cb" targetId="85bf-38fd-ced4-429c" primary="false"/>
+            <categoryLink name="YMB-74" hidden="false" id="7b93-3959-6973-4377" targetId="0cc7-cf80-ef24-1fb5" primary="false"/>
+            <categoryLink name="LGB46-" hidden="false" id="67c4-ccbb-ecc1-6b5a" targetId="3fbe-12c7-d1f5-f7a8" primary="false"/>
+            <categoryLink name="RG555" hidden="false" id="0e78-42fe-bb20-fc6a" targetId="735f-c476-5b96-f9c0" primary="false"/>
+            <categoryLink name="SM-52" hidden="false" id="c23d-6e08-8f60-978d" targetId="ab73-1b9d-a2bf-21a9" primary="false"/>
+            <categoryLink name="ZRB-5-" hidden="false" id="3776-c438-6c42-6663" targetId="2d8e-78a9-facc-c720" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Mozhayski" hidden="false" id="f613-f992-d286-4dc1">
       <infoLinks>
-        <infoLink name="Mozhayski" id="699c-3691-13ab-b698" hidden="false" type="profile" targetId="9fff-dbb8-2774-bb49"/>
+        <infoLink name="Kometa Interceptors" id="699c-3691-13ab-b698" hidden="false" type="profile" targetId="0dbe-ad19-f1c7-2f2f"/>
+        <infoLink name="Mozhayski" id="00f0-3964-bded-6270" hidden="false" type="profile" targetId="9fff-dbb8-2774-bb49"/>
       </infoLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="267"/>
@@ -1498,7 +1485,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="1cdb-65b1-fc55-9c4b" includeChildSelections="false"/>
               </constraints>
               <modifiers>
-                <modifier type="set" value="Carrier (4)" field="name"/>
+                <modifier type="set" value="Carrier (8)" field="name"/>
               </modifiers>
             </entryLink>
             <entryLink import="true" name="SRS (Type)" hidden="false" id="d1e3-fae4-cb48-38eb" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
@@ -1516,7 +1503,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85bf-561e-e691-82c9" includeChildSelections="false"/>
               </constraints>
               <modifiers>
-                <modifier type="set" value="Ablative Armour (3)" field="name"/>
+                <modifier type="set" value="Ablative Armour (5)" field="name"/>
               </modifiers>
             </entryLink>
           </entryLinks>
@@ -1679,9 +1666,9 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink name="ZRB-63" hidden="false" id="92fe-2a42-d037-a278" targetId="0155-1d26-a09b-982a" primary="false"/>
             <categoryLink name="LGB46-" hidden="false" id="4168-1cdc-0357-01f3" targetId="3fbe-12c7-d1f5-f7a8" primary="false"/>
             <categoryLink name="SM-51 " hidden="false" id="d18b-0db3-7158-2589" targetId="8254-9993-cc1e-3111" primary="false"/>
+            <categoryLink name="RG555" hidden="false" id="2ce2-5406-9cc7-49c0" targetId="735f-c476-5b96-f9c0" primary="false"/>
           </categoryLinks>
           <constraints>
             <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="4b73-a2df-d6b5-422e" includeChildSelections="false"/>
@@ -1930,13 +1917,9 @@
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="5e47-2ba1-0b4b-12a8" includeChildSelections="false"/>
           </constraints>
           <categoryLinks>
-            <categoryLink name="HGB710-" hidden="false" id="cb0d-e469-dac6-02f6" targetId="e238-1dff-28ef-e305" primary="false"/>
-            <categoryLink name="TRG777" hidden="false" id="13ec-0391-f292-2ab4" targetId="c633-e629-0a59-3edb" primary="false"/>
-            <categoryLink name="YMB-74" hidden="false" id="dddc-5801-3c59-af43" targetId="0cc7-cf80-ef24-1fb5" primary="false"/>
-            <categoryLink name="RG555" hidden="false" id="68c5-1bf8-df37-5d44" targetId="735f-c476-5b96-f9c0" primary="false"/>
-            <categoryLink name="LGB47-" hidden="false" id="958b-7655-0e09-1a47" targetId="58aa-74dd-acc9-f6a1" primary="false"/>
-            <categoryLink name="SM-61" hidden="false" id="30ce-6f43-0bc2-386b" targetId="5f41-2a9c-b0b8-fb33" primary="false"/>
-            <categoryLink name="ZRB-63" hidden="false" id="12e0-7595-5b1d-d5d3" targetId="0155-1d26-a09b-982a" primary="false"/>
+            <categoryLink name="HGB68-" hidden="false" id="0025-f8c9-ba9d-0c1c" targetId="4831-7502-5a79-b08d" primary="false"/>
+            <categoryLink name="TRG666" hidden="false" id="ffb1-b731-1679-4e00" targetId="85bf-38fd-ced4-429c" primary="false"/>
+            <categoryLink name="YMB-74" hidden="false" id="7c91-9b00-5b93-e904" targetId="0cc7-cf80-ef24-1fb5" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1985,37 +1968,37 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="586f-414b-f579-3ae1" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Generator Ship" hidden="false" id="063d-8f36-d27e-7583" type="selectionEntry" targetId="c085-bdeb-98fa-ec5f" sortIndex="1">
+            <entryLink import="true" name="Generator Ship" hidden="false" id="063d-8f36-d27e-7583" type="selectionEntry" targetId="c085-bdeb-98fa-ec5f">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="b738-5962-4be4-5566" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b42-bdfd-647c-6840" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Naval Shield Amplifier" hidden="false" id="ea68-e3b2-8368-1350" type="selectionEntry" targetId="1adc-d8a0-bcc7-5fe7" sortIndex="2">
+            <entryLink import="true" name="Naval Shield Amplifier" hidden="false" id="ea68-e3b2-8368-1350" type="selectionEntry" targetId="1adc-d8a0-bcc7-5fe7">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2f12-109c-091e-01ad" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be06-1a5b-d9b3-200c" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Magnetic Generator" hidden="false" id="d446-e6e4-3609-1a73" type="selectionEntry" targetId="a3a8-b135-7099-ce1c" sortIndex="5">
+            <entryLink import="true" name="Magnetic Generator" hidden="false" id="d446-e6e4-3609-1a73" type="selectionEntry" targetId="a3a8-b135-7099-ce1c">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dd28-9064-5b88-b506" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c66-7e8f-4594-cf98" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Heavy Shield Generator" hidden="false" id="7cda-2a14-ab9b-2dab" type="selectionEntry" targetId="8f03-5ac9-164b-1f77" sortIndex="4">
+            <entryLink import="true" name="Heavy Shield Generator" hidden="false" id="7cda-2a14-ab9b-2dab" type="selectionEntry" targetId="8f03-5ac9-164b-1f77">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="94c3-5270-33e1-50bc" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a30-908b-2ad7-ce01" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Shroud Generator" hidden="false" id="58c5-1ecc-4ac8-5f27" type="selectionEntry" targetId="9ba8-6178-e09c-c346" sortIndex="6">
+            <entryLink import="true" name="Shroud Generator" hidden="false" id="58c5-1ecc-4ac8-5f27" type="selectionEntry" targetId="9ba8-6178-e09c-c346">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9ba1-2a6d-54dd-33de" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4c5-1551-adb1-b1b0" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Cryo Generator" hidden="false" id="4b06-65b9-d0f0-4a9b" type="selectionEntry" targetId="70b1-0b14-dedf-3248" sortIndex="3">
+            <entryLink import="true" name="Cryo Generator" hidden="false" id="4b06-65b9-d0f0-4a9b" type="selectionEntry" targetId="70b1-0b14-dedf-3248">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a6cd-f6e3-65ab-6bdb" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f2d-e3ea-763e-4b78" includeChildSelections="false"/>
@@ -2023,11 +2006,9 @@
             </entryLink>
           </entryLinks>
         </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Weapons" id="8541-5fb3-f3b7-5fd3" hidden="false" sortIndex="3">
+        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="8f8d-59de-a545-5717" sortIndex="3">
           <entryLinks>
-            <entryLink import="true" name="Tri-Railgun" hidden="false" id="5913-5c37-4246-9b16" type="selectionEntry" targetId="2dde-552a-520f-b170" sortIndex="1">
+            <entryLink import="true" name="Tri-Railgun" hidden="false" id="5913-5c37-4246-9b16" type="selectionEntry" targetId="2dde-552a-520f-b170">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="af69-ef0e-36f6-f38e" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3798-7236-b631-75df" includeChildSelections="false"/>
@@ -2036,7 +2017,7 @@
                 <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Tri-Railgun" hidden="false" id="b555-2ef8-c8aa-67d9" type="selectionEntry" targetId="2dde-552a-520f-b170" sortIndex="2">
+            <entryLink import="true" name="Tri-Railgun" hidden="false" id="b555-2ef8-c8aa-67d9" type="selectionEntry" targetId="2dde-552a-520f-b170">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ecb6-c6a7-4871-074f" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="9f91-21d1-b8b6-52eb" includeChildSelections="false"/>
@@ -2045,7 +2026,7 @@
                 <modifier type="add" value="dbb4-f494-5436-974d" field="category"/>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Tri-Railgun" hidden="false" id="27ae-155f-6fd1-76d8" type="selectionEntry" targetId="2dde-552a-520f-b170" sortIndex="3">
+            <entryLink import="true" name="Tri-Railgun" hidden="false" id="27ae-155f-6fd1-76d8" type="selectionEntry" targetId="2dde-552a-520f-b170">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="428d-b0aa-4def-588d" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="cce6-3e55-6d21-c55b" includeChildSelections="false"/>
@@ -2056,18 +2037,19 @@
             </entryLink>
           </entryLinks>
           <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="596e-d96c-7a64-cb97" includeChildSelections="false"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="3c4d-02bb-9e40-859e" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4640-c9e9-0c03-633f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4b3-b859-1805-342c" includeChildSelections="false"/>
           </constraints>
           <categoryLinks>
-            <categoryLink name="TRG666" hidden="false" id="e9f5-7488-b120-e734" targetId="85bf-38fd-ced4-429c" primary="false"/>
+            <categoryLink name="TRG666" hidden="false" id="5358-42cb-917c-275c" targetId="85bf-38fd-ced4-429c" primary="false"/>
           </categoryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Tobolsk" hidden="false" id="27a1-e2b5-5fc1-5339">
       <infoLinks>
-        <infoLink name="Tobolsk" id="0ce6-a0a2-8afa-847b" hidden="false" type="profile" targetId="d25f-0801-8c17-4f38"/>
+        <infoLink name="Kometa Interceptors" id="0ce6-a0a2-8afa-847b" hidden="false" type="profile" targetId="0dbe-ad19-f1c7-2f2f"/>
+        <infoLink name="Tobolsk" id="e9e5-ca24-7a99-a530" hidden="false" type="profile" targetId="d25f-0801-8c17-4f38"/>
       </infoLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="380"/>
@@ -2484,13 +2466,13 @@
             <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="299c-706c-0bbb-1aa4" includeChildSelections="false"/>
           </constraints>
           <categoryLinks>
-            <categoryLink name="HGB710-" hidden="false" id="8005-8141-6be5-a243" targetId="e238-1dff-28ef-e305" primary="false"/>
-            <categoryLink name="TRG777" hidden="false" id="ce89-e78e-0ba9-94a5" targetId="c633-e629-0a59-3edb" primary="false"/>
-            <categoryLink name="YMB-74" hidden="false" id="24ec-3399-5003-9f3b" targetId="0cc7-cf80-ef24-1fb5" primary="false"/>
-            <categoryLink name="RG555" hidden="false" id="8b37-5a83-22b7-74d4" targetId="735f-c476-5b96-f9c0" primary="false"/>
-            <categoryLink name="LGB47-" hidden="false" id="d167-cabf-20c6-ad42" targetId="58aa-74dd-acc9-f6a1" primary="false"/>
-            <categoryLink name="SM-61" hidden="false" id="b534-417c-81e5-3a0d" targetId="5f41-2a9c-b0b8-fb33" primary="false"/>
-            <categoryLink name="ZRB-63" hidden="false" id="48f8-f413-7bf2-91ba" targetId="0155-1d26-a09b-982a" primary="false"/>
+            <categoryLink name="HGB68-" hidden="false" id="d201-8106-246d-b9f1" targetId="4831-7502-5a79-b08d" primary="false"/>
+            <categoryLink name="TRG666" hidden="false" id="f673-3f37-2a3d-a2bc" targetId="85bf-38fd-ced4-429c" primary="false"/>
+            <categoryLink name="YMB-74" hidden="false" id="1fa4-4c05-ed79-1afe" targetId="0cc7-cf80-ef24-1fb5" primary="false"/>
+            <categoryLink name="LGB46-" hidden="false" id="38b5-91cd-28fd-df7c" targetId="3fbe-12c7-d1f5-f7a8" primary="false"/>
+            <categoryLink name="RG555" hidden="false" id="bb8a-ab0f-f898-d4a4" targetId="735f-c476-5b96-f9c0" primary="false"/>
+            <categoryLink name="SM-52" hidden="false" id="05c1-ed4a-86ca-ec34" targetId="ab73-1b9d-a2bf-21a9" primary="false"/>
+            <categoryLink name="ZRB-5-" hidden="false" id="46bd-337a-2b05-ae2a" targetId="2d8e-78a9-facc-c720" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2523,12 +2505,6 @@
                 <modifier type="set" value="Ablative Armour (2)" field="name"/>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Light Vessel" hidden="false" id="659a-d2c4-15db-dd71" type="selectionEntry" targetId="4f86-9674-cce4-196f">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c03b-b94e-8865-a5d0" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="289c-813e-ce39-f27f" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
             <entryLink import="true" name="Agile (x)" hidden="false" id="76da-8c74-5029-4977" type="selectionEntry" targetId="0628-3b7c-b99d-9334">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6981-ae14-189d-41a4" includeChildSelections="false"/>
@@ -2538,7 +2514,7 @@
                 <modifier type="set" value="Agile (1)" field="name"/>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Azhdaya Berserkers (x)" hidden="false" id="5d53-8a36-d7a4-b2a0" type="selectionEntry" targetId="9425-597a-1323-d965">
+            <entryLink import="true" name="Azhdaya Berserkers" hidden="false" id="5d53-8a36-d7a4-b2a0" type="selectionEntry" targetId="9425-597a-1323-d965">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8b36-e59d-5451-e880" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd4b-4140-c8f0-14e6" includeChildSelections="false"/>
@@ -2547,13 +2523,13 @@
                 <modifier type="set" value="Azhdaya Berserkers (7)" field="name"/>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Ground Assault (x)" hidden="false" id="eb4e-892c-fb72-b1ae" type="selectionEntry" targetId="dbc0-f0eb-e18a-9647">
+            <entryLink import="true" name="Boarding Parties (x)" hidden="false" id="eb4e-892c-fb72-b1ae" type="selectionEntry" targetId="a0f7-e278-0d24-4771">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dd68-c93e-cddf-c23b" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="b33f-c24a-74b8-4b98" includeChildSelections="false"/>
               </constraints>
               <modifiers>
-                <modifier type="set" value="Ground Assault (1)" field="name"/>
+                <modifier type="set" value="Boarding Parties (7)" field="name"/>
               </modifiers>
             </entryLink>
             <entryLink import="true" name="Strategic Asset (x)" hidden="false" id="c727-92ba-2c08-e5b9" type="selectionEntry" targetId="98ff-955f-25d5-0cdf">
@@ -2583,6 +2559,15 @@
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="215f-057c-5380-a274" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="358f-a44b-c35f-08ac" includeChildSelections="false"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Ground Assault (x)" hidden="false" id="474d-4b14-ffea-4a5a" type="selectionEntry" targetId="dbc0-f0eb-e18a-9647">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5cbd-ff91-97ae-d622" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="7641-11e0-376c-955e" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="Ground Assault (1)" field="name"/>
+              </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntry>
@@ -2716,7 +2701,9 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink name="RG333" hidden="false" id="027d-50a1-a1e4-5b14" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="LGB24-" hidden="false" id="91a5-ec29-4932-ed35" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
+            <categoryLink name="RG222" hidden="false" id="081a-adc6-b05a-4499" targetId="da4f-3af2-9a8c-f511" primary="false"/>
+            <categoryLink name="SM-21" hidden="false" id="1658-8013-77eb-b9ad" targetId="740b-ba1b-4d0f-d48b" primary="false"/>
           </categoryLinks>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="933a-7d40-0e66-38d3" includeChildSelections="false"/>
@@ -2950,7 +2937,10 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink name="RG333" hidden="false" id="de25-9ca5-cd5c-5bd6" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="LGB34-" hidden="false" id="7a2e-db56-d8ce-0b0b" targetId="98a2-a16f-1fd1-588e" primary="false"/>
+            <categoryLink name="SM-31" hidden="false" id="38f1-910e-3580-6723" targetId="41e5-7b23-646e-de4e" primary="false"/>
+            <categoryLink name="RG333" hidden="false" id="3db2-7e6d-009b-9cd0" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="ZRB-3-" hidden="false" id="e256-f024-ef75-529c" targetId="f225-a14a-3d73-af14" primary="false"/>
           </categoryLinks>
           <constraints>
             <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="c499-b4e3-8f7a-a50d" includeChildSelections="false"/>
@@ -3094,6 +3084,12 @@
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7111-fc4a-d5ce-bc95" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58f4-77b1-87b8-8378" includeChildSelections="false"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink name="LGB24-" hidden="false" id="7f92-5653-ce39-7319" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
+                <categoryLink name="SM-31" hidden="false" id="e3db-04b2-903d-5fa4" targetId="41e5-7b23-646e-de4e" primary="false"/>
+                <categoryLink name="RG333" hidden="false" id="03a6-f955-f29e-f356" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+                <categoryLink name="ZRB-3-" hidden="false" id="a425-3d73-207e-a199" targetId="f225-a14a-3d73-af14" primary="false"/>
+              </categoryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
@@ -3263,7 +3259,9 @@
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3305-3acd-8ec5-2bfa" includeChildSelections="false"/>
           </constraints>
           <categoryLinks>
-            <categoryLink name="RG333" hidden="false" id="ef02-a8f0-ad9d-e29e" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="HGB46-" hidden="false" id="3a55-fdc2-842a-1a5d" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="TRG444" hidden="false" id="eb44-dd32-e46b-b222" targetId="406d-d3db-f75b-58a7" primary="false"/>
+            <categoryLink name="YMB-52" hidden="false" id="5e1e-30d4-01d1-c3cb" targetId="66e0-a90d-6abc-ec68" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3505,7 +3503,13 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="32c5-1e02-111a-2e32" includeChildSelections="false"/>
           </constraints>
           <categoryLinks>
-            <categoryLink name="RG333" hidden="false" id="78c2-5d93-b024-3a59" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="HGB46-" hidden="false" id="831d-7005-9657-5fb0" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="TRG444" hidden="false" id="3180-6a0a-47a2-1709" targetId="406d-d3db-f75b-58a7" primary="false"/>
+            <categoryLink name="YMB-52" hidden="false" id="ab35-2d7b-9f83-cb08" targetId="66e0-a90d-6abc-ec68" primary="false"/>
+            <categoryLink name="LGB24-" hidden="false" id="a0c9-432e-c700-f848" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
+            <categoryLink name="SM-31" hidden="false" id="f9cb-d338-919f-9bcc" targetId="41e5-7b23-646e-de4e" primary="false"/>
+            <categoryLink name="RG333" hidden="false" id="663e-b929-6a69-911c" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="ZRB-3-" hidden="false" id="c3e3-61ca-8d54-72d6" targetId="f225-a14a-3d73-af14" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3638,6 +3642,11 @@
                   </constraints>
                   <modifiers>
                     <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                    <modifier type="prepend" value="Focused" field="name" join=" ">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Yastreb Missile Battery" hidden="false" id="48e9-7fa7-e6b2-9551" type="selectionEntry" targetId="db28-f761-d9a9-9e13" sortIndex="3">
@@ -3672,6 +3681,11 @@
                   </constraints>
                   <modifiers>
                     <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                    <modifier type="prepend" value="Focused" field="name" join=" ">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Railgun" hidden="false" id="999a-85b2-c339-9486" type="selectionEntry" targetId="c889-b6e4-4b9e-9291" sortIndex="2">
@@ -3680,6 +3694,11 @@
                   </constraints>
                   <modifiers>
                     <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                    <modifier type="prepend" value="Focused" field="name" join=" ">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Seismic Mortar" hidden="false" id="f8de-7e91-8406-17a2" type="selectionEntry" targetId="1087-cb64-fe59-7a28" sortIndex="3">
@@ -3715,11 +3734,10 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="ab10-cf19-9e8c-8915" includeChildSelections="false"/>
           </constraints>
           <categoryLinks>
-            <categoryLink name="HGB68-" hidden="false" id="5deb-415b-0ae4-6baa" targetId="4831-7502-5a79-b08d" primary="false"/>
-            <categoryLink name="TRG666" hidden="false" id="ffcb-736a-8ae3-cf8a" targetId="85bf-38fd-ced4-429c" primary="false"/>
-            <categoryLink name="LGB46-" hidden="false" id="2f1c-69b8-ee78-0825" targetId="3fbe-12c7-d1f5-f7a8" primary="false"/>
-            <categoryLink name="RG333" hidden="false" id="ecb0-9642-5068-f493" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
-            <categoryLink name="Focused" hidden="false" id="9c30-663b-d104-0205" targetId="cca6-2932-4e61-2970" primary="false"/>
+            <categoryLink name="FocusedG" hidden="false" id="9c30-663b-d104-0205" targetId="cca6-2932-4e61-2970" primary="false"/>
+            <categoryLink name="YMB-52" hidden="false" id="23c7-33ad-054c-8ed3" targetId="66e0-a90d-6abc-ec68" primary="false"/>
+            <categoryLink name="SM-31" hidden="false" id="b9bc-3a1b-864d-c69d" targetId="41e5-7b23-646e-de4e" primary="false"/>
+            <categoryLink name="ZRB-3-" hidden="false" id="66b0-64bf-7844-6573" targetId="f225-a14a-3d73-af14" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3887,6 +3905,11 @@
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="c763-04b4-45eb-651b" includeChildSelections="false"/>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="413a-5af0-2cce-8fe3" includeChildSelections="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="HGB46-" hidden="false" id="08cf-49fd-4150-4d78" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="TRG444" hidden="false" id="eb8a-573a-b5fd-af0f" targetId="406d-d3db-f75b-58a7" primary="false"/>
+            <categoryLink name="YMB-52" hidden="false" id="15e8-5af5-11b6-759a" targetId="66e0-a90d-6abc-ec68" primary="false"/>
+          </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <modifiers>
@@ -3899,7 +3922,8 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Zamiec" hidden="false" id="13fa-24d5-dd09-7c7b">
       <infoLinks>
-        <infoLink name="Zamiec" id="e3ab-e3c6-0d2c-c65b" hidden="false" type="profile" targetId="3b77-a0d8-9aa9-2db9"/>
+        <infoLink name="Szpada Fighters" id="e3ab-e3c6-0d2c-c65b" hidden="false" type="profile" targetId="5536-840c-4c3c-078b"/>
+        <infoLink name="Zamiec" id="d1d4-2950-dec2-0848" hidden="false" type="profile" targetId="3b77-a0d8-9aa9-2db9"/>
       </infoLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="296"/>
@@ -4158,10 +4182,10 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink name="ZRB-63" hidden="false" id="4dbc-527a-5f99-384b" targetId="0155-1d26-a09b-982a" primary="false"/>
-            <categoryLink name="LGB47-" hidden="false" id="bb5e-20eb-238e-1366" targetId="58aa-74dd-acc9-f6a1" primary="false"/>
-            <categoryLink name="SM-51 " hidden="false" id="1aca-259b-83ed-3ba7" targetId="8254-9993-cc1e-3111" primary="false"/>
-            <categoryLink name="RG555" hidden="false" id="8027-f980-6743-46e4" targetId="735f-c476-5b96-f9c0" primary="false"/>
+            <categoryLink name="LGB46-" hidden="false" id="1d8c-b264-e86a-3dc9" targetId="3fbe-12c7-d1f5-f7a8" primary="false"/>
+            <categoryLink name="SM-52" hidden="false" id="3f55-0a2e-1e12-5d2d" targetId="ab73-1b9d-a2bf-21a9" primary="false"/>
+            <categoryLink name="RG555" hidden="false" id="68e6-98ca-45e4-54b4" targetId="735f-c476-5b96-f9c0" primary="false"/>
+            <categoryLink name="ZRB-5-" hidden="false" id="ed8e-485e-d1ee-d4fe" targetId="2d8e-78a9-facc-c720" primary="false"/>
           </categoryLinks>
           <constraints>
             <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="c8f6-bcbb-a9c9-be4a" includeChildSelections="false"/>
@@ -4178,9 +4202,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Ortoq" hidden="false" id="db2c-ae16-b008-2dbc">
+    <selectionEntry type="model" import="true" name="Offshore Supply Platforms" hidden="false" id="db2c-ae16-b008-2dbc">
       <infoLinks>
-        <infoLink name="Ortoq" id="bed8-cb4e-925c-4e41" hidden="false" type="profile" targetId="20e9-32c4-252e-c7e4"/>
+        <infoLink name="Offshore Supply Platform" id="bed8-cb4e-925c-4e41" hidden="false" type="profile" targetId="20e9-32c4-252e-c7e4"/>
       </infoLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="65"/>
@@ -4203,9 +4227,9 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b97-1400-43c8-b7d3" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Stockpile (x”)" hidden="false" id="4754-1b94-2379-29ec" targetId="041c-5a70-3835-2f6b" type="selectionEntry">
+            <entryLink import="true" name="Stockpile (x)" hidden="false" id="4754-1b94-2379-29ec" targetId="041c-5a70-3835-2f6b" type="selectionEntry">
               <modifiers>
-                <modifier type="set" value="Stockpile (5”)" field="name"/>
+                <modifier type="set" value="Stockpile (3)" field="name"/>
               </modifiers>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6e2d-8768-ba04-696a" includeChildSelections="false"/>
@@ -4269,7 +4293,6 @@
       <categoryLinks>
         <categoryLink name="Commonwealth" hidden="false" id="58ea-b234-8795-3372" targetId="c7ca-90d2-5214-ece9" primary="true"/>
         <categoryLink name="Platform" hidden="false" id="74d1-8d20-9fec-d0ac" targetId="dff9-2c49-7706-457f" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="3415-c794-17a3-4372" targetId="62ac-95d8-de16-f00f" primary="false"/>
         <categoryLink name="Repair" hidden="false" id="538d-0b91-7288-0a6c" targetId="6808-24f6-d6cf-08b5" primary="false"/>
         <categoryLink name="Immobile" hidden="false" id="26a0-1fab-4891-5147" targetId="ad70-77b7-aabe-60c0" primary="false"/>
       </categoryLinks>
@@ -4417,13 +4440,19 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="6ef6-1001-66d3-96ae" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Azhdaya Berserkers (x)" hidden="false" id="16e0-f4e6-37e7-b484" type="selectionEntry" targetId="9425-597a-1323-d965">
+            <entryLink import="true" name="Azhdaya Berserkers" hidden="false" id="16e0-f4e6-37e7-b484" type="selectionEntry" targetId="9425-597a-1323-d965">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d99a-7faf-700b-c335" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="33df-cf5b-6b2c-8409" includeChildSelections="false"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Boarding Parties (x)" hidden="false" id="2f7d-79ea-2a43-3764" type="selectionEntry" targetId="a0f7-e278-0d24-4771">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7e61-189a-0447-bd33" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46ae-1cf6-2f56-23bf" includeChildSelections="false"/>
+              </constraints>
               <modifiers>
-                <modifier type="set" value="Azhdaya Berserkers (8)" field="name"/>
+                <modifier type="set" value="Boarding Parties (8)" field="name"/>
               </modifiers>
             </entryLink>
           </entryLinks>
@@ -4633,10 +4662,9 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink name="LGB24-" hidden="false" id="506d-932b-9196-4979" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
-            <categoryLink name="SM-31" hidden="false" id="36dd-6164-113a-0d74" targetId="41e5-7b23-646e-de4e" primary="false"/>
-            <categoryLink name="RG333" hidden="false" id="82e3-22f1-98fb-850f" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
-            <categoryLink name="ZRB-31" hidden="false" id="19dc-05fe-2499-166f" targetId="f225-a14a-3d73-af14" primary="false"/>
+            <categoryLink name="LGB23-" hidden="false" id="c193-a010-e47c-bd13" targetId="77c7-aac7-cdeb-a57c" primary="false"/>
+            <categoryLink name="SM-21" hidden="false" id="f85d-469e-3354-e113" targetId="740b-ba1b-4d0f-d48b" primary="false"/>
+            <categoryLink name="RG222" hidden="false" id="748e-5498-5a24-a1cf" targetId="da4f-3af2-9a8c-f511" primary="false"/>
           </categoryLinks>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6d99-b3bc-f94f-224f" includeChildSelections="false"/>
@@ -4844,6 +4872,11 @@
                   </constraints>
                   <modifiers>
                     <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                    <modifier type="prepend" value="Tracer" field="name" join=" ">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="99ca-9745-f98e-4805" shared="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Tri-Railgun" hidden="false" id="9139-2ed9-81fc-d4a5" type="selectionEntry" targetId="2dde-552a-520f-b170" sortIndex="2">
@@ -4852,6 +4885,11 @@
                   </constraints>
                   <modifiers>
                     <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                    <modifier type="prepend" value="Tracer" field="name" join=" ">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="99ca-9745-f98e-4805" shared="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Yastreb Missile Battery" hidden="false" id="bff1-9026-88e1-11f6" type="selectionEntry" targetId="db28-f761-d9a9-9e13" sortIndex="3">
@@ -4881,10 +4919,10 @@
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="4c96-183d-c6ba-80dc" includeChildSelections="false"/>
           </constraints>
           <categoryLinks>
-            <categoryLink name="HGB68-" hidden="false" id="93bc-a3e8-db36-dfc2" targetId="4831-7502-5a79-b08d" primary="false"/>
-            <categoryLink name="YMB-72" hidden="false" id="9999-5799-1640-08e2" targetId="1168-db10-2ed7-3360" primary="false"/>
-            <categoryLink name="TRG666" hidden="false" id="ec5b-e28c-a9f9-007d" targetId="85bf-38fd-ced4-429c" primary="false"/>
             <categoryLink name="Tracer" hidden="false" id="6fa7-af58-92ce-161d" targetId="99ca-9745-f98e-4805" primary="false"/>
+            <categoryLink name="HGB68-" hidden="false" id="be30-a31d-e409-30b4" targetId="4831-7502-5a79-b08d" primary="false"/>
+            <categoryLink name="TRG666" hidden="false" id="6332-aa41-f994-46e6" targetId="85bf-38fd-ced4-429c" primary="false"/>
+            <categoryLink name="YMB-74" hidden="false" id="1478-b58a-5c9b-9e42" targetId="0cc7-cf80-ef24-1fb5" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4928,13 +4966,13 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="7bf2-a5f1-c65c-10a7" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Azhdaya Berserkers (x)" hidden="false" id="3749-8787-e45a-80d7" type="selectionEntry" targetId="9425-597a-1323-d965">
+            <entryLink import="true" name="Boarding Parties (x)" hidden="false" id="3749-8787-e45a-80d7" type="selectionEntry" targetId="a0f7-e278-0d24-4771">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="919f-52d6-392c-d9b2" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b961-d1d0-586f-ce85" includeChildSelections="false"/>
               </constraints>
               <modifiers>
-                <modifier type="set" value="Azhdaya Berserkers (12)" field="name"/>
+                <modifier type="set" value="Boarding Parties (12)" field="name"/>
               </modifiers>
             </entryLink>
             <entryLink import="true" name="Daredevil Crew" hidden="false" id="137f-9a95-6b7f-2f7d" type="selectionEntry" targetId="501f-923a-2136-ddc2">
@@ -4957,6 +4995,18 @@
               <modifiers>
                 <modifier type="set" value="Breaching Drill (20)" field="name"/>
               </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Azhdaya Berserkers" hidden="false" id="4c04-131b-e239-652c" type="selectionEntry" targetId="9425-597a-1323-d965">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a3c1-3a32-ff0f-3830" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c960-3c10-6774-7224" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Lightning Raid" hidden="false" id="e1bb-5ee6-b11e-35f5" type="selectionEntry" targetId="2a87-15c9-8cf6-f5cf">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ca31-47fa-23cc-4e2b" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="00b4-c607-901b-ca05" includeChildSelections="false"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntry>
@@ -5087,7 +5137,8 @@
           </constraints>
           <categoryLinks>
             <categoryLink name="HGB68-" hidden="false" id="ffe2-9dbd-6ffb-6863" targetId="4831-7502-5a79-b08d" primary="false"/>
-            <categoryLink name="YMB-72" hidden="false" id="1475-3b3b-e51f-f855" targetId="1168-db10-2ed7-3360" primary="false"/>
+            <categoryLink name="TRG666" hidden="false" id="c8ea-5fce-c42a-a630" targetId="85bf-38fd-ced4-429c" primary="false"/>
+            <categoryLink name="YMB-74" hidden="false" id="8b43-2aa4-7393-bdf4" targetId="0cc7-cf80-ef24-1fb5" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5154,12 +5205,6 @@
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d3bf-5c80-46e2-118a" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a247-7e1e-a4ce-cfae" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Shockwave Generator" hidden="false" id="9fcd-164e-b0d9-5a4b" type="selectionEntry" targetId="3cfe-aa45-fb93-f470">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="441f-22e0-a12a-be63" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="261f-9b4b-404f-f4fc" includeChildSelections="false"/>
               </constraints>
             </entryLink>
             <entryLink import="true" name="Heavy Shield Generator" hidden="false" id="f253-1b43-5a58-003c" type="selectionEntry" targetId="8f03-5ac9-164b-1f77">
@@ -5354,12 +5399,13 @@
           </constraints>
           <categoryLinks>
             <categoryLink name="SHTS12" hidden="false" id="3d1e-ecd2-9be8-0d82" targetId="73ae-eaf7-efb8-a22e" primary="false"/>
-            <categoryLink name="HGB710-" hidden="false" id="31ec-14d5-fd67-4e6f" targetId="e238-1dff-28ef-e305" primary="false"/>
-            <categoryLink name="TRG777" hidden="false" id="4a5a-c3cc-a772-0f82" targetId="c633-e629-0a59-3edb" primary="false"/>
-            <categoryLink name="YMB-73" hidden="false" id="1523-130d-7e09-758b" targetId="520b-4ae3-4da9-081d" primary="false"/>
-            <categoryLink name="LGB47-" hidden="false" id="bead-3ad3-27a3-a9e2" targetId="58aa-74dd-acc9-f6a1" primary="false"/>
-            <categoryLink name="SM-61" hidden="false" id="57dc-1173-094f-fc0a" targetId="5f41-2a9c-b0b8-fb33" primary="false"/>
-            <categoryLink name="ZRB-63" hidden="false" id="390d-c757-88aa-b491" targetId="0155-1d26-a09b-982a" primary="false"/>
+            <categoryLink name="HGB68-" hidden="false" id="5a54-8527-eebf-7506" targetId="4831-7502-5a79-b08d" primary="false"/>
+            <categoryLink name="TRG666" hidden="false" id="1c39-b1c6-3f80-d3ab" targetId="85bf-38fd-ced4-429c" primary="false"/>
+            <categoryLink name="YMB-74" hidden="false" id="4cba-efac-4011-c8e4" targetId="0cc7-cf80-ef24-1fb5" primary="false"/>
+            <categoryLink name="LGB46-" hidden="false" id="027b-93c5-38de-249c" targetId="3fbe-12c7-d1f5-f7a8" primary="false"/>
+            <categoryLink name="RG555" hidden="false" id="5666-52f3-baf5-f46b" targetId="735f-c476-5b96-f9c0" primary="false"/>
+            <categoryLink name="SM-52" hidden="false" id="09cd-c251-12b9-f949" targetId="ab73-1b9d-a2bf-21a9" primary="false"/>
+            <categoryLink name="ZRB-5-" hidden="false" id="2f1c-1e5c-1349-a879" targetId="2d8e-78a9-facc-c720" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5467,7 +5513,10 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink name="RG333" hidden="false" id="956f-9a2a-f8c0-8843" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="LGB24-" hidden="false" id="81fe-9a0b-54e0-3a3a" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
+            <categoryLink name="SM-31" hidden="false" id="defb-6cc6-d879-51a4" targetId="41e5-7b23-646e-de4e" primary="false"/>
+            <categoryLink name="RG333" hidden="false" id="0636-1abe-9bad-ec0a" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="ZRB-3-" hidden="false" id="41e7-34ef-7ff6-81a0" targetId="f225-a14a-3d73-af14" primary="false"/>
           </categoryLinks>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3e1f-b2b2-f7b3-06f1" includeChildSelections="false"/>
@@ -5642,7 +5691,10 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink name="RG333" hidden="false" id="578b-f569-c1a4-2b8b" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="LGB24-" hidden="false" id="6628-c83b-497a-dad3" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
+            <categoryLink name="SM-31" hidden="false" id="7565-d1c8-4f56-176f" targetId="41e5-7b23-646e-de4e" primary="false"/>
+            <categoryLink name="RG333" hidden="false" id="1b56-5329-0be0-cb69" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="ZRB-3-" hidden="false" id="bf91-76b4-b02f-2eb3" targetId="f225-a14a-3d73-af14" primary="false"/>
           </categoryLinks>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="02b3-ce4b-87de-17e9" includeChildSelections="false"/>
@@ -5718,9 +5770,6 @@
       </constraints>
       <selectionEntryGroups>
         <selectionEntryGroup name="Weapons" id="a102-a1fc-3626-8593" hidden="false" sortIndex="3">
-          <entryLinks>
-            <entryLink import="true" name="Generator" hidden="false" id="c052-8a0c-c120-1bd9" type="selectionEntryGroup" targetId="90f7-7704-7455-25e5" sortIndex="4"/>
-          </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Hardpoint Heavy (Front)" id="504f-c14f-7b59-6edd" hidden="false" defaultSelectionEntryId="7987-8deb-e8a5-014a" sortIndex="1">
               <entryLinks>
@@ -5753,13 +5802,6 @@
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="04a6-6094-7822-07d0" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="0ebc-f7fd-ebab-a4fd" includeChildSelections="false"/>
               </constraints>
-              <modifiers>
-                <modifier type="set" value="0" field="04a6-6094-7822-07d0">
-                  <conditions>
-                    <condition type="greaterThan" value="0" field="selections" scope="a38b-9156-2d4c-f6b5" childId="25b9-7f26-cbd9-e68f" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
             </selectionEntryGroup>
             <selectionEntryGroup name="Hardpoint Light (Front)" id="ed59-097c-9dba-61b1" hidden="false" defaultSelectionEntryId="edc0-42e1-b099-650f" sortIndex="2">
               <entryLinks>
@@ -5807,7 +5849,12 @@
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7780-1e03-1615-13cc" includeChildSelections="false"/>
           </constraints>
           <categoryLinks>
-            <categoryLink name="RG333" hidden="false" id="cf85-1e69-0652-7b1f" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="HGB46-" hidden="false" id="eb9f-e385-eb70-4e24" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="TRG444" hidden="false" id="c86b-76f5-0c17-97df" targetId="406d-d3db-f75b-58a7" primary="false"/>
+            <categoryLink name="YMB-52" hidden="false" id="315b-37a9-7cb5-2ab2" targetId="66e0-a90d-6abc-ec68" primary="false"/>
+            <categoryLink name="LGB24-" hidden="false" id="f522-daf2-bf9d-bb49" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
+            <categoryLink name="RG333" hidden="false" id="9f5f-707c-af33-6187" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="ZRB-3-" hidden="false" id="2456-2a00-7d52-459e" targetId="f225-a14a-3d73-af14" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5937,7 +5984,9 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink name="RG333" hidden="false" id="86ac-61ca-ddcf-70d6" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="LGB23-" hidden="false" id="b120-a127-9dfa-fc9b" targetId="77c7-aac7-cdeb-a57c" primary="false"/>
+            <categoryLink name="SM-21" hidden="false" id="84b8-36f0-b46f-68d3" targetId="740b-ba1b-4d0f-d48b" primary="false"/>
+            <categoryLink name="RG222" hidden="false" id="3926-7eb3-5050-ed57" targetId="da4f-3af2-9a8c-f511" primary="false"/>
           </categoryLinks>
           <constraints>
             <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="4ddb-00a1-54c5-1f9b" includeChildSelections="false"/>
@@ -5960,9 +6009,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Subatai" hidden="false" id="b7f3-695e-296e-5017">
+    <selectionEntry type="model" import="true" name="Offshore Defence Platform" hidden="false" id="b7f3-695e-296e-5017">
       <infoLinks>
-        <infoLink name="Subatai" id="32c3-2eb2-b275-40fc" hidden="false" type="profile" targetId="059c-262a-8541-6d0c"/>
+        <infoLink name="Offshore Defence Platform" id="32c3-2eb2-b275-40fc" hidden="false" type="profile" targetId="059c-262a-8541-6d0c"/>
       </infoLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="65"/>
@@ -6024,7 +6073,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee33-6bce-5d72-899b" includeChildSelections="false"/>
               </constraints>
               <modifiers>
-                <modifier type="set" value="Attachment (Elvas, Pereira)" field="name"/>
+                <modifier type="set" value="Attachment (Offshore Heavy Platform, Offshore Supply Platforms)" field="name"/>
               </modifiers>
             </entryLink>
           </entryLinks>
@@ -6087,6 +6136,11 @@
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c2ce-4763-f9c1-7cca" includeChildSelections="false"/>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7a51-ca09-4f5a-75a7" includeChildSelections="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="HGB46-" hidden="false" id="668f-10d7-a120-c9b6" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="TRG444" hidden="false" id="7ded-e7f2-da17-2715" targetId="406d-d3db-f75b-58a7" primary="false"/>
+            <categoryLink name="YMB-52" hidden="false" id="de0b-8913-1b4b-02d6" targetId="66e0-a90d-6abc-ec68" primary="false"/>
+          </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <modifiers>
@@ -6146,7 +6200,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e2f-1cbf-db57-5504" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Combat Divers (x)" hidden="false" id="d2f5-64a4-fe47-b5cb" type="selectionEntry" targetId="2972-3fa4-72dc-44dd">
+            <entryLink import="true" name="Combat Divers" hidden="false" id="d2f5-64a4-fe47-b5cb" type="selectionEntry" targetId="2972-3fa4-72dc-44dd">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0ce6-0b2b-89a9-9d0b" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e116-0439-f6cf-5a01" includeChildSelections="false"/>
@@ -6311,9 +6365,10 @@
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="d48d-21bb-8ed9-4e30" includeChildSelections="false"/>
           </constraints>
           <categoryLinks>
-            <categoryLink name="SM-51 " hidden="false" id="ce3d-d11c-08e9-6ec2" targetId="8254-9993-cc1e-3111" primary="false"/>
             <categoryLink name="LGB46-" hidden="false" id="e971-77b4-353d-e0c4" targetId="3fbe-12c7-d1f5-f7a8" primary="false"/>
-            <categoryLink name="ZRB-52" hidden="false" id="7c85-4cec-8549-9f59" targetId="2d8e-78a9-facc-c720" primary="false"/>
+            <categoryLink name="RG555" hidden="false" id="6440-a394-2387-c088" targetId="735f-c476-5b96-f9c0" primary="false"/>
+            <categoryLink name="SM-52" hidden="false" id="df4a-b64b-78ea-d3f7" targetId="ab73-1b9d-a2bf-21a9" primary="false"/>
+            <categoryLink name="ZRB-5-" hidden="false" id="5f33-847a-3f96-0bc3" targetId="2d8e-78a9-facc-c720" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -6356,7 +6411,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="65b6-352a-fbcf-9dd5" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Azhdaya Berserkers (x)" hidden="false" id="c1fb-26cb-41db-63b5" type="selectionEntry" targetId="9425-597a-1323-d965">
+            <entryLink import="true" name="Azhdaya Berserkers" hidden="false" id="c1fb-26cb-41db-63b5" type="selectionEntry" targetId="9425-597a-1323-d965">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="139e-c23a-30f6-d610" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5566-e1af-870b-ddf4" includeChildSelections="false"/>
@@ -6377,7 +6432,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="2a2f-8d7c-ff9d-f6fc" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Breaching Drill (x)" hidden="false" id="427b-0730-60d3-6483" type="selectionEntry" targetId="707d-2015-e185-26ad">
+            <entryLink import="true" name="Boarding Parties (x)" hidden="false" id="427b-0730-60d3-6483" type="selectionEntry" targetId="a0f7-e278-0d24-4771">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f2ee-2a5a-62d5-a7c0" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5df2-a45c-9946-fd67" includeChildSelections="false"/>
@@ -6385,6 +6440,21 @@
               <modifiers>
                 <modifier type="set" value="Breaching Drill (12)" field="name"/>
               </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Breaching Drill (x)" hidden="false" id="f3d2-53c1-8d61-a7d5" type="selectionEntry" targetId="707d-2015-e185-26ad">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="099d-0a98-0b55-7aff" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ae2-e985-d29c-037c" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="Breaching Drill (12)" field="name"/>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Lightning Raid" hidden="false" id="bc1a-b0d1-abe8-4ef1" type="selectionEntry" targetId="2a87-15c9-8cf6-f5cf">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6c57-9419-5a8e-3f76" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="7b2e-346b-8e9a-8b6f" includeChildSelections="false"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntry>
@@ -6396,7 +6466,7 @@
           <entryLinks>
             <entryLink import="true" name="Boosted Propulsion (+x”)" hidden="false" id="4a77-2c7d-31fa-9200" type="selectionEntry" targetId="b6a6-9930-c6d4-0c4a">
               <modifiers>
-                <modifier type="set" value="Boosted Propulsion (+3”)" field="name"/>
+                <modifier type="set" value="Boosted Propulsion (+4”)" field="name"/>
               </modifiers>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d550-ef71-0008-8c11" includeChildSelections="false"/>
@@ -6409,7 +6479,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c975-e792-93da-2f52" includeChildSelections="false"/>
               </constraints>
               <modifiers>
-                <modifier type="set" value="Flak barrage (8)" field="name"/>
+                <modifier type="set" value="Flak barrage (7)" field="name"/>
               </modifiers>
             </entryLink>
             <entryLink import="true" name="Hydrophone Relay" hidden="false" id="ad9e-2b68-bb2d-3728" type="selectionEntry" targetId="5eb2-8a59-d0ac-aad0">
@@ -6520,7 +6590,7 @@
           <categoryLinks>
             <categoryLink name="LGB46-" hidden="false" id="912b-6145-9373-b0d9" targetId="3fbe-12c7-d1f5-f7a8" primary="false"/>
             <categoryLink name="SM-51 " hidden="false" id="e3ea-c7e5-0c4d-e7ed" targetId="8254-9993-cc1e-3111" primary="false"/>
-            <categoryLink name="ZRB-52" hidden="false" id="a30f-4b29-c412-3cd1" targetId="2d8e-78a9-facc-c720" primary="false"/>
+            <categoryLink name="ZRB-5-" hidden="false" id="a30f-4b29-c412-3cd1" targetId="2d8e-78a9-facc-c720" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -6708,8 +6778,9 @@
           </constraints>
           <categoryLinks>
             <categoryLink name="LGB46-" hidden="false" id="6dbd-8eb8-2e8f-4daf" targetId="3fbe-12c7-d1f5-f7a8" primary="false"/>
-            <categoryLink name="SM-51 " hidden="false" id="7b5b-717d-4dc4-052b" targetId="8254-9993-cc1e-3111" primary="false"/>
-            <categoryLink name="ZRB-52" hidden="false" id="9457-d905-99f7-fc85" targetId="2d8e-78a9-facc-c720" primary="false"/>
+            <categoryLink name="SM-52" hidden="false" id="a62f-31aa-d426-5304" targetId="ab73-1b9d-a2bf-21a9" primary="false"/>
+            <categoryLink name="RG555" hidden="false" id="f190-a84a-0ff8-f8e8" targetId="735f-c476-5b96-f9c0" primary="false"/>
+            <categoryLink name="ZRB-5-" hidden="false" id="ae6a-45f1-17e9-de2a" targetId="2d8e-78a9-facc-c720" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -6831,7 +6902,8 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink name="RG333" hidden="false" id="fd7e-60e9-6f83-11d1" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="LGB23-" hidden="false" id="3cfc-148b-3020-394c" targetId="77c7-aac7-cdeb-a57c" primary="false"/>
+            <categoryLink name="SM-21" hidden="false" id="7e18-7e88-d9da-d8a5" targetId="740b-ba1b-4d0f-d48b" primary="false"/>
           </categoryLinks>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="98c7-8c86-eb28-1748" includeChildSelections="false"/>
@@ -6847,6 +6919,7 @@
     <selectionEntry type="model" import="true" name="Szlachta" hidden="false" id="bb52-339e-e5fb-de45">
       <infoLinks>
         <infoLink name="Szlachta" id="16b7-6fcc-1bd5-dcb9" hidden="false" type="profile" targetId="8465-ec4e-e1eb-964d"/>
+        <infoLink name="Szpada Fighters" id="b30c-6afc-7ee0-a64f" hidden="false" type="profile" targetId="5536-840c-4c3c-078b"/>
       </infoLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="130"/>
@@ -7001,7 +7074,7 @@
           <entryLinks>
             <entryLink import="true" name="Boosted Propulsion (+x”)" hidden="false" id="a721-3038-8f89-5f68" type="selectionEntry" targetId="b6a6-9930-c6d4-0c4a">
               <modifiers>
-                <modifier type="set" value="Boosted Propulsion (+4”)" field="name"/>
+                <modifier type="set" value="Boosted Propulsion (+4”)" field="name" join=" "/>
               </modifiers>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9f27-d0ef-481c-f7f1" includeChildSelections="false"/>
@@ -7110,7 +7183,7 @@
                     <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
                     <modifier type="prepend" value="Focused" field="name" join=" ">
                       <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="10c6-3a45-3bf8-3077" shared="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -7155,7 +7228,7 @@
                     <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
                     <modifier type="prepend" value="Focused" field="name" join=" ">
                       <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="10c6-3a45-3bf8-3077" shared="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -7200,7 +7273,7 @@
                     <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
                     <modifier type="prepend" value="Focused" field="name" join=" ">
                       <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="10c6-3a45-3bf8-3077" shared="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -7213,8 +7286,11 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink name="RG333" hidden="false" id="c017-bef7-c87e-69f9" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
-            <categoryLink name="Focused" hidden="false" id="abd3-ac5f-3757-e6af" targetId="cca6-2932-4e61-2970" primary="false"/>
+            <categoryLink name="FocusedR" hidden="false" id="5ba4-079e-36a5-07a6" targetId="10c6-3a45-3bf8-3077" primary="false"/>
+            <categoryLink name="LGB24-" hidden="false" id="c851-9a2b-a3b2-f46e" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
+            <categoryLink name="SM-31" hidden="false" id="ea2d-e6bc-9950-601d" targetId="41e5-7b23-646e-de4e" primary="false"/>
+            <categoryLink name="RG333" hidden="false" id="7972-789c-0387-0484" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="ZRB-4-" hidden="false" id="9898-9cfe-091c-b073" targetId="1523-10a2-3eca-f6a1" primary="false"/>
           </categoryLinks>
           <constraints>
             <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="d01f-42ba-6128-b910" includeChildSelections="false"/>
@@ -7234,7 +7310,6 @@
       </constraints>
       <categoryLinks>
         <categoryLink name="Merchantman" hidden="false" id="8faf-c818-9f59-0429" targetId="136e-5a1f-af1b-2a2e" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="a020-3463-66c3-8fb9" targetId="62ac-95d8-de16-f00f" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="aca6-a23f-5942-269a" targetId="0a3b-fe42-16f0-2769" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="626e-c951-a4a1-334b" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
         <categoryLink name="Commonwealth" hidden="false" id="9557-cf02-17fc-a154" targetId="c7ca-90d2-5214-ece9" primary="true"/>
@@ -7393,7 +7468,10 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink name="RG333" hidden="false" id="53b4-4b60-06be-8ae7" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="LGB24-" hidden="false" id="8eb7-3f74-9b9a-0802" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
+            <categoryLink name="RG333" hidden="false" id="8876-10a1-8346-5150" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="SM-31" hidden="false" id="c4ea-0d93-5d67-357e" targetId="41e5-7b23-646e-de4e" primary="false"/>
+            <categoryLink name="ZRB-3-" hidden="false" id="792a-ac54-23f0-cf03" targetId="f225-a14a-3d73-af14" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -7473,7 +7551,6 @@
       </modifiers>
       <categoryLinks>
         <categoryLink name="Ship" hidden="false" id="f1ef-e7f2-9f31-bdfa" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="a354-353b-0a50-2f6b" targetId="62ac-95d8-de16-f00f" primary="false"/>
         <categoryLink name="Merchantman" hidden="false" id="f899-9da8-da53-bca9" targetId="136e-5a1f-af1b-2a2e" primary="false"/>
         <categoryLink name="Light Vessel" hidden="false" id="af5c-e56a-1dd0-669c" targetId="49e0-1009-c7ce-ee43" primary="false"/>
         <categoryLink name="Commonwealth" hidden="false" id="8a7f-5caf-f429-0211" targetId="c7ca-90d2-5214-ece9" primary="true"/>
@@ -7596,7 +7673,9 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink name="RG333" hidden="false" id="8dde-af19-576b-d521" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="HGB46-" hidden="false" id="c648-b9e0-17ed-51b1" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="TRG444" hidden="false" id="4a0e-c763-02f7-813f" targetId="406d-d3db-f75b-58a7" primary="false"/>
+            <categoryLink name="YMB-52" hidden="false" id="b1ee-91c3-1c18-d05f" targetId="66e0-a90d-6abc-ec68" primary="false"/>
           </categoryLinks>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="464b-0538-8b26-2484" includeChildSelections="false"/>
@@ -7659,7 +7738,10 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink name="RG333" hidden="false" id="3d85-f308-c421-7d2e" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="LGB24-" hidden="false" id="1518-406d-2488-f7f8" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
+            <categoryLink name="RG333" hidden="false" id="c582-f66c-9781-baff" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="SM-31" hidden="false" id="1286-0aed-7fdd-ebd1" targetId="41e5-7b23-646e-de4e" primary="false"/>
+            <categoryLink name="ZRB-3-" hidden="false" id="c3aa-a86f-f12d-f5da" targetId="f225-a14a-3d73-af14" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -7767,7 +7849,6 @@
       <categoryLinks>
         <categoryLink name="Alliance" hidden="false" id="00b7-6c01-040a-77ce" targetId="534c-9506-e470-8b7c" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="e0d3-b964-bd86-d1b8" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="35dc-81a9-91fe-c2f2" targetId="62ac-95d8-de16-f00f" primary="false"/>
         <categoryLink name="Merchantman" hidden="false" id="5356-f150-0d36-9bc4" targetId="136e-5a1f-af1b-2a2e" primary="false"/>
       </categoryLinks>
       <entryLinks>
@@ -8027,10 +8108,10 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink name="ZRB-63" hidden="false" id="f26c-8bf9-e520-7dae" targetId="0155-1d26-a09b-982a" primary="false"/>
-            <categoryLink name="LGB47-" hidden="false" id="0d7b-f982-9a33-f286" targetId="58aa-74dd-acc9-f6a1" primary="false"/>
-            <categoryLink name="SM-63" hidden="false" id="e0e1-b341-b359-0f15" targetId="4fca-a290-d7b6-ad28" primary="false"/>
-            <categoryLink name="RG555" hidden="false" id="0a80-b7b7-b8e6-a4db" targetId="735f-c476-5b96-f9c0" primary="false"/>
+            <categoryLink name="LGB46-" hidden="false" id="d055-008a-40a6-8408" targetId="3fbe-12c7-d1f5-f7a8" primary="false"/>
+            <categoryLink name="RG555" hidden="false" id="719e-731c-0b3b-d605" targetId="735f-c476-5b96-f9c0" primary="false"/>
+            <categoryLink name="SM-52" hidden="false" id="c984-d8e2-9979-61d7" targetId="ab73-1b9d-a2bf-21a9" primary="false"/>
+            <categoryLink name="ZRB-5-" hidden="false" id="de04-dc67-708d-770b" targetId="2d8e-78a9-facc-c720" primary="false"/>
           </categoryLinks>
           <constraints>
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="855f-5eb0-ca31-f2ce" includeChildSelections="false"/>
@@ -8257,8 +8338,8 @@
           </constraints>
           <categoryLinks>
             <categoryLink name="HGB68-" hidden="false" id="4ebf-a24d-1bf1-f476" targetId="4831-7502-5a79-b08d" primary="false"/>
-            <categoryLink name="TRG777" hidden="false" id="c8c2-7816-ca94-c7e3" targetId="c633-e629-0a59-3edb" primary="false"/>
-            <categoryLink name="YMB-72" hidden="false" id="a9a5-8db0-2222-8a2a" targetId="1168-db10-2ed7-3360" primary="false"/>
+            <categoryLink name="TRG666" hidden="false" id="61d0-7e77-6278-384a" targetId="85bf-38fd-ced4-429c" primary="false"/>
+            <categoryLink name="YMB-74" hidden="false" id="6918-755c-b669-efe7" targetId="0cc7-cf80-ef24-1fb5" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -8270,7 +8351,8 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Anastasia" hidden="false" id="46da-db35-c758-d469">
       <infoLinks>
-        <infoLink name="Anastasia" id="437c-c4b7-f514-dd1f" hidden="false" type="profile" targetId="ce0b-67f7-a304-3018"/>
+        <infoLink name="Kometa Interceptors" id="437c-c4b7-f514-dd1f" hidden="false" type="profile" targetId="0dbe-ad19-f1c7-2f2f"/>
+        <infoLink name="Anastasia" id="21ef-4d20-6fa2-9098" hidden="false" type="profile" targetId="ce0b-67f7-a304-3018"/>
       </infoLinks>
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b3fe-fc31-5fb3-eb3d" includeChildSelections="false"/>
@@ -8393,12 +8475,6 @@
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Weapon" hidden="false" id="aba8-cbc4-6143-7196">
           <entryLinks>
-            <entryLink import="true" name="Heavy Torpedo Salvo" hidden="false" id="d795-5e22-8fb3-d2f9" type="selectionEntry" targetId="4981-770c-d30e-3f56">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="662f-f1f5-2a90-4ce7" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3fea-278b-5f6f-ea36" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
             <entryLink import="true" name="Tri-Railgun" hidden="false" id="ae08-c340-cd0c-dc31" type="selectionEntry" targetId="2dde-552a-520f-b170">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="1e8e-4116-06e9-8482" includeChildSelections="false"/>
@@ -8459,8 +8535,8 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad3b-7586-4c27-e7f6" includeChildSelections="false"/>
           </constraints>
           <categoryLinks>
-            <categoryLink name="TRG777" hidden="false" id="50d4-3f71-8349-1cc4" targetId="c633-e629-0a59-3edb" primary="false"/>
-            <categoryLink name="ZRB-61" hidden="false" id="024b-8c9e-ca77-f1a2" targetId="6329-e738-eb5f-b4bc" primary="false"/>
+            <categoryLink name="TRG666" hidden="false" id="c173-90b6-8794-3455" targetId="85bf-38fd-ced4-429c" primary="false"/>
+            <categoryLink name="ZRB-5-" hidden="false" id="4e3d-4b30-608c-21f3" targetId="2d8e-78a9-facc-c720" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -8570,7 +8646,9 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink name="RG333" hidden="false" id="9b06-5205-44b7-4e48" targetId="32e0-ed43-3e1c-1b87" primary="false"/>
+            <categoryLink name="LGB23-" hidden="false" id="f660-3e69-d40c-d3e6" targetId="77c7-aac7-cdeb-a57c" primary="false"/>
+            <categoryLink name="SM-21" hidden="false" id="5716-2f9a-5af4-e7e4" targetId="740b-ba1b-4d0f-d48b" primary="false"/>
+            <categoryLink name="RG222" hidden="false" id="91f6-a020-d7cc-93d3" targetId="da4f-3af2-9a8c-f511" primary="false"/>
           </categoryLinks>
           <constraints>
             <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="6aa9-5f4c-30e6-3495" includeChildSelections="false"/>
@@ -8660,13 +8738,13 @@
         <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="4"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Khan" hidden="false" id="25ff-3ae9-c03d-3883">
+    <selectionEntry type="model" import="true" name="Offshore Heavy Platform" hidden="false" id="25ff-3ae9-c03d-3883">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b3f8-1964-e66e-88a4" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5340-42f9-7f88-1cd7" includeChildSelections="false"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Khan" id="46b6-3933-f22c-aadc" hidden="false" type="profile" targetId="274c-47f1-278f-b763"/>
+        <infoLink name="Offshore Heavy Platform" id="46b6-3933-f22c-aadc" hidden="false" type="profile" targetId="274c-47f1-278f-b763"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Defensive Mines" hidden="false" id="0c6b-c967-aa7c-92a3" type="selectionEntry" targetId="d501-e65c-adda-0d11" sortIndex="1"/>
@@ -8829,7 +8907,6 @@
       <categoryLinks>
         <categoryLink name="Commonwealth" hidden="false" id="0d67-8b79-205c-4a1d" targetId="c7ca-90d2-5214-ece9" primary="true"/>
         <categoryLink name="Platform" hidden="false" id="39c1-40e7-8e60-3a8c" targetId="dff9-2c49-7706-457f" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="d6e5-1443-36a0-ad67" targetId="62ac-95d8-de16-f00f" primary="false"/>
         <categoryLink name="Repair" hidden="false" id="9eae-907e-6d17-66a8" targetId="6808-24f6-d6cf-08b5" primary="false"/>
         <categoryLink name="Immobile" hidden="false" id="3324-ffb7-899c-e235" targetId="ad70-77b7-aabe-60c0" primary="false"/>
       </categoryLinks>
@@ -9008,7 +9085,7 @@
           <categoryLinks>
             <categoryLink name="LGB46-" hidden="false" id="96a9-79fb-d2aa-19ea" targetId="3fbe-12c7-d1f5-f7a8" primary="false"/>
             <categoryLink name="SM-51 " hidden="false" id="c90c-3642-28cb-c2d9" targetId="8254-9993-cc1e-3111" primary="false"/>
-            <categoryLink name="ZRB-52" hidden="false" id="9a85-25be-67b2-bbd6" targetId="2d8e-78a9-facc-c720" primary="false"/>
+            <categoryLink name="ZRB-5-" hidden="false" id="9a85-25be-67b2-bbd6" targetId="2d8e-78a9-facc-c720" primary="false"/>
           </categoryLinks>
           <constraints>
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="188e-0cb5-2141-38f3" includeChildSelections="false"/>
@@ -9235,10 +9312,10 @@
           </constraints>
           <categoryLinks>
             <categoryLink name="SHTS12" hidden="false" id="0dd3-6e80-22e6-69b9" targetId="73ae-eaf7-efb8-a22e" primary="false"/>
-            <categoryLink name="LGB47-" hidden="false" id="578a-ff68-6192-82a6" targetId="58aa-74dd-acc9-f6a1" primary="false"/>
-            <categoryLink name="RG555" hidden="false" id="b63e-6233-4bd5-1c0b" targetId="735f-c476-5b96-f9c0" primary="false"/>
-            <categoryLink name="SM-51 " hidden="false" id="33a0-4927-9ae1-d371" targetId="8254-9993-cc1e-3111" primary="false"/>
-            <categoryLink name="ZRB-53" hidden="false" id="4890-d725-f658-65bf" targetId="1523-10a2-3eca-f6a1" primary="false"/>
+            <categoryLink name="LGB46-" hidden="false" id="e270-eb14-7e0e-0212" targetId="3fbe-12c7-d1f5-f7a8" primary="false"/>
+            <categoryLink name="SM-52" hidden="false" id="3a14-74c6-51ec-8301" targetId="ab73-1b9d-a2bf-21a9" primary="false"/>
+            <categoryLink name="RG555" hidden="false" id="3d8e-ec18-de65-f910" targetId="735f-c476-5b96-f9c0" primary="false"/>
+            <categoryLink name="ZRB-5-" hidden="false" id="8963-b147-b870-1e69" targetId="2d8e-78a9-facc-c720" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -9338,7 +9415,7 @@
         <categoryLink name="Support" hidden="false" id="1be7-a0dc-0f4f-ae57" targetId="7fd7-2a27-af9f-92ed" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Subatai" hidden="false" id="1ad8-9d6c-64f2-f697" type="selectionEntry" targetId="b7f3-695e-296e-5017" sortIndex="3"/>
+        <entryLink import="true" name="Offshore Defence Platform" hidden="false" id="1ad8-9d6c-64f2-f697" type="selectionEntry" targetId="b7f3-695e-296e-5017" sortIndex="3"/>
         <entryLink import="true" name="Escort Token" hidden="false" id="dc70-8d4b-6dbd-58f7" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="false" id="5940-dba1-46d6-3c81" includeChildSelections="false"/>
@@ -9573,11 +9650,11 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="false" name="Kostroma Vitruvian Colossus  Squadron" hidden="true" id="e665-0b0c-3ad0-47b4" publicationId="00ca-48f8-882a-1fc1" sortIndex="5">
+    <selectionEntry type="unit" import="false" name="Kostroma Vitruvian Colossus  Squadron" hidden="true" id="e665-0b0c-3ad0-47b4" publicationId="00ca-48f8-882a-1fc1" sortIndex="4">
       <categoryLinks>
-        <categoryLink name="Scout" hidden="false" id="162a-369c-62a5-e6d2" targetId="6619-1405-c9ec-096b" primary="true"/>
         <categoryLink name="Russian" hidden="false" id="d2da-c8dc-f8b0-e599" targetId="e5a9-4fb8-e4d4-48d8" primary="false"/>
         <categoryLink name="Underwater" hidden="false" id="46da-0d48-6f9c-80ef" targetId="61e1-fb01-6250-eb82" primary="false"/>
+        <categoryLink name="Support" hidden="false" id="4db8-7f0b-573d-7b83" targetId="7fd7-2a27-af9f-92ed" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Kostroma" hidden="false" id="845f-aee6-e348-a0cb" type="selectionEntry" targetId="80c9-9c9b-072b-e8a5" sortIndex="3"/>
@@ -9729,8 +9806,8 @@
         <categoryLink name="Russian" hidden="false" id="a2d1-0eb1-401e-4234" targetId="e5a9-4fb8-e4d4-48d8" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Sineus" hidden="false" id="fd04-9a2e-cfad-3123" type="selectionEntry" targetId="a38b-9156-2d4c-f6b5" sortIndex="3"/>
-        <entryLink import="true" name="Attachment (Surface)" hidden="false" id="1663-3d4a-ee02-6ff3" type="selectionEntryGroup" targetId="30ca-8712-21e5-fb80"/>
+        <entryLink import="true" name="Sineus" hidden="false" id="fd04-9a2e-cfad-3123" type="selectionEntry" targetId="a38b-9156-2d4c-f6b5" sortIndex="2"/>
+        <entryLink import="true" name="Attachment (Surface)" hidden="false" id="1663-3d4a-ee02-6ff3" type="selectionEntryGroup" targetId="30ca-8712-21e5-fb80" sortIndex="1"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
@@ -9901,14 +9978,14 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="false" name="Ortoq Offshore Support Platforms" hidden="true" id="413d-9661-caad-372a" publicationId="00ca-48f8-882a-1fc1" sortIndex="6">
+    <selectionEntry type="unit" import="false" name="Offshore Supply Platforms" hidden="true" id="413d-9661-caad-372a" publicationId="00ca-48f8-882a-1fc1" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Logistical" hidden="false" id="3632-f32d-f697-c5b1" targetId="ea96-eb0a-5fde-a549" primary="true"/>
         <categoryLink name="Surface" hidden="false" id="c10a-ae73-f39d-0ace" targetId="9c42-b68b-9adf-01c5" primary="false"/>
         <categoryLink name="Mongolian" hidden="false" id="1c89-32e7-e381-4618" targetId="9b85-41f7-e2d1-b028" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Ortoq" hidden="false" id="997c-cf0a-c2d7-8139" type="selectionEntry" targetId="db2c-ae16-b008-2dbc" sortIndex="3"/>
+        <entryLink import="true" name="Offshore Supply Platforms" hidden="false" id="997c-cf0a-c2d7-8139" type="selectionEntry" targetId="db2c-ae16-b008-2dbc" sortIndex="3"/>
         <entryLink import="true" name="Escort Token" hidden="false" id="56f1-d36f-47e6-4899" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="false" id="dfb4-b512-687a-393e" includeChildSelections="false"/>
@@ -9939,11 +10016,11 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="false" name="Dragunov Ekranoplan Brawler Squadron" hidden="true" id="4641-9b81-a06a-eb20" publicationId="00ca-48f8-882a-1fc1" sortIndex="5">
+    <selectionEntry type="unit" import="false" name="Dragunov Ekranoplan Brawler Squadron" hidden="true" id="4641-9b81-a06a-eb20" publicationId="00ca-48f8-882a-1fc1" sortIndex="3">
       <categoryLinks>
-        <categoryLink name="Scout" hidden="false" id="60fc-6431-8a63-61eb" targetId="6619-1405-c9ec-096b" primary="true"/>
         <categoryLink name="Russian" hidden="false" id="65aa-0a0b-70a8-77ef" targetId="e5a9-4fb8-e4d4-48d8" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="c09d-811c-18db-bde5" targetId="9c42-b68b-9adf-01c5" primary="false"/>
+        <categoryLink name="Patrol" hidden="false" id="f850-f570-c76c-7bcc" targetId="ef05-e202-312e-2640" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Dragunov" hidden="false" id="c4b3-4a29-db96-7790" type="selectionEntry" targetId="bf59-9d19-2595-0694" sortIndex="2"/>
@@ -10159,7 +10236,7 @@
         <categoryLink name="Support" hidden="false" id="949b-6f25-20be-f933" targetId="7fd7-2a27-af9f-92ed" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Khan" hidden="false" id="89c2-d250-fa1b-fea1" type="selectionEntry" targetId="25ff-3ae9-c03d-3883" sortIndex="3"/>
+        <entryLink import="true" name="Offshore Heavy Platform" hidden="false" id="89c2-d250-fa1b-fea1" type="selectionEntry" targetId="25ff-3ae9-c03d-3883" sortIndex="3"/>
         <entryLink import="true" name="Escort Token" hidden="false" id="2b47-683a-c791-eb66" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="false" id="b917-112f-7f9c-c0d3" includeChildSelections="false"/>
@@ -10634,11 +10711,11 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="false" name="Jadwiga Aerial Monitor Squadron" hidden="true" id="f9b4-e934-78e6-b4c9" publicationId="00ca-48f8-882a-1fc1" sortIndex="2">
+    <selectionEntry type="unit" import="false" name="Jadwiga Aerial Monitor Squadron" hidden="true" id="f9b4-e934-78e6-b4c9" publicationId="00ca-48f8-882a-1fc1" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Polish-Lithuanian" hidden="false" id="c60c-e1b6-6a1d-df75" targetId="e99d-d14f-4afb-6f8e" primary="false"/>
         <categoryLink name="Airborne" hidden="false" id="e153-1517-9b30-57c2" targetId="933b-3024-a972-b371" primary="false"/>
-        <categoryLink name="Line" hidden="false" id="510f-6b1c-54c7-f2ba" targetId="d4bb-06c0-4e9a-18af" primary="true"/>
+        <categoryLink name="Patrol" hidden="false" id="61b4-888b-3385-e149" targetId="ef05-e202-312e-2640" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Jadwiga" hidden="false" id="8326-0823-0921-00ec" type="selectionEntry" targetId="0dfd-144d-ffbb-3a0c" sortIndex="3"/>
@@ -11206,7 +11283,7 @@
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Subatai" hidden="false" id="95b0-7feb-07a0-7373">
           <entryLinks>
-            <entryLink import="true" name="Subatai" hidden="false" id="608e-ffbd-4cb6-fbca" type="selectionEntry" targetId="b7f3-695e-296e-5017"/>
+            <entryLink import="true" name="Offshore Defence Platform" hidden="false" id="608e-ffbd-4cb6-fbca" type="selectionEntry" targetId="b7f3-695e-296e-5017"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96e3-519c-2464-01d6"/>
@@ -11323,6 +11400,10 @@
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="167f-77eb-01ab-137e" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba11-e68c-3cde-6492" includeChildSelections="false"/>
           </constraints>
+          <costs>
+            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="45"/>
+            <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <constraints>
@@ -11351,7 +11432,7 @@
       <description>Immediately after making the Resistance Roll for an Attack action that targets a Polish-Lithuanian unit in their Force, this Battlefleet’s Admiral may enact a  Special Valour Effect. If successful, any Exploding Strikes in the Resistance Roll are immediately converted into Heavy Counters.</description>
     </rule>
     <rule name="Gunnery Sharpshooters" id="34da-cb20-918b-5cc3" hidden="false">
-      <description>Can only be purchased for a Commonwealth Flagship unit. If a unit in this Fleet makes an Attack action to which at least one weapon with the Rail quality Contributes, and the Initial Target suffers at least 1 Damage, the active Admiral can enact a Special Valour Effect. If the  effect is successfully enacted, the Initial Target suffers 1  Critical Damage.</description>
+      <description>Can only be purchased for a Commonwealth Flagship unit. If a unit in this Fleet makes an Attack action to which at least one weapon with the Rail quality Contributes, and the Initial Target suffers at least 1 Damage, the active Admiral can enact a Special Valour Effect. If the effect is successfully enacted, the Initial Target suffers 1 Critical  Damage.</description>
     </rule>
   </sharedRules>
   <entryLinks>
@@ -11362,5 +11443,6 @@
     </entryLink>
   </entryLinks>
   <readme>Revision 01: Initial release Commonwealth Beta 3 (Complete release for the ORBAT)
-Revision 02: correction Commonwealth Beta 3</readme>
+Revision 02: correction Commonwealth Beta 3
+Revision 03: release Commonwealth Beta 4 (Complete release for the ORBAT)</readme>
 </catalogue>

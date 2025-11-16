@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1242-c30b-419f-8229" name="Dystopian Wars 4.0 Edition" battleScribeVersion="2.03" authorName="Riccardo Sipone" authorContact="siponeric@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false" revision="6">
+<gameSystem id="1242-c30b-419f-8229" name="Dystopian Wars 4.0 Edition" battleScribeVersion="2.03" authorName="Riccardo Sipone" authorContact="siponeric@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false" revision="7">
   <publications>
     <publication id="7f09-e243-2307-78d0" name="Dystopian Rulebook"/>
     <publication id="e265-8c7f-a4b2-a48e" name="Alliance ORBAT"/>
@@ -102,7 +102,6 @@
     <categoryEntry name="Immobile" id="ad70-77b7-aabe-60c0" hidden="false"/>
     <categoryEntry name="Airship" id="ff0c-dccc-fc3f-6c02" hidden="false"/>
     <categoryEntry name="Capital" id="0a3b-fe42-16f0-2769" hidden="false"/>
-    <categoryEntry name="Depot" id="62ac-95d8-de16-f00f" hidden="false"/>
     <categoryEntry name="Light Vessel" id="49e0-1009-c7ce-ee43" hidden="false"/>
     <categoryEntry name="Merchantman" id="136e-5a1f-af1b-2a2e" hidden="false"/>
     <categoryEntry name="Platform" id="dff9-2c49-7706-457f" hidden="false"/>
@@ -112,7 +111,6 @@
     <categoryEntry name="Tracer" id="99ca-9745-f98e-4805" hidden="false"/>
     <categoryEntry name="Colossus" id="4e63-4a6b-08a9-90a4" hidden="false"/>
     <categoryEntry name="Carrier" id="347a-b873-97b4-d758" hidden="false"/>
-    <categoryEntry name="Deport" id="109e-1591-2bde-79d8" hidden="false"/>
     <categoryEntry name="Upgrade" id="3497-f9c2-d752-71ae" hidden="true"/>
     <categoryEntry name="Properties" id="c8ea-afea-b119-ce3c" hidden="true"/>
     <categoryEntry name="Systems" id="9ff7-ad4d-c560-d893" hidden="true"/>
@@ -378,9 +376,10 @@
     </profile>
   </sharedProfiles>
   <readme>Revision 01: initial release Rules Beta 2
-Revision 02: initial release Alliance Beta 3 (Complete ORBAT release)
-Revision 03: initial release Commonwealth Beta 3 (Complete ORBAT release)
-Revision 04: initial release Empire Beta 3 (Complete ORBAT release)
-Revision 05: initial release Enlightened Beta 3 (Complete ORBAT release)
-Revision 06: initial release Alliance Beta 4 (Complete ORBAT release)</readme>
+Revision 02: initial release Alliance Beta 3
+Revision 03: initial release Commonwealth Beta 3
+Revision 04: initial release Empire Beta 3
+Revision 05: initial release Enlightened Beta 3
+Revision 06: initial release Alliance Beta 4
+Revision 07: initial release Commonwealth &amp; Emprire Beta 4</readme>
 </gameSystem>

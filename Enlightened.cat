@@ -904,12 +904,6 @@ to all models in the unit.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d16-aa62-4249-4872" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="4053-a42f-9cf4-7bd2" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8769-166f-58a9-2353" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d60-52c3-e459-5650" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -970,12 +964,6 @@ to all models in the unit.</description>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="620d-e92f-f5e0-5cd3" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7c6-4fa9-2a5d-192a" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="8cc5-c2b9-84f8-14f7" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d9fd-65c4-a4cf-3088" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8986-7234-49da-17f9" includeChildSelections="false"/>
               </constraints>
             </entryLink>
             <entryLink import="true" name="Interphase Navigator" hidden="false" id="44cc-b264-8515-afce" type="selectionEntry" targetId="0f73-159c-f9ad-124b">
@@ -1064,14 +1052,6 @@ to all models in the unit.</description>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8e31-484d-cac2-31d6" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98af-8fd9-594c-01b8" includeChildSelections="false"/>
           </constraints>
-          <entryLinks>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="ab2a-c96f-708a-11d8" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9bb6-cb9b-2bce-5972" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="930b-3630-fc9f-c865" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="da9c-3db0-5e17-300e" sortIndex="3">
           <constraints>
@@ -1345,12 +1325,6 @@ to all models in the unit.</description>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1211-5878-d851-7a70" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3cb2-4ab6-f29a-a030" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="3807-ff54-f2b1-2d67" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e9b5-0288-33a2-6ec8" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7cb-f1a5-c2f4-f781" includeChildSelections="false"/>
               </constraints>
             </entryLink>
             <entryLink import="true" name="Diophantus Chaos-Orb" hidden="false" id="1cab-8312-289a-8607" type="selectionEntry" targetId="aecd-f4a7-aaf4-34f5">
@@ -1948,12 +1922,6 @@ to all models in the unit.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2ae-e959-2010-a3de" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="db62-b536-938b-5068" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8df7-e987-18d3-f99b" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9596-eb44-aa25-50ac" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
             <entryLink import="true" name="Mine Sweeper (x)" hidden="false" id="359d-56ab-66b2-5f26" type="selectionEntry" targetId="3e3b-a944-9d11-0d94">
               <modifiers>
                 <modifier type="set" value="Mine Sweeper (1)" field="name"/>
@@ -2041,14 +2009,6 @@ to all models in the unit.</description>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8153-a1fa-a373-767c" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9375-992b-ba8f-e82e" includeChildSelections="false"/>
           </constraints>
-          <entryLinks>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="3563-4460-572e-9f6e" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a3bf-267a-b2f6-e131" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52a7-7427-7419-904f" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2355,12 +2315,6 @@ to all models in the unit.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1cfb-aa97-a0bf-580b" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="5588-5cce-6c8f-5ce3" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7ad7-d623-489e-d496" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4783-d661-a1b1-fd83" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -2372,7 +2326,6 @@ to all models in the unit.</description>
       <categoryLinks>
         <categoryLink name="Enlightened" hidden="false" id="a569-f449-5fef-bcc8" targetId="ae6e-392e-7171-ac63" primary="true"/>
         <categoryLink name="Repair" hidden="false" id="93fa-1832-744d-253b" targetId="6808-24f6-d6cf-08b5" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="64ed-413a-dc86-0714" targetId="62ac-95d8-de16-f00f" primary="false"/>
         <categoryLink name="Platform" hidden="false" id="8ce2-59d1-5614-9cd3" targetId="dff9-2c49-7706-457f" primary="false"/>
       </categoryLinks>
       <costs>
@@ -2399,7 +2352,7 @@ to all models in the unit.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b15a-0041-e374-3bd7" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Stockpile (x”)" hidden="false" id="126e-4699-ec79-91a7" targetId="041c-5a70-3835-2f6b" type="selectionEntry">
+            <entryLink import="true" name="Stockpile (x)" hidden="false" id="126e-4699-ec79-91a7" targetId="041c-5a70-3835-2f6b" type="selectionEntry">
               <modifiers>
                 <modifier type="set" value="Stockpile (5”)" field="name"/>
               </modifiers>
@@ -2644,12 +2597,6 @@ to all models in the unit.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5411-9629-abf5-8ef1" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="18c7-36c2-571e-9da3" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0e94-ce7b-3951-9045" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eef6-e287-7199-28c5" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
             <entryLink import="true" name="Mine Sweeper (x)" hidden="false" id="561d-19b3-8d55-818f" type="selectionEntry" targetId="3e3b-a944-9d11-0d94">
               <modifiers>
                 <modifier type="set" value="Mine Sweeper (3)" field="name"/>
@@ -2838,12 +2785,6 @@ to all models in the unit.</description>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3ef7-3600-f509-acba" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b09-73c7-cb25-f724" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="0f53-ebbe-86f4-abfb" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="809f-3b04-024c-39b7" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d7a-e537-82e0-f1fb" includeChildSelections="false"/>
               </constraints>
             </entryLink>
             <entryLink import="true" name="Hydrophone Relay" hidden="false" id="d0c7-6d3f-9120-4f25" type="selectionEntry" targetId="5eb2-8a59-d0ac-aad0">
@@ -3125,12 +3066,6 @@ to all models in the unit.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8209-38ef-7faa-de0a" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="81ff-4206-9efc-b6d9" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="be67-2124-5462-523e" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="80bf-1d28-502a-285e" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -3188,12 +3123,6 @@ to all models in the unit.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be56-118b-c649-586d" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="a245-b14a-c7b5-fc68" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6d7c-0d35-d054-4d96" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="44c2-a40a-951a-e715" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
             <entryLink import="true" name="Repair Facilities (x)" hidden="false" id="4eb9-c635-8615-b699" type="selectionEntry" targetId="abfe-482d-8aa9-fa7b">
               <modifiers>
                 <modifier type="set" value="Repair Facilities (2)" field="name"/>
@@ -3385,12 +3314,6 @@ to all models in the unit.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6df1-fb97-2e7e-337b" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="ca36-aa7f-022e-061e" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1a14-9b29-4456-d9a5" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3712-8b99-fe46-ee93" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
             <entryLink import="true" name="Flak Barrage (x)" hidden="false" id="67d3-b82a-46eb-4437" type="selectionEntry" targetId="babc-ab27-8359-914b">
               <modifiers>
                 <modifier type="set" value="Flak Barrage (6)" field="name"/>
@@ -3884,12 +3807,6 @@ to all models in the unit.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ba1-d55d-99a9-3bf7" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="df0d-a7e8-8546-66fd" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e499-06c1-3288-3736" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40c9-0016-21c3-6d2f" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -4130,14 +4047,6 @@ to all models in the unit.</description>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4ace-3761-6e60-7760" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30d5-ed4b-8906-dfb8" includeChildSelections="false"/>
           </constraints>
-          <entryLinks>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="5b39-efa4-5cb1-c1d6" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ab7d-ab3b-9203-9b62" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f30-bec5-a9c3-840a" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4313,12 +4222,6 @@ to all models in the unit.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f0c-8f6c-f14e-7e7d" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Limited Capacitor" hidden="false" id="eb3e-94b5-019e-4e3f" targetId="2d9a-849b-9822-db8c" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3b20-2e55-1f9c-2e36" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1fb9-d95d-b69d-209d" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="1004-6e2f-d44e-b116" sortIndex="2">
@@ -4458,12 +4361,6 @@ to all models in the unit.</description>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5a35-bacb-f257-5e52" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="07d2-1fd8-3ccb-0fa7" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="a5ea-3a18-471d-7f7e" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b658-2a29-ee57-501c" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7fad-421c-d1c7-6e67" includeChildSelections="false"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -4653,12 +4550,6 @@ to all models in the unit.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b617-dc8b-b902-1c66" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="0d31-7cac-b066-07ee" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3c58-be9d-d037-a7e8" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a97-2dbe-8b2b-116c" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="18d9-74e8-4c56-d4b4" sortIndex="2">
@@ -4740,12 +4631,6 @@ to all models in the unit.</description>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="163f-6b99-c1c8-44ca" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f0a-108d-94ad-5013" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="9d6a-bed4-e503-958c" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="60a1-86fe-ce14-63e8" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9422-8b4c-cd23-1238" includeChildSelections="false"/>
               </constraints>
             </entryLink>
             <entryLink import="true" name="Repair Facilities (x)" hidden="false" id="6111-3f35-ff5b-02e3" targetId="abfe-482d-8aa9-fa7b" type="selectionEntry">
@@ -4842,14 +4727,6 @@ to all models in the unit.</description>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c313-5c4d-f120-ae32" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d4b-9d49-fd84-4e6e" includeChildSelections="false"/>
           </constraints>
-          <entryLinks>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="0579-0579-549d-0e3b" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="529c-8140-9bee-86ca" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd46-032a-d2f1-90d3" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="9d34-10b2-f297-c363" sortIndex="3">
           <constraints>
@@ -5021,12 +4898,6 @@ to all models in the unit.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5dd6-c0f1-297e-b517" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="d4a3-46d0-7a4e-f5ad" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9dd2-0798-8e8b-e92e" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48b7-a80e-b967-690c" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -5067,14 +4938,6 @@ to all models in the unit.</description>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5a1b-9543-8097-0c32" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db0b-1527-8949-48d5" includeChildSelections="false"/>
           </constraints>
-          <entryLinks>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="736f-0fd8-f20e-f4bf" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f1b6-46fd-5da6-3c95" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3205-324e-26a6-4f2d" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="bb66-d4a2-8806-80e8" sortIndex="3">
           <constraints>
@@ -5267,12 +5130,6 @@ to all models in the unit.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b9e-aba9-ebf8-09f5" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="6569-82f4-8b91-c5e0" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c7e3-4664-a082-2eac" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c57-5dc2-d4c8-f198" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
             <entryLink import="true" name="Boosted Propulsion (+x”)" hidden="false" id="fa7d-5551-f64a-6ba5" type="selectionEntry" targetId="b6a6-9930-c6d4-0c4a">
               <modifiers>
                 <modifier type="set" value="Boosted Propulsion (+2”)" field="name"/>
@@ -5350,14 +5207,6 @@ to all models in the unit.</description>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ff89-5456-b39c-875e" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9258-c51a-bb7b-ad73" includeChildSelections="false"/>
           </constraints>
-          <entryLinks>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="21a3-e42d-7a8e-62c2" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cf12-2b5a-f8ee-d073" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="867f-ef0e-980f-cff9" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -5916,12 +5765,6 @@ to all models in the unit.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c48-d384-90c3-5fd5" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="d88d-696c-beda-2421" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="47b5-399f-51e8-68fc" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6aef-54b6-6cc2-8db6" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
             <entryLink import="true" name="Flak Barrage (x)" hidden="false" id="0d0e-98d8-d165-a711" type="selectionEntry" targetId="babc-ab27-8359-914b">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6152-a308-3842-994b" includeChildSelections="false"/>
@@ -6006,12 +5849,6 @@ to all models in the unit.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d20-3c61-5590-ee7b" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="082c-6cef-86c1-6ecd" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4044-da58-592d-77c7" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8737-94c2-cc68-9e7b" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
             <entryLink import="true" name="Mine Sweeper (x)" hidden="false" id="56f0-7667-5f8b-bfc6" type="selectionEntry" targetId="3e3b-a944-9d11-0d94">
               <modifiers>
                 <modifier type="set" value="Mine Sweeper (2)" field="name"/>
@@ -6080,12 +5917,6 @@ to all models in the unit.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dee4-81f4-cc4f-6f97" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Turbo Encabulation Drive" hidden="false" id="a307-acc3-a6ca-d0a9" targetId="aac2-3d04-f739-8e9d" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cb86-1723-4f00-efea" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8cfc-b16f-98a8-7d5a" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
             <entryLink import="true" name="Flak Barrage (x)" hidden="false" id="2e12-53ae-c0a8-e712" type="selectionEntry" targetId="babc-ab27-8359-914b">
               <modifiers>
                 <modifier type="set" value="Flak Barrage (6)" field="name"/>
@@ -6373,7 +6204,6 @@ to all models in the unit.</description>
       </constraints>
       <categoryLinks>
         <categoryLink name="Merchantman" hidden="false" id="cdca-00d2-f0a9-0a5e" targetId="136e-5a1f-af1b-2a2e" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="8cd6-7cf8-7918-3371" targetId="62ac-95d8-de16-f00f" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="7298-c24a-c66c-6920" targetId="0a3b-fe42-16f0-2769" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="f769-2098-5ad0-5fe5" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
         <categoryLink name="Enlightened" hidden="false" id="c89b-4037-c430-8f86" targetId="ae6e-392e-7171-ac63" primary="true"/>
@@ -6586,7 +6416,6 @@ to all models in the unit.</description>
       </modifiers>
       <categoryLinks>
         <categoryLink name="Ship" hidden="false" id="72df-e182-0bbe-2fac" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="ef0d-ebf4-9847-2f3f" targetId="62ac-95d8-de16-f00f" primary="false"/>
         <categoryLink name="Merchantman" hidden="false" id="ad76-6303-a26e-9950" targetId="136e-5a1f-af1b-2a2e" primary="false"/>
         <categoryLink name="Light Vessel" hidden="false" id="87ba-c3af-a651-e8b1" targetId="49e0-1009-c7ce-ee43" primary="false"/>
         <categoryLink name="Enlightened" hidden="false" id="18b7-a532-d30e-7c9f" targetId="ae6e-392e-7171-ac63" primary="true"/>
@@ -6721,7 +6550,6 @@ to all models in the unit.</description>
       </constraints>
       <categoryLinks>
         <categoryLink name="Ship" hidden="false" id="0031-ff68-45c0-416c" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="bfbd-b6f1-85fb-090e" targetId="62ac-95d8-de16-f00f" primary="false"/>
         <categoryLink name="Merchantman" hidden="false" id="13c1-2bc3-3e0a-98bd" targetId="136e-5a1f-af1b-2a2e" primary="false"/>
         <categoryLink name="Enlightened" hidden="false" id="38d0-a29b-f934-9df2" targetId="ae6e-392e-7171-ac63" primary="true"/>
       </categoryLinks>

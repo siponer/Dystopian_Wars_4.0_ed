@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="8456-7166-73ec-b4ab" name="Alliance" gameSystemId="1242-c30b-419f-8229" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="8456-7166-73ec-b4ab" name="Alliance" gameSystemId="1242-c30b-419f-8229" revision="6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedProfiles>
     <profile name="Couronne" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="26cd-37f8-5846-17df">
       <characteristics>
@@ -2805,7 +2805,6 @@
       <categoryLinks>
         <categoryLink name="Alliance" hidden="false" id="fe41-3c3d-3f55-2121" targetId="534c-9506-e470-8b7c" primary="true"/>
         <categoryLink name="Merchantman" hidden="false" id="5b45-b3e1-7f87-c189" targetId="136e-5a1f-af1b-2a2e" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="1823-0c23-03bf-121a" targetId="62ac-95d8-de16-f00f" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="3d9f-4690-fc82-6693" targetId="0a3b-fe42-16f0-2769" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="856b-981b-cc94-2b0e" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
       </categoryLinks>
@@ -3138,7 +3137,6 @@
       <categoryLinks>
         <categoryLink name="Alliance" hidden="false" id="20fd-1289-7b60-1a87" targetId="534c-9506-e470-8b7c" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="4321-f41c-9bb6-de26" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="4538-3265-a669-22fc" targetId="62ac-95d8-de16-f00f" primary="false"/>
         <categoryLink name="Merchantman" hidden="false" id="197a-39f2-5b41-1580" targetId="136e-5a1f-af1b-2a2e" primary="false"/>
       </categoryLinks>
       <entryLinks>
@@ -3594,7 +3592,6 @@
       <categoryLinks>
         <categoryLink name="Alliance" hidden="false" id="56c8-13d1-aef9-1508" targetId="534c-9506-e470-8b7c" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="077d-a83d-146d-d7d6" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="dede-02ff-bef5-1b27" targetId="62ac-95d8-de16-f00f" primary="false"/>
         <categoryLink name="Merchantman" hidden="false" id="070f-a7f8-d903-e470" targetId="136e-5a1f-af1b-2a2e" primary="false"/>
         <categoryLink name="Light Vessel" hidden="false" id="41fd-c06e-0771-8c6f" targetId="49e0-1009-c7ce-ee43" primary="false"/>
       </categoryLinks>
@@ -3888,7 +3885,6 @@
       <categoryLinks>
         <categoryLink name="Alliance" hidden="false" id="1e5f-7b1c-786f-bcb4" targetId="534c-9506-e470-8b7c" primary="true"/>
         <categoryLink name="Platform" hidden="false" id="31d5-0100-154c-ca2e" targetId="dff9-2c49-7706-457f" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="eb78-7821-eed9-04db" targetId="62ac-95d8-de16-f00f" primary="false"/>
         <categoryLink name="Immobile" hidden="false" id="fc08-ef5d-0394-7ed1" targetId="ad70-77b7-aabe-60c0" primary="false"/>
       </categoryLinks>
       <entryLinks>
@@ -7433,7 +7429,6 @@
         <categoryLink name="Alliance" hidden="false" id="abc0-cca1-6354-6359" targetId="534c-9506-e470-8b7c" primary="true"/>
         <categoryLink name="Platform" hidden="false" id="b587-4e60-345a-ad25" targetId="dff9-2c49-7706-457f" primary="false"/>
         <categoryLink name="Repair" hidden="false" id="c384-9533-643b-d463" targetId="6808-24f6-d6cf-08b5" primary="false"/>
-        <categoryLink name="Depot" hidden="false" id="ff84-7d91-11cc-aa04" targetId="62ac-95d8-de16-f00f" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Defensive Mines" hidden="false" id="6ac3-3a39-a61f-f0b3" type="selectionEntry" targetId="d501-e65c-adda-0d11" sortIndex="1"/>
@@ -11855,7 +11850,8 @@ they do, the unit does not gain a level of Disorder.</description>
 Revision 02: Initial release Alliance Beta 3 (Complete ORBAT release)
 Revision 03: correction of Alliance Beta 3
 Revision 04: correction of Alliance Beta 3
-Revision 05: release Alliance Beta 4 (Complete ORBAT review)</readme>
+Revision 05: release Alliance Beta 4 (Complete ORBAT review)
+Revision 06: correctin of Alliance Beta 4</readme>
   <entryLinks>
     <entryLink import="true" name="Battlefleet" hidden="false" id="a860-f7a3-ccc5-fb27" type="selectionEntry" targetId="2258-06d4-c41e-e90e" sortIndex="0">
       <categoryLinks>

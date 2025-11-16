@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="85b3-1e07-6cca-b9a3" name="Systems" gameSystemId="1242-c30b-419f-8229" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="85b3-1e07-6cca-b9a3" name="Systems" gameSystemId="1242-c30b-419f-8229" revision="6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Priority Signals" hidden="false" id="d67c-9c2f-2438-8d6c" exportable="false">
       <infoLinks>
@@ -14,11 +14,6 @@
     <selectionEntry type="upgrade" import="true" name="Superior Void Engine" hidden="false" id="f2f3-ab1f-619b-2f16" exportable="false">
       <infoLinks>
         <infoLink name="Superior Void Engine" id="5aad-1f89-c9ac-d363" hidden="false" type="rule" targetId="e4ce-acc6-1f1b-0243"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Turbo Encabulation Drive" hidden="false" id="aac2-3d04-f739-8e9d" exportable="false">
-      <infoLinks>
-        <infoLink name="Turbo Encabulation Drive" id="e95f-c5e0-7d2a-a902" hidden="false" type="rule" targetId="3bb8-c0ee-ef48-2891"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Platform Transport" hidden="false" id="e24e-8095-a8e7-30ae" exportable="false">
@@ -93,7 +88,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Guardian Surge" hidden="false" id="6c67-1d3f-c7f4-84df" exportable="false">
       <infoLinks>
-        <infoLink name="Guardian Surge" id="c0e9-238e-a93e-740d" hidden="false" type="rule" targetId="82a3-99e1-4dc1-d01a"/>
+        <infoLink name="Guardian Surge (x)" id="c0e9-238e-a93e-740d" hidden="false" type="rule" targetId="82a3-99e1-4dc1-d01a"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Flak Barrage (x)" hidden="false" id="babc-ab27-8359-914b" exportable="false">
@@ -108,7 +103,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Deck Sweepers (x)" hidden="false" id="ced0-049b-74f7-bfd1" exportable="false">
       <infoLinks>
-        <infoLink name="Deck Sweepers (x)" id="d8df-2dec-926d-f83c" hidden="false" type="rule" targetId="56d6-dab5-800c-0357"/>
+        <infoLink name="Deck Sweepers" id="d8df-2dec-926d-f83c" hidden="false" type="rule" targetId="56d6-dab5-800c-0357"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Defensive (x)" hidden="false" id="28bb-9094-4262-e5e5" exportable="false">
@@ -151,18 +146,21 @@
         <infoLink name="Automata Repair Bay" id="9a41-5d95-9864-b016" hidden="false" type="rule" targetId="a82e-abc9-3079-ab67"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Recombination Nexus (x)" hidden="false" id="b6f5-5383-06cc-cd09">
+      <infoLinks>
+        <infoLink name="Recombination Nexus" id="cd81-e3e6-662b-e997" hidden="false" type="rule" targetId="fa19-1ab1-ef0c-7f98"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <readme>Revision 01: initial release Rules Glossary Beta 2
 Revision 02: initial release Rules Glossary Beta 3 (System)
 Revision 03: correction Rules Glossary Beta 3 (Commonwealth ORBAT)
 Revision 04: correction
-Revision 05: release Alliance Beta 4 (Complete ORBAT release)</readme>
+Revision 05: release Alliance Beta 4 (Complete ORBAT release)
+Revision 06: release Commonwealth &amp; Empire Beta 4 (Complete ORBAT release)</readme>
   <sharedRules>
     <rule name="Aerial Repair Facilities (x)" id="6297-b159-8ad2-6547" hidden="false">
       <description>When making a Repair Roll for an Airborne model, add X Bonus Dice if it is within 4” of at least one friendly model with this System</description>
-    </rule>
-    <rule name="Turbo Encabulation Drive" id="3bb8-c0ee-ef48-2891" hidden="false">
-      <description>At the start of this unit’s Movement Step, as long as no models in the unit have 3 levels of Disorder, its Admiral can declare that they will activate the Turbo Encabulation Drive. If they do, they must make a  Group Crew Check for the unit. If the Check passes, the Admiral can move each model up to 20” in any direction, without changing their facing, and Passing Through any intervening models and Terrain Features. The unit must be placed so that all models are in Coherency. Each model gains 1 level of Disorder, and the rest of the Movement Step is skipped. If it is unsuccessful, check the Value of the card that was used to make the Group Crew Check. If it is an odd number, the unit forgoes its Movement Step entirely and each model gains both a System Failure and Hazard Critical Damage Effect. If it is an even number, the unit is removed from the Play Area and placed into Reserve, retaining any Damage, Disorder, Critical Damage and any other tokens.</description>
     </rule>
     <rule name="Aerial Shield Enhancer (x&quot;)" id="50c8-aec2-ab7d-e7ed" hidden="false">
       <description>If an Airborne model within X” of at least one friendly model with this System benefits from a Heavy Shield Generator, its Armour rating receives a +2 Modifier instead of +1.</description>
@@ -171,7 +169,7 @@ Revision 05: release Alliance Beta 4 (Complete ORBAT release)</readme>
       <description>If a Battle-Ready Automata model ends its Movement Step within 10” of at least one friendly model with this System, it recovers 1 Damage.</description>
     </rule>
     <rule name="Superior Void Engine" id="e4ce-acc6-1f1b-0243" hidden="false">
-      <description>After failing a Group Crew Check for this unit (or a friendly unit within 10”) to use a Turbo Encabulation Drive system, the controlling Admiral may choose to discard the first drawn card, ignoring the result, and take the Check again.</description>
+      <description>When this unit (or a friendly unit within 10”) makes a Turbo Encabulation Jump, the controlling Admiral can choose to re-roll a single Blank result in the Anomaly Roll. (See the Enlightened ORBAT.)</description>
     </rule>
     <rule name="Repair Facilities (x)" id="9a27-5750-b49f-3b57" hidden="false">
       <description>When making a Repair Roll for a Surface model, add X Bonus Dice if it is within 4” of at least one friendly model with this System.</description>
@@ -199,10 +197,11 @@ An Admiral can only use Priority Signals once per Round, even if their Force co
       <description>If, in the Draw Cards step of the Ready Phase, at least one model with this System is in the Play Area, the controlling Admiral increases their Hand Limit by 1.</description>
     </rule>
     <rule name="Lateral Engines (x”)" id="5dd5-ce28-c199-d315" hidden="false">
-      <description>At the start of its Movement Step, before moving, this model can move up to X” without changing its facing. This is a free move and does not count towards the model’s Minimum Speed, or against  its Maximum Speed. The direction of this free move must be within its Port or Starboard arc. A model with a Navigation Lock Critical Damage Effect cannot use this System. Additionally, while this model is Limping, halve X”, rounding up</description>
+      <description>At the start of its Movement Step, before moving, this model can move up to X” without changing its facing. This is a free move and does not count towards the model’s Minimum Speed, or against its Maximum Speed. The direction of this free move must be within its Port or Starboard arc. The entirety of this free move must be made in the same direction. A model with a Navigation Lock Critical Damage Effect cannot use this System. Additionally, while this model is
+Limping, halve X”, rounding up.</description>
     </rule>
     <rule name="Interphase Navigator" id="15cc-3ec3-b432-d292" hidden="false">
-      <description>At the end of this unit’s Activation, its Admiral can attempt to enact a Special Valour Effect with it. If successful, the unit immediately gains the Incoming status, as though it had just arrived from  Reserve.</description>
+      <description>At the end of this unit’s Activation, its Admiral can attempt a Turbo Encabulation Jump with it. (See the Enlightened ORBAT.)</description>
     </rule>
     <rule name="Hydrophone Relay" id="9b6f-e877-721c-aeef" hidden="false">
       <description>Attack actions targeting enemy models within 10” of this model never count their Visibility as Hampered or Obscured.</description>
@@ -210,16 +209,12 @@ An Admiral can only use Priority Signals once per Round, even if their Force co
     <rule name="Hoved Targeting Array" id="2a84-811a-f63a-ecdb" hidden="false">
       <description>When a weapon in this unit with the Barrage quality Contributes to an Attack action, its Admiral can choose to use the weapon’s Standard Range Firepower value in place of its Extreme Range,  even if that weapon does not have an Extreme Range Firepower value. In addition, if a model in this unit Participates in an Attack action at any Range, and all Contributing weapons have the Barrage quality, its Visibility cannot be Hampered or Obscured.</description>
     </rule>
-    <rule name="Guardian Surge" id="82a3-99e1-4dc1-d01a" hidden="false">
-      <description>This model’s unit can make a Guardian Surge as a Special
-Action.
-Only models with this System can Participate in this Action.
-Each Participating model adds a number of Action Dice,
-equal to its Guardian Generator (X) value, to its Admiral’s
-Guardian Pool.</description>
+    <rule name="Guardian Surge (x)" id="82a3-99e1-4dc1-d01a" hidden="false">
+      <description>This model’s unit can make a Guardian Surge as a Special Action. Only models with this System can Participate in this Action. Each Participating model adds X Action Dice to its Admiral’s Guardian Pool.</description>
     </rule>
     <rule name="Grapple" id="a7e5-2e4c-a589-11ae" hidden="false">
-      <description>If an enemy Surface or Underwater model begins their Movement Step within 2” of a friendly model with this System, that model may attempt to Grapple the enemy model. All friendly models with this System and within 2” of the enemy model Participate in the Grapple. If the combined Mass rating of all Participating models is greater than that of the enemy model, then the Grapple is successful. Roll a number of Action Dice equal to the number of Participating models. The opposing Admiral then chooses one die, and resolves the corresponding result on the table below.
+      <description>IIf an enemy Surface or Underwater model begins their Movement Step within 2” of a friendly model with this System, that model may attempt to Grapple the enemy model. All friendly models with this System and within 2” of the enemy model Participate in the Grapple. If the combined Mass rating of all Participating models is greater than that of the enemy model, then the Grapple
+is successful. This model’s Admiral rolls a number of Action Dice equal to the number of Participating models, then chooses one die and resolves the  corresponding result on the table below. 
 &lt;table&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;p align=&quot;left&quot;&gt;Action Dice&lt;/p&gt;&lt;/th&gt;
@@ -227,15 +222,15 @@ Guardian Pool.</description>
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;p align=&quot;left&quot;&gt;Explosive      &lt;/p&gt;&lt;/td&gt;
-&lt;td&gt;&lt;p align=&quot;left&quot;&gt;The Grappled model gains 1 level of Disorder and suffers a Structural Failure Critical Damage Effect. Additionally, each Grappled model has a -3” Modifier to its Maximum Speed for the  duration of this Movement Step.&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p align=&quot;left&quot;&gt;The Grappled model gains 1 level of Disorder and suffers a Structural Failure Critical Damage Effect. Additionally, each Grappled model has a -3” Modifier to its Maximum Speed for the duration of this Movement  Step.&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;p align=&quot;left&quot;&gt;Hits&lt;/p&gt;&lt;/td&gt;
-&lt;td&gt;&lt;p align=&quot;left&quot;&gt;The Grappled model gains 1 level of Disorder. Additionally, each Grappled model has a -2” Modifier to its Maximum Speed for the duration of this Movement Step.&lt;/p&gt;&lt;/td&gt; 
+&lt;td&gt;&lt;p align=&quot;left&quot;&gt;The Grappled model gains 1 level of Disorder. Additionally, each Grappled model has a -2” Modifier to its Maximum Speed for the duration of this Movement Step.&lt;/p&gt;&lt;/td&gt; 
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;p align=&quot;left&quot;&gt;Counters&lt;/p&gt;&lt;/td&gt;
-&lt;td&gt;&lt;p align=&quot;left&quot;&gt;The Grappled model gains 1 level of Disorder. Additionally, each Grappled model has a -1” Modifier to its Maximum Speed for the duration of this Movement Step.&lt;/p&gt;&lt;/td&gt; 
+&lt;td&gt;&lt;p align=&quot;left&quot;&gt;TThe Grappled model gains 1 level of Disorder. Additionally, each Grappled model has a -1” Modifier to its Maximum Speed for the duration of this Movement Step&lt;/p&gt;&lt;/td&gt; 
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;p align=&quot;left&quot;&gt;Blank&lt;/p&gt;&lt;/td&gt;
@@ -267,14 +262,38 @@ Shredded Defences Critical Damage Effect.</description>
     <rule name="Defensive (x)" id="4574-5bf6-b7de-234f" hidden="false">
       <description>When a model is targeted by an Attack action, add X Bonus Dice to the Resistance Pool for each friendly model within 4” that has this System and is Obscuring at least one Participating model’s Visibility. This benefit applies even if other rules would cause the Attack to ignore the effects of Obscured Visibility.</description>
     </rule>
-    <rule name="Deck Sweepers (x)" id="56d6-dab5-800c-0357" hidden="false">
-      <description>When this model is the target of a Boarding action, add X Bonus Dice to the Resistance Pool.</description>
+    <rule name="Deck Sweepers" id="56d6-dab5-800c-0357" hidden="false">
+      <description>When this model is chosen as the target of a Boarding action, the active Admiral must make a Group Crew Check for all Participating models, immediately  before making the Action Roll.
+If the check is failed, this model gains a +2 Crew Modifier when determining how many Successes are scored.</description>
     </rule>
     <rule name="Cryo Generator" id="22bc-eb16-f9c1-0605" hidden="false">
-      <description>This model’s unit can make a Cryogenic Blast Special Action, as described in the Commonwealth ORBAT.</description>
+      <description>&lt;P&gt;This is a Generator.
+&lt;B&gt;Resolving a Cryogenic Blast Action&lt;/B&gt;
+When a unit makes a Cryogenic Blast action, its Admiral uses the following process.
+&lt;OL&gt;
+ &lt;LI&gt;Choose Target: The Admiral chooses one of the following:
+&lt;UL&gt;
+
+ &lt;LI&gt;An enemy Surface model.&lt;/LI&gt;
+ &lt;LI&gt;A specific point of Open Water that is at least 1” away from any models, Markers or Terrain Features. (Mark this point with a Generator Effect token).&lt;/LI&gt;
+ &lt;LI&gt;An Iceberg with a Mass lower than 5.&lt;/LI&gt;
+&lt;/UL&gt;
+ &lt;/LI&gt;
+ &lt;LI&gt;Nominating Participating Models: The Admiral nominates any number of models in the active unit that will Participate in the action. A model can only Participate if it has a Cryo Generator, it is within 10” of the Target, and the Target is Visible to it. (For the purposes of determining if a point of Open Water is Visible, it is treated as having a Mass rating of 0.) If no models can Participate, another Target must be chosen.&lt;/LI&gt;
+&lt;LI&gt;Make The Cryogenic Blast Roll: The active Admiral rolls a number of Action Dice equal to the total Mass ratings of all Participating models.
+Each Heavy Strike and Exploding Strike rolled scores one Success. &lt;I&gt;Note that this is not an Action Roll, so Exploding Strikes do not allow additional dice to be rolled.)&lt;/I&gt; If no Successes are scored, the Action ends.&lt;/LI&gt;
+&lt;LI&gt;Resolve Outcome: The outcome of the Cryogenic Blast roll  depends on the target that was chosen.&lt;/LI&gt;
+
+&lt;/OL&gt;
+
+&lt;B&gt;Enemy Surface Model&lt;/B&gt;: For each Success that was scored, the target suffers 1 Critical Damage.
+&lt;B&gt;Open Water&lt;/B&gt;: The active Admiral replaces the Generator Effect token with an Iceberg. Its Mass cannot exceed the number of Successes rolled.The Iceberg must be placed within 1” of the  Generator Effect token, and not within Proximity of any models or other  Terrain Features.
+&lt;B&gt;Iceberg&lt;/B&gt;: The Iceberg’s Mass is increased by 1 for each Success, up to a maximum Mass of 5.&lt;/P&gt;
+&lt;/P&gt;</description>
     </rule>
     <rule name="Coordinated Defences" id="ba63-079f-a22c-c5d5" hidden="false">
-      <description>When this model is targeted by an Attack action, the Resistance Roll gains Bonus Dice equal to the Defences rating of all other models in its unit that have this System, and are within 4” of the target. This has no effect against Attacks made with Submerged Weapons.</description>
+      <description>When this model is chosen as the Initial Target of an Attack action, its Admiral can choose to make a Crew Check for it. If the check passes, the Resistance Roll gains Bonus Dice equal to the Defences rating of all other models in its unit
+that have this System, and are within 4” of the target. This has no effect against Attacks made with Submerged Weapons.</description>
     </rule>
     <rule name="Callimachus Chrono-Lathe" id="205d-78aa-5c20-cc54" hidden="false">
       <description>Once per Round, as a Special Action, this model’s unit may
@@ -291,6 +310,9 @@ of the Hazard Critical Damage Effect.</description>
     </rule>
     <rule name="Boosted Propulsion (+x&quot;)" id="e2cf-9ad0-2f44-f698" hidden="false">
       <description>Before moving this model, its Admiral can declare that they will Boost its Propulsion. If they do so, then for the duration of the current Movement Step, the model’s Minimum Speed is increased to its unmodified Maximum Speed, its Maximum Speed by X”, and its Turn Limit reduced to 0.</description>
+    </rule>
+    <rule name="Recombination Nexus" id="fa19-1ab1-ef0c-7f98" hidden="false">
+      <description>This model’s unit can Reinforce Reality as a Special Action. Only models with this System can Participate in this Action. Each Participating model removes X Action Dice from its Admiral’s Local Anomaly Pool. (See the  Enlightened ORBAT).</description>
     </rule>
   </sharedRules>
 </catalogue>
