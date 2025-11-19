@@ -43,7 +43,6 @@
       </categoryLinks>
       <infoLinks>
         <infoLink name="Solex Generator" id="5dee-1c23-d11e-a0e3" hidden="false" type="rule" targetId="79b3-017e-3883-2de2"/>
-        <infoLink name="Enhanced Solex (x)" id="e4e3-e047-3e5e-7d2d" hidden="false" type="rule" targetId="ce77-780b-7dc9-7fa4"/>
       </infoLinks>
       <modifiers>
         <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
@@ -490,14 +489,74 @@ Systems it may have other than Interphase Generator are ignored. Surface models
 To show that a unit is Slowed, mark it with a Generator Effect token. While a unit is Slowed, its Action Limit has a -1 Modifier, and its Maximum Speed is reduced to its Minimum Speed. At the end of the unit’s next Activation, it stops being Slowed and the Generator Effect token is removed.</description>
     </rule>
     <rule name="Magma Cast Generator" id="b7c0-94f4-759a-6996" hidden="false">
-      <description>This is a Generator.
-This model’s unit can make a Magma Sear Special Action, as described in the Empire ORBAT</description>
+      <description>This is a Generator. 
+This model’s unit can make a Magma Sear Special Action. A Magma Sear is a Special Action which can be made by any unit that contains at least one model with a Magma Cast Generator system. When a unit makes a Magma Sear action, its Admiral uses the following process.
+&lt;OL&gt;
+
+&lt;LI&gt;&lt;B&gt;Nominate Participating Models&lt;/B&gt;: The Admiral nominates any number of models in the active unit that will Participate in the action. A model can only Participate if it has a Magma Cast Generator.&lt;/LI&gt;
+&lt;LI&gt;&lt;B&gt;Make The Magma Sear Roll&lt;/B&gt;: The active Admiral rolls a number of Action Dice equal to the number of Participating models. Then, they choose one die, and discard the others. This die will determine the Magma Mass rating and Eruption Range, which are used in the following steps. If all of the dice result in Blanks, the action ends immediately.
+
+
+&lt;TABLE&gt;
+&lt;TBODY&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;ACTION&lt;BR&gt;DICE&lt;/TD&gt;
+    &lt;TD&gt;MAGMA&lt;BR&gt;MASS&lt;/TD&gt;
+    &lt;TD&gt;ERUPTION&lt;BR&gt;RANGE&lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;Exploding Strike&lt;/TD&gt;
+    &lt;TD&gt;Mass1 or Mass 2&lt;/TD&gt;
+    &lt;TD&gt;30&quot;&lt;/td&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;Heavy / Standard Strikes&lt;/TD&gt;
+    &lt;TD&gt;Mass 1&lt;/TD&gt;
+    &lt;TD&gt;20&quot;&lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;Counters&lt;/TD&gt;
+    &lt;TD&gt;Mass 1&lt;/TD&gt;
+    &lt;TD&gt;10&quot;&lt;/TD&gt;
+  &lt;/TR&gt;
+&lt;/TBODY&gt;
+&lt;/TABLE&gt;
+&lt;/LI&gt;
+
+
+&lt;LI&gt;&lt;B&gt;Create Or Expand A Magma Formation&lt;B&gt;: The active Admiral chooses one of the following options:
+
+
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;Create New Magma Formation&lt;/B&gt;: The Admiral places a Magma Formation in the Play Area. It must have a Mass rating value that matches the Magma Mass rating, and it must be placed so that it is within the Eruption Range of at least one Participating model. A Magma Formation cannot be placed in contact with another Terrain feature, a model or a marker.&lt;/LI&gt; 
+&lt;LI&gt;&lt;B&gt;Expand Existing Magma Formation&lt;/B&gt;: The admiral chooses an existing Magma Formation that is within the Eruption Range of at least one Participating model. That Formation’s Mass is increased by the Magma Mass rating, to a maximum of 4. 
+&lt;/LI&gt;
+&lt;/UL&gt;
+
+
+&lt;LI&gt;&lt;B&gt;Resolve Magma Eruptions&lt;/B&gt;: Each model (friend or foe) that is within Proximity of the Magma Formation that was Created or Expanded is targeted by a Magma Eruption. The active Admiral makes a single Action Roll, with no Resistance Roll. The Resolve Outcomes step is resolved separately for each target model. 
+
+
+
+
+
+&lt;TABLE&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD&gt;ACTION&lt;BR&gt;POOL&lt;/TD&gt;
+&lt;TD&gt;6 Action Dice, plus additional dice equal to the Mass of the Magma Formation.&lt;BR&gt;For example, if the Magma Formation has a Mass of 3, the Action Pool consists of 9 dice.&lt;/TD&gt;
+&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;SUCCESS&lt;BR&gt;THRESHOLD&lt;/TD&gt;
+&lt;TD&gt;The Armour rating of the Target Model.&lt;/TD&gt;
+&lt;/TR&gt;
+&lt;/TBODY&gt;
+&lt;/TABLE&gt;
+Each Target Model suffers 1 Damage for each Success scored in its Resolve Outcomes step. Any model that suffers at least 1 Damage also gains a level of Disorder and a Structural Failure Critical Damage Effect.
+&lt;/LI&gt;</description>
     </rule>
     <rule name="Power Transfer Generator" id="ebd0-0308-6a7c-47a5" hidden="false">
       <description>&lt;B&gt;This is a Generator.&lt;/B&gt; When making an Action Roll or Resistance Roll for another Enlightened model within 4” of this model, its Admiral can add 3 Bonus Dice to the Pool. If they do so, this model gains 1 level of Disorder. If it already has 3 Disorder, it suffers 1 Damage instead.</description>
-    </rule>
-    <rule name="Enhanced Solex (x)" id="ce77-780b-7dc9-7fa4" hidden="false">
-      <description>After the Resolve Exploding Strikes step of an Attack action, each Contributing weapon with this Quality allows the active Admiral to convert up to X Counters in the Action Roll into equivalent Strikes. (Standard Counters become Standard Strikes, and Heavy Counters become Heavy Strikes.)</description>
     </rule>
   </sharedRules>
   <catalogueLinks>

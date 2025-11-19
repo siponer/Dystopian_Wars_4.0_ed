@@ -111,7 +111,7 @@
         <infoLink name="Defensive (x)" id="c3ac-eb66-856f-f3f7" hidden="false" type="rule" targetId="4574-5bf6-b7de-234f"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Flight Command (x)" hidden="false" id="1fbe-5a12-a56e-d37c" exportable="false">
+    <selectionEntry type="upgrade" import="true" name="Flight Command" hidden="false" id="1fbe-5a12-a56e-d37c" exportable="false">
       <infoLinks>
         <infoLink name="Flight Command (x)" id="9f68-4dcb-96c8-66d9" hidden="false" type="rule" targetId="1f8e-522e-5987-1640"/>
       </infoLinks>
@@ -244,7 +244,7 @@ is successful. This model’s Admiral rolls a number of Action Dice equal to t
     <rule name="Freya Array" id="364f-70e2-3c43-1698" hidden="false">
       <description>This model’s unit can make a Special Action to generate a Disruptive Pulse. Only models in the unit with a Freya Array can Participate. When this Special Action is resolved, each enemy model within 10” of at least one Participating model gains 1 level of Disorder. Underwater units that gain Disorder in this way are subject to the Blow the Tanks rule.</description>
     </rule>
-    <rule name="Flight Command (x)" id="1f8e-522e-5987-1640" hidden="false">
+    <rule name="Flight Command" id="1f8e-522e-5987-1640" hidden="false">
       <description>As a Special Action, this model’s unit can give New Mission Orders. When it does so, its Admiral selects up to X friendly SRS Stacks, and allocates each one to a new unit or Marker that is within 10” of the unit or Marker to which it is currently allocated. This must be a valid Target for the Stack, i.e. one that it could ordinarily be allocated to in the Choose SRS Mission(s) step of the Launch Phase.</description>
     </rule>
     <rule name="Flak Barrage (x)" id="572d-8ba7-f457-7d47" hidden="false">

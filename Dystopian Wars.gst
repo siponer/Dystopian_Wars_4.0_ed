@@ -13,8 +13,8 @@
     <publication id="00ca-48f8-882a-1fc1" name="Commonwhealth ORBAT"/>
   </publications>
   <costTypes>
-    <costType id="7c9b-6b09-b5ac-2249" name="Points" defaultCostLimit="-1" hidden="false"/>
-    <costType id="426e-670d-6ddd-9631" name="Victory Point Rating" defaultCostLimit="-1" hidden="false"/>
+    <costType id="7c9b-6b09-b5ac-2249" name="Pts" defaultCostLimit="-1" hidden="false"/>
+    <costType id="426e-670d-6ddd-9631" name="VPR" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="4cb0-515e-e6e0-153a" name="Standard Model" sortIndex="1">
@@ -72,7 +72,7 @@
     <categoryEntry id="fef3-1842-580c-4bef" name="Flagship" hidden="false"/>
     <categoryEntry id="3b53-19a3-12fd-34b1" name="Skimming Unit" publicationId="5a03-1c6f-8fc8-2be1" hidden="false"/>
     <categoryEntry id="8009-dc7d-8de1-5601" name="Submerged" hidden="false"/>
-    <categoryEntry id="25b9-7f26-cbd9-e68f" name="Generator" hidden="false"/>
+    <categoryEntry id="25b9-7f26-cbd9-e68f" name="Generator" hidden="true"/>
     <categoryEntry id="efd3-b9c9-b144-de57" name="Paddlewheel" publicationId="7b2b-0f56-3962-5ec1" hidden="false"/>
     <categoryEntry id="293e-b55a-bcfa-95c3" name="Unique" hidden="false"/>
     <categoryEntry id="d216-bc05-71f1-0fb4" name="Unit" hidden="false"/>

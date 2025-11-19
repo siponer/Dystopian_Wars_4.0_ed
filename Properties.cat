@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="true" id="5ca6-5d76-4c4d-04e2" name="Properties" gameSystemId="1242-c30b-419f-8229" revision="8" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedRules>
-    <rule name="Ablative Armour (x)" id="b869-3539-5cf3-f3f3" hidden="false">
-      <description>When this model is targeted by an Attack action, Convert X Exploding Strikes in the Action Roll to Heavy Strikes. Sometimes, this Property will be listed for a specific Arc, e.g. Ablative Armour: Fore (3). In this case, the Property only applies if at least half of the models Participating in the Attack action are within the listed Arc of the Target Model.</description>
+    <rule name="Ablative Armour" id="b869-3539-5cf3-f3f3" hidden="false">
+      <description>When this model the Initial Target of an Attack action, Convert X Exploding Strikes in the Action Roll to Heavy Strikes at the start of the Resolve Exploding Strikes step. Sometimes, this Property will be listed for a specific Arc, e.g. Ablative Armour: Fore (3). In this case, the Property only applies if at least half of the models Participating in the Attack action are within the listed Arc of the Target Model.</description>
     </rule>
-    <rule name="Heavy Prow (x)" id="61e3-7b8c-291a-f68e" hidden="false">
+    <rule name="Heavy Prow" id="61e3-7b8c-291a-f68e" hidden="false">
       <description>When building the Action Pool for a Ram performed by this model, add X Bonus Dice. In addition, when this model Collides with or Rams another model, or is itself the Target of a Ram and the point of contact is in this model’s Fore Arc, the amount of Damage it suffers is reduced by X, to a minimum of 0.</description>
     </rule>
-    <rule name="Attachment (x)" id="f748-f854-5457-8864" hidden="false">
-      <description>During Force Selection, the Admiral can choose to field this unit either on its own, as normal, or as an Attachment to a Parent Unit, as described in Attached Units on page 128 of the Dystopian Wars Rulebook. The Parent Unit must have the Class or Trait shown, and must be selected from the same ORBAT as the Attachment. The full rules for using Attachments in play can be found on page 101 of the Dystopian Wars Rulebook.</description>
+    <rule name="Attachment" id="f748-f854-5457-8864" hidden="false">
+      <description>During Force Selection, the Admiral can choose to field this unit either on its own, as normal, or as an Attachment to a Parent Unit, as described in Attached Units on page 128 of the Dystopian Wars Rulebook. The Parent Unit must have the Class or Trait shown, and must be selected from the same ORBAT as the Attachment. The full rules for using Attachments in play can be found on page 101 of the Dystopian Wars Rulebook.</description>
     </rule>
-    <rule name="Auxiliary Mine Layer (x)" id="7017-0742-e2b5-773a" hidden="false">
-      <description>As a Special Deployment Action, this model’s unit can Distribute Mines. When it does, the unit’s Admiral places up to X Minefield markers anywhere in the Play Area. Each one must be placed at least 10” from the enemy Deployment Zone, and cannot be placed within 1” of a model, a Terrain Feature, or another Marker.</description>
+    <rule name="Auxiliary Mine Layer" id="7017-0742-e2b5-773a" hidden="false">
+      <description>As a Special Deployment Action, this model’s unit can Distribute Mines. When it does, the unit’s Admiral places up to X Minefield markers anywhere in the Play Area. Each one must be placed at least 10” from the enemy Deployment Zone, and cannot be placed within 1” of a model, a Terrain Feature, or another Marker. </description>
     </rule>
     <rule name="Foreward Deployment" id="9b38-bd89-23f9-0fc6" hidden="false">
       <description>During Deployment, this unit cannot be held in Reserve. In addition, this unit can be deployed anywhere in the Play Area that is at least 10” from the enemy Deployment Zone and not within Proximity of an enemy model.</description>
@@ -19,31 +19,31 @@
     <rule name="Light Vessel" id="d7e0-0b3e-b5e5-776d" hidden="false">
       <description>If this model becomes Crippled, it is immediately Destroyed and does not trigger a Catastrophic Explosion.</description>
     </rule>
-    <rule name="Agile (x)" id="a1c3-58c9-ce64-9a4a" hidden="false">
+    <rule name="Agile" id="a1c3-58c9-ce64-9a4a" hidden="false">
       <description>During its Movement Step, this model can make up to X Additional Manoeuvres.</description>
     </rule>
     <rule name="Daredevil Crew" id="dedc-cf59-6818-6d90" hidden="false">
       <description>This model automatically passes its Crew Check when Resolving a Ram and does not gain Disorder in the Inflflict Disorder step. The enemy model gains Disorder as normal. In addition, attempting a Ram does not prevent this model from Participating in Boarding actions in the subsequent Action Step. It is still prevented from Participating in other Actions.</description>
     </rule>
-    <rule name="Vanguard (x&quot;)" id="d176-6604-7876-d65a" hidden="false">
+    <rule name="Vanguard" id="d176-6604-7876-d65a" hidden="false">
       <description>This unit can make a Special Deployment Action to make a Vanguard Move. When it does so, each model in the unit makes a move as though it were the Movement Step of its Activation. During this move, each model has a Minimum Speed of 0” and a Maximum Speed of X”.</description>
     </rule>
-    <rule name="Mine Layer (x)" id="fd04-efdc-62c6-9965" hidden="false">
-      <description>When a model with a Depleted status token begins its Activation within 4” of this model, its Admiral can declare that this model will attempt to Transfer Munitions. The Admiral makes a Crew Check for this  model. If the check passes, the Depleted status token is moved to this model. If this model has at least X Depleted status tokens, it can no longer Transfer Munitions. During the Action Step of this model’s Activation, its unit can make a Special Action. Only models with the Stockpile (X ) property can Participate. Each Participating model loses one Depleted status token, if it has any. This Special Action can be made multiple times during the same Activation</description>
+    <rule name="Mine Layer" id="fd04-efdc-62c6-9965" hidden="false">
+      <description>As a Special Deployment Action, this model’s unit can Distribute Mines. When it does, for each model in the unit with this Property, the unit’s Admiral places up to X Minefield markers anywhere in the Play Area. Each one must be placed at least 10” from the enemy Deployment Zone, and cannot be placed within 1” of a model, a Terrain Feature, or another Marker.  MOBILE At the start of its Movement Step, this model can make up to two free Pivots before moving. It must then move in a straight line, with the distance measured to and from the Centre  Point at its starting position to the Centre Point at its finishing position. At the end of the move, it can make up to two free Pivots. </description>
     </rule>
-    <rule name="SRS (Type)" id="be67-1f6a-e992-5e3d" hidden="false">
+    <rule name="SRS" id="be67-1f6a-e992-5e3d" hidden="false">
       <description>In the Launch Phase, Carrier models in this unit can launch SRS tokens of the type(s) listed.</description>
     </rule>
-    <rule name="Carrier (x)" id="bef6-000a-1d53-2802" hidden="false">
+    <rule name="Carrier" id="bef6-000a-1d53-2802" hidden="false">
       <description>In the Launch Phase, this model’s unit can resolve an SRS Launch. When it does so, this model launches up to X SRS tokens, as described in Launching Short Range Squadrons on page 108 of the Dystopian Wars Rulebook. This property’s X value is reduced by 1 for each level of Disorder on the model. The type(s) of SRS tokens that this model can launch is determined by other Properties on the unit profile, most commonly the SRS: Type(s) property. If a model can launch more than one type of SRS token then these can be launched in any combination, so long as the total number of Tokens launched does not exceed X</description>
     </rule>
     <rule name="Amphibious" id="436a-f751-c4df-d423" hidden="false">
-      <description>This model can move into or through Grounding Hazards and Islands without Colliding with them, and can still Rally when it is within Proximity of them. In addition, it is not Impeded by Treacherous Water. If this model ends its move so that it is entirely on an Island, it is Traversing that Island. Submerged Weapons can no longer Contribute to Attack actions against it. For the purposes of determining Visibility, its Mass rating is increased by the Island’s Mass. In addition, it does not suffer any Damage as a result of the Breach Critical Damage Effffect in its Consolidation Step.  While a model is Traversing a Territory, the opposing Admiral cannot allocate Landing Party tokens to that  Territory (see the Ground Assault (X) property), and any Landing Party tokens already allocated to it are immediately removed from play.</description>
+      <description>This model can move into or through Grounding Hazards and Islands without Colliding with them, and can still Rally when it is within Proximity of them. If this model ends its move so that it is entirely on an Island, it is Traversing that Island. Submerged Weapons can no longer Contribute to Attack actions against it. For the purposes of determining Visibility, its Mass rating is increased by the Island’s Mass. In addition, it does not suffer any Damage as a result of the Breach Critical Damage Effect in its Consolidation Step. While a model is Traversing a Territory, the opposing Admiral cannot allocate Landing Party tokens to that Territory (see the Ground Assault (X) property), and any Landing Party tokens already allocated to it are immediately removed from play.</description>
     </rule>
     <rule name="Armoured Stern" id="8b47-69aa-dd5d-26c4" hidden="false">
-      <description>When this model is targeted by an Attack action, the Vulnerable Stern rule does not apply.</description>
+      <description>When this model is targeted by an Attack action, the Vulnerable Stern rule does not apply. </description>
     </rule>
-    <rule name="Self Destruct (x)" id="6657-119f-5f2e-98e6" hidden="false">
+    <rule name="Self Destruct" id="6657-119f-5f2e-98e6" hidden="false">
       <description>When this model is Crippled or Destroyed, its Admiral can immediately attempt to enact a Special Valour Effffect with it. If successful, the model immediately suffers a Catastrophic Explosion, treating its Mass rating as being X higher, and dealing X Damage to each model in range instead of 1.</description>
     </rule>
     <rule name="Shallow Draught" id="af8d-416a-a73e-d17c" hidden="false">
@@ -55,13 +55,13 @@
     <rule name="Sky Commandos" id="4609-4521-0cc6-b334" hidden="false">
       <description>When this model’s unit makes a Boarding action, the Target can be an Airborne model. This model can Participate in the Action</description>
     </rule>
-    <rule name="Stockpile (x)" id="9505-574b-4df1-9013" hidden="false">
+    <rule name="Stockpile" id="9505-574b-4df1-9013" hidden="false">
       <description>When a model with a Depleted status token begins its Activation within 4” of this model, its Admiral can declare that this model will attempt to Transfer Munitions. The Admiral makes a Crew Check for this model. If the check passes, the Depleted status token is moved to this model. If this model has at least X Depleted status tokens, it can no longer Transfer  Munitions. During the Action Step of this model’s Activation, its unit can make a Special Action. Only models with the Stockpile (X ) property can Participate. Each Participating model  loses one Depleted status token, if it has any. This Special Action can be made multiple times during the same Activation.</description>
     </rule>
     <rule name="Stoic" id="487f-4db8-ad20-be52" hidden="false">
       <description>Whenever this model would raise its Disorder level from 0 to 1, it gains a Stoic token instead, unless it already has one. A model with a Stoic token does not suffer any of the effects of having Disorder. If it  gains another level of Disorder, the Stoic token is removed and replaced with a 1 Disorder token. Any rule that allows a model to lose a level of Disorder also allows it to remove a Stoic token.</description>
     </rule>
-    <rule name="Strategic Asset (x)" id="67e6-4c08-7003-5083" hidden="false">
+    <rule name="Strategic Asset" id="67e6-4c08-7003-5083" hidden="false">
       <description>If this model is in the Play Area and Battle-Ready at the end of the game, the controlling Admiral scores X Victory Points.</description>
     </rule>
     <rule name="Submarauder" id="37d5-97e4-c23e-5f95" hidden="false">
@@ -70,7 +70,7 @@
     <rule name="Temperamental" id="8b38-5cb7-8113-fee8" hidden="false">
       <description>When a Repair Roll is made for this model, Heavy Strikes do not allow the Admiral to remove Critical Damage Effffects. In addition, a model with this Property may not attempt Jury-Rigged Repairs.</description>
     </rule>
-    <rule name="Terrifying (Trait)" id="8526-9347-2b0b-7fd2" hidden="false">
+    <rule name="Terrifying" id="8526-9347-2b0b-7fd2" hidden="false">
       <description>Once this model’s unit has completed its Movement Step, any models (friend or foe) within 5” immediately gain 1 level of Disorder. Models with the listed Trait are unaffected by this Property.</description>
     </rule>
     <rule name="Teutonic Construct" id="ff18-29e1-f5e7-95cd" hidden="false">
@@ -88,7 +88,7 @@
     <rule name="Wavelurker" id="fa62-a1f6-f498-408a" hidden="false">
       <description>This model can Pass Through other Surface models during its Movement Step, and does not Block or Obscure Visibility when a friendly unit makes an Attack action. In addition, when this model is the target of an Attack action, any Standard Strikes in the Resistance Roll are converted to Standard Counters. This does not apply if the Attack action is being made with Assault or Submerged weapons. If this model has a Navigation Lock Critical Damage Effect, this Property has no effect.</description>
     </rule>
-    <rule name="Resupply (x)" id="feaf-ff1d-dffe-4523" hidden="false">
+    <rule name="Resupply" id="feaf-ff1d-dffe-4523" hidden="false">
       <description>During the Launch Phase, the controlling Admiral may nominate this model’s unit, as if it were a Carrier unit, to make a Resupply Run. When a unit makes a Resupply Run, each model launches X Resupply tokens. Each Token must be allocated to a friendly unit within 10” of the launching model. At the start of a unit’s Activation, each Resupply token allocated to it allows one model in the unit to Take On Supplies. A model that Takes On Supplies removes 1 level of Disorder, even if it would otherwise not be able to Rally. In addition, if the model has a Depleted status token, its Admiral can choose to make a Crew Check for it. If the check passes, the Depleted status token is removed. All Resupply tokens allocated to the unit are then discarded, whether or not they were used.</description>
     </rule>
     <rule name="Moon Pool" id="8b7e-a686-7777-7f00" hidden="false">
@@ -126,7 +126,7 @@
     <rule name="Platform" id="374c-d52d-3f91-03ee" hidden="false">
       <description>Once this model has been Deployed, it cannot move, or be moved, for the rest of the game. Nor can it ever Withdraw. When this model is targeted by an Attack action, the Vulnerable Stern rule does not apply. If this model is Destroyed, replace it with a Wreck marker, positioned over the model’s Centre Point. If this would cause the Marker to be placed in contact with a Terrain Feature, a model, or another Marker, it is not placed.</description>
     </rule>
-    <rule name="Raking Strike (x)" id="b8aa-e7c3-3032-4ff7" hidden="false">
+    <rule name="Raking Strike" id="b8aa-e7c3-3032-4ff7" hidden="false">
       <description>Once per Activation, as a Special Action, this model’s unit can perform a Raking Strike, even if it is an Underwater unit. Only models with this Property can Participate. This Action targets an enemy model that at least one Participating model Passed Through during its Movement Step. The Target must have the same Positional Trait or be a Surface model. The controlling Admiral makes an Action Roll. There is no Resistance Roll.
 
 &lt;B&gt;Action Pool:&lt;/B&gt; X Action Dice for each Participating model.
@@ -146,22 +146,22 @@ For each Success scored in the Action Roll, the Target Model suffers 1 Damage. 
     <rule name="Landing Party Support" id="9e02-cc15-4cdc-4fd4" hidden="false">
       <description>If this model is within 4” of a Territory at the end of its Movement Step, its Admiral can either add one token to an existing friendly Landing Party stack on that Territory, or remove one Token from an enemy Landing Party stack on that Territory</description>
     </rule>
-    <rule name="Inspirational (x”)" id="27cb-a835-e5db-8151" hidden="false">
+    <rule name="Inspirational" id="27cb-a835-e5db-8151" hidden="false">
       <description>A model within X” of a friendly Battle-Ready model with this Property can always Rally, even if another rule would prevent it from doing so. In addition, whenever such a model Rallies, it loses one additional level of Disorder.</description>
     </rule>
     <rule name="Incendiary Broadsides" id="ac1f-cd5c-4515-711b" hidden="false">
       <description>If this model’s flank batteries Contribute to a Broadside action in which the Target suffers at least 1 Damage, roll a number of Critical Damage Dice equal to this model’s Broadside rating. For each Hazard  result, the Target suffers one Hazard Critical Damage Effffect. If multiple models with this Property are Contributing to the Action, use the highest Broadside rating among them to determine how many dice are rolled.</description>
     </rule>
-    <rule name="Hunter (Trait)" id="11e4-c804-7048-1822" hidden="false">
+    <rule name="Hunter" id="11e4-c804-7048-1822" hidden="false">
       <description>When this unit makes an Attack action, the active Admiral can re-roll any Blanks in the Action Roll, so long as each Participating model has this Property and the Initial Target has the listed Trait.</description>
     </rule>
-    <rule name="Heavy Transport (Trait)" id="847e-d740-1536-fde3" hidden="false">
+    <rule name="Heavy Transport" id="847e-d740-1536-fde3" hidden="false">
       <description>Before making a Reserve Roll for a unit with the listed Trait, which is at its minimum Model Count, and which does not have the Capital trait, its Admiral can declare that it is being Transported on a friendly  model with this Property. They do not need to make a Reserve Roll for a Transported unit. Instead, they set up the unit so that each model is within 5” of this model. This model is then marked with a Depleted status Token, and no longer counts as having this Property. The Depleted status token cannot be removed for the rest of the game.</description>
     </rule>
     <rule name="Broadside Cascade" id="f36b-fe6b-5339-8929" hidden="false">
       <description>When this model Participates in a Broadside action, its flank batteries can Contribute even if the Target has a different Positional Trait.</description>
     </rule>
-    <rule name="Ground Assault (x)" id="7778-8760-08b5-14ca" hidden="false">
+    <rule name="Ground Assault" id="7778-8760-08b5-14ca" hidden="false">
       <description>This model’s unit can use a Special Action to make a Ground Assault on a single target Territory. To Participate in this Action, a model must be within 4” of the target Territory and have the Ground Assault (X) property. When this model Participates in a Ground Assault, its Admiral places a Stack of X Landing Party Tokens on the target Territory. If there is already a friendly Landing Party stack on the Territory, these Tokens are added to that stack. This model is then marked with a Depleted status token, and no longer counts as having this Property. This status token cannot be removed from the model for the remainder of the game. In the Complete Objectives step of the End Phase, each Admiral scores 2 Victory Points for every Territory where they have more Landing Party tokens than their opponent. Note that Landing Party tokens remain in play even after they have scored Victory Points, and may score Victory Points again in the End Phase of subsequent Rounds.</description>
     </rule>
     <rule name="Fusillade" id="3c3c-8e22-35b1-3af3" hidden="false">
@@ -170,7 +170,7 @@ For each Success scored in the Action Roll, the Target Model suffers 1 Damage. 
     <rule name="Flotsam" id="2981-cf1e-76a9-08f4" hidden="false">
       <description>During Deployment, this unit cannot be held in Reserve. In addition, this unit can be deployed anywhere in the Play Area that is at least 10” from the enemy Deployment Zone and not within Proximity of an enemy model.</description>
     </rule>
-    <rule name="Guardian Wing (x)" id="857d-0981-74fe-d62a" hidden="false">
+    <rule name="Guardian Wing" id="857d-0981-74fe-d62a" hidden="false">
       <description>Whenever this model’s unit is the Target of an Attack Run mission, each model in the unit with this Property adds X dice to any Interception Attempt. This allows an Interception Attempt to be made even if  there is no SRS Stack Supporting the unit.</description>
     </rule>
     <rule name="Dirigible" id="b6d4-87ae-3e3d-37de" hidden="false">
@@ -191,29 +191,37 @@ For each Success scored in the Action Roll, the Target Model suffers 1 Damage. 
     <rule name="Bushi Ryu Dojos" id="0d67-e266-5835-0f1b" hidden="false">
       <description>When this model Participates in a Boarding action, its Admiral can re-roll any Blank results in the Action Roll. If this model is the Target of a Boarding action, its Admiral can re-roll any Blank results in the Resistance Roll.</description>
     </rule>
-    <rule name="Boarding Parties (x)" id="3f8d-a077-655f-2cb3" hidden="false">
-      <description>This model’s unit can make Boarding actions.  The Target must be a Surface model, unless another  rule states otherwise. If the unit launches a Boarding action against an Airborne or Underwater model, this model can only Participate if it has a rule that allows it to do so. If this model is Participating in a Boarding  action, it contributes X dice to the Action Roll. If this model is the Target of a Boarding action, its Admiral adds X dice to its Resistance Roll.</description>
+    <rule name="Boarding Parties" id="3f8d-a077-655f-2cb3" hidden="false">
+      <description>This model’s unit can make Boarding actions. The Target must be a Surface model, unless another rule states otherwise. If the unit launches a Boarding action against an Airborne or Underwater model, this model can only Participate if it has a rule that allows it to do so. If this model is Participating in a Boarding action, it contributes X dice to the Action Roll. If this model is the Target of a Boarding action, its Admiral adds X dice to its Resistance Roll.</description>
     </rule>
     <rule name="Cloud Dive" id="143f-fed3-6d05-8b13" hidden="false">
       <description>When this unit is Deployed, its Admiral must choose to either deploy it to the Reserve, or set it aside and declare that it will perform a Cloud Dive. A unit performing a Cloud Dive is deployed in the Make a Special Deployment Action step of the Deployment Phase. Its Admiral places the unit anywhere in the Play Area so that none of its models are within 2” of an enemy model, or within 15” of the enemy  Deployment Zone. After a unit makes a Cloud Dive, it is marked with an Incoming status token, as though it had been deployed from Reserve.</description>
     </rule>
-    <rule name="Breaching Drill (x)" id="ef2a-6012-6ad9-08a7" hidden="false">
+    <rule name="Breaching Drill" id="ef2a-6012-6ad9-08a7" hidden="false">
       <description>This model automatically passes its Crew Check when Resolving a Ram. In addition, the Make an Action Roll and Inflflict Damage steps are resolved differently from the standard rules for a Ram.
 
-
-&lt;B&gt;3. MAKE AN ACTION ROLL&lt;/B&gt;
-The active Admiral makes an Action Roll. There is no Resistance Roll. 
-
-
-&lt;B&gt;Action Pool&lt;/B&gt; The Action Pool starts with  X dice. Add 1 Bonus Die for each full inch the model moved before the Ram. This cannot  add more than  5 Bonus Dice.
-&lt;B&gt;Success&lt;/B&gt; Threshold The Target Model’s Armour rating.
+&lt;OL start=&quot;3&quot;&gt;
+&lt;LI&gt;&lt;B&gt;MAKE AN ACTION ROLL&lt;/B&gt;: The active Admiral makes an Action Roll. There is no Resistance Roll. 
 
 
-&lt;B&gt;4. INFLICT DAMAGE&lt;/B&gt;
-For each Success scored in the Action Roll, the Target suffers 1  damage. The active Admiral then rolls a number of Critical Damage Dice equal to the amount of Damage inflicted. For each die showing a  Breach result, the Target suffers a single instance of that Critical Damage Effffect.</description>
+&lt;TABLE&gt;
+&lt;TR&gt;
+
+&lt;TD&gt;&lt;B&gt;Action Pool&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;The Action Pool starts with  X dice. &lt;BR&gt;Add 1  Bonus Die for each full inch the model moved before the Ram. This cannot  add more than  5 Bonus Dice.&lt;/TD&gt;
+&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;B&gt;Success&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;Threshold The Target Model’s Armour rating.&lt;/TD&gt;
+
+&lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;/LI&gt;
+&lt;LI&gt;&lt;B&gt;INFLICT DAMAGE&lt;/B&gt;: For each Success scored in the Action Roll, the Target suffers 1  damage. The active Admiral then rolls a number of Critical Damage Dice equal to the amount of Damage inflicted. For each die showing a  Breach result, the Target suffers a single instance of that Critical Damage Effffect.&lt;/LI&gt;
+&lt;/OL&gt;</description>
     </rule>
     <rule name="Azhdaya Berserkers" id="411a-0183-8503-21aa" hidden="false">
-      <description>If at least one model with this Property Participates in a  Boarding action, and the Action Roll scores at least one  Success, the Target suffers an additional random Critical  Damage Effect after the Boarding action has been resolved.</description>
+      <description>If at least one model with this Property Participates in a Boarding action, and the Action Roll scores at least one Success, the Target suffers an additional random Critical Damage Effect after the Boarding action has been resolved. </description>
     </rule>
     <rule name="Combat Divers" id="5a7d-ffb1-b2c6-8c73" hidden="false">
       <description>This model’s unit can make Boarding actions that target Underwater models. When this model Participates in a Boarding action, it contributes X dice to the Action Roll. If this model is targeted by a  Boarding action, it adds X dice to its Resistance Roll.</description>
@@ -245,12 +253,12 @@ from the model. At the end of the model’s Activation, it suffers 1 Damage fo
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Ablative Armour (x)" hidden="false" id="75f1-9f45-f82b-2948">
+    <selectionEntry type="upgrade" import="true" name="Ablative Armour" hidden="false" id="75f1-9f45-f82b-2948">
       <infoLinks>
         <infoLink name="Ablative Armour (x)" id="1f45-ff07-51e8-c80c" hidden="false" type="rule" targetId="b869-3539-5cf3-f3f3"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Attachment (x)" hidden="false" id="b5c5-7074-a27c-602c">
+    <selectionEntry type="upgrade" import="true" name="Attachment" hidden="false" id="b5c5-7074-a27c-602c">
       <infoLinks>
         <infoLink name="Attachment (x)" id="38f0-a3fb-52a9-c990" hidden="false" type="rule" targetId="f748-f854-5457-8864"/>
       </infoLinks>
@@ -310,7 +318,7 @@ from the model. At the end of the model’s Activation, it suffers 1 Damage fo
         <infoLink name="Light Vessel" id="2cc7-bf0e-fb04-2f6f" hidden="false" type="rule" targetId="d7e0-0b3e-b5e5-776d"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Inspirational (x”)" hidden="false" id="fae1-b57e-e7ee-96a1">
+    <selectionEntry type="upgrade" import="true" name="Inspirational" hidden="false" id="fae1-b57e-e7ee-96a1">
       <infoLinks>
         <infoLink name="Inspirational (x”)" id="47d1-1b79-471a-63af" hidden="false" type="rule" targetId="27cb-a835-e5db-8151"/>
       </infoLinks>
@@ -330,7 +338,7 @@ from the model. At the end of the model’s Activation, it suffers 1 Damage fo
         <infoLink name="Stockpile (x)" id="0827-9253-9f5d-d012" hidden="false" type="rule" targetId="9505-574b-4df1-9013"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Auxiliary Mine Layer (x)" hidden="false" id="e343-3b86-5d52-78b7">
+    <selectionEntry type="upgrade" import="true" name="Auxiliary Mine Layer" hidden="false" id="e343-3b86-5d52-78b7">
       <infoLinks>
         <infoLink name="Auxiliary Mine Layer (x)" id="f1dd-7dce-f05a-da46" hidden="false" type="rule" targetId="7017-0742-e2b5-773a"/>
       </infoLinks>
@@ -355,12 +363,12 @@ from the model. At the end of the model’s Activation, it suffers 1 Damage fo
         <infoLink name="Mine Layer (x)" id="3b95-eeaf-e864-9fde" hidden="false" type="rule" targetId="fd04-efdc-62c6-9965"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Carrier (x)" hidden="false" id="4292-c313-64f8-43c0">
+    <selectionEntry type="upgrade" import="true" name="Carrier" hidden="false" id="4292-c313-64f8-43c0">
       <infoLinks>
-        <infoLink name="Carrier (x)" id="ffaf-9399-84fe-5def" hidden="false" type="rule" targetId="bef6-000a-1d53-2802" exportable="false"/>
+        <infoLink name="Carrier" id="ba03-6270-2f21-0296" hidden="false" type="rule" targetId="bef6-000a-1d53-2802"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="SRS (Type)" hidden="false" id="4c55-cec1-fd82-99e5">
+    <selectionEntry type="upgrade" import="true" name="SRS" hidden="false" id="4c55-cec1-fd82-99e5">
       <infoLinks>
         <infoLink name="SRS (Type)" id="e331-49b8-8d53-0179" hidden="false" type="rule" targetId="be67-1f6a-e992-5e3d" exportable="false"/>
       </infoLinks>
@@ -380,12 +388,12 @@ from the model. At the end of the model’s Activation, it suffers 1 Damage fo
         <infoLink name="Daredevil Crew" id="4f71-1f3d-9c3a-31b5" hidden="false" type="rule" targetId="dedc-cf59-6818-6d90" exportable="false"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Boarding Parties (x)" hidden="false" id="a0f7-e278-0d24-4771">
+    <selectionEntry type="upgrade" import="true" name="Boarding Parties" hidden="false" id="a0f7-e278-0d24-4771">
       <infoLinks>
         <infoLink name="Boarding Parties (x)" id="f9e0-8328-7d95-f796" hidden="false" type="rule" targetId="3f8d-a077-655f-2cb3" exportable="false"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Agile (x)" hidden="false" id="0628-3b7c-b99d-9334">
+    <selectionEntry type="upgrade" import="true" name="Agile" hidden="false" id="0628-3b7c-b99d-9334">
       <infoLinks>
         <infoLink name="Agile (x)" id="6d7f-23b4-1f31-36af" hidden="false" type="rule" targetId="a1c3-58c9-ce64-9a4a"/>
       </infoLinks>
@@ -415,7 +423,7 @@ from the model. At the end of the model’s Activation, it suffers 1 Damage fo
         <infoLink name="Stoic" id="2422-667f-4947-680d" hidden="false" type="rule" targetId="487f-4db8-ad20-be52"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Breaching Drill (x)" hidden="false" id="707d-2015-e185-26ad">
+    <selectionEntry type="upgrade" import="true" name="Breaching Drill" hidden="false" id="707d-2015-e185-26ad">
       <infoLinks>
         <infoLink name="Breaching Drill (x)" id="2ecb-6445-a0fc-12c6" hidden="false" type="rule" targetId="ef2a-6012-6ad9-08a7" exportable="false"/>
       </infoLinks>
@@ -430,7 +438,7 @@ from the model. At the end of the model’s Activation, it suffers 1 Damage fo
         <infoLink name="Armoured Stern" id="253e-8d18-4d73-c84b" hidden="false" type="rule" targetId="8b47-69aa-dd5d-26c4"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Bushi Ryu Dojos (x)" hidden="false" id="223b-79ad-5805-5c39">
+    <selectionEntry type="upgrade" import="true" name="Bushi Ryu Dojos" hidden="false" id="223b-79ad-5805-5c39">
       <infoLinks>
         <infoLink name="Bushi Ryu Dojos" id="56ae-458f-85e6-95f7" hidden="false" type="rule" targetId="0d67-e266-5835-0f1b"/>
       </infoLinks>

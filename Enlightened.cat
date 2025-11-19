@@ -316,7 +316,7 @@
         <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
       </characteristics>
     </profile>
-    <profile name="Daimler" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="f061-0846-762b-d0cb">
+    <profile name="Offshore Supply Platform" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="f061-0846-762b-d0cb">
       <characteristics>
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
@@ -330,7 +330,7 @@
         <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
       </characteristics>
     </profile>
-    <profile name="Bellerophon" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="058c-1fc3-9d4b-7be0">
+    <profile name="Offshore Heavy Platform" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="058c-1fc3-9d4b-7be0">
       <characteristics>
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
@@ -441,7 +441,7 @@
         <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
       </characteristics>
     </profile>
-    <profile name="Leibniz" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="559d-2afe-69e2-ec54">
+    <profile name="Offshore Defence Platform" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="559d-2afe-69e2-ec54">
       <characteristics>
         <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
         <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
@@ -1047,12 +1047,6 @@ to all models in the unit.</description>
             </entryLink>
           </entryLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="a0bf-653e-0930-799f" sortIndex="2">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8e31-484d-cac2-31d6" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98af-8fd9-594c-01b8" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="da9c-3db0-5e17-300e" sortIndex="3">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a447-3bee-c356-7f8a" includeChildSelections="false"/>
@@ -1631,7 +1625,7 @@ to all models in the unit.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Bellerophon" hidden="false" id="a68c-f3af-c5f5-57bf">
+    <selectionEntry type="model" import="true" name="Offshore Heavy Platform" hidden="false" id="a68c-f3af-c5f5-57bf">
       <infoLinks>
         <infoLink name="Bellerophon" id="f8d1-427b-a327-cb16" hidden="false" type="profile" targetId="058c-1fc3-9d4b-7be0"/>
       </infoLinks>
@@ -1647,9 +1641,6 @@ to all models in the unit.</description>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1d7d-85c6-2439-2eac" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5eea-e641-060b-fa17" includeChildSelections="false"/>
       </constraints>
-      <entryLinks>
-        <entryLink import="true" name="Defensive Mines" hidden="false" id="6611-30a3-e8a5-d202" type="selectionEntry" targetId="d501-e65c-adda-0d11" sortIndex="1"/>
-      </entryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="a31f-52b6-f657-a52c" sortIndex="2">
           <constraints>
@@ -1688,6 +1679,15 @@ to all models in the unit.</description>
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Stockpile (x)" hidden="false" id="8bfa-0c3a-ea6e-d682" targetId="041c-5a70-3835-2f6b" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="Stockpile (2)" field="name"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2192-8c4f-b187-c0f9" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49af-fa05-b309-f16b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="1daf-ac1b-79da-fc04" sortIndex="3">
@@ -1702,7 +1702,7 @@ to all models in the unit.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c80-1a6f-35dc-4c07" includeChildSelections="false"/>
               </constraints>
               <modifiers>
-                <modifier type="set" value="Flak Barrage (3)" field="name"/>
+                <modifier type="set" value="Flak Barrage (5)" field="name"/>
               </modifiers>
             </entryLink>
             <entryLink import="true" name="Repair Facilities (x)" hidden="false" id="6be8-7819-9ba0-4b21" type="selectionEntry" targetId="abfe-482d-8aa9-fa7b">
@@ -1779,6 +1779,15 @@ to all models in the unit.</description>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2453-8f53-0c5f-6e7a" includeChildSelections="false"/>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="146d-e038-914d-1fe2" includeChildSelections="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="HGB58-" hidden="false" id="ae99-340a-6b34-0c7b" targetId="76af-2665-2f3f-6217" primary="false"/>
+            <categoryLink name="HRB-8-" hidden="false" id="235a-393c-6dfd-e3be" targetId="881d-64c8-479e-0635" primary="false"/>
+          </categoryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Upgrade" id="06eb-8d97-daf5-efd2" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink import="true" name="Defensive Mines" hidden="false" id="67fe-d02c-15c1-daf4" type="selectionEntry" targetId="d501-e65c-adda-0d11"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
@@ -1914,6 +1923,15 @@ to all models in the unit.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b10-353c-90d0-6c64" includeChildSelections="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Stockpile (x)" hidden="false" id="80ec-9afb-624d-d295" type="selectionEntry" targetId="041c-5a70-3835-2f6b">
+              <modifiers>
+                <modifier type="set" value="Stockpile (1)" field="name"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d114-55e3-1b6b-a974" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="480d-59fc-6846-a7a4" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="9cc6-597c-fefe-5352" sortIndex="2">
@@ -1970,6 +1988,9 @@ to all models in the unit.</description>
               </constraints>
             </entryLink>
           </entryLinks>
+          <categoryLinks>
+            <categoryLink name="LRB-4-" hidden="false" id="8199-f96c-ac94-0a27" targetId="792e-ec04-ae41-18e9" primary="false"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -2319,7 +2340,7 @@ to all models in the unit.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Daimler" hidden="false" id="109e-6801-a2ea-1430">
+    <selectionEntry type="model" import="true" name="Offshore Supply Platform" hidden="false" id="109e-6801-a2ea-1430">
       <infoLinks>
         <infoLink name="Daimler" id="d404-3b1c-3800-6093" hidden="false" type="profile" targetId="f061-0846-762b-d0cb"/>
       </infoLinks>
@@ -2336,11 +2357,8 @@ to all models in the unit.</description>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="43ce-3018-b0ba-762c" includeChildSelections="false"/>
         <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0f99-f17e-6952-f34f" includeChildSelections="false"/>
       </constraints>
-      <entryLinks>
-        <entryLink import="true" name="Defensive Mines" hidden="false" id="67b7-608c-3dde-6256" type="selectionEntry" targetId="d501-e65c-adda-0d11"/>
-      </entryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="a4fd-bb02-2e88-a0a3">
+        <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="a4fd-bb02-2e88-a0a3" sortIndex="2">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6713-3f82-4cc2-5960" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f65-2c06-9b21-3483" includeChildSelections="false"/>
@@ -2354,7 +2372,7 @@ to all models in the unit.</description>
             </entryLink>
             <entryLink import="true" name="Stockpile (x)" hidden="false" id="126e-4699-ec79-91a7" targetId="041c-5a70-3835-2f6b" type="selectionEntry">
               <modifiers>
-                <modifier type="set" value="Stockpile (5”)" field="name"/>
+                <modifier type="set" value="Stockpile (3)" field="name"/>
               </modifiers>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8779-b925-0d89-b7da" includeChildSelections="false"/>
@@ -2388,7 +2406,7 @@ to all models in the unit.</description>
             </entryLink>
           </entryLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="38d3-0617-5447-6548">
+        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="38d3-0617-5447-6548" sortIndex="3">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9cd9-24db-1054-4e53" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1058-f6c7-8beb-85ff" includeChildSelections="false"/>
@@ -2412,6 +2430,13 @@ to all models in the unit.</description>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Upgrade" id="0a12-bbd5-0988-a8cf" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink import="true" name="Defensive Mines" hidden="false" id="08ab-3e1a-8ac9-04fb" type="selectionEntry" targetId="d501-e65c-adda-0d11"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Descartes" hidden="false" id="99b8-2ca3-0905-f3e8">
       <infoLinks>
@@ -2697,18 +2722,6 @@ to all models in the unit.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="faa8-faba-bfea-138a" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Mechanical Soul" hidden="false" id="0748-22af-3913-037f" targetId="a4a6-5f04-c46e-ab22" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4132-9cdb-d1e3-8c36" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5166-5834-fb1c-7867" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Mechanical Soul" hidden="false" id="8d61-1cad-f7a4-d815" targetId="a4a6-5f04-c46e-ab22" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d069-d6ea-ba9c-b976" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b44-fe1d-5fa7-83dc" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
             <entryLink import="true" name="Mechanical Soul" hidden="false" id="ade8-ac69-4891-6300" targetId="a4a6-5f04-c46e-ab22" type="selectionEntry">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a38-8c28-8b63-62a2" includeChildSelections="false"/>
@@ -2797,52 +2810,60 @@ to all models in the unit.</description>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Weapons" id="89b2-d5a8-6b9e-7801" hidden="false" defaultSelectionEntryId="2dc1-4f08-e82e-5e24" sortIndex="3">
-          <entryLinks>
-            <entryLink import="true" name="Caloric Oscillator" hidden="false" id="498e-7aa0-4179-8efd" type="selectionEntry" targetId="73fa-154d-d914-17af">
+        <selectionEntryGroup name="Weapons" id="0ebd-3b56-0413-5280" hidden="false" sortIndex="3">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Hardpoint Heavy" id="89b2-d5a8-6b9e-7801" hidden="false" defaultSelectionEntryId="2dc1-4f08-e82e-5e24">
+              <entryLinks>
+                <entryLink import="true" name="Caloric Oscillator" hidden="false" id="498e-7aa0-4179-8efd" type="selectionEntry" targetId="73fa-154d-d914-17af">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab87-8df1-fa51-2122" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Pulse Emitter" hidden="false" id="c3e5-fd30-238f-4997" type="selectionEntry" targetId="db10-ea29-3519-396d">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d37-dc08-c959-41c3" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Molecular Disharmoniser" hidden="false" id="1010-48b8-12da-0ff7" type="selectionEntry" targetId="e688-f5ba-4d9f-9e1d">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d58-e82e-1690-1aa0" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Particle Beamer" hidden="false" id="2dc1-4f08-e82e-5e24" type="selectionEntry" targetId="c3a0-18d8-23af-f180">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1514-94d5-c0e2-19ed" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Sturginium Agitator" hidden="false" id="9fa0-53d3-07ac-9d47" type="selectionEntry" targetId="c3ac-5cd1-72e0-3639">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36c2-ca98-3c9d-576d" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab87-8df1-fa51-2122" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="12b4-b0b1-f9cc-6326" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c04d-e1d0-a6d2-437b" includeChildSelections="false"/>
               </constraints>
-              <modifiers>
-                <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
-              </modifiers>
-            </entryLink>
-            <entryLink import="true" name="Pulse Emitter" hidden="false" id="c3e5-fd30-238f-4997" type="selectionEntry" targetId="db10-ea29-3519-396d">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d37-dc08-c959-41c3" includeChildSelections="false"/>
-              </constraints>
-              <modifiers>
-                <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
-              </modifiers>
-            </entryLink>
-            <entryLink import="true" name="Molecular Disharmoniser" hidden="false" id="1010-48b8-12da-0ff7" type="selectionEntry" targetId="e688-f5ba-4d9f-9e1d">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d58-e82e-1690-1aa0" includeChildSelections="false"/>
-              </constraints>
-              <modifiers>
-                <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
-              </modifiers>
-            </entryLink>
-            <entryLink import="true" name="Particle Beamer" hidden="false" id="2dc1-4f08-e82e-5e24" type="selectionEntry" targetId="c3a0-18d8-23af-f180">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1514-94d5-c0e2-19ed" includeChildSelections="false"/>
-              </constraints>
-              <modifiers>
-                <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
-              </modifiers>
-            </entryLink>
-            <entryLink import="true" name="Sturginium Agitator" hidden="false" id="9fa0-53d3-07ac-9d47" type="selectionEntry" targetId="c3ac-5cd1-72e0-3639">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36c2-ca98-3c9d-576d" includeChildSelections="false"/>
-              </constraints>
-              <modifiers>
-                <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
-              </modifiers>
-            </entryLink>
-          </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="12b4-b0b1-f9cc-6326" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c04d-e1d0-a6d2-437b" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2a94-08fa-1e4a-7a86" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dcdf-4400-ce9f-dbbf" includeChildSelections="false"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3297,7 +3318,7 @@ to all models in the unit.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="33ba-9162-554a-0ad0" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Sky Commandos (x)" hidden="false" id="62e8-c350-f2d3-d8d9" type="selectionEntry" targetId="df3b-ed90-abb5-c4cc">
+            <entryLink import="true" name="Sky Commandos" hidden="false" id="62e8-c350-f2d3-d8d9" type="selectionEntry" targetId="df3b-ed90-abb5-c4cc">
               <modifiers>
                 <modifier type="set" value="Sky Commandos (8)" field="name"/>
               </modifiers>
@@ -3567,7 +3588,7 @@ to all models in the unit.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Leibniz" hidden="false" id="9e2d-d85e-b3a7-6790">
+    <selectionEntry type="model" import="true" name="Offshore Defence Platform" hidden="false" id="9e2d-d85e-b3a7-6790">
       <infoLinks>
         <infoLink name="Leibniz" id="df9e-1912-ef9b-45e7" hidden="false" type="profile" targetId="559d-2afe-69e2-ec54"/>
       </infoLinks>
@@ -3632,7 +3653,7 @@ to all models in the unit.</description>
             </entryLink>
           </entryLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="3a7a-865d-c4ec-a8e6" sortIndex="4">
+        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="3a7a-865d-c4ec-a8e6" sortIndex="3">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1168-9284-cacc-ed1b" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a033-5570-046c-e6c7" includeChildSelections="false"/>
@@ -3650,11 +3671,8 @@ to all models in the unit.</description>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink import="true" name="Defensive Mines" hidden="false" id="8127-eea7-4180-d6f6" type="selectionEntry" targetId="d501-e65c-adda-0d11" sortIndex="1"/>
-      </entryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Weapons" id="b521-e501-c084-64c1" hidden="false" exportable="false" sortIndex="3">
+        <selectionEntryGroup name="Weapons" id="b521-e501-c084-64c1" hidden="false" exportable="false" sortIndex="4">
           <selectionEntryGroups>
             <selectionEntryGroup name="Hardpoint Heavy" id="cb72-3251-5536-8645" hidden="false" sortIndex="1" defaultSelectionEntryId="a851-4c8c-59e9-b39f">
               <entryLinks>
@@ -3725,6 +3743,20 @@ to all models in the unit.</description>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="674b-aa55-a9ca-bba0" includeChildSelections="false"/>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="2609-6848-92b9-cd0d" includeChildSelections="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="HGB46-" hidden="false" id="fac5-0a0b-6174-bd48" targetId="ad8f-27e4-bd8f-359a" primary="false"/>
+            <categoryLink name="HRB-6-" hidden="false" id="ac08-929e-689b-5e71" targetId="80a6-5f88-6e2d-7dc0" primary="false"/>
+            <categoryLink name="PBe64-" hidden="false" id="8884-3241-cfd4-a7fa" targetId="e891-0fa1-99d0-9042" primary="false"/>
+            <categoryLink name="COs2--" hidden="false" id="c90d-9ba3-a32d-7b3e" targetId="b584-6715-145d-1774" primary="false"/>
+            <categoryLink name="PEm82-" hidden="false" id="3fb5-ad32-e57e-d917" targetId="63f9-ddac-b033-ea5a" primary="false"/>
+            <categoryLink name="SAg11-" hidden="false" id="bc15-04f2-efee-091c" targetId="02a6-cf92-6fbb-78b0" primary="false"/>
+            <categoryLink name="MDi42-" hidden="false" id="7274-dc04-861c-7090" targetId="4d57-fdf9-5ea4-9e44" primary="false"/>
+          </categoryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Upgrade" id="5ec7-018c-74b5-fdc0" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink import="true" name="Defensive Mines" hidden="false" id="01ef-8110-9078-f9a0" type="selectionEntry" targetId="d501-e65c-adda-0d11"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
@@ -4544,10 +4576,19 @@ to all models in the unit.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2b9-00fa-8012-b218" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Superior Void Engine" hidden="false" id="3ef3-cb92-45c1-42c8" targetId="f2f3-ab1f-619b-2f16" type="selectionEntry">
+            <entryLink import="true" name="Recombination Nexus (x)" hidden="false" id="3ef3-cb92-45c1-42c8" targetId="b6f5-5383-06cc-cd09" type="selectionEntry">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c16e-4d4d-b2be-2c3f" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b617-dc8b-b902-1c66" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="Recombination Nexus (2)" field="name"/>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Superior Void Engine" hidden="false" id="67d2-189c-2acd-370e" targetId="f2f3-ab1f-619b-2f16" type="selectionEntry">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7f02-5324-bd56-05be" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e72b-8305-8349-8bf7" includeChildSelections="false"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -4604,7 +4645,7 @@ to all models in the unit.</description>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d36-df14-21ee-dc23" includeChildSelections="false"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="5f1b-72a5-2bc9-ef21">
+        <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="5f1b-72a5-2bc9-ef21" sortIndex="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eab9-946f-dec4-c6e6" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a63-090d-3dc2-a03d" includeChildSelections="false"/>
@@ -4621,7 +4662,7 @@ to all models in the unit.</description>
             </entryLink>
           </entryLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="2f66-0407-7a2e-5602">
+        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="2f66-0407-7a2e-5602" sortIndex="2">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cdb2-5ca0-2ea5-a6bb" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="01ec-7738-840b-a802" includeChildSelections="false"/>
@@ -4644,7 +4685,7 @@ to all models in the unit.</description>
             </entryLink>
           </entryLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="6c1a-46ed-db1b-7481">
+        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="6c1a-46ed-db1b-7481" sortIndex="3">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a90c-8702-83b0-6e9d" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b821-dce6-6e2c-3d3a" includeChildSelections="false"/>
@@ -4665,7 +4706,8 @@ to all models in the unit.</description>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Plinius" hidden="false" id="e3a2-fe3e-70d0-fa09">
       <infoLinks>
-        <infoLink name="Plinius" id="d318-caeb-6387-74a1" hidden="false" type="profile" targetId="c8dd-aa72-173e-378e"/>
+        <infoLink name="Scythe Fighters" id="d318-caeb-6387-74a1" hidden="false" type="profile" targetId="3c8c-458f-d84f-03da"/>
+        <infoLink name="Plinius" id="9d3a-de46-3514-7a41" hidden="false" type="profile" targetId="c8dd-aa72-173e-378e"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink name="Enlightened" hidden="false" id="94b7-7a8b-e66c-2d78" targetId="ae6e-392e-7171-ac63" primary="true"/>
@@ -4933,13 +4975,7 @@ to all models in the unit.</description>
             </entryLink>
           </entryLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="abf3-54da-2396-22e0" sortIndex="2">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5a1b-9543-8097-0c32" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db0b-1527-8949-48d5" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="bb66-d4a2-8806-80e8" sortIndex="3">
+        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="bb66-d4a2-8806-80e8" sortIndex="2">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="386c-a7bf-1c84-34f5" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49b0-b1ec-4857-b120" includeChildSelections="false"/>
@@ -4988,6 +5024,9 @@ to all models in the unit.</description>
               </modifiers>
             </entryLink>
           </entryLinks>
+          <categoryLinks>
+            <categoryLink name="LRB-4-" hidden="false" id="14ca-3f31-bd0d-5f00" targetId="792e-ec04-ae41-18e9" primary="false"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -5389,7 +5428,7 @@ to all models in the unit.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e340-1d22-1b78-cc85" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Sky Commandos (x)" hidden="false" id="60a0-cd22-e78e-5f6f" type="selectionEntry" targetId="df3b-ed90-abb5-c4cc">
+            <entryLink import="true" name="Sky Commandos" hidden="false" id="60a0-cd22-e78e-5f6f" type="selectionEntry" targetId="df3b-ed90-abb5-c4cc">
               <modifiers>
                 <modifier type="set" value="Sky Commandos (10)" field="name"/>
               </modifiers>
@@ -5419,7 +5458,7 @@ to all models in the unit.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7abf-53ee-8dd9-e8fa" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Haunebu Cascade" hidden="false" id="8768-b94d-e862-08a4" targetId="6f93-4444-338f-7cbb" type="selectionEntry">
+            <entryLink import="true" name="Broadside Cascade" hidden="false" id="8768-b94d-e862-08a4" targetId="6f93-4444-338f-7cbb" type="selectionEntry">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2702-10ad-97c4-b457" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73d8-da93-0850-ffbd" includeChildSelections="false"/>
@@ -5724,7 +5763,7 @@ to all models in the unit.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="087d-64b6-690b-e28c" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Sky Commandos (x)" hidden="false" id="fe01-1620-4c90-c12b" type="selectionEntry" targetId="df3b-ed90-abb5-c4cc">
+            <entryLink import="true" name="Sky Commandos" hidden="false" id="fe01-1620-4c90-c12b" type="selectionEntry" targetId="df3b-ed90-abb5-c4cc">
               <modifiers>
                 <modifier type="set" value="Sky Commandos (6)" field="name"/>
               </modifiers>
@@ -5733,7 +5772,7 @@ to all models in the unit.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="988c-b05f-f0d8-29ff" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Haunebu Cascade" hidden="true" id="eaf1-6620-58cb-5890" targetId="6f93-4444-338f-7cbb" type="selectionEntry">
+            <entryLink import="true" name="Broadside Cascade" hidden="true" id="eaf1-6620-58cb-5890" targetId="6f93-4444-338f-7cbb" type="selectionEntry">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="dd3b-14be-22d7-0725" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ade-ec9c-f18a-e097" includeChildSelections="false"/>
@@ -5820,7 +5859,7 @@ to all models in the unit.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e265-baf2-ead8-bda6" includeChildSelections="false"/>
               </constraints>
               <modifiers>
-                <modifier type="set" value="Mine Layer (x)" field="name"/>
+                <modifier type="set" value="Mine Layer (1)" field="name"/>
               </modifiers>
             </entryLink>
             <entryLink import="true" name="SRS (Type)" hidden="false" id="476c-7dc6-b72a-5472" targetId="4c55-cec1-fd82-99e5" type="selectionEntry">
@@ -6204,7 +6243,6 @@ to all models in the unit.</description>
       </constraints>
       <categoryLinks>
         <categoryLink name="Merchantman" hidden="false" id="cdca-00d2-f0a9-0a5e" targetId="136e-5a1f-af1b-2a2e" primary="false"/>
-        <categoryLink name="Capital" hidden="false" id="7298-c24a-c66c-6920" targetId="0a3b-fe42-16f0-2769" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="f769-2098-5ad0-5fe5" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
         <categoryLink name="Enlightened" hidden="false" id="c89b-4037-c430-8f86" targetId="ae6e-392e-7171-ac63" primary="true"/>
       </categoryLinks>
@@ -6338,6 +6376,9 @@ to all models in the unit.</description>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink name="LGB24-" hidden="false" id="6e21-bbea-c95c-f38b" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
+          </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
@@ -6445,6 +6486,9 @@ to all models in the unit.</description>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink name="LGB24-" hidden="false" id="2bc9-1be9-2fbd-4fe3" targetId="3d66-9c0f-32b0-d49a" primary="false"/>
+          </categoryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <selectionEntries>
@@ -7300,7 +7344,7 @@ to all models in the unit.</description>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Bellerophon War Platform" hidden="true" id="cb4f-7a32-cf08-44f7" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Offshore Heavy Platform" hidden="true" id="cb4f-7a32-cf08-44f7" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Support" hidden="false" id="8ef8-6f3d-c4cd-fb77" targetId="7fd7-2a27-af9f-92ed" primary="true"/>
         <categoryLink name="Surface" hidden="false" id="d5b8-6e3c-c83f-7c57" targetId="9c42-b68b-9adf-01c5" primary="false"/>
@@ -7336,7 +7380,7 @@ to all models in the unit.</description>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Leibniz Battle Platforms" hidden="true" id="3e32-66a5-7ebe-c758" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Offshore Defence Platforms" hidden="true" id="3e32-66a5-7ebe-c758" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Support" hidden="false" id="6683-2700-5284-9d0a" targetId="7fd7-2a27-af9f-92ed" primary="true"/>
         <categoryLink name="Surface" hidden="false" id="37d2-b15b-b7de-75cb" targetId="9c42-b68b-9adf-01c5" primary="false"/>
@@ -7515,14 +7559,22 @@ to all models in the unit.</description>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Daimler Support Platforms" hidden="true" id="4654-be89-4486-254f" sortIndex="6">
+    <selectionEntry type="unit" import="true" name="Offshore Supply Platforms" hidden="true" id="4654-be89-4486-254f" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Logistical" hidden="false" id="f84a-2cb1-4563-91a2" targetId="ea96-eb0a-5fde-a549" primary="true"/>
         <categoryLink name="Surface" hidden="false" id="4851-5d31-97fc-3cd7" targetId="9c42-b68b-9adf-01c5" primary="false"/>
         <categoryLink name="Immobile" hidden="false" id="f4fc-6360-877c-179e" targetId="ad70-77b7-aabe-60c0" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Daimler" hidden="false" id="a0f9-73d5-81f9-1376" type="selectionEntry" targetId="109e-6801-a2ea-1430" sortIndex="3"/>
+        <entryLink import="true" name="Daimler" hidden="false" id="a0f9-73d5-81f9-1376" type="selectionEntry" targetId="109e-6801-a2ea-1430" sortIndex="3">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Upgrade" id="c0da-7606-7ab1-581d" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Defensive Mines" hidden="false" id="244b-73d4-f285-e2c5" type="selectionEntry" targetId="d501-e65c-adda-0d11"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </entryLink>
         <entryLink import="true" name="Escort Token" hidden="false" id="d334-e756-93eb-cc56" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="false" id="d23a-7353-0020-496f" includeChildSelections="false"/>
@@ -7999,14 +8051,17 @@ to all models in the unit.</description>
     </entryLink>
   </entryLinks>
   <rules>
-    <rule name="Enlightened Science" id="96d6-602a-71cf-1918" hidden="false">
-      <description>Whenever this Battlefleet’s Admiral Activates an  Enlightened unit in their Force, they can remove a single System Failure Critical Damage Effect from one Battle-Ready model in that unit</description>
+    <rule name="Turbo Encabulation Drives" id="96d6-602a-71cf-1918" hidden="false">
+      <description>When this Admiral Activates an Enlightened unit in their force, they can choose to immediately attempt  a Turbo Encabulation Jump with the unit. (See the  Enlightened Special Rules section on page 7.) If they do so, models in the unit cannot move during  their Movement Step</description>
     </rule>
     <rule name="Calculated Extrapolation" id="4860-2caf-a588-4217" hidden="false">
       <description>Each round, during the Draw Cards step of the Ready Phase, this Admiral gains one Bonus Card (see page 62 of the Dystopian Wars Rulebook.</description>
     </rule>
     <rule name="All Hail the Whale!" id="e9f0-65ae-c65d-4ab7" hidden="false">
       <description>All Physeter Construct and Orca Construct SRS tokens launched from models in this Force increase their Attack rating by 1.</description>
+    </rule>
+    <rule name="Enlightened Science" id="be34-70f3-7343-58a5" hidden="false">
+      <description>Whenever this Battlefleet’s Admiral Activates an  Enlightened unit in their Force, they can remove a single System Failure Critical Damage Effect from one Battle-Ready model in that unit</description>
     </rule>
   </rules>
   <readme>Revision 01: initial release Enlightened Beta 3 (Complete ORBAT release)</readme>

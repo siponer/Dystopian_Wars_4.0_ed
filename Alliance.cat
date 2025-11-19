@@ -684,7 +684,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f87c-cca6-5519-7be7" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink targetId="75f1-9f45-f82b-2948" id="bac3-0f13-0a12-38e7" type="selectionEntry" name="Ablative Armour (x)" hidden="false">
+            <entryLink targetId="75f1-9f45-f82b-2948" id="bac3-0f13-0a12-38e7" type="selectionEntry" name="Ablative Armour" hidden="false">
               <modifiers>
                 <modifier type="set" value="Ablative Armour (2)" field="name"/>
               </modifiers>
@@ -693,7 +693,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b525-926a-6b60-78b6" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink targetId="b5c5-7074-a27c-602c" id="f640-c5e7-c4de-3f7e" type="selectionEntry" name="Attachment (x)" hidden="false">
+            <entryLink targetId="b5c5-7074-a27c-602c" id="f640-c5e7-c4de-3f7e" type="selectionEntry" name="Attachment" hidden="false">
               <modifiers>
                 <modifier type="set" value="Attachment (Italian)" field="name"/>
               </modifiers>
@@ -784,6 +784,7 @@
       </categoryLinks>
       <infoLinks>
         <infoLink name="Minerva" id="cdd4-e7a9-5b74-5617" hidden="false" type="profile" targetId="dbf9-131e-b16b-5739"/>
+        <infoLink name="Malinois Interdictors" id="5892-68f6-c005-2aa6" hidden="false" type="profile" targetId="7b8f-85d5-694d-2b49"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Weapons" id="bb5b-2ece-0fa3-881e" hidden="false" sortIndex="3">
@@ -911,7 +912,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bcc0-d705-3fdd-c7a0" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Ablative Armour (x)" hidden="false" id="33d9-e0b8-2007-95b9" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
+            <entryLink import="true" name="Ablative Armour" hidden="false" id="33d9-e0b8-2007-95b9" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4d7c-7544-f616-502a" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="33ec-e2ae-7f96-d6cd" includeChildSelections="false"/>
@@ -920,7 +921,7 @@
                 <modifier type="set" value="Ablative Armour (3)" field="name"/>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Carrier (x)" hidden="false" id="df82-b877-df40-3d99" type="selectionEntry" targetId="4292-c313-64f8-43c0" exportable="false">
+            <entryLink import="true" name="Carrier" hidden="false" id="df82-b877-df40-3d99" type="selectionEntry" targetId="4292-c313-64f8-43c0" exportable="false">
               <modifiers>
                 <modifier type="set" value="Carrier (8)" field="name"/>
               </modifiers>
@@ -929,7 +930,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f3eb-2aaf-52b3-81f1" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="SRS (Type)" hidden="false" id="a3f2-d716-0cfb-a5f5" type="selectionEntry" targetId="4c55-cec1-fd82-99e5" exportable="false">
+            <entryLink import="true" name="SRS" hidden="false" id="a3f2-d716-0cfb-a5f5" type="selectionEntry" targetId="4c55-cec1-fd82-99e5" exportable="false">
               <modifiers>
                 <modifier type="set" value="SRS (Malinois Interdictors)" field="name"/>
               </modifiers>
@@ -1073,7 +1074,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="617b-a4cf-c170-87fb" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Ablative Armour (x)" hidden="false" id="f5df-6b25-09f6-8000" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
+            <entryLink import="true" name="Ablative Armour" hidden="false" id="f5df-6b25-09f6-8000" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2048-8ca2-e35c-77d6" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1dc8-33d4-9660-a9f9" includeChildSelections="false"/>
@@ -1349,7 +1350,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67bb-d650-4289-8f20" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Ablative Armour (x)" hidden="false" id="24b1-0a62-53e4-24ac" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
+            <entryLink import="true" name="Ablative Armour" hidden="false" id="24b1-0a62-53e4-24ac" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fa92-b48c-9759-cbec" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15ac-0eb5-2780-34ab" includeChildSelections="false"/>
@@ -1439,7 +1440,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff7e-76ba-c701-4e50" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Carrier (x)" hidden="false" id="5f64-c2c9-fd0d-826a" type="selectionEntry" targetId="4292-c313-64f8-43c0" exportable="false">
+            <entryLink import="true" name="Carrier" hidden="false" id="5f64-c2c9-fd0d-826a" type="selectionEntry" targetId="4292-c313-64f8-43c0" exportable="false">
               <modifiers>
                 <modifier type="set" value="Carrier (4)" field="name"/>
               </modifiers>
@@ -1448,7 +1449,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b81e-a769-37b8-9e55" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Ablative Armour (x)" hidden="false" id="161c-c4d1-5b7a-3566" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
+            <entryLink import="true" name="Ablative Armour" hidden="false" id="161c-c4d1-5b7a-3566" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3848-fbf1-af59-4c88" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="080c-634a-7a41-b91a" includeChildSelections="false"/>
@@ -1466,7 +1467,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="6a80-fd3c-aee1-b23e" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="SRS (Type)" hidden="false" id="0260-ef7a-e83a-9c41" type="selectionEntry" targetId="4c55-cec1-fd82-99e5" exportable="false">
+            <entryLink import="true" name="SRS" hidden="false" id="0260-ef7a-e83a-9c41" type="selectionEntry" targetId="4c55-cec1-fd82-99e5" exportable="false">
               <modifiers>
                 <modifier type="set" value="SRS (Malinois Interdictors)" field="name"/>
               </modifiers>
@@ -1612,7 +1613,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0bc-fdc6-888e-fcb4" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Ablative Armour (x)" hidden="false" id="a765-b908-961b-6baa" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
+            <entryLink import="true" name="Ablative Armour" hidden="false" id="a765-b908-961b-6baa" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="99b3-7ff4-0625-5d23" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a51-da5c-989c-feaf" includeChildSelections="false"/>
@@ -1795,7 +1796,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="255f-fd2b-1c9d-be35" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Ablative Armour (x)" hidden="false" id="765f-0b92-7df2-018d" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
+            <entryLink import="true" name="Ablative Armour" hidden="false" id="765f-0b92-7df2-018d" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="48ee-704a-f3bb-5c80" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b97e-70f2-0b07-5a48" includeChildSelections="false"/>
@@ -1868,7 +1869,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad05-ced3-5006-5e23" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Ablative Armour (x)" hidden="false" id="2295-6de0-1321-0c5a" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
+            <entryLink import="true" name="Ablative Armour" hidden="false" id="2295-6de0-1321-0c5a" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="00d5-aca3-a430-355e" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c49-d2fd-d956-1735" includeChildSelections="false"/>
@@ -1992,7 +1993,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d8c-9a97-5927-0494" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Ablative Armour (x)" hidden="false" id="6900-3ab9-f562-7b10" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
+            <entryLink import="true" name="Ablative Armour" hidden="false" id="6900-3ab9-f562-7b10" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ed3c-eb9e-95fd-5d55" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f69b-1282-9a2b-e89d" includeChildSelections="false"/>
@@ -2188,7 +2189,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="b743-2e09-71f7-85f6" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Ablative Armour (x)" hidden="false" id="73ad-4753-4ce7-b86b" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
+            <entryLink import="true" name="Ablative Armour" hidden="false" id="73ad-4753-4ce7-b86b" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
               <modifiers>
                 <modifier type="set" value="Ablative Armour (2)" field="name"/>
               </modifiers>
@@ -2293,7 +2294,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77e7-84ed-3bc4-1f08" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Auxiliary Mine Layer (x)" hidden="false" id="6285-51f4-818e-4cc2" type="selectionEntry" targetId="e343-3b86-5d52-78b7">
+            <entryLink import="true" name="Auxiliary Mine Layer" hidden="false" id="6285-51f4-818e-4cc2" type="selectionEntry" targetId="e343-3b86-5d52-78b7">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c0b4-3205-f6b7-f1dd" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b965-9487-af11-50aa" includeChildSelections="false"/>
@@ -2519,7 +2520,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8bdf-e924-e406-0f16" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Ablative Armour (x)" hidden="false" id="39f3-c36b-5c48-34e3" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
+            <entryLink import="true" name="Ablative Armour" hidden="false" id="39f3-c36b-5c48-34e3" type="selectionEntry" targetId="75f1-9f45-f82b-2948">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="faea-57c8-8e69-4ac4" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c73a-12c5-d5cb-d904" includeChildSelections="false"/>
@@ -3341,7 +3342,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d9c-9898-e204-963c" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Attachment (x)" hidden="false" id="3bd9-46ae-875c-398c" targetId="b5c5-7074-a27c-602c" type="selectionEntry">
+            <entryLink import="true" name="Attachment" hidden="false" id="3bd9-46ae-875c-398c" targetId="b5c5-7074-a27c-602c" type="selectionEntry">
               <modifiers>
                 <modifier type="set" value="Attachment (Marine Levante)" field="name"/>
               </modifiers>
@@ -3531,7 +3532,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f27-e2b7-987e-5e57" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Attachment (x)" hidden="false" id="bcc3-bb6e-c4b8-01f0" targetId="b5c5-7074-a27c-602c" type="selectionEntry">
+            <entryLink import="true" name="Attachment" hidden="false" id="bcc3-bb6e-c4b8-01f0" targetId="b5c5-7074-a27c-602c" type="selectionEntry">
               <modifiers>
                 <modifier type="set" value="Attachment (Surface)" field="name"/>
               </modifiers>
@@ -3756,7 +3757,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35cb-0805-9f99-cfe2" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Inspirational (x”)" hidden="false" id="113c-73d3-73b8-ea4f" targetId="fae1-b57e-e7ee-96a1" type="selectionEntry">
+            <entryLink import="true" name="Inspirational" hidden="false" id="113c-73d3-73b8-ea4f" targetId="fae1-b57e-e7ee-96a1" type="selectionEntry">
               <modifiers>
                 <modifier type="set" value="Inspirational (7”)" field="name"/>
               </modifiers>
@@ -3837,7 +3838,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2c6-1bf5-650c-1ea6" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Auxiliary Mine Layer (x)" hidden="true" id="54a4-f150-b036-e115" type="selectionEntry" targetId="e343-3b86-5d52-78b7">
+            <entryLink import="true" name="Auxiliary Mine Layer" hidden="true" id="54a4-f150-b036-e115" type="selectionEntry" targetId="e343-3b86-5d52-78b7">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="6159-2180-969d-1e4d" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a406-e6d9-3a0d-0c64" includeChildSelections="false"/>
@@ -4121,7 +4122,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f1d-81cd-06ee-55ab" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Attachment (x)" hidden="false" id="7e99-5566-8bfd-82d8" type="selectionEntry" targetId="b5c5-7074-a27c-602c">
+            <entryLink import="true" name="Attachment" hidden="false" id="7e99-5566-8bfd-82d8" type="selectionEntry" targetId="b5c5-7074-a27c-602c">
               <modifiers>
                 <modifier type="set" value="Attachment (Flagship)" field="name"/>
               </modifiers>
@@ -4528,7 +4529,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="7ebb-5ea7-47c9-6111" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Attachment (x)" hidden="false" id="623d-4d6e-770f-98d7" type="selectionEntry" targetId="b5c5-7074-a27c-602c">
+            <entryLink import="true" name="Attachment" hidden="false" id="623d-4d6e-770f-98d7" type="selectionEntry" targetId="b5c5-7074-a27c-602c">
               <modifiers>
                 <modifier type="set" value="Attachment (French Flagship)" field="name"/>
               </modifiers>
@@ -4561,7 +4562,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6fd3-cb64-c3d4-07a2" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Boarding Parties (x)" hidden="false" id="336a-e459-4819-c596" type="selectionEntry" targetId="a0f7-e278-0d24-4771">
+            <entryLink import="true" name="Boarding Parties" hidden="false" id="336a-e459-4819-c596" type="selectionEntry" targetId="a0f7-e278-0d24-4771">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e962-960e-23f2-9b01" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d4ef-834a-b37b-b30b" includeChildSelections="false"/>
@@ -5076,7 +5077,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="e25b-fe82-8b42-768c" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Carrier (x)" hidden="false" id="e8b0-4fc1-99ca-3bdb" type="selectionEntry" targetId="4292-c313-64f8-43c0">
+            <entryLink import="true" name="Carrier" hidden="false" id="e8b0-4fc1-99ca-3bdb" type="selectionEntry" targetId="4292-c313-64f8-43c0">
               <modifiers>
                 <modifier type="set" value="Carrier (4)" field="name"/>
               </modifiers>
@@ -5091,7 +5092,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b9c-3311-1f9a-2ee3" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="SRS (Type)" hidden="false" id="848d-5c67-81d5-230b" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
+            <entryLink import="true" name="SRS" hidden="false" id="848d-5c67-81d5-230b" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
               <modifiers>
                 <modifier type="set" value="SRS (Malinois Interdictors)" field="name"/>
               </modifiers>
@@ -5227,7 +5228,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d43f-dc00-76de-a948" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Auxiliary Mine Layer (x)" hidden="true" id="9b32-a8eb-4104-fc4b" type="selectionEntry" targetId="e343-3b86-5d52-78b7">
+            <entryLink import="true" name="Auxiliary Mine Layer" hidden="true" id="9b32-a8eb-4104-fc4b" type="selectionEntry" targetId="e343-3b86-5d52-78b7">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="85a4-cbe8-ec57-b4cc" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="06a1-1fc3-8812-5a31" includeChildSelections="false"/>
@@ -5246,7 +5247,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Attachment (x)" hidden="false" id="4566-5cf2-c180-93b8" type="selectionEntry" targetId="b5c5-7074-a27c-602c">
+            <entryLink import="true" name="Attachment" hidden="false" id="4566-5cf2-c180-93b8" type="selectionEntry" targetId="b5c5-7074-a27c-602c">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="42ab-1b14-76e5-a30c" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d40-8a37-3680-0157" includeChildSelections="false"/>
@@ -5362,6 +5363,7 @@
       </categoryLinks>
       <infoLinks>
         <infoLink name="Couronne" id="fe03-94b6-2070-a503" hidden="false" type="profile" targetId="26cd-37f8-5846-17df"/>
+        <infoLink name="Malinois Interdictors" id="5026-5edc-f89b-b33c" hidden="false" type="profile" targetId="7b8f-85d5-694d-2b49"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Weapons" id="5fe2-d6a3-6fd0-813a" hidden="false" sortIndex="4">
@@ -5501,6 +5503,11 @@
             <categoryLink name="TT666" hidden="false" id="c224-cd61-9231-2646" targetId="040f-17d2-8ebd-5130" primary="false"/>
           </categoryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Upgrades" id="b9be-4bc4-b5be-6ed3" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink import="true" name="La Dame Liberté" hidden="false" id="0e62-84e5-60fb-f05a" type="selectionEntry" targetId="dabf-f5bf-b6d6-9d28"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="69eb-884a-1556-e037" exportable="false" sortIndex="3">
@@ -5509,32 +5516,35 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b46-9c9e-a64b-6c7e" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Flight Command (x)" hidden="false" id="37a8-6f86-3ee5-32b8" type="selectionEntry" targetId="1fbe-5a12-a56e-d37c">
+            <entryLink import="true" name="Flight Command" hidden="false" id="37a8-6f86-3ee5-32b8" type="selectionEntry" targetId="1fbe-5a12-a56e-d37c">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b309-432b-94a9-1341" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d702-3de8-abd6-90f2" includeChildSelections="false"/>
               </constraints>
               <modifiers>
-                <modifier type="set" value="Flight Command (1)" field="name"/>
+                <modifier type="append" value="(1)" field="name" join=" "/>
               </modifiers>
             </entryLink>
             <entryLink import="true" name="Solex Generator" hidden="true" id="870f-e9da-1f77-60e3" type="selectionEntry" targetId="9633-0946-c749-e1d1">
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
-                    <condition type="greaterThan" value="0" field="selections" scope="97ab-acb5-fb95-c2e5" childId="0e62-84e5-60fb-f05a" shared="true"/>
+                    <condition type="greaterThan" value="0" field="selections" scope="97ab-acb5-fb95-c2e5" childId="0e62-84e5-60fb-f05a" shared="true" includeChildSelections="false"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="1" field="9b0d-f803-4a9d-8102">
                   <conditions>
-                    <condition type="greaterThan" value="0" field="selections" scope="97ab-acb5-fb95-c2e5" childId="0e62-84e5-60fb-f05a" shared="true"/>
+                    <condition type="greaterThan" value="0" field="selections" scope="97ab-acb5-fb95-c2e5" childId="0e62-84e5-60fb-f05a" shared="true" includeChildSelections="false"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="9b0d-f803-4a9d-8102" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52e6-0c16-f430-d30f" includeChildSelections="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="9b0d-f803-4a9d-8102" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="52e6-0c16-f430-d30f" includeChildSelections="false"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink name="SolexG" hidden="false" id="909b-50da-dfd6-8782" targetId="9b78-9662-8e75-3def" primary="false"/>
+              </categoryLinks>
             </entryLink>
           </entryLinks>
         </selectionEntry>
@@ -5544,53 +5554,50 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="ec4a-c839-2981-6cf6" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Carrier (x)" hidden="false" id="f479-c2a0-85e4-690c" type="selectionEntry" targetId="4292-c313-64f8-43c0">
+            <entryLink import="true" name="Carrier" hidden="false" id="f479-c2a0-85e4-690c" type="selectionEntry" targetId="4292-c313-64f8-43c0">
               <modifiers>
-                <modifier type="set" value="Carrier (10)" field="name"/>
+                <modifier type="append" value="(10)" field="name" join=" "/>
               </modifiers>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7124-036b-8218-ffc5" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="093b-540f-21e3-e4e9" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Inspirational (x”)" hidden="true" id="9796-6810-aac1-2f7f" type="selectionEntry" targetId="fae1-b57e-e7ee-96a1">
+            <entryLink import="true" name="Inspirational" hidden="true" id="9796-6810-aac1-2f7f" type="selectionEntry" targetId="fae1-b57e-e7ee-96a1">
               <modifiers>
-                <modifier type="set" value="Inspirational (12”)" field="name"/>
+                <modifier type="append" value="Inspirational (12”)" field="name" join=" "/>
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
-                    <condition type="greaterThan" value="0" field="selections" scope="97ab-acb5-fb95-c2e5" childId="0e62-84e5-60fb-f05a" shared="true"/>
+                    <condition type="greaterThan" value="0" field="selections" scope="97ab-acb5-fb95-c2e5" childId="0e62-84e5-60fb-f05a" shared="true" includeChildSelections="false"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="1" field="f8b0-e411-a250-3591">
                   <conditions>
-                    <condition type="greaterThan" value="0" field="selections" scope="97ab-acb5-fb95-c2e5" childId="0e62-84e5-60fb-f05a" shared="true"/>
+                    <condition type="greaterThan" value="0" field="selections" scope="97ab-acb5-fb95-c2e5" childId="0e62-84e5-60fb-f05a" shared="true" includeChildSelections="false"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f8b0-e411-a250-3591" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f583-3461-47b9-51b3" includeChildSelections="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="f8b0-e411-a250-3591" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="f583-3461-47b9-51b3" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="SRS (Type)" hidden="false" id="2f69-a6d6-ffce-c0d0" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
+            <entryLink import="true" name="SRS" hidden="false" id="2f69-a6d6-ffce-c0d0" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="232e-353c-8530-c9bd" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67df-02a0-96b9-af7c" includeChildSelections="false"/>
               </constraints>
+              <modifiers>
+                <modifier type="append" value="(Malinois Interdictors)" field="name" join=" "/>
+              </modifiers>
             </entryLink>
             <entryLink import="true" name="Stoic" hidden="false" id="d1a8-3802-399b-094f" type="selectionEntry" targetId="d0b5-ddd3-b4b0-2625">
-              <modifiers>
-                <modifier type="set" value="SRS (Malinois Interdictors)" field="name"/>
-              </modifiers>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a08f-8729-61b0-e6e5" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4cc9-4593-eef7-bac2" includeChildSelections="false"/>
               </constraints>
             </entryLink>
             <entryLink import="true" name="Reinforced Waterline" hidden="false" id="9a10-fcf9-96b4-ec28" type="selectionEntry" targetId="388f-c5d1-a377-163c">
-              <modifiers>
-                <modifier type="set" value="SRS (Malinois Interdictors)" field="name"/>
-              </modifiers>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4903-1b1c-e7b2-cd7e" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e84-8f3c-b1e3-7c76" includeChildSelections="false"/>
@@ -5599,9 +5606,6 @@
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink import="true" name="La Dame Liberté" hidden="false" id="0e62-84e5-60fb-f05a" type="selectionEntry" targetId="dabf-f5bf-b6d6-9d28" sortIndex="1"/>
-      </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="La Dame Liberté" hidden="false" id="dabf-f5bf-b6d6-9d28" sortIndex="1">
       <costs>
@@ -5692,7 +5696,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb24-61d3-82b1-d8e8" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Attachment (x)" hidden="false" id="f00c-6f06-7ed7-4fdc" type="selectionEntry" targetId="b5c5-7074-a27c-602c">
+            <entryLink import="true" name="Attachment" hidden="false" id="f00c-6f06-7ed7-4fdc" type="selectionEntry" targetId="b5c5-7074-a27c-602c">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c7ab-4bd3-920b-0d5f" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6beb-3eae-000d-a9e6" includeChildSelections="false"/>
@@ -6524,7 +6528,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="e8a6-3bbc-4a4a-9877" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Carrier (x)" hidden="false" id="916f-e638-8cfd-2ca1" type="selectionEntry" targetId="4292-c313-64f8-43c0">
+            <entryLink import="true" name="Carrier" hidden="false" id="916f-e638-8cfd-2ca1" type="selectionEntry" targetId="4292-c313-64f8-43c0">
               <modifiers>
                 <modifier type="set" value="Carrier (3)" field="name"/>
               </modifiers>
@@ -6545,7 +6549,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40c8-d92d-4788-c0ef" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="SRS (Type)" hidden="false" id="1e75-275c-8fd1-bb8d" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
+            <entryLink import="true" name="SRS" hidden="false" id="1e75-275c-8fd1-bb8d" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
               <modifiers>
                 <modifier type="set" value="SRS (Talon Autogyros)" field="name"/>
               </modifiers>
@@ -7218,7 +7222,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5f13-0e0a-4285-c2c3" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Carrier (x)" hidden="false" id="f0c1-5f31-e327-9876" type="selectionEntry" targetId="4292-c313-64f8-43c0">
+            <entryLink import="true" name="Carrier" hidden="false" id="f0c1-5f31-e327-9876" type="selectionEntry" targetId="4292-c313-64f8-43c0">
               <modifiers>
                 <modifier type="set" value="Carrier (3)" field="name"/>
               </modifiers>
@@ -7233,7 +7237,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5fd8-95a5-984e-830a" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="SRS (Type)" hidden="false" id="423a-83af-ea67-7a0c" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
+            <entryLink import="true" name="SRS" hidden="false" id="423a-83af-ea67-7a0c" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
               <modifiers>
                 <modifier type="set" value="SRS (Frelon Bombers)" field="name"/>
               </modifiers>
@@ -7365,7 +7369,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="57b3-e140-ab44-df66" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Auxiliary Mine Layer (x)" hidden="true" id="23ba-7903-22bb-7d28" type="selectionEntry" targetId="e343-3b86-5d52-78b7">
+            <entryLink import="true" name="Auxiliary Mine Layer" hidden="true" id="23ba-7903-22bb-7d28" type="selectionEntry" targetId="e343-3b86-5d52-78b7">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3945-a19d-f19a-4ce3" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c6d9-0af6-c13c-cffe" includeChildSelections="false"/>
@@ -7638,7 +7642,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="22ed-80e7-6c6e-c21d" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Carrier (x)" hidden="false" id="2640-cc72-ca3e-09aa" type="selectionEntry" targetId="4292-c313-64f8-43c0">
+            <entryLink import="true" name="Carrier" hidden="false" id="2640-cc72-ca3e-09aa" type="selectionEntry" targetId="4292-c313-64f8-43c0">
               <modifiers>
                 <modifier type="set" value="Carrier (3)" field="name"/>
               </modifiers>
@@ -7659,7 +7663,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d3f3-429a-4392-aef0" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="SRS (Type)" hidden="false" id="1689-e8c4-ae93-1fa5" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
+            <entryLink import="true" name="SRS" hidden="false" id="1689-e8c4-ae93-1fa5" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
               <modifiers>
                 <modifier type="set" value="SRS (Talon Autogyros)" field="name"/>
               </modifiers>
@@ -7865,7 +7869,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4212-573d-340c-10ce" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Carrier (x)" hidden="false" id="c499-cccc-e6f7-52c8" type="selectionEntry" targetId="4292-c313-64f8-43c0" exportable="false">
+            <entryLink import="true" name="Carrier" hidden="false" id="c499-cccc-e6f7-52c8" type="selectionEntry" targetId="4292-c313-64f8-43c0" exportable="false">
               <modifiers>
                 <modifier type="set" value="Carrier (8)" field="name"/>
               </modifiers>
@@ -7874,7 +7878,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cba1-bc10-74b5-4653" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Boarding Parties (x)" hidden="false" id="8cd6-09f6-3eb3-0bbf" type="selectionEntry" targetId="a0f7-e278-0d24-4771" exportable="false">
+            <entryLink import="true" name="Boarding Parties" hidden="false" id="8cd6-09f6-3eb3-0bbf" type="selectionEntry" targetId="a0f7-e278-0d24-4771" exportable="false">
               <modifiers>
                 <modifier type="set" value="Boarding Parties (14)" field="name"/>
               </modifiers>
@@ -7889,7 +7893,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="726a-d59f-9c49-f400" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="SRS (Type)" hidden="false" id="f2c7-2c52-0d4a-1412" type="selectionEntry" targetId="4c55-cec1-fd82-99e5" exportable="false">
+            <entryLink import="true" name="SRS" hidden="false" id="f2c7-2c52-0d4a-1412" type="selectionEntry" targetId="4c55-cec1-fd82-99e5" exportable="false">
               <modifiers>
                 <modifier type="set" value="SRS (Talon Autogyros)" field="name"/>
               </modifiers>
@@ -7933,7 +7937,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c56-8f14-402b-c15e" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Flight Command (x)" hidden="false" id="b6c2-4568-bb7b-8b7a" type="selectionEntry" targetId="1fbe-5a12-a56e-d37c" exportable="false">
+            <entryLink import="true" name="Flight Command" hidden="false" id="b6c2-4568-bb7b-8b7a" type="selectionEntry" targetId="1fbe-5a12-a56e-d37c" exportable="false">
               <modifiers>
                 <modifier type="set" value="Flight Command (1)" field="name"/>
               </modifiers>
@@ -8158,7 +8162,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fc0-a87a-93ae-6508" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Carrier (x)" hidden="false" id="519c-65f5-325a-16c5" type="selectionEntry" targetId="4292-c313-64f8-43c0">
+            <entryLink import="true" name="Carrier" hidden="false" id="519c-65f5-325a-16c5" type="selectionEntry" targetId="4292-c313-64f8-43c0">
               <modifiers>
                 <modifier type="set" value="Carrier (11)" field="name"/>
               </modifiers>
@@ -8167,7 +8171,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf21-37f3-51cb-6375" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="SRS (Type)" hidden="false" id="0aa5-37cf-f95e-cab1" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
+            <entryLink import="true" name="SRS" hidden="false" id="0aa5-37cf-f95e-cab1" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
               <modifiers>
                 <modifier type="set" value="SRS (Malinois Interdictors)" field="name"/>
               </modifiers>
@@ -8176,7 +8180,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="93cb-3285-6dcb-c0d8" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="SRS (Type)" hidden="false" id="234c-2e62-0573-9d2d" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
+            <entryLink import="true" name="SRS" hidden="false" id="234c-2e62-0573-9d2d" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
               <modifiers>
                 <modifier type="set" value="SRS (Frelon Bombers)" field="name"/>
               </modifiers>
@@ -8202,7 +8206,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ce2-e3ea-33ce-f6cf" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Flight Command (x)" hidden="false" id="a1ff-ebe8-496d-102e" type="selectionEntry" targetId="1fbe-5a12-a56e-d37c">
+            <entryLink import="true" name="Flight Command" hidden="false" id="a1ff-ebe8-496d-102e" type="selectionEntry" targetId="1fbe-5a12-a56e-d37c">
               <modifiers>
                 <modifier type="set" value="Flight Command (1)" field="name"/>
               </modifiers>
@@ -8407,7 +8411,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5c38-93c8-4efc-f0cd-max" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Flight Command (x)" hidden="false" id="c41a-ddcd-7abd-4081" type="selectionEntry" targetId="1fbe-5a12-a56e-d37c" exportable="false">
+            <entryLink import="true" name="Flight Command" hidden="false" id="c41a-ddcd-7abd-4081" type="selectionEntry" targetId="1fbe-5a12-a56e-d37c" exportable="false">
               <modifiers>
                 <modifier type="set" value="Flight Command (1)" field="name"/>
               </modifiers>
@@ -8420,7 +8424,7 @@
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="f376-a8a7-35c6-3bf0" sortIndex="1">
           <entryLinks>
-            <entryLink import="true" name="Carrier (x)" hidden="false" id="8152-f3c0-6758-c3ed" type="selectionEntry" targetId="4292-c313-64f8-43c0" exportable="false">
+            <entryLink import="true" name="Carrier" hidden="false" id="8152-f3c0-6758-c3ed" type="selectionEntry" targetId="4292-c313-64f8-43c0" exportable="false">
               <modifiers>
                 <modifier type="set" value="Carrier (10)" field="name"/>
               </modifiers>
@@ -8429,7 +8433,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3d20-15f1-4e41-fc7f-max" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="SRS (Type)" hidden="false" id="763e-20f7-f700-8870" type="selectionEntry" targetId="4c55-cec1-fd82-99e5" exportable="false">
+            <entryLink import="true" name="SRS" hidden="false" id="763e-20f7-f700-8870" type="selectionEntry" targetId="4c55-cec1-fd82-99e5" exportable="false">
               <modifiers>
                 <modifier type="set" value="SRS (Frelon Bombers)" field="name"/>
               </modifiers>
@@ -8438,7 +8442,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="a84b-6c65-ad47-3041" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="SRS (Type)" hidden="false" id="abc3-0806-1548-0102" type="selectionEntry" targetId="4c55-cec1-fd82-99e5" exportable="false">
+            <entryLink import="true" name="SRS" hidden="false" id="abc3-0806-1548-0102" type="selectionEntry" targetId="4c55-cec1-fd82-99e5" exportable="false">
               <modifiers>
                 <modifier type="set" value="SRS (Malinois Interdictors)" field="name"/>
               </modifiers>
@@ -8453,7 +8457,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="f51b-4a56-5bd1-90e0" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Inspirational (x”)" hidden="false" id="98c9-3aa2-44d2-5ac2" type="selectionEntry" targetId="fae1-b57e-e7ee-96a1" exportable="false">
+            <entryLink import="true" name="Inspirational" hidden="false" id="98c9-3aa2-44d2-5ac2" type="selectionEntry" targetId="fae1-b57e-e7ee-96a1" exportable="false">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="55c3-706d-5c7a-7e58" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="870f-4542-df48-f4cf" includeChildSelections="false"/>
@@ -8958,7 +8962,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="7b89-6b5d-8459-03e7" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Carrier (x)" hidden="false" id="9829-e473-f025-4125" type="selectionEntry" targetId="4292-c313-64f8-43c0">
+            <entryLink import="true" name="Carrier" hidden="false" id="9829-e473-f025-4125" type="selectionEntry" targetId="4292-c313-64f8-43c0">
               <modifiers>
                 <modifier type="set" value="Carrier (5)" field="name"/>
               </modifiers>
@@ -8973,7 +8977,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c730-5438-bff1-1065" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="SRS (Type)" hidden="false" id="673e-755b-f7d5-c3f6" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
+            <entryLink import="true" name="SRS" hidden="false" id="673e-755b-f7d5-c3f6" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
               <modifiers>
                 <modifier type="set" value="SRS (Talon Autogyros)" field="name"/>
               </modifiers>
@@ -9030,7 +9034,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb2a-54ff-b6aa-6adf" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Carrier (x)" hidden="false" id="f48b-efca-b9a2-06f9" type="selectionEntry" targetId="4292-c313-64f8-43c0">
+            <entryLink import="true" name="Carrier" hidden="false" id="f48b-efca-b9a2-06f9" type="selectionEntry" targetId="4292-c313-64f8-43c0">
               <modifiers>
                 <modifier type="set" value="Carrier (6)" field="name"/>
               </modifiers>
@@ -9039,7 +9043,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95a6-39f7-c228-d34e" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="SRS (Type)" hidden="false" id="5e77-7c33-bb60-b7ec" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
+            <entryLink import="true" name="SRS" hidden="false" id="5e77-7c33-bb60-b7ec" type="selectionEntry" targetId="4c55-cec1-fd82-99e5">
               <modifiers>
                 <modifier type="set" value="SRS (Malinois Interdictors)" field="name"/>
               </modifiers>
@@ -11579,6 +11583,9 @@
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2871-333e-b090-0639" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3153-bf03-8512-b3dc" includeChildSelections="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="SolexG" hidden="false" id="44ee-09fc-9069-da93" targetId="9b78-9662-8e75-3def" primary="false"/>
+          </categoryLinks>
         </entryLink>
       </entryLinks>
       <constraints>
